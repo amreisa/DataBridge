@@ -1,3 +1,6 @@
+#ifndef HEADER_A0DC19B76ED333EB
+#define HEADER_A0DC19B76ED333EB
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -57,38 +60,38 @@ public:
 
     QTcpSocket *socket;
 signals:
-    void connectionChanged(int,QString);
+    void connectionChanged ( int, QString );
 };
 
 class Phone: public QObject
 {
     Q_OBJECT
 public:
-    Phone(QString sdk,bool isThreadNecessary);
+    Phone ( QString sdk, bool isThreadNecessary );
     ~Phone();
 
-    bool cd(QString dir);
+    bool cd ( QString dir );
     bool cdUp();
-//    FileList fileList;
+    //    FileList fileList;
     int getConnectionState();
     QString getConnectionMode();
-//    FileList getFileList();
+    //    FileList getFileList();
     QList<File> *getFileList();
-    QList<File> *getFileList(QString);
-    static FileList *getStaticFileList(QString path, QString sdk, bool hiddenFiles);
+    QList<File> *getFileList ( QString );
+    static FileList *getStaticFileList ( QString path, QString sdk, bool hiddenFiles );
     bool getHiddenFilesState();
     QString getPath();
     QImage getScreenshot();
     QString getSdk();
-    bool makeDir(QString newDir);
+    bool makeDir ( QString newDir );
     bool recoverySDmounted;
-    bool remove(QString name);
-    bool rename(QString oldName,QString newName);
+    bool remove ( QString name );
+    bool rename ( QString oldName, QString newName );
     QString serialNumber;
-    void setConnectionState(int);
-    void setHiddenFiles(bool);
+    void setConnectionState ( int );
+    void setHiddenFiles ( bool );
     static QString getIp();
-    void setPath(QString newPath);
+    void setPath ( QString newPath );
     ConnectionThread connectionThread;
     QTextCodec *codec;
     static QStringList getGoogleAccounts();
@@ -103,7 +106,7 @@ private:
     QString sdk;
 
 public slots:
-    void slotConnectionChanged(int connectionState,QString serialNumber);
+    void slotConnectionChanged ( int connectionState, QString serialNumber );
 
 
     void adbRebootBootloader();
@@ -116,7 +119,9 @@ public slots:
 
 
 signals:
-    void signalConnectionChanged(int connectionState);
+    void signalConnectionChanged ( int connectionState );
 };
 
 #endif // PHONE_H
+#endif // header guard 
+

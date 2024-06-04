@@ -1,3 +1,6 @@
+#ifndef HEADER_BEF23C05781E13F2
+#define HEADER_BEF23C05781E13F2
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -30,7 +33,7 @@
 #include "../classes/models/apptablemodel.h"
 
 namespace Ui {
-    class appInfo;
+class appInfo;
 }
 
 class appInfo : public QDialog
@@ -41,8 +44,8 @@ public:
     appDialog *appsDialog;
 
 public:
-    appInfo(QWidget *parent, App *app);
-    appInfo(App *app);
+    appInfo ( QWidget *parent, App *app );
+    appInfo ( App *app );
     ~appInfo();
 private slots:
     void install();
@@ -54,13 +57,15 @@ private:
     QNetworkReply * reply;
     QNetworkAccessManager * updateMan;
 public:
-    static QPixmap getQR(QString packageName);
-    static QString getCyrketVer(QString packageName);
+    static QPixmap getQR ( QString packageName );
+    static QString getCyrketVer ( QString packageName );
 public slots:
-    void gotWWW(QNetworkReply *);
+    void gotWWW ( QNetworkReply * );
     void openMarket();
     void openMarketPC();
 
 };
 
 #endif // APPINFO_H
+#endif // header guard 
+

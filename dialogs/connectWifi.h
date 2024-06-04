@@ -1,3 +1,6 @@
+#ifndef HEADER_56630B1484125F27
+#define HEADER_56630B1484125F27
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -28,12 +31,14 @@
 
 class ConnectWifi : public QDialog, public Ui::ConnectWifi
 {
-Q_OBJECT
+    Q_OBJECT
 public:
-        ConnectWifi( QWidget * parent = 0);
+    ConnectWifi ( QWidget * parent = 0 );
 };
 #endif
 
 
 
+
+#endif // header guard
 

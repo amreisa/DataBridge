@@ -1,3 +1,6 @@
+#ifndef HEADER_75D6F79EDF5E5B85
+#define HEADER_75D6F79EDF5E5B85
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -30,7 +33,7 @@
 
 
 namespace Ui {
-    class SettingsWidget;
+class SettingsWidget;
 }
 
 class SettingsWidget : public QWidget
@@ -38,7 +41,7 @@ class SettingsWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit SettingsWidget(QWidget *parent = 0);
+    explicit SettingsWidget ( QWidget *parent = 0 );
     ~SettingsWidget();
 
     bool alwaysCloseCopy;
@@ -106,13 +109,13 @@ public:
     bool toolBarHideButton;
     Qt::ToolBarArea toolBarArea;
 protected:
-    void changeEvent(QEvent *e);
+    void changeEvent ( QEvent *e );
 
 private:
     Ui::SettingsWidget *ui;
     void createCurveIcons();
     Animation animation;
-    void setBackgroundColor(QLabel *label, QColor color);
+    void setBackgroundColor ( QLabel *label, QColor color );
 
 public slots:
     void saveSettings();
@@ -127,9 +130,9 @@ private slots:
     void chooseFontShell();
     void setSettingsToDefaults();
     void on_buttonRemoveSettings_pressed();
-    void curveChanged(int);
+    void curveChanged ( int );
 
-    void changePage(int);
+    void changePage ( int );
     void animationFinished();
 
     void on_buttonAssociate_clicked();
@@ -144,3 +147,5 @@ signals:
 };
 
 #endif // SETTINGSWIDGET_H
+#endif // header guard 
+

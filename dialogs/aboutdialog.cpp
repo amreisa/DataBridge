@@ -20,31 +20,28 @@
 
 #include "aboutdialog.h"
 
-AboutDialog::AboutDialog(QWidget *parent) :
-    QDialog(parent)
+AboutDialog::AboutDialog ( QWidget *parent ) :
+    QDialog ( parent )
 {
-    setupUi(this);
-    this->setLayout(this->gridLayout);
+    setupUi ( this );
+    this->setLayout ( this->gridLayout );
     QString version = QCoreApplication::applicationVersion();
-    this->versionLabel->setText(version);
-
+    this->versionLabel->setText ( version );
     QSettings settings;
     QFont font;
-
-    font.setFamily(settings.value("fontAppFamily").toString());
-    font.setPointSize(settings.value("fontAppSize").toInt());
-    this->label_4->setFont(font);
-    this->label_5->setFont(font);
-    this->label_6->setFont(font);
-    this->label_7->setFont(font);
-    this->label_8->setFont(font);
-    this->label_9->setFont(font);
-    this->label_10->setFont(font);
-    this->okButton->setFont(font);
-    this->versionLabel->setFont(font);
-    this->label->setFont(font);
-    this->label_13->setFont(font);
-    this->label_14->setFont(font);
-
-    connect(this->okButton, SIGNAL(clicked()), this, SLOT(close()));
+    font.setFamily ( settings.value ( "fontAppFamily" ).toString() );
+    font.setPointSize ( settings.value ( "fontAppSize" ).toInt() );
+    this->label_4->setFont ( font );
+    this->label_5->setFont ( font );
+    this->label_6->setFont ( font );
+    this->label_7->setFont ( font );
+    this->label_8->setFont ( font );
+    this->label_9->setFont ( font );
+    this->label_10->setFont ( font );
+    this->okButton->setFont ( font );
+    this->versionLabel->setFont ( font );
+    this->label->setFont ( font );
+    this->label_13->setFont ( font );
+    this->label_14->setFont ( font );
+    connect ( this->okButton, SIGNAL ( clicked() ), this, SLOT ( close() ) );
 }

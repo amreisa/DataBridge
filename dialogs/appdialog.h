@@ -1,3 +1,6 @@
+#ifndef HEADER_9EFD39EE9EBDEA2
+#define HEADER_9EFD39EE9EBDEA2
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -45,8 +48,8 @@ public:
     bool withApk;
     QList<App> appList;
 signals:
-    void backedUp(QString, QString);
-    void nextApp(App);
+    void backedUp ( QString, QString );
+    void nextApp ( App );
 };
 
 class ThreadRestore : public QThread
@@ -59,8 +62,8 @@ public:
     bool withApk;
     QList<App> appList;
 signals:
-    void restored(QString, QString);
-    void nextApp(App);
+    void restored ( QString, QString );
+    void nextApp ( App );
 };
 
 class ThreadInstall : public QThread
@@ -72,8 +75,8 @@ public:
     QList<App> appList;
     bool reinstall;
 signals:
-    void installed(QString, QString);
-    void nextApp(App);
+    void installed ( QString, QString );
+    void nextApp ( App );
 };
 
 class ThreadUninstall : public QThread
@@ -86,12 +89,12 @@ public:
     bool system;
     bool keepData;
 signals:
-    void uninstalled(QString, QString);
-    void nextApp(App);
+    void uninstalled ( QString, QString );
+    void nextApp ( App );
 };
 
 namespace Ui {
-    class appDialog;
+class appDialog;
 }
 
 class appDialog : public QDialog
@@ -99,27 +102,27 @@ class appDialog : public QDialog
     Q_OBJECT
 
 public:
-    enum Operation{
+    enum Operation {
         Install = 0,
         Uninstall = 1,
         Backup = 2,
         Restore = 3,
         Reinstall = 4
     };
-    enum Mode{
+    enum Mode {
         Application = 0,
         Data = 1,
         AppAndData = 2,
         None = 3
     };
 
-    appDialog(QWidget *parent,QList<App> appList,int operation,int mode);
-    appDialog(QList<App> appList,int operation,int mode);
+    appDialog ( QWidget *parent, QList<App> appList, int operation, int mode );
+    appDialog ( QList<App> appList, int operation, int mode );
     ~appDialog();
 
 protected:
-    void changeEvent(QEvent *e);
-    void closeEvent (QCloseEvent *);
+    void changeEvent ( QEvent *e );
+    void closeEvent ( QCloseEvent * );
 
 private:
     QProcess *proces;
@@ -142,19 +145,21 @@ private slots:
     void install();
     void reinstall();
     void uninstall();
-//    void uninstallFin();
-//    void installFin();
+    //    void uninstallFin();
+    //    void installFin();
     void backup();
-//    void backupFin(QString);
+    //    void backupFin(QString);
     void restore();
-//    void restoreFin(QString);
-    void finished(QString, QString);
+    //    void restoreFin(QString);
+    void finished ( QString, QString );
     void clockTimeout();
-    void nextApp(App);
+    void nextApp ( App );
 signals:
     void closed();
-    void progressValue(int value, int max);
+    void progressValue ( int value, int max );
 
 };
 
 #endif // APPDIALOG_H
+#endif // header guard
+

@@ -1,3 +1,6 @@
+#ifndef HEADER_350C52F6261312B4
+#define HEADER_350C52F6261312B4
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -30,23 +33,25 @@ typedef QHash<QString, QTranslator*> Translators;
 
 class Application : public QApplication
 {
-        Q_OBJECT
+    Q_OBJECT
 
 public:
-        explicit Application(int& argc, char* argv[]);
-        ~Application();
+    explicit Application ( int& argc, char* argv[] );
+    ~Application();
 
-        static void loadTranslations(const QString& dir);
-//        static void loadTranslations(const QDir& dir);
-        static const QStringList availableLanguagesRes();
-        static const QStringList availableLanguagesDir();
+    static void loadTranslations ( const QString& dir );
+    //        static void loadTranslations(const QDir& dir);
+    static const QStringList availableLanguagesRes();
+    static const QStringList availableLanguagesDir();
 
 public slots:
-        static void setLanguage(const QString& locale, QString source);
+    static void setLanguage ( const QString& locale, QString source );
 
 private:
-        static QTranslator* current;
-        static Translators translatorsRes, translatorsDir;
+    static QTranslator* current;
+    static Translators translatorsRes, translatorsDir;
 };
 
 #endif // APPLICATION_H
+#endif // header guard 
+

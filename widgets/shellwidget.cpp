@@ -34,34 +34,27 @@
     * aby uzyskac podpowiedz nie trzeba wpisywac duzych liter
 */
 
-ShellWidget::ShellWidget(QWidget *parent) :
-    QTextEdit(parent)
+ShellWidget::ShellWidget ( QWidget *parent ) :
+    QTextEdit ( parent )
 {
     this->insertedChars = 0;
     this->cursorPosition = 0;
     this->commandHistoryPosition = 0;
     this->cursor = this->textCursor();
-    this->setCursorWidth(3);
-    this->setTextCursor(cursor);
-    this->setContextMenuPolicy(Qt::CustomContextMenu);
-
+    this->setCursorWidth ( 3 );
+    this->setTextCursor ( cursor );
+    this->setContextMenuPolicy ( Qt::CustomContextMenu );
     QSettings settings;
-    this->sdk=settings.value("sdkPath").toString();
-
-    this->fontColor = settings.value("shellFontColor", "#000000").value<QColor>();
-
+    this->sdk = settings.value ( "sdkPath" ).toString();
+    this->fontColor = settings.value ( "shellFontColor", "#000000" ).value<QColor>();
     QPalette palette = this->palette();
-    palette.setColor(QPalette::Base, settings.value("shellBackgroundColor", "#ffffff").value<QColor>());
-
-    this->setPalette(palette);
-
-    this->setTextColor(this->fontColor);
-
+    palette.setColor ( QPalette::Base, settings.value ( "shellBackgroundColor", "#ffffff" ).value<QColor>() );
+    this->setPalette ( palette );
+    this->setTextColor ( this->fontColor );
     //qDebug()<<"MainWindow::showPageShell() - process shell is not running, starting...";
-    this->process.setProcessChannelMode(QProcess::MergedChannels);
-    this->process.start("\""+sdk+"\""+"adb shell");
-
-    connect(&this->process, SIGNAL(readyRead()), this, SLOT(readFromProcess()));
+    this->process.setProcessChannelMode ( QProcess::MergedChannels );
+    this->process.start ( "\"" + sdk + "\"" + "adb shell" );
+    connect ( &this->process, SIGNAL ( readyRead() ), this, SLOT ( readFromProcess() ) );
 }
 
 ShellWidget::~ShellWidget()
@@ -69,306 +62,299 @@ ShellWidget::~ShellWidget()
     this->process.close();
 }
 
-void ShellWidget::keyPressEvent(QKeyEvent *e)
+void ShellWidget::keyPressEvent ( QKeyEvent *e )
 {
-    if (e->modifiers() == Qt::ControlModifier)
+    if ( e->modifiers() == Qt::ControlModifier )
     {
-        if (e->key() == Qt::Key_C)
+        if ( e->key() == Qt::Key_C )
         {
-            this->process.write(QString(QChar(0x3)).toUtf8());
+            this->process.write ( QString ( QChar ( 0x3 ) ).toUtf8() );
         }
-        else if (e->key() == Qt::Key_Left)
+        else if ( e->key() == Qt::Key_Left )
         {
-            if (this->cursorPosition < this->insertedChars)
+            if ( this->cursorPosition < this->insertedChars )
             {
                 int pos = this->cursor.position();
-                this->cursor.movePosition(QTextCursor::PreviousWord);
-                this->setTextCursor(this->cursor);
-                this->cursorPosition+=pos-this->cursor.position();
+                this->cursor.movePosition ( QTextCursor::PreviousWord );
+                this->setTextCursor ( this->cursor );
+                this->cursorPosition += pos - this->cursor.position();
             }
         }
-        else if (e->key() == Qt::Key_Right)
+        else if ( e->key() == Qt::Key_Right )
         {
-            if (this->cursorPosition > 0)
+            if ( this->cursorPosition > 0 )
             {
                 int pos = this->cursor.position();
-                this->cursor.movePosition(QTextCursor::NextWord);
-                this->setTextCursor(this->cursor);
-                this->cursorPosition-=this->cursor.position()-pos;
+                this->cursor.movePosition ( QTextCursor::NextWord );
+                this->setTextCursor ( this->cursor );
+                this->cursorPosition -= this->cursor.position() - pos;
             }
         }
-        else if (e->key() == Qt::Key_Backspace)
+        else if ( e->key() == Qt::Key_Backspace )
         {
             //usun poprzedzajace slowo
         }
-        else if (e->key() == Qt::Key_Delete)
+        else if ( e->key() == Qt::Key_Delete )
         {
             //usun nastepne slowo
         }
         return;
     }
-    else if ((e->modifiers() & Qt::SHIFT) && (e->modifiers() & Qt::CTRL))
+    else if ( ( e->modifiers() & Qt::SHIFT ) && ( e->modifiers() & Qt::CTRL ) )
     {
-        if (e->key() == Qt::Key_V)
+        if ( e->key() == Qt::Key_V )
         {
             QClipboard *clipboard = QApplication::clipboard();
-            QString tmp = clipboard->text(QClipboard::Clipboard);
-            if (tmp.length()>0)
+            QString tmp = clipboard->text ( QClipboard::Clipboard );
+            if ( tmp.length() > 0 )
             {
-                this->insertedChars+=tmp.length();
-                this->command.insert(this->command.length()-this->cursorPosition,tmp);
-                this->insertPlainText(tmp);
+                this->insertedChars += tmp.length();
+                this->command.insert ( this->command.length() - this->cursorPosition, tmp );
+                this->insertPlainText ( tmp );
             }
         }
-        else if (e->key() == Qt::Key_C)
+        else if ( e->key() == Qt::Key_C )
         {
             QClipboard *clipboard = QApplication::clipboard();
             QString tmp = this->textCursor().selection().toPlainText();
-
-            clipboard->setText(tmp,QClipboard::Clipboard);
+            clipboard->setText ( tmp, QClipboard::Clipboard );
         }
         return;
     }
-
-    this->cursor.movePosition(QTextCursor::End);
-    this->cursor.movePosition(QTextCursor::Left,QTextCursor::MoveAnchor,this->cursorPosition);
-    this->setTextCursor(this->cursor);
-
-    if (e->key() == Qt::Key_Return)
+    this->cursor.movePosition ( QTextCursor::End );
+    this->cursor.movePosition ( QTextCursor::Left, QTextCursor::MoveAnchor, this->cursorPosition );
+    this->setTextCursor ( this->cursor );
+    if ( e->key() == Qt::Key_Return )
     {
-        this->cursor.movePosition(QTextCursor::End);
-        this->setTextCursor(this->cursor);
+        this->cursor.movePosition ( QTextCursor::End );
+        this->setTextCursor ( this->cursor );
         this->cursorPosition = 0;
         this->insertedChars = 0;
-        executeCommand(this->command);
+        executeCommand ( this->command );
         this->command.clear();
         this->commandHistoryPosition = -1;
     }
-    else if (e->key() == Qt::Key_Up)
+    else if ( e->key() == Qt::Key_Up )
     {
-        if (this->commandHistory.length() -1 > this->commandHistoryPosition)
+        if ( this->commandHistory.length() - 1 > this->commandHistoryPosition )
         {
-            if (command.length()>0)
+            if ( command.length() > 0 )
             {
-                this->cursor.movePosition(QTextCursor::End);
-                for (int i = 0 ; i < this->insertedChars ; i++)
+                this->cursor.movePosition ( QTextCursor::End );
+                for ( int i = 0 ; i < this->insertedChars ; i++ )
                     this->cursor.deletePreviousChar();
                 this->cursorPosition = 0;
                 this->insertedChars = 0;
                 command.clear();
             }
             this->commandHistoryPosition++;
-            this->command = this->commandHistory.at(this->commandHistoryPosition);
+            this->command = this->commandHistory.at ( this->commandHistoryPosition );
             this->insertedChars = this->command.length();
-            this->insertPlainText(this->command);
+            this->insertPlainText ( this->command );
         }
     }
-    else if (e->key() == Qt::Key_Down)
+    else if ( e->key() == Qt::Key_Down )
     {
-        if (this->commandHistoryPosition > 0)
+        if ( this->commandHistoryPosition > 0 )
         {
-            if (command.length()>0)
+            if ( command.length() > 0 )
             {
-                this->cursor.movePosition(QTextCursor::End);
-                for (int i = 0 ; i < this->insertedChars ; i++)
+                this->cursor.movePosition ( QTextCursor::End );
+                for ( int i = 0 ; i < this->insertedChars ; i++ )
                     this->cursor.deletePreviousChar();
                 this->cursorPosition = 0;
                 this->insertedChars = 0;
                 command.clear();
             }
             this->commandHistoryPosition--;
-            this->command = this->commandHistory.at(this->commandHistoryPosition);
+            this->command = this->commandHistory.at ( this->commandHistoryPosition );
             this->insertedChars = this->command.length();
-            this->insertPlainText(this->command);
+            this->insertPlainText ( this->command );
         }
     }
-    else if (e->key() == Qt::Key_Left)
+    else if ( e->key() == Qt::Key_Left )
     {
-        if (this->cursorPosition < this->insertedChars)
+        if ( this->cursorPosition < this->insertedChars )
         {
-            this->cursor.movePosition(QTextCursor::Left);
-            this->setTextCursor(this->cursor);
+            this->cursor.movePosition ( QTextCursor::Left );
+            this->setTextCursor ( this->cursor );
             this->cursorPosition++;
         }
     }
-    else if (e->key() == Qt::Key_Right)
+    else if ( e->key() == Qt::Key_Right )
     {
-        if (this->cursorPosition > 0)
+        if ( this->cursorPosition > 0 )
         {
-            this->cursor.movePosition(QTextCursor::Right);
-            this->setTextCursor(this->cursor);
+            this->cursor.movePosition ( QTextCursor::Right );
+            this->setTextCursor ( this->cursor );
             this->cursorPosition--;
         }
     }
-    else if (e->key() == Qt::Key_Delete)
+    else if ( e->key() == Qt::Key_Delete )
     {
-        if (this->cursorPosition > 0)
+        if ( this->cursorPosition > 0 )
         {
-            this->cursor.movePosition(QTextCursor::Right);
-            this->setTextCursor(this->cursor);
+            this->cursor.movePosition ( QTextCursor::Right );
+            this->setTextCursor ( this->cursor );
             this->cursor.deletePreviousChar();
-            this->command.remove(this->command.length()-this->cursorPosition-1,1);
+            this->command.remove ( this->command.length() - this->cursorPosition - 1, 1 );
             this->insertedChars--;
             this->cursorPosition--;
         }
     }
-    else if (e->key() == Qt::Key_Backspace)
+    else if ( e->key() == Qt::Key_Backspace )
     {
-        if (this->insertedChars > this->cursorPosition)
+        if ( this->insertedChars > this->cursorPosition )
         {
             this->cursor.deletePreviousChar();
-            this->command.remove(this->command.length()-this->cursorPosition-1,1);
+            this->command.remove ( this->command.length() - this->cursorPosition - 1, 1 );
             this->insertedChars--;
         }
     }
-    else if(e->key() == Qt::Key_Escape)
+    else if ( e->key() == Qt::Key_Escape )
     {
-        this->process.write(QString(QChar(0x3)).toUtf8());
+        this->process.write ( QString ( QChar ( 0x3 ) ).toUtf8() );
     }
-    else if (e->text().length()>0)
+    else if ( e->text().length() > 0 )
     {
-        this->insertPlainText(e->text());
+        this->insertPlainText ( e->text() );
         this->insertedChars++;
-        this->command.insert(this->command.length()-this->cursorPosition,e->text());
+        this->command.insert ( this->command.length() - this->cursorPosition, e->text() );
     }
-
 }
 
-void ShellWidget::executeCommand(QString command)
+void ShellWidget::executeCommand ( QString command )
 {
-    if (command == "DataBridge -help")
+    if ( command == "DataBridge -help" )
     {
-        this->append(tr("\nDataBridge shell help\n"));
-        this->append(tr("CTRL+C                - interrupt executing command"));
-        this->append(tr("ESC                   - interrupt executing command"));
-        this->append(tr("Shift+CTRL+C          - copy selected text to clipboard"));
-        this->append(tr("Shift+CTRL+V          - paste text from clipboard"));
-        this->append(tr("Enter/Return          - execute command"));
-        this->append(tr("Up (arrow)            - display previous executed command"));
-        this->append(tr("Down (arrow)          - display next executed command"));
-        this->append(tr("Left(arrow)           - move cursor to the left"));
-        this->append(tr("Right(arrow)          - move cursor to the right"));
-        this->append(tr("CTRL+Left(arrow)      - move cursor to the left skipping over the word"));
-        this->append(tr("CTRL+Right(arrow)     - move cursor to the right skipping over the word"));
-        this->append(tr("Delete                - delete next char"));
-        this->append(tr("Backspace             - delete previous char"));
-        this->process.write("\n");
+        this->append ( tr ( "\nDataBridge shell help\n" ) );
+        this->append ( tr ( "CTRL+C                - interrupt executing command" ) );
+        this->append ( tr ( "ESC                   - interrupt executing command" ) );
+        this->append ( tr ( "Shift+CTRL+C          - copy selected text to clipboard" ) );
+        this->append ( tr ( "Shift+CTRL+V          - paste text from clipboard" ) );
+        this->append ( tr ( "Enter/Return          - execute command" ) );
+        this->append ( tr ( "Up (arrow)            - display previous executed command" ) );
+        this->append ( tr ( "Down (arrow)          - display next executed command" ) );
+        this->append ( tr ( "Left(arrow)           - move cursor to the left" ) );
+        this->append ( tr ( "Right(arrow)          - move cursor to the right" ) );
+        this->append ( tr ( "CTRL+Left(arrow)      - move cursor to the left skipping over the word" ) );
+        this->append ( tr ( "CTRL+Right(arrow)     - move cursor to the right skipping over the word" ) );
+        this->append ( tr ( "Delete                - delete next char" ) );
+        this->append ( tr ( "Backspace             - delete previous char" ) );
+        this->process.write ( "\n" );
     }
     else
     {
-        this->process.write(command.toUtf8()+"\n");
+        this->process.write ( command.toUtf8() + "\n" );
     }
-    this->commandHistory.prepend(command);
+    this->commandHistory.prepend ( command );
 }
 
 void ShellWidget::readFromProcess()
 {
-    QString tmp = QString::fromUtf8(this->process.readAll());
+    QString tmp = QString::fromUtf8 ( this->process.readAll() );
     QStringList tmp2;
     QString print;
     int i;
-
-    for (i = 0; i < tmp.length(); i++)
+    for ( i = 0; i < tmp.length(); i++ )
     {
-        if (tmp.at(i).unicode() == 13)
+        if ( tmp.at ( i ).unicode() == 13 )
             tmp[i] = ' ';
-        if (tmp.at(i).unicode() == 10)
+        if ( tmp.at ( i ).unicode() == 10 )
             tmp[i] = '\n';
     }
-    tmp.remove(0,tmp.indexOf("\n"));
-    if (tmp.contains(QChar( 0x1b ), Qt::CaseInsensitive))
+    tmp.remove ( 0, tmp.indexOf ( "\n" ) );
+    if ( tmp.contains ( QChar ( 0x1b ), Qt::CaseInsensitive ) )
     {
         QSettings settings;
-        tmp.remove("[0m");
-        if (settings.value("colorShellFiles").toBool())
+        tmp.remove ( "[0m" );
+        if ( settings.value ( "colorShellFiles" ).toBool() )
         {
-            tmp2 = tmp.split(QChar( 0x1b ), QString::SkipEmptyParts, Qt::CaseInsensitive);
-
-            while (tmp2.size() > 0)
+            tmp2 = tmp.split ( QChar ( 0x1b ), QString::SkipEmptyParts, Qt::CaseInsensitive );
+            while ( tmp2.size() > 0 )
             {
                 print = tmp2.takeFirst();
-                if (print.contains("0;30"))//black
+                if ( print.contains ( "0;30" ) ) //black
                 {
-                    this->setTextColor(this->fontColor);
+                    this->setTextColor ( this->fontColor );
                 }
-                else if (print.contains("0;34"))//blue
+                else if ( print.contains ( "0;34" ) ) //blue
                 {
-                    this->setTextColor(Qt::blue);
+                    this->setTextColor ( Qt::blue );
                 }
-                else if (print.contains("0;32"))//green
+                else if ( print.contains ( "0;32" ) ) //green
                 {
-                    this->setTextColor(Qt::green);
+                    this->setTextColor ( Qt::green );
                 }
-                else if (print.contains("0;36"))//cyan
+                else if ( print.contains ( "0;36" ) ) //cyan
                 {
-                    this->setTextColor(Qt::cyan);
+                    this->setTextColor ( Qt::cyan );
                 }
-                else if (print.contains("0;31"))//red
+                else if ( print.contains ( "0;31" ) ) //red
                 {
-                    this->setTextColor(Qt::red);
+                    this->setTextColor ( Qt::red );
                 }
-                else if (print.contains("0;35"))//purple
+                else if ( print.contains ( "0;35" ) ) //purple
                 {
-                    this->setTextColor(QColor::fromRgb(0, 0, 0));
+                    this->setTextColor ( QColor::fromRgb ( 0, 0, 0 ) );
                 }
-                else if (print.contains("0;33"))//brown
+                else if ( print.contains ( "0;33" ) ) //brown
                 {
-                    this->setTextColor(QColor::fromRgb(0, 0, 0));
+                    this->setTextColor ( QColor::fromRgb ( 0, 0, 0 ) );
                 }
-                else if (print.contains("0;37"))//light gray
+                else if ( print.contains ( "0;37" ) ) //light gray
                 {
-                    this->setTextColor(Qt::lightGray);
+                    this->setTextColor ( Qt::lightGray );
                 }
-                else if (print.contains("1;30"))//dark gray
+                else if ( print.contains ( "1;30" ) ) //dark gray
                 {
-                    this->setTextColor(Qt::darkGray);
+                    this->setTextColor ( Qt::darkGray );
                 }
-                else if (print.contains("[1;34"))//dark gray
+                else if ( print.contains ( "[1;34" ) ) //dark gray
                 {
-                    this->setTextColor(Qt::blue);
+                    this->setTextColor ( Qt::blue );
                 }
-                else if (print.contains("1;32"))//light green
+                else if ( print.contains ( "1;32" ) ) //light green
                 {
-                    this->setTextColor(Qt::green);
+                    this->setTextColor ( Qt::green );
                 }
-                else if (print.contains("1;36"))//light cyan
+                else if ( print.contains ( "1;36" ) ) //light cyan
                 {
-                    this->setTextColor(Qt::cyan);
+                    this->setTextColor ( Qt::cyan );
                 }
-                else if (print.contains("1;31"))//light red
+                else if ( print.contains ( "1;31" ) ) //light red
                 {
-                    this->setTextColor(Qt::red);
+                    this->setTextColor ( Qt::red );
                 }
-                else if (print.contains("1;35"))//light purple
+                else if ( print.contains ( "1;35" ) ) //light purple
                 {
-                    this->setTextColor(QColor::fromRgb(0, 0, 0));
+                    this->setTextColor ( QColor::fromRgb ( 0, 0, 0 ) );
                 }
-                else if (print.contains("1;33"))//yellow
+                else if ( print.contains ( "1;33" ) ) //yellow
                 {
-                    this->setTextColor(Qt::yellow);
+                    this->setTextColor ( Qt::yellow );
                 }
-                else if (print.contains("1;37"))//white
+                else if ( print.contains ( "1;37" ) ) //white
                 {
-                    this->setTextColor(Qt::white);
+                    this->setTextColor ( Qt::white );
                 }
-                print.remove(QRegExp("\\[\\d;\\d+m"));
-                this->insertPlainText(print);
-                this->setTextColor(this->fontColor);
+                print.remove ( QRegExp ( "\\[\\d;\\d+m" ) );
+                this->insertPlainText ( print );
+                this->setTextColor ( this->fontColor );
             }
         }
         else
         {
-            tmp.remove(QChar( 0x1b ), Qt::CaseInsensitive);
-            tmp.remove(QRegExp("\\[\\d;\\d+m"));
-            this->insertPlainText(tmp);
+            tmp.remove ( QChar ( 0x1b ), Qt::CaseInsensitive );
+            tmp.remove ( QRegExp ( "\\[\\d;\\d+m" ) );
+            this->insertPlainText ( tmp );
         }
     }
     else
     {
-        this->append(tmp);
+        this->append ( tmp );
     }
     this->ensureCursorVisible();
-
     //qDebug()<<"readShell() - "<<tmp;
 }
 

@@ -1,3 +1,6 @@
+#ifndef HEADER_455113AB12F2DA7B
+#define HEADER_455113AB12F2DA7B
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -25,7 +28,7 @@
 #include "filewidget.h"
 
 namespace Ui {
-    class PhoneInfoWidget;
+class PhoneInfoWidget;
 }
 
 class PhoneInfoWidget : public QWidget
@@ -33,11 +36,11 @@ class PhoneInfoWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit PhoneInfoWidget(QWidget *parent = 0, QString serialNumber = "");
+    explicit PhoneInfoWidget ( QWidget *parent = 0, QString serialNumber = "" );
     ~PhoneInfoWidget();
 
 protected:
-    void changeEvent(QEvent *e);
+    void changeEvent ( QEvent *e );
 
 private slots:
     void on_pushButton_clicked();
@@ -46,8 +49,10 @@ private slots:
 private:
     Ui::PhoneInfoWidget *ui;
     QString sdk;
-    QString humanReadableSize(QString size);
+    QString humanReadableSize ( QString size );
     QTimer timer;
 };
 
 #endif // PHONEINFOWIDGET_H
+#endif // header guard 
+

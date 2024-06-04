@@ -1,3 +1,6 @@
+#ifndef HEADER_2A21E2B8BDF2A63D
+#define HEADER_2A21E2B8BDF2A63D
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -33,8 +36,10 @@ class AboutDialog : public QDialog,  public Ui::AboutDialog
     Q_OBJECT
 
 public:
-    AboutDialog(QWidget *parent = 0);
+    AboutDialog ( QWidget *parent = 0 );
 
 };
 
 #endif // ABOUTDIALOG_H
+#endif // header guard
+

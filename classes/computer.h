@@ -1,3 +1,6 @@
+#ifndef HEADER_63FAF3D0D107E530
+#define HEADER_63FAF3D0D107E530
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -33,26 +36,28 @@ class Computer: public QObject
     Q_OBJECT
 public:
     Computer();
-    bool cd(QString dir);
+    bool cd ( QString dir );
     bool cdUp();
     QList<File> *getFileList();
-    FileList *getFileList(QString filter);
+    FileList *getFileList ( QString filter );
     bool getHiddenFilesState();
     QString getPath();
-    bool makeDir(QString newDir);
-    bool remove(File file);
-    bool deleteFile(QString fileName);
-    bool deleteDir(QString dirName);
-    bool rename(QString oldName,QString newName);
-    void setHiddenFiles(bool);
-    void setPath(QString newPath);
+    bool makeDir ( QString newDir );
+    bool remove ( File file );
+    bool deleteFile ( QString fileName );
+    bool deleteDir ( QString dirName );
+    bool rename ( QString oldName, QString newName );
+    void setHiddenFiles ( bool );
+    void setPath ( QString newPath );
     bool procesEvents;
 
 private:
-//    QString path;
+    //    QString path;
 
     QDir directory;
     bool hiddenFiles;
 };
 
 #endif // COMPUTER_H
+#endif // header guard 
+

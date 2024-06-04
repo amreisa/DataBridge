@@ -21,40 +21,40 @@
 
 // Windows only GUID definitions
 #if defined(WIN7PROGRESS)
-DEFINE_GUID(CLSID_TaskbarList,0x56fdf344,0xfd6d,0x11d0,0x95,0x8a,0x0,0x60,0x97,0xc9,0xa0,0x90);
-DEFINE_GUID(IID_ITaskbarList3,0xea1afb91,0x9e28,0x4b86,0x90,0xE9,0x9e,0x9f,0x8a,0x5e,0xef,0xaf);
+DEFINE_GUID ( CLSID_TaskbarList, 0x56fdf344, 0xfd6d, 0x11d0, 0x95, 0x8a, 0x0, 0x60, 0x97, 0xc9, 0xa0, 0x90 );
+DEFINE_GUID ( IID_ITaskbarList3, 0xea1afb91, 0x9e28, 0x4b86, 0x90, 0xE9, 0x9e, 0x9f, 0x8a, 0x5e, 0xef, 0xaf );
 #endif
 
 // Constructor: variabiles initialization
 EcWin7::EcWin7()
 {
 #ifdef WIN7PROGRESS
-    GetSystemInfo(&siSysInfo);
+    GetSystemInfo ( &siSysInfo );
     mOverlayIcon = NULL;
 #endif
 }
 
 // Init taskbar communication
-void EcWin7::init(WId wid)
+void EcWin7::init ( WId wid )
 {
     mWindowId = wid;
 #ifdef WIN7PROGRESS
-    mTaskbarMessageId = RegisterWindowMessage(L"TaskbarButtonCreated");
+    mTaskbarMessageId = RegisterWindowMessage ( L"TaskbarButtonCreated" );
 #endif
 }
 
 // Windows event handler callback function
 // (handles taskbar communication initial message)
 #ifdef WIN7PROGRESS
-bool EcWin7::winEvent(MSG * message, long * result)
+bool EcWin7::winEvent ( MSG * message, long * result )
 {
-    if (message->message == mTaskbarMessageId)
+    if ( message->message == mTaskbarMessageId )
     {
-        HRESULT hr = CoCreateInstance(CLSID_TaskbarList,
+        HRESULT hr = CoCreateInstance ( CLSID_TaskbarList,
                                       0,
                                       CLSCTX_INPROC_SERVER,
                                       IID_ITaskbarList3,
-                                      reinterpret_cast<void**> (&(mTaskbar)));
+                                      reinterpret_cast<void**> ( & ( mTaskbar ) ) );
         *result = hr;
         return true;
     }
@@ -63,45 +63,45 @@ bool EcWin7::winEvent(MSG * message, long * result)
 #endif
 
 // Set progress bar current value
-void EcWin7::setProgressValue(int value, int max)
+void EcWin7::setProgressValue ( int value, int max )
 {
 #ifdef WIN7PROGRESS
-    if (QSysInfo::windowsVersion() >= QSysInfo::WV_WINDOWS7)
-        if (QProcessEnvironment::systemEnvironment().value("PROCESSOR_ARCHITECTURE", "") == "x86")
-            mTaskbar->SetProgressValue(mWindowId, value, max);
+    if ( QSysInfo::windowsVersion() >= QSysInfo::WV_WINDOWS7 )
+        if ( QProcessEnvironment::systemEnvironment().value ( "PROCESSOR_ARCHITECTURE", "" ) == "x86" )
+            mTaskbar->SetProgressValue ( mWindowId, value, max );
 #endif
 }
 
 // Set progress bar current state (active, error, pause, ecc...)
-void EcWin7::setProgressState(ToolBarProgressState state)
+void EcWin7::setProgressState ( ToolBarProgressState state )
 {
 #ifdef WIN7PROGRESS
-    if (QSysInfo::windowsVersion() >= QSysInfo::WV_WINDOWS7)
-        if (QProcessEnvironment::systemEnvironment().value("PROCESSOR_ARCHITECTURE", "") == "x86")
-            mTaskbar->SetProgressState(mWindowId, (TBPFLAG)state);
+    if ( QSysInfo::windowsVersion() >= QSysInfo::WV_WINDOWS7 )
+        if ( QProcessEnvironment::systemEnvironment().value ( "PROCESSOR_ARCHITECTURE", "" ) == "x86" )
+            mTaskbar->SetProgressState ( mWindowId, ( TBPFLAG ) state );
 #endif
 }
 
 // Set new overlay icon and corresponding description (for accessibility)
 // (call with iconName == "" and description == "" to remove any previous overlay icon)
-void EcWin7::setOverlayIcon(QIcon icon, QString description)
+void EcWin7::setOverlayIcon ( QIcon icon, QString description )
 {
 #ifdef WIN7PROGRESS
     HICON oldIcon = NULL;
-    if (mOverlayIcon != NULL) oldIcon = mOverlayIcon;
-    if (icon.isNull())
+    if ( mOverlayIcon != NULL ) oldIcon = mOverlayIcon;
+    if ( icon.isNull() )
     {
-        mTaskbar->SetOverlayIcon(mWindowId, NULL, NULL);
+        mTaskbar->SetOverlayIcon ( mWindowId, NULL, NULL );
         mOverlayIcon = NULL;
     }
     else
     {
-        mOverlayIcon = (HICON) icon.pixmap(40).toWinHICON();
-        mTaskbar->SetOverlayIcon(mWindowId, mOverlayIcon, description.toStdWString().c_str());
+        mOverlayIcon = ( HICON ) icon.pixmap ( 40 ).toWinHICON();
+        mTaskbar->SetOverlayIcon ( mWindowId, mOverlayIcon, description.toStdWString().c_str() );
     }
-    if ((oldIcon != NULL) && (oldIcon != mOverlayIcon))
+    if ( ( oldIcon != NULL ) && ( oldIcon != mOverlayIcon ) )
     {
-        DestroyIcon(oldIcon);
+        DestroyIcon ( oldIcon );
     }
 #endif
 }

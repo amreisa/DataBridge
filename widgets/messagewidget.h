@@ -1,3 +1,6 @@
+#ifndef HEADER_ABC3A3949D41AF02
+#define HEADER_ABC3A3949D41AF02
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -34,7 +37,7 @@
 
 
 namespace Ui {
-    class MessageWidget;
+class MessageWidget;
 }
 
 class MessageWidget : public QWidget
@@ -42,13 +45,13 @@ class MessageWidget : public QWidget
     Q_OBJECT
 
 public:
-    MessageWidget(QWidget *parent, QString clientIP);
+    MessageWidget ( QWidget *parent, QString clientIP );
     ~MessageWidget();
 
     QString clientIP;
 
 protected:
-    void changeEvent(QEvent *e);
+    void changeEvent ( QEvent *e );
 
 private:
     Ui::MessageWidget *ui;
@@ -72,32 +75,34 @@ private:
 
 private slots:
     void on_pushButton_pressed();
-    void smsRead(QString threadId, QString messageId, QString timestamp, QString number, QString read, QString toa, QString body);
-    void addSMS(QString threadId, QString messageId, QString timestamp, QString number, QString read, QString toa, QString body);
+    void smsRead ( QString threadId, QString messageId, QString timestamp, QString number, QString read, QString toa, QString body );
+    void addSMS ( QString threadId, QString messageId, QString timestamp, QString number, QString read, QString toa, QString body );
     void clearModels();
-    void addContact(QString id, QString number, QString name);
+    void addContact ( QString id, QString number, QString name );
 
 public slots:
-    void filterMessages(QString filter);
-    void filterContacts(QString filter);
+    void filterMessages ( QString filter );
+    void filterContacts ( QString filter );
     void getContactList();
-    void sendSmsThread(QString message);
-    void sendSms(QString number,QString message);
-    void smsReceivedSlot(QString number, QString body);
-    void insertSmsToDatabase(QString number, QString body, QString timestamp, QString type);
-    void smsResult(QString result);
-    void markMessageAsRead(QString id);
-    void markThreadAsRead(QString id);
+    void sendSmsThread ( QString message );
+    void sendSms ( QString number, QString message );
+    void smsReceivedSlot ( QString number, QString body );
+    void insertSmsToDatabase ( QString number, QString body, QString timestamp, QString type );
+    void smsResult ( QString result );
+    void markMessageAsRead ( QString id );
+    void markThreadAsRead ( QString id );
     void connectToClient();
     void newConnection();
-    void sendToClient(QString message);
-    QString getDateFromTimestamp(QString timestamp);
-    void updateThread(QString id, QString timestamp,QString lastBody, QString messageCount, QString read);
+    void sendToClient ( QString message );
+    QString getDateFromTimestamp ( QString timestamp );
+    void updateThread ( QString id, QString timestamp, QString lastBody, QString messageCount, QString read );
 
 signals:
-    void smsReceived(QString number, QString body);
-    void smsResultSignal(QString result);
+    void smsReceived ( QString number, QString body );
+    void smsResultSignal ( QString result );
 
 };
 
 #endif // MESSAGEWIDGET_H
+#endif // header guard 
+

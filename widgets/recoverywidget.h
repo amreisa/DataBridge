@@ -1,3 +1,6 @@
+#ifndef HEADER_C2A204052D0F7DCC
+#define HEADER_C2A204052D0F7DCC
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -27,7 +30,7 @@
 
 
 namespace Ui {
-    class RecoveryWidget;
+class RecoveryWidget;
 }
 
 class RecoveryWidget : public QWidget
@@ -35,11 +38,11 @@ class RecoveryWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit RecoveryWidget(QWidget *parent = 0);
+    explicit RecoveryWidget ( QWidget *parent = 0 );
     ~RecoveryWidget();
 
 protected:
-    void changeEvent(QEvent *e);
+    void changeEvent ( QEvent *e );
 
 private:
     Ui::RecoveryWidget *ui;
@@ -82,3 +85,5 @@ private slots:
 };
 
 #endif // RECOVERYWIDGET_H
+#endif // header guard 
+

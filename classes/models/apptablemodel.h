@@ -1,3 +1,6 @@
+#ifndef HEADER_707CE2E28786D18
+#define HEADER_707CE2E28786D18
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -23,11 +26,11 @@
 
 #include <QtGui>
 
-class App : public QObject{
-//    Q_OBJECT
+class App : public QObject {
+    //    Q_OBJECT
 public:
-    App(QObject *parent=0);
-    App(const App&);
+    App ( QObject *parent = 0 );
+    App ( const App& );
     QString appName;
     QString appSize;
     QString appVersion;
@@ -41,37 +44,37 @@ public:
     QString cyrketVer;
     QString date;
 
-    App& operator =(const App&);
+    App& operator = ( const App& );
 };// App;
 
-Q_DECLARE_METATYPE(App)
+Q_DECLARE_METATYPE ( App )
 
 class AppTableModel : public QAbstractTableModel
 {
     Q_OBJECT
 
 public:
-    AppTableModel(QObject *parent=0);
-    AppTableModel(QList< App > appList, QObject *parent=0);
+    AppTableModel ( QObject *parent = 0 );
+    AppTableModel ( QList< App > appList, QObject *parent = 0 );
 
-    int rowCount(const QModelIndex &parent) const;
+    int rowCount ( const QModelIndex &parent ) const;
     int rowCount();
-    int columnCount(const QModelIndex &parent) const;
-    QVariant data(const QModelIndex &index, int role) const;
-    QVariant headerData(int section, Qt::Orientation orientation, int role) const;
-    Qt::ItemFlags flags(const QModelIndex &index) const;
-    bool setData(const QModelIndex &index, const QVariant &value, int role=Qt::EditRole);
-    bool insertRows(int position, int rows, const QModelIndex &index=QModelIndex());
-    bool insertApp(int position, App app);
-    bool insertApps(int position, QList< App > appList);
-    App getApp(int row);
+    int columnCount ( const QModelIndex &parent ) const;
+    QVariant data ( const QModelIndex &index, int role ) const;
+    QVariant headerData ( int section, Qt::Orientation orientation, int role ) const;
+    Qt::ItemFlags flags ( const QModelIndex &index ) const;
+    bool setData ( const QModelIndex &index, const QVariant &value, int role = Qt::EditRole );
+    bool insertRows ( int position, int rows, const QModelIndex &index = QModelIndex() );
+    bool insertApp ( int position, App app );
+    bool insertApps ( int position, QList< App > appList );
+    App getApp ( int row );
     QList< App > getList();
-    bool removeRows(int position, int rows, const QModelIndex &index=QModelIndex());
+    bool removeRows ( int position, int rows, const QModelIndex &index = QModelIndex() );
     bool clear();
-    static QString humanReadableSize(QString size);
+    static QString humanReadableSize ( QString size );
     bool isEmpty();
-    void setQr(int row, QPixmap pix);
-    void setCyrketVer(int row, QString str);
+    void setQr ( int row, QPixmap pix );
+    void setCyrketVer ( int row, QString str );
 private:
     QList< App > appList;
 };
@@ -82,10 +85,12 @@ class AppSortModel : public QSortFilterProxyModel
     Q_OBJECT
 
 public:
-    AppSortModel(QObject *parent = 0);
+    AppSortModel ( QObject *parent = 0 );
 
 protected:
-     bool filterAcceptsRow(int sourceRow, const QModelIndex &sourceParent) const;
-     bool lessThan(const QModelIndex &left, const QModelIndex &right) const;
+    bool filterAcceptsRow ( int sourceRow, const QModelIndex &sourceParent ) const;
+    bool lessThan ( const QModelIndex &left, const QModelIndex &right ) const;
 };
 #endif // APPTABLEMODEL_H
+#endif // header guard 
+

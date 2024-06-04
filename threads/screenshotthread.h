@@ -1,3 +1,6 @@
+#ifndef HEADER_624341567454FD76
+#define HEADER_624341567454FD76
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -25,7 +28,7 @@
 #include <QTcpSocket>
 #include <QImage>
 
-QImage noScreenshotImage(int, int);
+QImage noScreenshotImage ( int, int );
 
 class ThreadScreenshot : public QThread
 {
@@ -36,6 +39,8 @@ public:
 
     QTcpSocket *socket;
 signals:
-    void gotScreenshot(QImage, int, int);
+    void gotScreenshot ( QImage, int, int );
 };
 #endif // SCREENSHOTTHREAD_H
+#endif // header guard 
+

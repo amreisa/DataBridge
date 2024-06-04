@@ -1,3 +1,6 @@
+#ifndef HEADER_8428E416D1971BD9
+#define HEADER_8428E416D1971BD9
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -27,7 +30,7 @@
 class Contact
 {
 public:
-    Contact( const QString id, const QString number, const QString name);
+    Contact ( const QString id, const QString number, const QString name );
 
     QString getId() const;
     QString getNumber() const;
@@ -42,16 +45,16 @@ class ContactModel : public QAbstractListModel
 {
     Q_OBJECT
 public:
-    ContactModel(QObject *parent = 0);
+    ContactModel ( QObject *parent = 0 );
 
     enum ContactRoles { IdRole, NameRole, NumberRole };
 
-    int rowCount(const QModelIndex & parent = QModelIndex()) const;
-    QVariant data(const QModelIndex & index, int role = Qt::DisplayRole) const;
-    void addContact(const Contact &contact);
+    int rowCount ( const QModelIndex & parent = QModelIndex() ) const;
+    QVariant data ( const QModelIndex & index, int role = Qt::DisplayRole ) const;
+    void addContact ( const Contact &contact );
     bool clear();
-    QString getNumber(QString name);
-    QString getName(QString number);
+    QString getNumber ( QString name );
+    QString getName ( QString number );
 
     QHash<int, QByteArray> roleNames();
 
@@ -60,3 +63,5 @@ private:
 };
 
 #endif // CONTACTMODEL_H
+#endif // header guard 
+

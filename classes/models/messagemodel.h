@@ -1,3 +1,6 @@
+#ifndef HEADER_5FE800BA9F4DA877
+#define HEADER_5FE800BA9F4DA877
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -26,8 +29,8 @@
 class Message
 {
 public:
-    Message( const QString threadId, const QString messageId, const QString timeStamp, const QString number,
-            const QString read, const QString toa, const QString body, const QString contactName);
+    Message ( const QString threadId, const QString messageId, const QString timeStamp, const QString number,
+            const QString read, const QString toa, const QString body, const QString contactName );
     Message();
 
     QString getThreadId() const;
@@ -38,7 +41,7 @@ public:
     QString getRead() const;
     QString getToa() const;
     QString getContactName() const;
-    Message& operator =(const Message&);
+    Message& operator = ( const Message& );
 private:
     QString threadId;
     QString messageId;
@@ -54,14 +57,14 @@ class MessageModel : public QAbstractListModel
 {
     Q_OBJECT
 public:
-    MessageModel(QObject *parent = 0);
+    MessageModel ( QObject *parent = 0 );
 
-    enum MessageRoles { ThreadIdRole,MessageIdRole,TimeStampRole,NumberRole,BodyRole, ReadRole, ToaRole, ContactNameRole };
-    bool isMessageExists(QString id);
-    int rowCount(const QModelIndex & parent = QModelIndex()) const;
-    QVariant data(const QModelIndex & index, int role = Qt::DisplayRole) const;
-    void addMessage(const Message &message);
-    void markThreadAsRead(QString id);
+    enum MessageRoles { ThreadIdRole, MessageIdRole, TimeStampRole, NumberRole, BodyRole, ReadRole, ToaRole, ContactNameRole };
+    bool isMessageExists ( QString id );
+    int rowCount ( const QModelIndex & parent = QModelIndex() ) const;
+    QVariant data ( const QModelIndex & index, int role = Qt::DisplayRole ) const;
+    void addMessage ( const Message &message );
+    void markThreadAsRead ( QString id );
     bool clear();
 
     QHash<int, QByteArray> roleNames();
@@ -72,3 +75,5 @@ private:
 
 
 #endif // MESSAGEMODEL_H
+#endif // header guard 
+

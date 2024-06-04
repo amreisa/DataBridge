@@ -1,3 +1,6 @@
+#ifndef HEADER_98A0D32747E9B948
+#define HEADER_98A0D32747E9B948
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -25,7 +28,7 @@
 #include "../classes/phone.h"
 
 namespace Ui {
-    class FastbootWidget;
+class FastbootWidget;
 }
 
 class FastbootWidget : public QWidget
@@ -33,13 +36,13 @@ class FastbootWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit FastbootWidget(QWidget *parent = 0, Phone *phone = NULL);
+    explicit FastbootWidget ( QWidget *parent = 0, Phone *phone = NULL );
     ~FastbootWidget();
 
     QString sdk;
 
-//protected:
-//    void changeEvent(QEvent *e);
+    //protected:
+    //    void changeEvent(QEvent *e);
 
 private:
     Ui::FastbootWidget *ui;
@@ -54,3 +57,5 @@ private slots:
 };
 
 #endif // FASTBOOTWIDGET_H
+#endif // header guard 
+

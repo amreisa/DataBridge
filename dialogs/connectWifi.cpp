@@ -20,13 +20,13 @@
 
 #include "connectWifi.h"
 
-ConnectWifi::ConnectWifi( QWidget * parent)
-        : QDialog(parent)
+ConnectWifi::ConnectWifi ( QWidget * parent )
+    : QDialog ( parent )
 {
-        setupUi(this);
-        this->setLayout(this->gridLayout);
-        this->setBaseSize(220,100);
-        this->polaczButton->setDefault(true);
-        connect(polaczButton,SIGNAL(clicked()),this,SLOT(accept()));
-        connect(zamknijButton,SIGNAL(clicked()),this,SLOT(reject()));
+    setupUi ( this );
+    this->setLayout ( this->gridLayout );
+    this->setBaseSize ( 220, 100 );
+    this->polaczButton->setDefault ( true );
+    connect ( polaczButton, SIGNAL ( clicked() ), this, SLOT ( accept() ) );
+    connect ( zamknijButton, SIGNAL ( clicked() ), this, SLOT ( reject() ) );
 }

@@ -18,68 +18,68 @@
 ************************************************************************/
 
 
-//#ifndef CONTACTWIDGET_H
-//#define CONTACTWIDGET_H
+#ifndef CONTACTWIDGET_H
+#define CONTACTWIDGET_H
 
-//#include <QtGui>
+#include <QtGui>
 
 
-//typedef struct contactList
-//{
-//    QStringList _id;
-//    QStringList name;
-//    QStringList display_name;
-//    QStringList phonetic_name;
-//    QStringList notes;
-//    QStringList account_name;
-//    QStringList account_type;
-//    QStringList times_contacted;
-//    QStringList last_time_contacted;
-//    QStringList custom_ringtone;
-//    QStringList send_to_voicemail;
-//    QStringList starred;
-//    QStringList primary_organization;
-//    QStringList primary_email;
-//    QStringList primary_phone;
-//    QStringList number;
-//    QStringList type;
-//    QStringList label;
-//    QStringList number_key;
-//} ContactList;
+typedef struct contactList
+{
+    QStringList _id;
+    QStringList name;
+    QStringList display_name;
+    QStringList phonetic_name;
+    QStringList notes;
+    QStringList account_name;
+    QStringList account_type;
+    QStringList times_contacted;
+    QStringList last_time_contacted;
+    QStringList custom_ringtone;
+    QStringList send_to_voicemail;
+    QStringList starred;
+    QStringList primary_organization;
+    QStringList primary_email;
+    QStringList primary_phone;
+    QStringList number;
+    QStringList type;
+    QStringList label;
+    QStringList number_key;
+} ContactList;
 
-//class ThreadContacts : public QThread
-//{
-//    Q_OBJECT
-//public:
-//    void run();
-//    QString sdk;
+class ThreadContacts : public QThread
+{
+    Q_OBJECT
+public:
+    void run();
+    QString sdk;
 
-//signals:
-//    void finished(ContactList contactList);
-//};
+signals:
+    void finished(ContactList contactList);
+};
 
-//namespace Ui {
-//    class ContactWidget;
-//}
+namespace Ui {
+class ContactWidget;
+}
 
-//class ContactWidget : public QWidget
-//{
-//    Q_OBJECT
+class ContactWidget : public QWidget
+{
+    Q_OBJECT
 
-//public:
-//    explicit ContactWidget(QWidget *parent = 0);
-//    ~ContactWidget();
+public:
+    explicit ContactWidget(QWidget *parent = 0);
+    ~ContactWidget();
 
-//protected:
-//    void changeEvent(QEvent *e);
+protected:
+    void changeEvent(QEvent *e);
 
-//private:
-//    Ui::ContactWidget *ui;
-//    ThreadContacts threadContacts;
+private:
+    Ui::ContactWidget *ui;
+    ThreadContacts threadContacts;
 
-//private slots:
-//    void contactSelected(int);
-//    void insertContacts(ContactList contactList);
-//};
+private slots:
+    void contactSelected(int);
+    void insertContacts(ContactList contactList);
+};
 
-//#endif // CONTACTWIDGET_H
+#endif // CONTACTWIDGET_H

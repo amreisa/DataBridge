@@ -20,22 +20,21 @@
 
 #include "messagemodel.h"
 
-Message::Message( const QString threadId, const QString messageId, const QString timeStamp, const QString number,
-                 const QString read, const QString toa, const QString body, const QString contactName)
+Message::Message ( const QString threadId, const QString messageId, const QString timeStamp, const QString number,
+                 const QString read, const QString toa, const QString body, const QString contactName )
 {
-    this->body=body;
-    this->messageId=messageId;
-    this->number=number;
-    this->threadId=threadId;
-    this->timeStamp=timeStamp;
-    this->read=read;
-    this->toa=toa;
-    this->contactName=contactName;
+    this->body = body;
+    this->messageId = messageId;
+    this->number = number;
+    this->threadId = threadId;
+    this->timeStamp = timeStamp;
+    this->read = read;
+    this->toa = toa;
+    this->contactName = contactName;
 }
 
 Message::Message()
 {
-
 }
 
 QString Message::getThreadId() const
@@ -78,34 +77,34 @@ QString Message::getContactName() const
     return this->contactName;
 }
 
-bool MessageModel::isMessageExists(QString id)
+bool MessageModel::isMessageExists ( QString id )
 {
-    foreach(Message message, this->messages)
+    foreach ( Message message, this->messages )
     {
-        if (message.getMessageId() == id)
+        if ( message.getMessageId() == id )
             return true;
     }
     return false;
 }
 
-Message& Message::operator =(const Message& message)
+Message& Message::operator = ( const Message& message )
 {
-    this->body=message.body;
-    this->messageId=message.messageId;
-    this->number=message.number;
-    this->threadId=message.threadId;
-    this->timeStamp=message.timeStamp;
-    this->read=message.read;
-    this->toa=message.toa;
-    this->contactName=message.contactName;
+    this->body = message.body;
+    this->messageId = message.messageId;
+    this->number = message.number;
+    this->threadId = message.threadId;
+    this->timeStamp = message.timeStamp;
+    this->read = message.read;
+    this->toa = message.toa;
+    this->contactName = message.contactName;
     return *this;
 }
 
 bool MessageModel::clear()
 {
-    if (!this->messages.isEmpty())
+    if ( !this->messages.isEmpty() )
     {
-        beginRemoveRows(QModelIndex(), 0, this->messages.size()-1);
+        beginRemoveRows ( QModelIndex(), 0, this->messages.size() - 1 );
         this->messages.clear();
         endRemoveRows();
         return true;
@@ -113,8 +112,8 @@ bool MessageModel::clear()
     return false;
 }
 
-MessageModel::MessageModel(QObject *parent)
-    : QAbstractListModel(parent)
+MessageModel::MessageModel ( QObject *parent )
+    : QAbstractListModel ( parent )
 {
 }
 
@@ -132,62 +131,59 @@ QHash<int, QByteArray> MessageModel::roleNames()
     return roles;
 }
 
-void MessageModel::addMessage(const Message &message)
+void MessageModel::addMessage ( const Message &message )
 {
-    foreach(Message msg, this->messages)
+    foreach ( Message msg, this->messages )
     {
-        if (msg.getMessageId() == message.getMessageId())
+        if ( msg.getMessageId() == message.getMessageId() )
             return;
     }
-
-    beginInsertRows(QModelIndex(), rowCount(), rowCount());
+    beginInsertRows ( QModelIndex(), rowCount(), rowCount() );
     this->messages << message;
     endInsertRows();
 }
 
-void MessageModel::markThreadAsRead(QString id)
+void MessageModel::markThreadAsRead ( QString id )
 {
     Message message;
-
-    for(int i = 0; i < this->messages.count() ; i++)
+    for ( int i = 0; i < this->messages.count() ; i++ )
     {
-        if (this->messages[i].getThreadId()==id)
+        if ( this->messages[i].getThreadId() == id )
         {
             message = this->messages[i];
-            beginRemoveRows(QModelIndex(), i, i);
-            this->messages.removeAt(i);
+            beginRemoveRows ( QModelIndex(), i, i );
+            this->messages.removeAt ( i );
             endRemoveRows();
-            addMessage(Message(id,message.getMessageId(),message.getTimeStamp(),message.getNumber(),"1",message.getToa(),message.getBody(),message.getContactName()));
+            addMessage ( Message ( id, message.getMessageId(), message.getTimeStamp(), message.getNumber(), "1", message.getToa(), message.getBody(), message.getContactName() ) );
         }
     }
 }
 
-int MessageModel::rowCount(const QModelIndex & parent) const
+int MessageModel::rowCount ( const QModelIndex & parent ) const
 {
     return this->messages.count();
 }
 
-QVariant MessageModel::data(const QModelIndex & index, int role) const
+QVariant MessageModel::data ( const QModelIndex & index, int role ) const
 {
-    if (index.row() < 0 || index.row() > messages.count())
+    if ( index.row() < 0 || index.row() > messages.count() )
         return QVariant();
-
-    const Message &message= this->messages[index.row()];
-    if (role == ThreadIdRole)
+    const Message &message = this->messages[index.row()];
+    if ( role == ThreadIdRole )
         return message.getThreadId();
-    else if (role == MessageIdRole)
+    else if ( role == MessageIdRole )
         return message.getMessageId();
-    else if (role == TimeStampRole)
+    else if ( role == TimeStampRole )
         return message.getTimeStamp();
-    else if (role == NumberRole)
+    else if ( role == NumberRole )
         return message.getNumber();
-    else if (role == BodyRole)
+    else if ( role == BodyRole )
         return message.getBody();
-    else if (role == ReadRole)
+    else if ( role == ReadRole )
         return message.getRead();
-    else if (role == ToaRole)
+    else if ( role == ToaRole )
         return message.getToa();
-    else if (role == ContactNameRole)
+    else if ( role == ContactNameRole )
         return message.getContactName();
     return QVariant();
 }

@@ -1,3 +1,6 @@
+#ifndef HEADER_54B15802F2157652
+#define HEADER_54B15802F2157652
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -30,7 +33,7 @@ class UpdateApp : public QObject
 {
     Q_OBJECT
 public:
-    explicit UpdateApp(QObject *parent = 0);
+    explicit UpdateApp ( QObject *parent = 0 );
     void checkUpdates();
 
 private:
@@ -38,9 +41,11 @@ private:
     QNetworkAccessManager * updateMan;
 
 signals:
-    void updateState(bool, QString, QString);
+    void updateState ( bool, QString, QString );
 public slots:
-    void gotWWW(QNetworkReply *);
+    void gotWWW ( QNetworkReply * );
 };
 
 #endif // UPDATEAPP_H
+#endif // header guard 
+

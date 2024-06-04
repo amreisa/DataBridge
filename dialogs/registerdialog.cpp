@@ -21,12 +21,12 @@
 #include "registerdialog.h"
 #include "ui_registerdialog.h"
 
-RegisterDialog::RegisterDialog(QWidget *parent, QStringList accountList) :
-    QDialog(parent),
-    ui(new Ui::RegisterDialog)
+RegisterDialog::RegisterDialog ( QWidget *parent, QStringList accountList ) :
+    QDialog ( parent ),
+    ui ( new Ui::RegisterDialog )
 {
-    ui->setupUi(this);
-    this->setLayout(ui->gridLayout);
+    ui->setupUi ( this );
+    this->setLayout ( ui->gridLayout );
     this->accountList = accountList;
     this->registered = false;
 }
@@ -36,51 +36,48 @@ RegisterDialog::~RegisterDialog()
     delete ui;
 }
 
-bool isKeySaved(QString key)
+bool isKeySaved ( QString key )
 {
     QSettings settings;
-    QStringList keyList(settings.value("registerKey").toStringList());
-
-    foreach(QString element, keyList)
+    QStringList keyList ( settings.value ( "registerKey" ).toStringList() );
+    foreach ( QString element, keyList )
     {
-        if (element == key)
+        if ( element == key )
             return true;
     }
     return false;
 }
 
-void RegisterDialog::on_lineEdit_textChanged(QString key)
+void RegisterDialog::on_lineEdit_textChanged ( QString key )
 {
-    if (verifyKey(key))
+    if ( verifyKey ( key ) )
     {
-        ui->label->setText("<font color=\"green\"> <b>key is valid</b></font>");
-        if (!isKeySaved(key))
+        ui->label->setText ( "<font color=\"green\"> <b>key is valid</b></font>" );
+        if ( !isKeySaved ( key ) )
         {
             QSettings settings;
-            QStringList keyList(settings.value("registerKey").toStringList());
-            keyList.append(key);
-            settings.setValue("registerKey",keyList);
+            QStringList keyList ( settings.value ( "registerKey" ).toStringList() );
+            keyList.append ( key );
+            settings.setValue ( "registerKey", keyList );
         }
-        ui->pushButton->setText("ok");
+        ui->pushButton->setText ( "ok" );
         this->registered = true;
     }
     else
     {
-        ui->label->setText("<font color=\"red\"> <b>key is invalid</b></font>");
+        ui->label->setText ( "<font color=\"red\"> <b>key is invalid</b></font>" );
     }
 }
 
-bool RegisterDialog::verifyKey(QString key)
+bool RegisterDialog::verifyKey ( QString key )
 {
-    foreach(QString element,this->accountList)
+    foreach ( QString element, this->accountList )
     {
-        QCryptographicHash md5(QCryptographicHash::Md5);
-        QCryptographicHash sha1(QCryptographicHash::Sha1);
-
-        md5.addData("DataBridge"+element.toUtf8()+"DataBridge");
-        sha1.addData(md5.result());
-
-        if (key == sha1.result().toHex())
+        QCryptographicHash md5 ( QCryptographicHash::Md5 );
+        QCryptographicHash sha1 ( QCryptographicHash::Sha1 );
+        md5.addData ( "DataBridge" + element.toUtf8() + "DataBridge" );
+        sha1.addData ( md5.result() );
+        if ( key == sha1.result().toHex() )
         {
             return true;
         }

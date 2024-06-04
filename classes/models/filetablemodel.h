@@ -1,3 +1,6 @@
+#ifndef HEADER_F7FBA2439B14CCBA
+#define HEADER_F7FBA2439B14CCBA
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -24,10 +27,10 @@
 #include <QtGui>
 //#include "../dialogs/appinfo.h"
 
-class File : public QObject{
+class File : public QObject {
 public:
-    File(QObject *parent=0);
-    File(const File&);
+    File ( QObject *parent = 0 );
+    File ( const File& );
     QIcon fileIcon;
     QString fileName;
     QString fileSize;
@@ -37,47 +40,47 @@ public:
     QString fileOwner;
     QString fileType;
     QColor fileColor;
-    File& operator =(const File&);
+    File& operator = ( const File& );
 };
 
 
-Q_DECLARE_METATYPE(File)
+Q_DECLARE_METATYPE ( File )
 
 class FileTableModel : public QAbstractTableModel
 {
     Q_OBJECT
 
 public:
-    FileTableModel(QObject *parent=0);
-    FileTableModel(QList< File > fileList, QObject *parent=0);
+    FileTableModel ( QObject *parent = 0 );
+    FileTableModel ( QList< File > fileList, QObject *parent = 0 );
 
-    int rowCount(const QModelIndex &parent) const;
+    int rowCount ( const QModelIndex &parent ) const;
     int rowCount();
-    int columnCount(const QModelIndex &parent) const;
-    QVariant data(const QModelIndex &index, int role) const;
-    QVariant headerData(int section, Qt::Orientation orientation, int role) const;
-    Qt::ItemFlags flags(const QModelIndex &index) const;
-    bool setData(const QModelIndex &index, const QVariant &value, int role=Qt::EditRole);
-    bool insertFile(int position, File file);
-    bool insertFiles(int position, QList< File > fileList);
-    File getFile(int row);
-    int getRow(QString fileName);
-    bool insertRows(int position, int rows, const QModelIndex &index=QModelIndex());
-    bool removeRows(int position, int rows, const QModelIndex &index=QModelIndex());
+    int columnCount ( const QModelIndex &parent ) const;
+    QVariant data ( const QModelIndex &index, int role ) const;
+    QVariant headerData ( int section, Qt::Orientation orientation, int role ) const;
+    Qt::ItemFlags flags ( const QModelIndex &index ) const;
+    bool setData ( const QModelIndex &index, const QVariant &value, int role = Qt::EditRole );
+    bool insertFile ( int position, File file );
+    bool insertFiles ( int position, QList< File > fileList );
+    File getFile ( int row );
+    int getRow ( QString fileName );
+    bool insertRows ( int position, int rows, const QModelIndex &index = QModelIndex() );
+    bool removeRows ( int position, int rows, const QModelIndex &index = QModelIndex() );
     QList< File > getList();
     bool clear();
-    static QString humanReadableSize(QString size);
-    bool setColoring(bool);
+    static QString humanReadableSize ( QString size );
+    bool setColoring ( bool );
 
     Qt::DropActions supportedDropActions() const;
     QStringList mimeTypes() const;
-    QMimeData *mimeData(const QModelIndexList &indexes) const;
-    bool dropMimeData(const QMimeData *data, Qt::DropAction action, int row, int column, const QModelIndex &parent);
+    QMimeData *mimeData ( const QModelIndexList &indexes ) const;
+    bool dropMimeData ( const QMimeData *data, Qt::DropAction action, int row, int column, const QModelIndex &parent );
 private:
     QList< File > fileList;
     bool coloring;
 signals:
-    void copy(QStringList list);
+    void copy ( QStringList list );
 };
 
 class FileSortModel : public QSortFilterProxyModel
@@ -85,11 +88,13 @@ class FileSortModel : public QSortFilterProxyModel
     Q_OBJECT
 
 public:
-    FileSortModel(QObject *parent = 0);
+    FileSortModel ( QObject *parent = 0 );
 
 protected:
-     bool filterAcceptsRow(int sourceRow, const QModelIndex &sourceParent) const;
-     bool lessThan(const QModelIndex &left, const QModelIndex &right) const;
+    bool filterAcceptsRow ( int sourceRow, const QModelIndex &sourceParent ) const;
+    bool lessThan ( const QModelIndex &left, const QModelIndex &right ) const;
 };
 
 #endif // PHONEFILETABLEMODEL_H
+#endif // header guard 
+

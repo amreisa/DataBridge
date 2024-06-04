@@ -20,15 +20,15 @@
 
 #include "messagethreadmodel.h"
 
-MessageThread::MessageThread(QString id, QString number, QString timeStamp,QString read, QString lastBody, QString messageCount, QString contactName)
+MessageThread::MessageThread ( QString id, QString number, QString timeStamp, QString read, QString lastBody, QString messageCount, QString contactName )
 {
-    this->id=id;
-    this->number=number;
-    this->timeStamp=timeStamp;
-    this->lastBody=lastBody;
-    this->messageCount=messageCount;
-    this->read=read;
-    this->contactName=contactName;
+    this->id = id;
+    this->number = number;
+    this->timeStamp = timeStamp;
+    this->lastBody = lastBody;
+    this->messageCount = messageCount;
+    this->read = read;
+    this->contactName = contactName;
 }
 
 MessageThread::MessageThread()
@@ -70,52 +70,49 @@ QString MessageThread::getContactName() const
     return this->contactName;
 }
 
-MessageThread& MessageThread::operator =(const MessageThread& thread)
+MessageThread& MessageThread::operator = ( const MessageThread& thread )
 {
-    this->id=thread.getId();
-    this->number=thread.getNumber();
-    this->timeStamp=thread.getTimeStamp();
-    this->lastBody=thread.getLastBody();
-    this->messageCount=thread.getMessageCount();
-    this->read=thread.getRead();
-    this->contactName=thread.getContactName();
+    this->id = thread.getId();
+    this->number = thread.getNumber();
+    this->timeStamp = thread.getTimeStamp();
+    this->lastBody = thread.getLastBody();
+    this->messageCount = thread.getMessageCount();
+    this->read = thread.getRead();
+    this->contactName = thread.getContactName();
     return *this;
 }
 
-void MessageThreadModel::markAsRead(QString id)
+void MessageThreadModel::markAsRead ( QString id )
 {
     int i;
     MessageThread thread;
-
-    for(i = 0; i < this->threads.count() ; i++)
+    for ( i = 0; i < this->threads.count() ; i++ )
     {
-        if (this->threads[i].getId()==id)
+        if ( this->threads[i].getId() == id )
         {
             thread = this->threads[i];
             break;
         }
     }
-
-    beginRemoveRows(QModelIndex(), i, i);
-    this->threads.removeAt(i);
+    beginRemoveRows ( QModelIndex(), i, i );
+    this->threads.removeAt ( i );
     endRemoveRows();
-
-    addThread(MessageThread(id,thread.getNumber(),thread.getTimeStamp(),"1",thread.getLastBody(),thread.getMessageCount(),thread.getContactName()));
+    addThread ( MessageThread ( id, thread.getNumber(), thread.getTimeStamp(), "1", thread.getLastBody(), thread.getMessageCount(), thread.getContactName() ) );
 }
 
-MessageThread MessageThreadModel::getThread(QString threadId)
+MessageThread MessageThreadModel::getThread ( QString threadId )
 {
-    threadId.remove("^");
-    threadId.remove("$");
-    foreach (MessageThread thread, this->threads)
+    threadId.remove ( "^" );
+    threadId.remove ( "$" );
+    foreach ( MessageThread thread, this->threads )
     {
-        if (thread.getId() == threadId)
+        if ( thread.getId() == threadId )
             return thread;
     }
     return MessageThread();
 }
 
-QString MessageThreadModel::getThreadID(QString number)
+QString MessageThreadModel::getThreadID ( QString number )
 {
     /*
     foreach (MessageThread thread, this->threads)
@@ -128,32 +125,29 @@ QString MessageThreadModel::getThreadID(QString number)
     return QString();
 }
 
-void MessageThreadModel::updateThread(QString id, QString timestamp,QString lastBody, QString messageCount, QString read)
+void MessageThreadModel::updateThread ( QString id, QString timestamp, QString lastBody, QString messageCount, QString read )
 {
     int i;
     MessageThread thread;
-
-    for(i = 0; i < this->threads.count() ; i++)
+    for ( i = 0; i < this->threads.count() ; i++ )
     {
-        if (this->threads[i].getId()==id)
+        if ( this->threads[i].getId() == id )
         {
             thread = this->threads[i];
             break;
         }
     }
-
-    beginRemoveRows(QModelIndex(), i, i);
-    this->threads.removeAt(i);
+    beginRemoveRows ( QModelIndex(), i, i );
+    this->threads.removeAt ( i );
     endRemoveRows();
-
-    addThread(MessageThread(id,thread.getNumber(),timestamp,read,lastBody,QString::number(thread.getMessageCount().toInt()+1),thread.getContactName()));
+    addThread ( MessageThread ( id, thread.getNumber(), timestamp, read, lastBody, QString::number ( thread.getMessageCount().toInt() + 1 ), thread.getContactName() ) );
 }
 
-bool MessageThreadModel::exists(QString threadID)
+bool MessageThreadModel::exists ( QString threadID )
 {
-    foreach(MessageThread thread,this->threads)
+    foreach ( MessageThread thread, this->threads )
     {
-        if (thread.getId() == threadID)
+        if ( thread.getId() == threadID )
             return true;
     }
     return false;
@@ -161,9 +155,9 @@ bool MessageThreadModel::exists(QString threadID)
 
 bool MessageThreadModel::clear()
 {
-    if (!this->threads.isEmpty())
+    if ( !this->threads.isEmpty() )
     {
-        beginRemoveRows(QModelIndex(), 0, this->threads.size()-1);
+        beginRemoveRows ( QModelIndex(), 0, this->threads.size() - 1 );
         this->threads.clear();
         endRemoveRows();
         return true;
@@ -171,10 +165,9 @@ bool MessageThreadModel::clear()
     return false;
 }
 
-MessageThreadModel::MessageThreadModel(QObject *parent)
-    : QAbstractListModel(parent)
+MessageThreadModel::MessageThreadModel ( QObject *parent )
+    : QAbstractListModel ( parent )
 {
-
 }
 
 QHash<int, QByteArray> MessageThreadModel::roleNames()
@@ -190,37 +183,36 @@ QHash<int, QByteArray> MessageThreadModel::roleNames()
     return roles;
 }
 
-void MessageThreadModel::addThread(const MessageThread &thread)
+void MessageThreadModel::addThread ( const MessageThread &thread )
 {
-    beginInsertRows(QModelIndex(), rowCount(), rowCount());
+    beginInsertRows ( QModelIndex(), rowCount(), rowCount() );
     this->threads << thread;
     endInsertRows();
 }
 
-int MessageThreadModel::rowCount(const QModelIndex & parent) const
+int MessageThreadModel::rowCount ( const QModelIndex & parent ) const
 {
     return this->threads.count();
 }
 
-QVariant MessageThreadModel::data(const QModelIndex & index, int role) const
+QVariant MessageThreadModel::data ( const QModelIndex & index, int role ) const
 {
-    if (index.row() < 0 || index.row() > threads.count())
+    if ( index.row() < 0 || index.row() > threads.count() )
         return QVariant();
-
-    const MessageThread &thread= this->threads[index.row()];
-    if (role == ThreadIdRole)
+    const MessageThread &thread = this->threads[index.row()];
+    if ( role == ThreadIdRole )
         return thread.getId();
-    else if (role == MessageCountRole)
+    else if ( role == MessageCountRole )
         return thread.getMessageCount();
-    else if (role == TimeStampRole)
+    else if ( role == TimeStampRole )
         return thread.getTimeStamp();
-    else if (role == NumberRole)
+    else if ( role == NumberRole )
         return thread.getNumber();
-    else if (role == LastBodyRole)
+    else if ( role == LastBodyRole )
         return thread.getLastBody();
-    else if (role == ReadRole)
+    else if ( role == ReadRole )
         return thread.getRead();
-    else if (role == ContactNameRole)
+    else if ( role == ContactNameRole )
         return thread.getContactName();
     return QVariant();
 }

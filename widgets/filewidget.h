@@ -1,3 +1,6 @@
+#ifndef HEADER_1A8AAF7021BA4BEE
+#define HEADER_1A8AAF7021BA4BEE
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -32,7 +35,7 @@
 #include <QtGui>
 
 namespace Ui {
-    class FileWidget;
+class FileWidget;
 }
 
 class ThreadFind : public QThread
@@ -45,7 +48,7 @@ public:
     QString sdk;
 
 signals:
-    void foundFile(File);
+    void foundFile ( File );
     void finished();
 };
 
@@ -54,10 +57,10 @@ class FileWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit FileWidget(QWidget *parent = 0, SettingsWidget * settings = NULL);
+    explicit FileWidget ( QWidget *parent = 0, SettingsWidget * settings = NULL );
     ~FileWidget();
-    static QString humanReadableSize(QString size);
-    static bool unpack(QString inFile,QString outPath,QString fileToUnpack,QString outName);
+    static QString humanReadableSize ( QString size );
+    static bool unpack ( QString inFile, QString outPath, QString fileToUnpack, QString outName );
     Phone *phone;
     Computer *computer;
     SettingsWidget *settings;
@@ -73,10 +76,10 @@ public:
     MyTableView *rightTableView;
     MyTableView *leftTableView;
 protected:
-    void changeEvent(QEvent *e);
-    virtual void keyPressEvent( QKeyEvent *e );
-    void resizeEvent(QResizeEvent *e);
-    void mousePressEvent(QMouseEvent *e);
+    void changeEvent ( QEvent *e );
+    virtual void keyPressEvent ( QKeyEvent *e );
+    void resizeEvent ( QResizeEvent *e );
+    void mousePressEvent ( QMouseEvent *e );
 private:
     QString leftMode;
     appInfo *appInfoDialog;
@@ -89,8 +92,8 @@ private:
     bool alwaysCloseCopy;
     QAction *actionAppInfo;
 
-    QList<File> *computerFilesToCopy(QList<File> * fileList);
-    QList<File> *phoneFilesToCopy(QList<File> * fileList, Phone *phone);
+    QList<File> *computerFilesToCopy ( QList<File> * fileList );
+    QList<File> *phoneFilesToCopy ( QList<File> * fileList, Phone *phone );
 
     QString renameOldName;
     bool rightChangeName;
@@ -113,17 +116,17 @@ private:
 public slots:
     void rightDisplay();
     void leftDisplay();
-    static App * getAppInfo(QString filePath);
+    static App * getAppInfo ( QString filePath );
 
 private slots:
     void on_pushButton_pressed();
-    void foundFile(File);
+    void foundFile ( File );
     void findFinished();
     void on_toolButtonFind_pressed();
     void showAppInfo();
 
-    void setLeftFilter(QString);
-    void setRightFilter(QString);
+    void setLeftFilter ( QString );
+    void setRightFilter ( QString );
 
     void leftDoubleClick();
     void rightDoubleClick();
@@ -152,20 +155,20 @@ private slots:
     void computerNewDir();
     void computerDelete();
     void computerHiddenFiles();
-    void computerRenameSlot(QModelIndex indexS, QModelIndex indexE);
-    void computerDisplay(QTableWidget*);
-    void computerContextMenu(const QPoint&,QTableView*);
+    void computerRenameSlot ( QModelIndex indexS, QModelIndex indexE );
+    void computerDisplay ( QTableWidget* );
+    void computerContextMenu ( const QPoint&, QTableView* );
     void installAppFromComputer();
 
     void rightRefresh();
     void rightSelectAll();
     void rightSelectedCount();
-    void rightContextMenu(const QPoint&);
+    void rightContextMenu ( const QPoint& );
 
     void leftSelectAll();
     void leftRefresh();
     void leftSelectedCount();
-    void leftContextMenu(const QPoint&);
+    void leftContextMenu ( const QPoint& );
 
     void phoneGoToDir();
     void phoneRename();
@@ -173,25 +176,27 @@ private slots:
     void phoneNewDir();
     void phoneDelete();
     void phoneHiddenFiles();
-    void phoneRenameSlot(QModelIndex indexS, QModelIndex indexE);
-    void phoneDisplay(QTableView*);
-    void phoneContextMenu(const QPoint&,QTableView*);
+    void phoneRenameSlot ( QModelIndex indexS, QModelIndex indexE );
+    void phoneDisplay ( QTableView* );
+    void phoneContextMenu ( const QPoint&, QTableView* );
 
     void phoneOpenInNewTab();
     void rightTabBarPageChanged();
-    void rightTabBarCloseTab(int);
+    void rightTabBarCloseTab ( int );
 
     void computerOpenInNewTab();
     void leftTabBarPageChanged();
-    void leftTabBarCloseTab(int);
+    void leftTabBarCloseTab ( int );
 
-    void copySlotToComputer(QStringList list);
-    void copySlotToPhone(QStringList list);
-    void copySlotToPhoneLeft(QStringList list);
+    void copySlotToComputer ( QStringList list );
+    void copySlotToPhone ( QStringList list );
+    void copySlotToPhoneLeft ( QStringList list );
 signals:
-    void phoneConnectionChanged(int);
-    void progressValue(int value, int max);
-    void copyFinished(int);
+    void phoneConnectionChanged ( int );
+    void progressValue ( int value, int max );
+    void copyFinished ( int );
 };
 
 #endif // FILEWIDGET_H
+#endif // header guard 
+

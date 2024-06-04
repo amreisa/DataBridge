@@ -20,12 +20,12 @@
 
 #include "contactmodel.h"
 
-Contact::Contact(const QString id, const QString number, const QString name)
+Contact::Contact ( const QString id, const QString number, const QString name )
 {
     this->id = id;
     this->name = name;
     this->number = number;
-    this->number.remove(QRegExp("\\s+$"));
+    this->number.remove ( QRegExp ( "\\s+$" ) );
 }
 
 QString Contact::getId() const
@@ -43,33 +43,33 @@ QString Contact::getName() const
     return this->name;
 }
 
-QString ContactModel::getNumber(QString name)
+QString ContactModel::getNumber ( QString name )
 {
-    for (int i = 0 ; this->contacts.length() > i ; i++)
+    for ( int i = 0 ; this->contacts.length() > i ; i++ )
     {
-        if (this->contacts.at(i).getName() == name)
-            return this->contacts.at(i).getNumber();
+        if ( this->contacts.at ( i ).getName() == name )
+            return this->contacts.at ( i ).getNumber();
     }
     return "error";
 }
 
-QString ContactModel::getName(QString number)
+QString ContactModel::getName ( QString number )
 {
-    for (int i = 0 ; this->contacts.length() > i ; i++)
+    for ( int i = 0 ; this->contacts.length() > i ; i++ )
     {
-        QString tmp=number.remove(" ").right(9);
-        QString tmp2=this->contacts.at(i).getNumber().remove(" ").right(9);
-        if (tmp == tmp2)
-            return this->contacts.at(i).getName();
+        QString tmp = number.remove ( " " ).right ( 9 );
+        QString tmp2 = this->contacts.at ( i ).getNumber().remove ( " " ).right ( 9 );
+        if ( tmp == tmp2 )
+            return this->contacts.at ( i ).getName();
     }
     return number;
 }
 
 bool ContactModel::clear()
 {
-    if (!this->contacts.isEmpty())
+    if ( !this->contacts.isEmpty() )
     {
-        beginRemoveRows(QModelIndex(), 0, this->contacts.size()-1);
+        beginRemoveRows ( QModelIndex(), 0, this->contacts.size() - 1 );
         this->contacts.clear();
         endRemoveRows();
         return true;
@@ -77,8 +77,8 @@ bool ContactModel::clear()
     return false;
 }
 
-ContactModel::ContactModel(QObject *parent)
-    : QAbstractListModel(parent)
+ContactModel::ContactModel ( QObject *parent )
+    : QAbstractListModel ( parent )
 {
 }
 
@@ -91,29 +91,28 @@ QHash<int, QByteArray> ContactModel::roleNames()
     return roles;
 }
 
-void ContactModel::addContact(const Contact &contact)
+void ContactModel::addContact ( const Contact &contact )
 {
-    beginInsertRows(QModelIndex(), rowCount(), rowCount());
+    beginInsertRows ( QModelIndex(), rowCount(), rowCount() );
     this->contacts << contact;
     endInsertRows();
 }
 
-int ContactModel::rowCount(const QModelIndex & parent) const
+int ContactModel::rowCount ( const QModelIndex & parent ) const
 {
     return this->contacts.count();
 }
 
-QVariant ContactModel::data(const QModelIndex & index, int role) const
+QVariant ContactModel::data ( const QModelIndex & index, int role ) const
 {
-    if (index.row() < 0 || index.row() > contacts.count())
+    if ( index.row() < 0 || index.row() > contacts.count() )
         return QVariant();
-
-    const Contact &contact= this->contacts[index.row()];
-    if (role == IdRole)
+    const Contact &contact = this->contacts[index.row()];
+    if ( role == IdRole )
         return contact.getId();
-    else if (role == NumberRole)
+    else if ( role == NumberRole )
         return contact.getNumber();
-    else if (role == NameRole)
+    else if ( role == NameRole )
         return contact.getName();
     return QVariant();
 }

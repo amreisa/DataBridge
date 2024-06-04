@@ -1,3 +1,6 @@
+#ifndef HEADER_27E9F0CAB2A28FAE
+#define HEADER_27E9F0CAB2A28FAE
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -56,12 +59,12 @@ using namespace std;
 
 namespace Ui
 {
-    class MainWindow;
+class MainWindow;
 }
 
-class Action{
+class Action {
 public:
-    enum Flags{
+    enum Flags {
         Disconnected = 1,
         Device = 2,
         Recovery = 4,
@@ -79,30 +82,30 @@ public:
 class MainWindow : public QMainWindow {
     Q_OBJECT
 public:
-    MainWindow(QWidget *parent = 0);
+    MainWindow ( QWidget *parent = 0 );
     ~MainWindow();
 
 protected:
-    void changeEvent(QEvent *e);
-    void resizeEvent(QResizeEvent *e);
-    bool eventFilter(QObject *object, QEvent *event);
-    virtual void keyPressEvent( QKeyEvent *e );
+    void changeEvent ( QEvent *e );
+    void resizeEvent ( QResizeEvent *e );
+    bool eventFilter ( QObject *object, QEvent *event );
+    virtual void keyPressEvent ( QKeyEvent *e );
 
-    void mousePressEvent(QMouseEvent*);
+    void mousePressEvent ( QMouseEvent* );
 #ifdef WIN7PROGRESS
-    virtual bool winEvent(MSG *message, long *result);
+    virtual bool winEvent ( MSG *message, long *result );
 #endif
 private:
     Ui::MainWindow *ui;
     EcWin7 win7;
 
-//dialogs
+    //dialogs
     ConnectWifi *connectWifiDialog;
     AboutDialog aboutDialog;
     LogcatDialog *logcatDialog;
 
     UpdateApp updateApp;
-//widgets
+    //widgets
     SettingsWidget *settingsWidget;
     FileWidget *fileWidget;
     ShellWidget *shellWidget;
@@ -134,8 +137,8 @@ private:
     QToolButton * buttonPageInfo;
     QAction * actionPageInfo;
 
-    bool verifyKey(QString email,QString key);
-    bool verifyRegistered(QString email);
+    bool verifyKey ( QString email, QString key );
+    bool verifyRegistered ( QString email );
 
 public slots:
 
@@ -143,7 +146,7 @@ public slots:
 
 private slots:
 
-    void phoneConnectionChanged(int);
+    void phoneConnectionChanged ( int );
     //apps
 
     void on_actionO_programie_triggered();
@@ -160,9 +163,9 @@ private slots:
     void showPageDisconnected();
 
     void animationFinished();
-    void startAnimation(QWidget *target);
+    void startAnimation ( QWidget *target );
 
-//wifi/usb
+    //wifi/usb
     void restartInWifi();
     void restartInUsb();
     void connectWifi();
@@ -172,25 +175,25 @@ private slots:
     void installBusyBox();
 
 
-    void setLanguageDir(QAction* action);
-    void setLanguageRes(QAction* action);
+    void setLanguageDir ( QAction* action );
+    void setLanguageRes ( QAction* action );
     void fillLanguages();
 
     //updates
     void updatesCheck();
-    void updatesCheckFinished(bool, QString, QString);
+    void updatesCheckFinished ( bool, QString, QString );
 
     void showLogcat();
-    void smsReceived(QString number, QString body);
-    void smsResult(QString result);
+    void smsReceived ( QString number, QString body );
+    void smsResult ( QString result );
 
-    void systemTrayActivated(QSystemTrayIcon::ActivationReason);
+    void systemTrayActivated ( QSystemTrayIcon::ActivationReason );
 
-    void addButton(QIcon icon, QString textTr, QString text, const char * method, int flags);
+    void addButton ( QIcon icon, QString textTr, QString text, const char * method, int flags );
     void changeToolBar();
-    void setButtonDown(int number);
-    void disableActions(Action::Flags);
-    void setProgressValue(int value, int max);
+    void setButtonDown ( int number );
+    void disableActions ( Action::Flags );
+    void setProgressValue ( int value, int max );
     void setProgressDisable();
 
     void donateMessage();
@@ -198,3 +201,5 @@ private slots:
 };
 
 #endif // MAINWINDOW_H
+#endif // header guard
+

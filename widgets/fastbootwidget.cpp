@@ -24,23 +24,20 @@
 #include <QFileDialog>
 #include <QMessageBox>
 
-FastbootWidget::FastbootWidget(QWidget *parent,Phone *phone) :
-    QWidget(parent),
-    ui(new Ui::FastbootWidget)
+FastbootWidget::FastbootWidget ( QWidget *parent, Phone *phone ) :
+    QWidget ( parent ),
+    ui ( new Ui::FastbootWidget )
 {
-    ui->setupUi(this);
-
-    this->setLayout(this->ui->layoutFastboot);
-    this->phone=phone;
-
+    ui->setupUi ( this );
+    this->setLayout ( this->ui->layoutFastboot );
+    this->phone = phone;
     QSettings settings;
-    this->sdk=settings.value("sdkPath").toString();
-
-    connect(this->ui->buttonBootIMG, SIGNAL(clicked()), this, SLOT(bootIMG()));
-    connect(this->ui->buttonFlashRadio, SIGNAL(clicked()), this, SLOT(flashRadio()));
-    connect(this->ui->buttonFlashRecovery, SIGNAL(clicked()), this, SLOT(flashRecovery()));
-    connect(this->ui->buttonFlashSPL, SIGNAL(clicked()), this, SLOT(flashSPL()));
-    connect(this->ui->buttonFlashZip, SIGNAL(clicked()), this, SLOT(flashZip()));
+    this->sdk = settings.value ( "sdkPath" ).toString();
+    connect ( this->ui->buttonBootIMG, SIGNAL ( clicked() ), this, SLOT ( bootIMG() ) );
+    connect ( this->ui->buttonFlashRadio, SIGNAL ( clicked() ), this, SLOT ( flashRadio() ) );
+    connect ( this->ui->buttonFlashRecovery, SIGNAL ( clicked() ), this, SLOT ( flashRecovery() ) );
+    connect ( this->ui->buttonFlashSPL, SIGNAL ( clicked() ), this, SLOT ( flashSPL() ) );
+    connect ( this->ui->buttonFlashZip, SIGNAL ( clicked() ), this, SLOT ( flashZip() ) );
 }
 
 FastbootWidget::~FastbootWidget()
@@ -64,29 +61,29 @@ void FastbootWidget::bootIMG()
 {
     QString output;
     QProcess fastboot;
-    fastboot.setProcessChannelMode(QProcess::MergedChannels);
-    fastboot.start("\"" + this->sdk + "\"fastboot devices");
+    fastboot.setProcessChannelMode ( QProcess::MergedChannels );
+    fastboot.start ( "\"" + this->sdk + "\"fastboot devices" );
     fastboot.waitForFinished();
     output = fastboot.readAll();
-    if (output.contains("fastboot"))
+    if ( output.contains ( "fastboot" ) )
     {
-        QProcess *process=new QProcess();
-        process->setProcessChannelMode(QProcess::MergedChannels);
+        QProcess *process = new QProcess();
+        process->setProcessChannelMode ( QProcess::MergedChannels );
         QString tmp;
-        QString imgFileName = QFileDialog::getOpenFileName(this, tr("Choose img file..."), ".", tr("IMG File ")+"(*.img)");
-        if (!imgFileName.isEmpty())
+        QString imgFileName = QFileDialog::getOpenFileName ( this, tr ( "Choose img file..." ), ".", tr ( "IMG File " ) + "(*.img)" );
+        if ( !imgFileName.isEmpty() )
         {
-            process->start("\"" + sdk + "\"fastboot boot " + imgFileName);
-            process->waitForFinished(-1);
+            process->start ( "\"" + sdk + "\"fastboot boot " + imgFileName );
+            process->waitForFinished ( -1 );
             process->terminate();
         }
         else
-            QMessageBox::warning(this, "Error!", "Operation cancelled!", QMessageBox::Ok);
+            QMessageBox::warning ( this, "Error!", "Operation cancelled!", QMessageBox::Ok );
         delete process;
     }
     else
     {
-        this->phone->slotConnectionChanged(FASTBOOT,this->phone->serialNumber);
+        this->phone->slotConnectionChanged ( FASTBOOT, this->phone->serialNumber );
     }
 }
 
@@ -94,34 +91,34 @@ void FastbootWidget::flashSPL()
 {
     QString output;
     QProcess fastboot;
-    fastboot.setProcessChannelMode(QProcess::MergedChannels);
-    fastboot.start("\"" + this->sdk + "\"fastboot devices");
+    fastboot.setProcessChannelMode ( QProcess::MergedChannels );
+    fastboot.start ( "\"" + this->sdk + "\"fastboot devices" );
     fastboot.waitForFinished();
     output = fastboot.readAll();
-    if (output.contains("fastboot"))
+    if ( output.contains ( "fastboot" ) )
     {
-        QProcess *process=new QProcess();
-        process->setProcessChannelMode(QProcess::MergedChannels);
+        QProcess *process = new QProcess();
+        process->setProcessChannelMode ( QProcess::MergedChannels );
         QString tmp;
-        QString imgFileName = QFileDialog::getOpenFileName(this, tr("Choose hboot img file..."), ".", tr("IMG File ")+"(*.img)");
-        if (!imgFileName.isEmpty())
+        QString imgFileName = QFileDialog::getOpenFileName ( this, tr ( "Choose hboot img file..." ), ".", tr ( "IMG File " ) + "(*.img)" );
+        if ( !imgFileName.isEmpty() )
         {
-            process->start("\"" + sdk + "\"fastboot flash hboot " + imgFileName);
-            process->waitForFinished(-1);
+            process->start ( "\"" + sdk + "\"fastboot flash hboot " + imgFileName );
+            process->waitForFinished ( -1 );
             tmp = process->readAll();
-            if (tmp.contains("error"))
-                QMessageBox::warning(this, tr("Error!"), tmp, QMessageBox::Ok);
+            if ( tmp.contains ( "error" ) )
+                QMessageBox::warning ( this, tr ( "Error!" ), tmp, QMessageBox::Ok );
             else
-                QMessageBox::information(this, tr("Success!"), tmp, QMessageBox::Ok);
+                QMessageBox::information ( this, tr ( "Success!" ), tmp, QMessageBox::Ok );
             process->terminate();
         }
         else
-            QMessageBox::warning(this, tr("Error!"), tr("Operation cancelled!"), QMessageBox::Ok);
+            QMessageBox::warning ( this, tr ( "Error!" ), tr ( "Operation cancelled!" ), QMessageBox::Ok );
         delete process;
     }
     else
     {
-        this->phone->slotConnectionChanged(FASTBOOT,this->phone->serialNumber);
+        this->phone->slotConnectionChanged ( FASTBOOT, this->phone->serialNumber );
     }
 }
 
@@ -129,34 +126,34 @@ void FastbootWidget::flashRadio()
 {
     QString output;
     QProcess fastboot;
-    fastboot.setProcessChannelMode(QProcess::MergedChannels);
-    fastboot.start("\"" + this->sdk + "\"fastboot devices");
+    fastboot.setProcessChannelMode ( QProcess::MergedChannels );
+    fastboot.start ( "\"" + this->sdk + "\"fastboot devices" );
     fastboot.waitForFinished();
     output = fastboot.readAll();
-    if (output.contains("fastboot"))
+    if ( output.contains ( "fastboot" ) )
     {
-        QProcess *process=new QProcess();
-        process->setProcessChannelMode(QProcess::MergedChannels);
+        QProcess *process = new QProcess();
+        process->setProcessChannelMode ( QProcess::MergedChannels );
         QString tmp;
-        QString imgFileName = QFileDialog::getOpenFileName(this, tr("Choose radio img file..."), ".", tr("IMG File ")+"(*.img)");
-        if (!imgFileName.isEmpty())
+        QString imgFileName = QFileDialog::getOpenFileName ( this, tr ( "Choose radio img file..." ), ".", tr ( "IMG File " ) + "(*.img)" );
+        if ( !imgFileName.isEmpty() )
         {
-            process->start("\"" + sdk + "\"fastboot flash radio " + imgFileName);
-            process->waitForFinished(-1);
+            process->start ( "\"" + sdk + "\"fastboot flash radio " + imgFileName );
+            process->waitForFinished ( -1 );
             tmp = process->readAll();
-            if (tmp.contains("error"))
-                QMessageBox::warning(this, tr("Error!"), tmp, QMessageBox::Ok);
+            if ( tmp.contains ( "error" ) )
+                QMessageBox::warning ( this, tr ( "Error!" ), tmp, QMessageBox::Ok );
             else
-                QMessageBox::information(this, tr("Success!"), tmp, QMessageBox::Ok);
+                QMessageBox::information ( this, tr ( "Success!" ), tmp, QMessageBox::Ok );
             process->terminate();
         }
         else
-            QMessageBox::warning(this, tr("Error!"), tr("Operation cancelled!"), QMessageBox::Ok);
+            QMessageBox::warning ( this, tr ( "Error!" ), tr ( "Operation cancelled!" ), QMessageBox::Ok );
         delete process;
     }
     else
     {
-        this->phone->slotConnectionChanged(FASTBOOT,this->phone->serialNumber);
+        this->phone->slotConnectionChanged ( FASTBOOT, this->phone->serialNumber );
     }
 }
 
@@ -164,34 +161,34 @@ void FastbootWidget::flashRecovery()
 {
     QString output;
     QProcess fastboot;
-    fastboot.setProcessChannelMode(QProcess::MergedChannels);
-    fastboot.start("\"" + this->sdk + "\"fastboot devices");
+    fastboot.setProcessChannelMode ( QProcess::MergedChannels );
+    fastboot.start ( "\"" + this->sdk + "\"fastboot devices" );
     fastboot.waitForFinished();
     output = fastboot.readAll();
-    if (output.contains("fastboot"))
+    if ( output.contains ( "fastboot" ) )
     {
-        QProcess *process=new QProcess();
-        process->setProcessChannelMode(QProcess::MergedChannels);
+        QProcess *process = new QProcess();
+        process->setProcessChannelMode ( QProcess::MergedChannels );
         QString tmp;
-        QString imgFileName = QFileDialog::getOpenFileName(this, tr("Choose recovery img file..."), ".", tr("IMG File ")+"(*.img)");
-        if (!imgFileName.isEmpty())
+        QString imgFileName = QFileDialog::getOpenFileName ( this, tr ( "Choose recovery img file..." ), ".", tr ( "IMG File " ) + "(*.img)" );
+        if ( !imgFileName.isEmpty() )
         {
-            process->start("\"" + sdk + "\"fastboot flash recovery " + imgFileName);
-            process->waitForFinished(-1);
+            process->start ( "\"" + sdk + "\"fastboot flash recovery " + imgFileName );
+            process->waitForFinished ( -1 );
             tmp = process->readAll();
-            if (tmp.contains("error"))
-                QMessageBox::warning(this, tr("Error!"), tmp, QMessageBox::Ok);
+            if ( tmp.contains ( "error" ) )
+                QMessageBox::warning ( this, tr ( "Error!" ), tmp, QMessageBox::Ok );
             else
-                QMessageBox::information(this, tr("Success!"), tmp, QMessageBox::Ok);
+                QMessageBox::information ( this, tr ( "Success!" ), tmp, QMessageBox::Ok );
             process->terminate();
         }
         else
-            QMessageBox::warning(this, tr("Error!"), tr("Operation cancelled!"), QMessageBox::Ok);
+            QMessageBox::warning ( this, tr ( "Error!" ), tr ( "Operation cancelled!" ), QMessageBox::Ok );
         delete process;
     }
     else
     {
-        this->phone->slotConnectionChanged(FASTBOOT,this->phone->serialNumber);
+        this->phone->slotConnectionChanged ( FASTBOOT, this->phone->serialNumber );
     }
 }
 
@@ -199,33 +196,33 @@ void FastbootWidget::flashZip()
 {
     QString output;
     QProcess fastboot;
-    fastboot.setProcessChannelMode(QProcess::MergedChannels);
-    fastboot.start("\"" + this->sdk + "\"fastboot devices");
+    fastboot.setProcessChannelMode ( QProcess::MergedChannels );
+    fastboot.start ( "\"" + this->sdk + "\"fastboot devices" );
     fastboot.waitForFinished();
     output = fastboot.readAll();
-    if (output.contains("fastboot"))
+    if ( output.contains ( "fastboot" ) )
     {
-        QProcess *process=new QProcess();
-        process->setProcessChannelMode(QProcess::MergedChannels);
+        QProcess *process = new QProcess();
+        process->setProcessChannelMode ( QProcess::MergedChannels );
         QString tmp;
-        QString imgFileName = QFileDialog::getOpenFileName(this, tr("Choose zipped img file..."), ".", tr("IMG File ")+"(*.zip)");
-        if (!imgFileName.isEmpty())
+        QString imgFileName = QFileDialog::getOpenFileName ( this, tr ( "Choose zipped img file..." ), ".", tr ( "IMG File " ) + "(*.zip)" );
+        if ( !imgFileName.isEmpty() )
         {
-            process->start("\"" + sdk + "\"fastboot flash zip " + imgFileName);
-            process->waitForFinished(-1);
+            process->start ( "\"" + sdk + "\"fastboot flash zip " + imgFileName );
+            process->waitForFinished ( -1 );
             tmp = process->readAll();
-            if (tmp.contains("error"))
-                QMessageBox::warning(this, tr("Error!"), tmp, QMessageBox::Ok);
+            if ( tmp.contains ( "error" ) )
+                QMessageBox::warning ( this, tr ( "Error!" ), tmp, QMessageBox::Ok );
             else
-                QMessageBox::information(this, tr("Success!"), tmp, QMessageBox::Ok);
+                QMessageBox::information ( this, tr ( "Success!" ), tmp, QMessageBox::Ok );
             process->terminate();
         }
         else
-            QMessageBox::warning(this, tr("Error!"), tr("Operation cancelled!"), QMessageBox::Ok);
+            QMessageBox::warning ( this, tr ( "Error!" ), tr ( "Operation cancelled!" ), QMessageBox::Ok );
         delete process;
     }
     else
     {
-        this->phone->slotConnectionChanged(FASTBOOT,this->phone->serialNumber);
+        this->phone->slotConnectionChanged ( FASTBOOT, this->phone->serialNumber );
     }
 }

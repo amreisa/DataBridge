@@ -1,3 +1,6 @@
+#ifndef HEADER_F9028449BCC8E470
+#define HEADER_F9028449BCC8E470
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -31,11 +34,11 @@ class LogcatDialog : public QDialog, public Ui::LogcatDialog
     Q_OBJECT
 
 public:
-    LogcatDialog(QWidget *parent = 0);
+    LogcatDialog ( QWidget *parent = 0 );
     ~LogcatDialog();
 
 protected:
-    void closeEvent(QCloseEvent *event);
+    void closeEvent ( QCloseEvent *event );
 
 private:
     QProcess *proces;
@@ -52,10 +55,12 @@ public slots:
 private slots:
     void on_pushButtonClearLogcat_pressed();
     void on_spinBoxBufferLimit_editingFinished();
-    void on_checkBoxAutoScroll_toggled(bool checked);
-    void showContextMenu(QPoint point);
+    void on_checkBoxAutoScroll_toggled ( bool checked );
+    void showContextMenu ( QPoint point );
     void copySelectedToClipboard();
     void exportSelectedToFile();
 };
 
 #endif // LOGCATDIALOG_H
+#endif // header guard
+

@@ -1,3 +1,6 @@
+#ifndef HEADER_695100627C48073B
+#define HEADER_695100627C48073B
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -26,7 +29,7 @@
 #include <QSettings>
 
 namespace Ui {
-    class RegisterDialog;
+class RegisterDialog;
 }
 
 class RegisterDialog : public QDialog
@@ -34,13 +37,13 @@ class RegisterDialog : public QDialog
     Q_OBJECT
 
 public:
-    RegisterDialog(QWidget *parent,QStringList accountList);
+    RegisterDialog ( QWidget *parent, QStringList accountList );
     ~RegisterDialog();
     bool registered;
 
 private slots:
-    void on_lineEdit_textChanged(QString );
-    bool verifyKey(QString key);
+    void on_lineEdit_textChanged ( QString );
+    bool verifyKey ( QString key );
 
     void on_pushButton_pressed();
 
@@ -50,3 +53,5 @@ private:
 };
 
 #endif // REGISTERDIALOG_H
+#endif // header guard
+

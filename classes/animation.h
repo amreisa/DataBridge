@@ -1,3 +1,6 @@
+#ifndef HEADER_940367A02C8ACBB6
+#define HEADER_940367A02C8ACBB6
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -33,13 +36,13 @@ class Animation
 {
 public:
     Animation();
-    void setDuration(int duration);
-    void setDirection(int direction);
-    void setAnimationCurve(int animationCurve);
+    void setDuration ( int duration );
+    void setDirection ( int direction );
+    void setAnimationCurve ( int animationCurve );
     bool isRunning();
     void End();
-    void setPrameters(int duration,int direction,int animationCurve);
-    void start(QWidget *target,QWidget *current);
+    void setPrameters ( int duration, int direction, int animationCurve );
+    void start ( QWidget *target, QWidget *current );
     QPropertyAnimation animation;
     QPropertyAnimation animation2;
 
@@ -50,3 +53,5 @@ private:
 };
 
 #endif // ANIMATION_H
+#endif // header guard 
+

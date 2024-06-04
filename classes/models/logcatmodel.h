@@ -1,3 +1,6 @@
+#ifndef HEADER_8781C129543B2B14
+#define HEADER_8781C129543B2B14
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -23,42 +26,42 @@
 
 #include <QtGui>
 
-class LogcatMessage : public QObject{
+class LogcatMessage : public QObject {
 public:
-    LogcatMessage(QObject *parent=0);
-    LogcatMessage(const LogcatMessage&);
+    LogcatMessage ( QObject *parent = 0 );
+    LogcatMessage ( const LogcatMessage& );
     QString type;
     QString pid;
     QString sender;
     QString message;
     QString timestamp;
-//    QString number;
-    LogcatMessage& operator =(const LogcatMessage&);
+    //    QString number;
+    LogcatMessage& operator = ( const LogcatMessage& );
 };
 
 
-Q_DECLARE_METATYPE(LogcatMessage)
+Q_DECLARE_METATYPE ( LogcatMessage )
 
 class LogcatModel : public QAbstractTableModel
 {
     Q_OBJECT
 
 public:
-    LogcatModel(QObject *parent=0);
-    LogcatModel(QList< LogcatMessage > fileList, QObject *parent=0);
+    LogcatModel ( QObject *parent = 0 );
+    LogcatModel ( QList< LogcatMessage > fileList, QObject *parent = 0 );
 
-    int rowCount(const QModelIndex &parent) const;
+    int rowCount ( const QModelIndex &parent ) const;
     int rowCount();
-    int columnCount(const QModelIndex &parent) const;
-    QVariant data(const QModelIndex &index, int role) const;
-    QVariant headerData(int section, Qt::Orientation orientation, int role) const;
-    Qt::ItemFlags flags(const QModelIndex &index) const;
-    bool setData(const QModelIndex &index, const QVariant &value, int role=Qt::EditRole);
-    bool insertMessage(int position, LogcatMessage logcatMessage);
-    bool insertMessage(LogcatMessage logcatMessage);
-    bool insertRows(int position, int rows, const QModelIndex &index=QModelIndex());
-    bool removeRows(int position, int rows, const QModelIndex &index=QModelIndex());
-    LogcatMessage getRow(int row);
+    int columnCount ( const QModelIndex &parent ) const;
+    QVariant data ( const QModelIndex &index, int role ) const;
+    QVariant headerData ( int section, Qt::Orientation orientation, int role ) const;
+    Qt::ItemFlags flags ( const QModelIndex &index ) const;
+    bool setData ( const QModelIndex &index, const QVariant &value, int role = Qt::EditRole );
+    bool insertMessage ( int position, LogcatMessage logcatMessage );
+    bool insertMessage ( LogcatMessage logcatMessage );
+    bool insertRows ( int position, int rows, const QModelIndex &index = QModelIndex() );
+    bool removeRows ( int position, int rows, const QModelIndex &index = QModelIndex() );
+    LogcatMessage getRow ( int row );
     QList< LogcatMessage > getList();
     bool clear();
 
@@ -71,13 +74,15 @@ class SortFilterProxyModel : public QSortFilterProxyModel
 {
     Q_OBJECT
 public:
-    explicit SortFilterProxyModel(QObject *parent = 0);
-    void addFilterRegExp(qint32 column, const QRegExp &pattern);
+    explicit SortFilterProxyModel ( QObject *parent = 0 );
+    void addFilterRegExp ( qint32 column, const QRegExp &pattern );
     void clearFilters();
 protected:
-    bool filterAcceptsRow(int sourceRow, const QModelIndex &sourceParent) const;
+    bool filterAcceptsRow ( int sourceRow, const QModelIndex &sourceParent ) const;
 
 private:
     QList<QRegExp> regExp;
 };
 #endif // LOGCATMODEL_H
+#endif // header guard 
+

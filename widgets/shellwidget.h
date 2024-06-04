@@ -1,3 +1,6 @@
+#ifndef HEADER_F7C21D6E27FBB8FE
+#define HEADER_F7C21D6E27FBB8FE
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -28,13 +31,13 @@ class ShellWidget : public QTextEdit
 {
     Q_OBJECT
 public:
-    explicit ShellWidget(QWidget *parent = 0);
+    explicit ShellWidget ( QWidget *parent = 0 );
     ~ShellWidget();
-    void setProcessPath(QString processPath);
+    void setProcessPath ( QString processPath );
     QString getProcessPath();
 
 protected:
-    void keyPressEvent(QKeyEvent *e);
+    void keyPressEvent ( QKeyEvent *e );
 
 private:
     int insertedChars;
@@ -52,11 +55,11 @@ private:
     int commandHistoryPosition;
 
 signals:
-    void returnPressed(QString command);
+    void returnPressed ( QString command );
 
 private slots:
     void readFromProcess();
-    void executeCommand(QString command);
+    void executeCommand ( QString command );
 };
 
 /*
@@ -94,3 +97,5 @@ private slots:
 };
 */
 #endif // SHELLWIDGET_H
+#endif // header guard 
+

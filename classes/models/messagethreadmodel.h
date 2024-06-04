@@ -1,3 +1,6 @@
+#ifndef HEADER_8E536E3B56A98F15
+#define HEADER_8E536E3B56A98F15
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -26,7 +29,7 @@
 class MessageThread
 {
 public:
-    MessageThread(QString id, QString number, QString timeStamp, QString read, QString lastBody, QString messageCount, QString contactName);
+    MessageThread ( QString id, QString number, QString timeStamp, QString read, QString lastBody, QString messageCount, QString contactName );
     MessageThread();
     QString getId() const;
     QString getNumber() const;
@@ -35,7 +38,7 @@ public:
     QString getMessageCount() const;
     QString getRead() const;
     QString getContactName() const;
-    MessageThread& operator =(const MessageThread&);
+    MessageThread& operator = ( const MessageThread& );
 
 private:
     QString id;
@@ -52,17 +55,17 @@ class MessageThreadModel : public QAbstractListModel
 {
     Q_OBJECT
 public:
-    MessageThreadModel(QObject *parent = 0);
-    bool exists(QString threadID);
-    void updateMessageCount(QString id);
-    void markAsRead(QString id);
-    MessageThread getThread(QString threadId);
-    QString getThreadID(QString number);
-    enum MessageThreadRoles { ThreadIdRole,MessageCountRole,TimeStampRole,NumberRole,LastBodyRole, ReadRole, ContactNameRole};
-    void updateThread(QString id, QString timestamp,QString lastBody, QString messageCount, QString read);
-    int rowCount(const QModelIndex & parent = QModelIndex()) const;
-    QVariant data(const QModelIndex & index, int role = Qt::DisplayRole) const;
-    void addThread(const MessageThread &thread);
+    MessageThreadModel ( QObject *parent = 0 );
+    bool exists ( QString threadID );
+    void updateMessageCount ( QString id );
+    void markAsRead ( QString id );
+    MessageThread getThread ( QString threadId );
+    QString getThreadID ( QString number );
+    enum MessageThreadRoles { ThreadIdRole, MessageCountRole, TimeStampRole, NumberRole, LastBodyRole, ReadRole, ContactNameRole};
+    void updateThread ( QString id, QString timestamp, QString lastBody, QString messageCount, QString read );
+    int rowCount ( const QModelIndex & parent = QModelIndex() ) const;
+    QVariant data ( const QModelIndex & index, int role = Qt::DisplayRole ) const;
+    void addThread ( const MessageThread &thread );
     bool clear();
 
     QHash<int, QByteArray> roleNames();
@@ -72,3 +75,5 @@ private:
 };
 
 #endif // MESSAGETHREADMODEL_H
+#endif // header guard 
+

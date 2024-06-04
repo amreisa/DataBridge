@@ -1,3 +1,6 @@
+#ifndef HEADER_6C4115456A167C1C
+#define HEADER_6C4115456A167C1C
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -36,7 +39,7 @@
 #include "../classes/computer.h"
 
 namespace Ui {
-    class dialogKopiuj;
+class dialogKopiuj;
 }
 
 class ThreadCopy : public QThread
@@ -54,7 +57,7 @@ public:
 
 signals:
     void copied();
-    void nextFile(QString fileName, QString pathFrom, QString pathTo, int fileSize, int counter);
+    void nextFile ( QString fileName, QString pathFrom, QString pathTo, int fileSize, int counter );
 };
 
 class ThreadProgress : public QThread
@@ -68,30 +71,30 @@ public:
     int maxSize;
 
 signals:
-    void progressValue(int fileSize);
+    void progressValue ( int fileSize );
 };
 
 class dialogKopiuj : public QDialog {
     Q_OBJECT
 
 protected:
-    void closeEvent(QCloseEvent *);
+    void closeEvent ( QCloseEvent * );
 
 public:
-    enum Mode{
+    enum Mode {
         PhoneToComputer = 0,
         PhoneToPhone = 1,
         ComputerToPhone = 2,
         AppsToComputer = 3
     };
 
-    dialogKopiuj(QWidget *parent, QList<File> * fileList, QString sdk, int, QString sourcePath, QString targetPath);
-    dialogKopiuj(QWidget *parent, QList<App> * appList, QString sdk, int, QString targetPath);
+    dialogKopiuj ( QWidget *parent, QList<File> * fileList, QString sdk, int, QString sourcePath, QString targetPath );
+    dialogKopiuj ( QWidget *parent, QList<App> * appList, QString sdk, int, QString targetPath );
     ~dialogKopiuj();
 
     QList<QTableWidgetItem*> lista;
-    QString sciezkaKomputer,sciezkaTelefon;
-    static void fileRemove(QString filePath,int mode);
+    QString sciezkaKomputer, sciezkaTelefon;
+    static void fileRemove ( QString filePath, int mode );
 
 private:
     Ui::dialogKopiuj *ui;
@@ -104,15 +107,17 @@ private:
     int filesCopiedSize;
     int remains;
 
-    QString humanReadableSize(QString size);
+    QString humanReadableSize ( QString size );
 
 public slots:
     void closeAfterFinished();
     void copied();
-    void nextFile(QString fileName, QString pathFrom, QString pathTo, int fileSize, int counter);
-    void setProgressValue(int value);
+    void nextFile ( QString fileName, QString pathFrom, QString pathTo, int fileSize, int counter );
+    void setProgressValue ( int value );
 signals:
-    void progressValue(int value, int max);
+    void progressValue ( int value, int max );
 };
 
 #endif // DIALOGKOPIUJ_H
+#endif // header guard
+

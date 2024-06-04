@@ -1,3 +1,6 @@
+#ifndef HEADER_F6188989A54E0DC5
+#define HEADER_F6188989A54E0DC5
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -25,7 +28,7 @@
 #include "../threads/screenshotthread.h"
 
 namespace Ui {
-    class ScreenshotWidget;
+class ScreenshotWidget;
 }
 
 class ScreenshotWidget : public QWidget
@@ -33,13 +36,13 @@ class ScreenshotWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit ScreenshotWidget(QWidget *parent = 0);
+    explicit ScreenshotWidget ( QWidget *parent = 0 );
     ~ScreenshotWidget();
 
 protected:
-    void changeEvent(QEvent *e);
-    void resizeEvent(QResizeEvent *e);
-    void mousePressEvent(QMouseEvent*);
+    void changeEvent ( QEvent *e );
+    void resizeEvent ( QResizeEvent *e );
+    void mousePressEvent ( QMouseEvent* );
 
 private:
     Ui::ScreenshotWidget *ui;
@@ -49,7 +52,7 @@ private:
     int rotation;
 private slots:
     void takeScreenshot();
-    void showScreenshot(QImage, int, int);
+    void showScreenshot ( QImage, int, int );
     void saveScreenshot();
     void refreshScreenshot();
     void rotateLeft();
@@ -58,3 +61,5 @@ private slots:
 };
 
 #endif // SCREENSHOTWIDGET_H
+#endif // header guard 
+

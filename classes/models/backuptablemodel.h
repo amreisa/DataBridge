@@ -1,3 +1,6 @@
+#ifndef HEADER_DCB2C657928DA2C9
+#define HEADER_DCB2C657928DA2C9
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -25,11 +28,11 @@
 
 class Backup : public QObject
 {
-//    Q_OBJECT
+    //    Q_OBJECT
 
 public:
-    Backup(QObject *parent=0);
-    Backup(const Backup&);
+    Backup ( QObject *parent = 0 );
+    Backup ( const Backup& );
     QIcon appIcon;
     QString appName;
     QString appSize;
@@ -38,34 +41,34 @@ public:
     bool withApk;
     QString packageName;
 
-    Backup& operator =(const Backup&);
+    Backup& operator = ( const Backup& );
 };// Backup;
 
-Q_DECLARE_METATYPE(Backup)
+Q_DECLARE_METATYPE ( Backup )
 
 class BackupTableModel : public QAbstractTableModel
 {
     Q_OBJECT
 
 public:
-    BackupTableModel(QObject *parent=0);
-    BackupTableModel(QList< Backup > backupList, QObject *parent=0);
+    BackupTableModel ( QObject *parent = 0 );
+    BackupTableModel ( QList< Backup > backupList, QObject *parent = 0 );
 
-    int rowCount(const QModelIndex &parent) const;
+    int rowCount ( const QModelIndex &parent ) const;
     int rowCount();
-    int columnCount(const QModelIndex &parent) const;
-    QVariant data(const QModelIndex &index, int role) const;
-    QVariant headerData(int section, Qt::Orientation orientation, int role) const;
-    Qt::ItemFlags flags(const QModelIndex &index) const;
-    bool setData(const QModelIndex &index, const QVariant &value, int role=Qt::EditRole);
-    bool insertRows(int position, int rows, const QModelIndex &index=QModelIndex());
-    bool insertBackup(int position, Backup backup);
-    bool insertBackups(int position, QList< Backup > backupList);
-    Backup getBackup(int row);
+    int columnCount ( const QModelIndex &parent ) const;
+    QVariant data ( const QModelIndex &index, int role ) const;
+    QVariant headerData ( int section, Qt::Orientation orientation, int role ) const;
+    Qt::ItemFlags flags ( const QModelIndex &index ) const;
+    bool setData ( const QModelIndex &index, const QVariant &value, int role = Qt::EditRole );
+    bool insertRows ( int position, int rows, const QModelIndex &index = QModelIndex() );
+    bool insertBackup ( int position, Backup backup );
+    bool insertBackups ( int position, QList< Backup > backupList );
+    Backup getBackup ( int row );
     QList< Backup > getList();
-    bool removeRows(int position, int rows, const QModelIndex &index=QModelIndex());
+    bool removeRows ( int position, int rows, const QModelIndex &index = QModelIndex() );
     bool clear();
-    static QString humanReadableSize(QString size);
+    static QString humanReadableSize ( QString size );
     bool isEmpty();
 
 private:
@@ -78,11 +81,13 @@ class BackupSortModel : public QSortFilterProxyModel
     Q_OBJECT
 
 public:
-    BackupSortModel(QObject *parent = 0);
+    BackupSortModel ( QObject *parent = 0 );
 
 protected:
-     bool filterAcceptsRow(int sourceRow, const QModelIndex &sourceParent) const;
-     bool lessThan(const QModelIndex &left, const QModelIndex &right) const;
+    bool filterAcceptsRow ( int sourceRow, const QModelIndex &sourceParent ) const;
+    bool lessThan ( const QModelIndex &left, const QModelIndex &right ) const;
 };
 
 #endif // BACKUPTABLEMODEL_H
+#endif // header guard 
+

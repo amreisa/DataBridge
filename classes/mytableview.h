@@ -1,3 +1,6 @@
+#ifndef HEADER_D5837BA01F18593B
+#define HEADER_D5837BA01F18593B
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -31,16 +34,16 @@ class MyTableView : public QTableView
     QPoint dragStartPosition;
     FileTableModel fileModel;
 public:
-    explicit MyTableView(QWidget *parent = 0);
+    explicit MyTableView ( QWidget *parent = 0 );
 
 protected:
-    void dragEnterEvent(QDragEnterEvent *event);
-//    void dragLeaveEvent(QDragLeaveEvent *event);
-//    void dragMoveEvent(QDragMoveEvent *event);
-    void dropEvent(QDropEvent *event);
-    void mousePressEvent(QMouseEvent *event);
-//    void mouseReleaseEvent(QMouseEvent *event);
-//    void mouseMoveEvent(QMouseEvent *event);
+    void dragEnterEvent ( QDragEnterEvent *event );
+    //    void dragLeaveEvent(QDragLeaveEvent *event);
+    //    void dragMoveEvent(QDragMoveEvent *event);
+    void dropEvent ( QDropEvent *event );
+    void mousePressEvent ( QMouseEvent *event );
+    //    void mouseReleaseEvent(QMouseEvent *event);
+    //    void mouseMoveEvent(QMouseEvent *event);
 
 signals:
 
@@ -49,3 +52,5 @@ public slots:
 };
 
 #endif // MYTABLEVIEW_H
+#endif // header guard 
+

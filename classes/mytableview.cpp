@@ -22,77 +22,77 @@
 
 #include <QHeaderView>
 
-MyTableView::MyTableView(QWidget *parent) :
-    QTableView(parent)
+MyTableView::MyTableView ( QWidget *parent ) :
+    QTableView ( parent )
 {
-    this->setAcceptDrops(true);
-    this->setDragEnabled(true);
-    this->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    this->setAlternatingRowColors(true);
-    this->setTabKeyNavigation(false);
-    this->setDropIndicatorShown(true);
-    this->setDragDropMode(QAbstractItemView::DragDrop);
-    this->setSelectionBehavior(QAbstractItemView::SelectRows);
-    this->setSelectionMode(QAbstractItemView::ExtendedSelection);
-    this->setVerticalScrollMode(QAbstractItemView::ScrollPerPixel);
-    this->setHorizontalScrollMode(QAbstractItemView::ScrollPerPixel);
-    this->setWordWrap(false);
-    this->setShowGrid(false);
-    this->setSortingEnabled(true);
-    this->verticalHeader()->setVisible(false);
+    this->setAcceptDrops ( true );
+    this->setDragEnabled ( true );
+    this->setEditTriggers ( QAbstractItemView::NoEditTriggers );
+    this->setAlternatingRowColors ( true );
+    this->setTabKeyNavigation ( false );
+    this->setDropIndicatorShown ( true );
+    this->setDragDropMode ( QAbstractItemView::DragDrop );
+    this->setSelectionBehavior ( QAbstractItemView::SelectRows );
+    this->setSelectionMode ( QAbstractItemView::ExtendedSelection );
+    this->setVerticalScrollMode ( QAbstractItemView::ScrollPerPixel );
+    this->setHorizontalScrollMode ( QAbstractItemView::ScrollPerPixel );
+    this->setWordWrap ( false );
+    this->setShowGrid ( false );
+    this->setSortingEnabled ( true );
+    this->verticalHeader()->setVisible ( false );
 }
 
-void MyTableView::dragEnterEvent(QDragEnterEvent *event)
+void MyTableView::dragEnterEvent ( QDragEnterEvent *event )
 {
-    if (event->mouseButtons() == Qt::LeftButton)
-        QTableView::dragEnterEvent(event);
+    if ( event->mouseButtons() == Qt::LeftButton )
+        QTableView::dragEnterEvent ( event );
     else
         event->ignore();
 }
 
-void MyTableView::mousePressEvent(QMouseEvent *event)
+void MyTableView::mousePressEvent ( QMouseEvent *event )
 {
-    if (event->button() == Qt::LeftButton)
+    if ( event->button() == Qt::LeftButton )
     {
-        QTableView::mousePressEvent(event);
+        QTableView::mousePressEvent ( event );
     }
-    else if (event->button() == Qt::MiddleButton)
+    else if ( event->button() == Qt::MiddleButton )
     {
-        QModelIndex index = this->indexAt(event->pos());
+        QModelIndex index = this->indexAt ( event->pos() );
         QModelIndexList list = this->selectionModel()->selectedRows();
-        if (list.isEmpty())
-            this->selectRow(index.row());
+        if ( list.isEmpty() )
+            this->selectRow ( index.row() );
         else
         {
-            for (int i=0; i< list.size(); i++)
-                this->selectionModel()->select(list.at(i), QItemSelectionModel::Select);
-            for (int i=0; i<this->fileModel.columnCount(QModelIndex()); i++)
-                this->selectionModel()->select(this->model()->index(index.row(),i, QModelIndex()), QItemSelectionModel::Toggle);
+            for ( int i = 0; i < list.size(); i++ )
+                this->selectionModel()->select ( list.at ( i ), QItemSelectionModel::Select );
+            for ( int i = 0; i < this->fileModel.columnCount ( QModelIndex() ); i++ )
+                this->selectionModel()->select ( this->model()->index ( index.row(), i, QModelIndex() ), QItemSelectionModel::Toggle );
         }
     }
-    else if (event->button() == Qt::RightButton)
+    else if ( event->button() == Qt::RightButton )
     {
-        QModelIndex index = this->indexAt(event->pos());
+        QModelIndex index = this->indexAt ( event->pos() );
         QModelIndexList list = this->selectionModel()->selectedRows();
-        if (list.isEmpty())
-            this->selectRow(index.row());
+        if ( list.isEmpty() )
+            this->selectRow ( index.row() );
         else
         {
-            for (int i=0; i< list.size(); i++)
-                this->selectionModel()->select(list.at(i), QItemSelectionModel::Select);
-            for (int i=0; i<this->fileModel.columnCount(QModelIndex()); i++)
-                this->selectionModel()->select(this->model()->index(index.row(),i, QModelIndex()), QItemSelectionModel::Select);
+            for ( int i = 0; i < list.size(); i++ )
+                this->selectionModel()->select ( list.at ( i ), QItemSelectionModel::Select );
+            for ( int i = 0; i < this->fileModel.columnCount ( QModelIndex() ); i++ )
+                this->selectionModel()->select ( this->model()->index ( index.row(), i, QModelIndex() ), QItemSelectionModel::Select );
         }
-        emit customContextMenuRequested(event->pos());
+        emit customContextMenuRequested ( event->pos() );
     }
 }
 
-void MyTableView::dropEvent(QDropEvent *event)
+void MyTableView::dropEvent ( QDropEvent *event )
 {
-    if (event->source() == this)
+    if ( event->source() == this )
         event->ignore();
     else
-        QTableView::dropEvent(event);
+        QTableView::dropEvent ( event );
 }
 
 //void MyTableView::mouseMoveEvent(QMouseEvent *event)

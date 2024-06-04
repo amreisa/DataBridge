@@ -1,3 +1,6 @@
+#ifndef HEADER_94497697555555E
+#define HEADER_94497697555555E
+
 /***********************************************************************
 *Copyright 2010-20XX by 7ymekk
 *
@@ -34,7 +37,7 @@
 
 namespace Ui
 {
-    class AppWidget;
+class AppWidget;
 }
 
 
@@ -48,11 +51,11 @@ public:
     QList<App> appList;
 
 signals:
-    void gotApp(App);
-    void maximum(int);
-    void value(int);
-    void progressValue(int value, int max);
-    void gotAllApps(QThread *);
+    void gotApp ( App );
+    void maximum ( int );
+    void value ( int );
+    void progressValue ( int value, int max );
+    void gotAllApps ( QThread * );
     void missingAapt();
 };
 
@@ -65,11 +68,11 @@ public:
     QString sdk;
 
 signals:
-    void gotBackup(Backup);
-    void maximum(int);
-    void value(int);
-    void progressValue(int value, int max);
-    void gotAllApps(QThread *);
+    void gotBackup ( Backup );
+    void maximum ( int );
+    void value ( int );
+    void progressValue ( int value, int max );
+    void gotAllApps ( QThread * );
 };
 
 
@@ -79,11 +82,11 @@ class AppWidget : public QWidget
     Q_OBJECT
 
 public:
-    explicit AppWidget(QWidget *parent = 0);
+    explicit AppWidget ( QWidget *parent = 0 );
     ~AppWidget();
 
 protected:
-    void changeEvent(QEvent *e);
+    void changeEvent ( QEvent *e );
 
 private:
     Ui::AppWidget *ui;
@@ -95,11 +98,11 @@ private:
     ThreadApps threadApps;
     ThreadBackups threadBackups;
     appDialog *appsDialog;
-//    QList<App> appList;
-    App * getAppInfo(QString filePath);
-//    QList<Backup> backups;
-//    QList<App> apps;
-//    QList<App> systemApps;
+    //    QList<App> appList;
+    App * getAppInfo ( QString filePath );
+    //    QList<Backup> backups;
+    //    QList<App> apps;
+    //    QList<App> systemApps;
     bool firstGetApps;//, firstGetBackups;
     QString sdk;
 
@@ -119,12 +122,12 @@ public slots:
     void openMarket();
     void openAppBrain();
     void getCyrketVersions();
-    void insertApp(App app);
-    void insertBackup(Backup backup);
-    void gotAllApps(QThread *);
+    void insertApp ( App app );
+    void insertBackup ( Backup backup );
+    void gotAllApps ( QThread * );
     void appsSelectedCount();
-    void appsContextMenu(const QPoint&);
-    void backupsContextMenu(const QPoint&);
+    void appsContextMenu ( const QPoint& );
+    void backupsContextMenu ( const QPoint& );
     void copyAppToPC();
 
 private slots:
@@ -132,9 +135,9 @@ private slots:
 
     void filter();
     void missingAapt();
-    static bool unpack(QString inFile,QString outPath,QString fileToUnpack,QString outName);
-    static quint32 qbytearrayToInt32(QByteArray array);
-    static quint16 qbytearrayToInt16(QByteArray array);
+    static bool unpack ( QString inFile, QString outPath, QString fileToUnpack, QString outName );
+    static quint32 qbytearrayToInt32 ( QByteArray array );
+    static quint16 qbytearrayToInt16 ( QByteArray array );
     void on_toolButtonRemoveBackup_pressed();
     void on_toolButtonBackup_pressed();
     void on_toolButtonRestore_pressed();
@@ -150,7 +153,9 @@ private slots:
     void comboBoxAppsChanged();
     void refreshApps();
 signals:
-    void progressValue(int value, int max);
+    void progressValue ( int value, int max );
     void progressFinished();
 };
 #endif // APPWIDGET_H
+#endif // header guard 
+
