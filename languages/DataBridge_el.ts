@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ru_RU">
+<TS version="2.1" language="el_GR">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="23"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>About dialog title</extracomment>
-        <translation>QtADB - Ваш Android менеджер</translation>
+        <translation>DataBridge - O android διαχειριστής σας</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="117"/>
         <source>Created by 7ymekk &amp; mozarcik</source>
-        <translation>Создано при участии 7ymekk &amp; mozarcik</translation>
+        <translation>Δημιουργήθηκε από 7ymekk &amp; mozarcik</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="124"/>
         <source>Version</source>
-        <translation>Версия</translation>
+        <translation>Έκδοση</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="141"/>
         <source>Questions?? Suggestions??</source>
-        <translation>Вопросы?? Предложения??</translation>
+        <translation>Ερωτήσεις;; Υποδείξεις;;</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="148"/>
         <source>Feel free to contact us:</source>
-        <translation>Свяжитесь с нами:</translation>
+        <translation>Επικοινωνήστε μαζί μας:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="172"/>
         <source>Website:</source>
-        <translation>Web-сайт:</translation>
+        <translation>Ιστοσελίδα:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="193"/>
         <source>Icons in app are from:</source>
-        <translation>Иконки в приложении от:</translation>
+        <translation>Τα εικονίδια της εφαρμογής είναι από:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="214"/>
         <source>and</source>
-        <translation>и</translation>
+        <translation>καί</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="280"/>
         <source>Ok</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="303"/>
@@ -55,7 +55,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;QtADB was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;DataBridge was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -74,37 +74,37 @@ p, li { white-space: pre-wrap; }
         <location filename="../classes/models/apptablemodel.cpp" line="183"/>
         <source>Name</source>
         <comment>application table name</comment>
-        <translation>Имя</translation>
+        <translation>Όνομα εφαρμογής</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="185"/>
         <source>Version</source>
         <comment>application table version</comment>
-        <translation>Версия</translation>
+        <translation>Έκδοση</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="187"/>
         <source>Size</source>
         <comment>applications table size</comment>
-        <translation>Размер</translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="189"/>
         <source>Package</source>
         <comment>application table package</comment>
-        <translation>Пакет</translation>
+        <translation>Πακέτο</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="191"/>
         <source>File</source>
         <comment>application table file</comment>
-        <translation>Файл</translation>
+        <translation>Αρχείο</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="193"/>
         <source>Location</source>
         <comment>application table location</comment>
-        <translation>Расположение</translation>
+        <translation>Τοποθεσία</translation>
     </message>
 </context>
 <context>
@@ -112,262 +112,262 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/appwidget.ui" line="69"/>
         <source>applications</source>
-        <translation>Приложения</translation>
+        <translation>Εφαρμογές</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="74"/>
         <source>backups</source>
-        <translation>Резервные копии</translation>
+        <translation>ΑντΑσφαλείας</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="79"/>
         <source>system apps</source>
-        <translation>Системные приложения</translation>
+        <translation>εφαρμογές συστήματος</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="89"/>
         <source>filter</source>
-        <translation>фильтр</translation>
+        <translation>φίλτρο</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="167"/>
         <source>App name</source>
         <extracomment>app name label</extracomment>
-        <translation>Имя приложения</translation>
+        <translation>Όνομα εφαρμογής</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="181"/>
         <source>App version</source>
         <extracomment>version label</extracomment>
-        <translation>Версия приложения</translation>
+        <translation>Έκδοση εφαρμογών</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="195"/>
         <source>File name</source>
         <extracomment>file name label</extracomment>
-        <translation>Имя файла</translation>
+        <translation>Όνομα αρχείου</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="209"/>
         <source>File Size</source>
         <extracomment>size label</extracomment>
-        <translation>Размер файла</translation>
+        <translation>Μέγεθος αρχείου</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="253"/>
         <source>Package name</source>
         <extracomment>package label</extracomment>
-        <translation>Имя пакета</translation>
+        <translation>Μέγεθος πακέτου</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="287"/>
         <source>Location</source>
         <extracomment>location label</extracomment>
-        <translation>Расположение</translation>
+        <translation>Τοποθεσία</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="334"/>
         <source>Latest version</source>
         <extracomment>latest version label</extracomment>
-        <translation>Последняя версия</translation>
+        <translation>Τελευταια έκδοση</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="368"/>
         <location filename="../widgets/appwidget.cpp" line="801"/>
         <source>uninstall</source>
         <extracomment>uninstall apps</extracomment>
-        <translation>Удалить</translation>
+        <translation>Απεγκατάσταση</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="400"/>
         <location filename="../widgets/appwidget.cpp" line="684"/>
         <source>backup</source>
         <extracomment>backup apps</extracomment>
-        <translation>Резервное копирование</translation>
+        <translation>ΑντΑσφαλείας</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="446"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>restore</source>
         <extracomment>restore backup</extracomment>
-        <translation>Востановить</translation>
+        <translation>Επαναφορά</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="478"/>
         <source>remove</source>
         <extracomment>remove backup</extracomment>
-        <translation>Удалить</translation>
+        <translation>Αφαίρεση</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="509"/>
         <source>Refresh</source>
         <extracomment>refresh apps/backups</extracomment>
-        <translation>Обновить</translation>
+        <translation>Ανανέωση</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="535"/>
         <source>Open in Market (Phone)</source>
-        <translation>Открыть в Маркете (Телефон)</translation>
+        <translation>Άνοιγμα στο Market(Τηλέφωνο)</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="561"/>
         <source>Open in Market (PC)</source>
-        <translation>Открыть в Маркете (ПК)</translation>
+        <translation>Άνοιγμα στο Market(Υπολογιστης)</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="174"/>
         <source>Choose where You want to save selected apps</source>
-        <translation>Выберите куда Вы хотите сохранить выбранные приложения</translation>
+        <translation>Επιλέξτε που θέλετε να αποθηκευθούν οι επιλεγμένες εφαρμογές</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
         <source>Missing aapt</source>
-        <translation>Отсутствует aapt</translation>
+        <translation>Λείπει το aapt</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="95"/>
         <source>backup</source>
         <comment>backup menu title</comment>
-        <translation>Резервное копирование</translation>
+        <translation>ΑντΑσφαλείας</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="97"/>
         <source>app</source>
         <comment>backup menu action</comment>
-        <translation>Приложение</translation>
+        <translation>Εφαρμ</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="98"/>
         <source>data</source>
         <comment>backup menu action</comment>
-        <translation>Данные</translation>
+        <translation>δεδομένα</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="99"/>
         <source>app + data</source>
         <comment>backup menu action</comment>
-        <translation>Приложение и данные</translation>
+        <translation>εφαρμογή + δεδομενα</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="107"/>
         <source>restore</source>
         <comment>restore menu title</comment>
-        <translation>Востановить</translation>
+        <translation>Επαναφορά</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="109"/>
         <source>app</source>
         <comment>restore menu action</comment>
-        <translation>Приложение</translation>
+        <translation>Εφαρμ</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="110"/>
         <source>data</source>
         <comment>restore menu action</comment>
-        <translation>Данные</translation>
+        <translation>δεδομένα</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="111"/>
         <source>app + data</source>
         <comment>restore menu action</comment>
-        <translation>Приложение и данные</translation>
+        <translation>εφαρμογή + δεδομενα</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="195"/>
         <source>uninstall</source>
         <comment>right click apps menu</comment>
-        <translation>Удалить</translation>
+        <translation>Απεγκατάσταση</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="196"/>
         <source>copy to PC</source>
         <comment>right click apps menu</comment>
-        <translation>Копировать на PC</translation>
+        <translation>Αντιγραφή στο PC</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="197"/>
         <source>Get apps info</source>
         <comment>right click apps menu</comment>
-        <translation>Get apps info</translation>
+        <translation>ΛήψηΠληρΕφαρμογών</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="198"/>
         <source>Get apps version from internet</source>
         <comment>right click apps menu</comment>
-        <translation>Get app version from internet</translation>
+        <translation>Λήψη έκδοσης εφαρμογών απ&apos;το διαδίκτυο</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="214"/>
         <source>remove</source>
         <comment>right click backups menu</comment>
-        <translation>Удалить</translation>
+        <translation>Αφαίρεση</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="239"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>выбраны</translation>
+        <translation>επιλεγμένο</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="376"/>
         <location filename="../widgets/appwidget.cpp" line="449"/>
         <source>App name</source>
         <comment>combo apps filter</comment>
-        <translation>Имя приложения</translation>
+        <translation>Όνομα εφαρμογής</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="377"/>
         <location filename="../widgets/appwidget.cpp" line="450"/>
         <source>Package name</source>
         <comment>combo apps filter</comment>
-        <translation>Имя пакета</translation>
+        <translation>Μέγεθος πακέτου</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="378"/>
         <location filename="../widgets/appwidget.cpp" line="451"/>
         <source>File path</source>
         <comment>combo apps filter</comment>
-        <translation>Путь к файлу</translation>
+        <translation>Διαδρομή αρχείου</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="379"/>
         <location filename="../widgets/appwidget.cpp" line="452"/>
         <source>Location</source>
         <comment>combo apps filter</comment>
-        <translation>Расположение</translation>
+        <translation>Τοποθεσία</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="415"/>
         <source>App name</source>
         <comment>combo backups filter</comment>
-        <translation>Имя приложения</translation>
+        <translation>Όνομα εφαρμογής</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="416"/>
         <source>Package name</source>
         <comment>combo backups filter</comment>
-        <translation>Имя пакета</translation>
+        <translation>Μέγεθος πακέτου</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
-        <source>QtADB did not found aapt.
+        <source>DataBridge did not found aapt.
 Download it and place in one directory with adb.
 After You place it in correct directory click Refresh button</source>
-        <translation>QtADB не нашел aapt
-Скачайте его и расположите в одном каталоге с adb.
-После чего укажите этот каталог и нажмите кнопку Обновить</translation>
+        <translation>Το DataBridge δεν βρήκε το aapt.
+Κατεβάστε το και βάλτε στον ίδιο φάκελο με το adb.
+Αφού το τοποθετήσετε στο σωστό φάκελο κάντε κλικ στο κουμπί Ανανέωση</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="619"/>
         <source>Download</source>
         <comment>missing aapt message button</comment>
-        <translation>Скачать</translation>
+        <translation>Λήψη</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="620"/>
         <source>Cancel</source>
         <comment>missing aapt message button</comment>
-        <translation>Отмена</translation>
+        <translation>Άκυρο</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="685"/>
@@ -375,17 +375,17 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>are you sure???</source>
-        <translation>Вы уверены???</translation>
+        <translation>Σίγουρα???</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="738"/>
         <source>select apps to install</source>
-        <translation>Выберите приложения для установки</translation>
+        <translation>Επιλέξτε εφαρμογές για εγκατάσταση</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <source>remove backup</source>
-        <translation>Удалить резервную копию</translation>
+        <translation>Αφαίρεση ΑντΑσφαλείας</translation>
     </message>
 </context>
 <context>
@@ -394,55 +394,49 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/backuptablemodel.cpp" line="147"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="152"/>
         <source>yes</source>
-        <translation>да</translation>
+        <translation>ναι</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="149"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="154"/>
         <source>no</source>
-        <translation>нет</translation>
+        <translation>όχι</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="173"/>
         <source>Name</source>
         <comment>backup table header app name</comment>
-        <translatorcomment>Заголовок таблицы востановления данных - Name</translatorcomment>
-        <translation>Название</translation>
+        <translation>Όνομα εφαρμογής</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="175"/>
         <source>Version</source>
         <comment>backup table header app version</comment>
-        <translatorcomment>Заголовок таблицы востановления данных - Version</translatorcomment>
-        <translation>Версия</translation>
+        <translation>Έκδοση</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="177"/>
         <source>Size</source>
         <comment>backup table header app size</comment>
-        <translatorcomment>Заголовок таблицы востановления данных - Size</translatorcomment>
-        <translation>Размер</translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="179"/>
         <source>Package</source>
         <comment>backup table header app package</comment>
-        <translatorcomment>Заголовок таблицы востановления данных - Package</translatorcomment>
-        <translation>Пакет</translation>
+        <translation>Πακέτο</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="181"/>
         <source>App</source>
         <comment>backup table header apk file</comment>
-        <translatorcomment>Заголовок таблицы востановления данных - App</translatorcomment>
-        <translation>Приложение</translation>
+        <translation>Apk</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="183"/>
         <source>Data</source>
         <comment>backup table header data</comment>
-        <translatorcomment>Заголовок таблицы востановления данных - Data</translatorcomment>
-        <translation>Дата</translation>
+        <translation>Δεδομένα</translation>
     </message>
 </context>
 <context>
@@ -452,23 +446,22 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../dialogs/connectWifi.ui" line="116"/>
         <source>Connect</source>
         <extracomment>Connect wifi dialog title</extracomment>
-        <translatorcomment>Заголовок диалога &quot;WiFi Соединение&quot; и кнопки соединения</translatorcomment>
-        <translation>Cоединиться по WiFi</translation>
+        <translation>Σύνδεση</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="44"/>
         <source>Address</source>
-        <translation>Адрес</translation>
+        <translation>Διεύθυνση</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="79"/>
         <source>Port</source>
-        <translation>Порт</translation>
+        <translation>Θύρα</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="123"/>
         <source>Cancel</source>
-        <translation>Отмена</translation>
+        <translation>Άκυρο</translation>
     </message>
 </context>
 <context>
@@ -476,27 +469,27 @@ After You place it in correct directory click Refresh button</source>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="32"/>
         <source>Flash SPL</source>
-        <translation>Flash SPL</translation>
+        <translation>Φλασάρισμα SPL</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="55"/>
         <source>Flash recovery</source>
-        <translation>Flash recovery</translation>
+        <translation>Φλασάρισμα Ανάκτησης</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="65"/>
         <source>Flash radio</source>
-        <translation>Flash radio</translation>
+        <translation>Φλασάρισμα ράδιο</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="75"/>
         <source>Boot IMG</source>
-        <translation>Загрузка IMG</translation>
+        <translation>Boot IMG</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
         <source>Choose img file...</source>
-        <translation>Выберите img файл...</translation>
+        <translation>Επιλογή αρχείου img...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
@@ -504,12 +497,12 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>IMG File </source>
-        <translation>IMG файл</translation>
+        <translation>Αρχείο IMG</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="105"/>
         <source>Choose hboot img file...</source>
-        <translation>Выберите img файл hboot...</translation>
+        <translation>Επιλογή αρχείου hboot img...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="112"/>
@@ -519,31 +512,31 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="182"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Error!</source>
-        <translation>Ошибка!</translation>
+        <translation>Σφάλμα!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="114"/>
         <location filename="../widgets/fastbootwidget.cpp" line="149"/>
         <location filename="../widgets/fastbootwidget.cpp" line="184"/>
         <source>Success!</source>
-        <translation>Удачно!</translation>
+        <translation>Επιτυχία!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="118"/>
         <location filename="../widgets/fastbootwidget.cpp" line="153"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Operation cancelled!</source>
-        <translation>Операция отменена!</translation>
+        <translation>Η λειτουργία ακυρώθηκε!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <source>Choose radio img file...</source>
-        <translation>Выберите img файл radio...</translation>
+        <translation>Επιλογή αρχείου radio img...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>Choose recovery img file...</source>
-        <translation>Выберите img файл recovery...</translation>
+        <translation>Επιλογή αρχείου recovery img...</translation>
     </message>
 </context>
 <context>
@@ -552,19 +545,19 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/filetablemodel.cpp" line="207"/>
         <source>Name</source>
         <comment>file table file name</comment>
-        <translation>Имя</translation>
+        <translation>Όνομα εφαρμογής</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="209"/>
         <source>Size</source>
         <comment>file table file size</comment>
-        <translation>Размер</translation>
+        <translation>Μέγεθος</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="211"/>
         <source>Date</source>
         <comment>file table file date</comment>
-        <translation>Дата</translation>
+        <translation>Ημερομηνία</translation>
     </message>
 </context>
 <context>
@@ -573,82 +566,72 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.ui" line="35"/>
         <source>computer</source>
         <extracomment>table title</extracomment>
-        <translatorcomment>Заговок таблицы</translatorcomment>
-        <translation>компьютер</translation>
+        <translation>υπολογιστής</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="116"/>
         <location filename="../widgets/filewidget.ui" line="224"/>
         <source>filter</source>
-        <translation>фильтр</translation>
+        <translation>φίλτρο</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="45"/>
         <source>phone</source>
         <extracomment>table title</extracomment>
-        <translatorcomment>Заговок таблицы</translatorcomment>
-        <translation>телефон</translation>
+        <translation>τηλέφωνο</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="270"/>
         <source>F2 rename</source>
         <extracomment>rename button</extracomment>
-        <translatorcomment>Кнопка переименования</translatorcomment>
-        <translation>F2 Переименовать</translation>
+        <translation>F2 μετονομασία</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="290"/>
         <source>F3 select all/none</source>
         <extracomment>select button</extracomment>
-        <translatorcomment>Кнопка выбора</translatorcomment>
-        <translation>F3 Выбрать все/ничего</translation>
+        <translation>F3 επιλογή όλα/κανένα</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="310"/>
         <source>F4 install</source>
         <extracomment>install button</extracomment>
-        <translatorcomment>Кнопка установки</translatorcomment>
-        <translation>F4 Установить</translation>
+        <translation>F4 εγκατάσταση</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="330"/>
         <source>F5 copy</source>
         <extracomment>copy button</extracomment>
-        <translatorcomment>Кнопка копирования</translatorcomment>
-        <translation>F5 Копировать</translation>
+        <translation>F5 αντιγραφή</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="350"/>
         <source>F6 new dir</source>
         <extracomment>new dir button</extracomment>
-        <translatorcomment>Кнопка нового каталога</translatorcomment>
-        <translation>F6 Новый каталог</translation>
+        <translation>F6 νέος φάκελος</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="370"/>
         <source>F7 refresh</source>
         <extracomment>refresh files button</extracomment>
-        <translatorcomment>Кнопка обновления файлов</translatorcomment>
-        <translation>F7 Обновить</translation>
+        <translation>F7 ανανέωση</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="390"/>
         <source>F8 delete</source>
         <extracomment>delete button</extracomment>
-        <translatorcomment>Кнопка удаления</translatorcomment>
-        <translation>F8 Удалить</translation>
+        <translation>F8 διαγραφή</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="410"/>
         <source>F9 hidden files</source>
         <extracomment>hidden button</extracomment>
-        <translatorcomment>Кнопка отображения/скрытия скрытых фалов</translatorcomment>
-        <translation>F9 Скрытые файлы</translation>
+        <translation>F9 κρυφά αρχεία</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1942"/>
         <source>install</source>
-        <translation>установить</translation>
+        <translation>Εγκατάσταση</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="592"/>
@@ -656,7 +639,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="1264"/>
         <location filename="../widgets/filewidget.cpp" line="1334"/>
         <source>select some files first</source>
-        <translation>Выберите файлы сначала</translation>
+        <translation>Επιλέξτε μερικά αρχεία πρώτα</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -665,7 +648,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>copying</source>
-        <translation>Копирование</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -677,7 +660,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>are you sure???</source>
-        <translation>Вы уверены???</translation>
+        <translation>Σίγουρα???</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="614"/>
@@ -686,209 +669,188 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2155"/>
         <location filename="../widgets/filewidget.cpp" line="2207"/>
         <source>theres nothing to copy. Maybe selected dirs are empty</source>
-        <translation>Нечего копировать.
-Может быть выбранные каталоги пусты</translation>
+        <translation>Δε&apos;ν υπάρχει τίποτα για αντιγραφή. \nΊσως οι επιλεγμένοι φάκελοι να είναι άδειοι</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="642"/>
         <location filename="../widgets/filewidget.cpp" line="1338"/>
         <source>deleting</source>
-        <translation>Удаление</translation>
+        <translation>Διαγραφή</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="660"/>
         <location filename="../widgets/filewidget.cpp" line="1371"/>
         <location filename="../widgets/filewidget.cpp" line="1380"/>
         <source>getting files...</source>
-        <translation>получение файлов...</translation>
+        <translation>λήψη αρχείων...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="756"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>error</source>
-        <translation>Ошибка</translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="757"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>dir was not created.
 Make sure that you are allowed to do this</source>
-        <translation>Каталог не был создан.
-Проверьте возможность создания каталога</translation>
+        <translation>Ο φάκελος δε δημιουργήθηκε.
+Σιγουρευτείτε ότι είστε εξουσιοδοτημένος γι&apos;αυτή την ενέργεια</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1748"/>
         <source>selected</source>
-        <translation>выбраны</translation>
+        <translation>επιλεγμένο</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1634"/>
         <source>searching...</source>
-        <translation>поиск...</translation>
+        <translation>αναζήτηση...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="538"/>
         <source>rename</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Переименовать</translation>
+        <translation>Μετονομασία</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="540"/>
         <source>select all</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Выбрать все</translation>
+        <translation>Επιλογή όλων</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="542"/>
         <source>select none</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Отменить выбор</translation>
+        <translation>Επιλογή κανενός</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="544"/>
         <source>copy</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Копирование</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="546"/>
         <source>new dir</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Новый каталог</translation>
+        <translation>Νέος φάκελος</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="548"/>
         <source>refresh</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Обновить</translation>
+        <translation>Ανανέωση</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="550"/>
         <source>delete</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Удалить</translation>
+        <translation>Διαγραφή</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="552"/>
         <source>hidden files</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Скрытые файлы</translation>
+        <translation>Κρυφά αρχεία</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="554"/>
         <source>install</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Установить</translation>
+        <translation>Εγκατάσταση</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="556"/>
         <source>Show app info</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Показать информацию о приложении</translation>
+        <translation>Εμφάνιση πληρ εφαρμογής</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="558"/>
         <source>open in new tab</source>
         <comment>computer right click menu</comment>
-        <translatorcomment>Компьютер. Меню по правому клику мыши.</translatorcomment>
-        <translation>Открыть в новой вкладке</translation>
+        <translation>άνοιγμα σε νέα καρτέλα</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="971"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>выбраны</translation>
+        <translation>επιλεγμένο</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1152"/>
         <location filename="../widgets/filewidget.cpp" line="1184"/>
         <source>rename</source>
         <comment>phone right click menu</comment>
-        <translatorcomment>Телефон. Меню по правому клику мыши.</translatorcomment>
-        <translation>Переименовать</translation>
+        <translation>Μετονομασία</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1154"/>
         <location filename="../widgets/filewidget.cpp" line="1186"/>
         <source>select all</source>
         <comment>phone right click menu</comment>
-        <translatorcomment>Телефон. Меню по правому клику мыши.</translatorcomment>
-        <translation>Выбрать все</translation>
+        <translation>Επιλογή όλων</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1156"/>
         <location filename="../widgets/filewidget.cpp" line="1188"/>
         <source>select none</source>
         <comment>phone right click menu</comment>
-        <translatorcomment>Телефон. Меню по правому клику мыши.</translatorcomment>
-        <translation>Отменить выбор</translation>
+        <translation>Επιλογή κανενός</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1158"/>
         <location filename="../widgets/filewidget.cpp" line="1190"/>
         <source>copy</source>
         <comment>phone right click menu</comment>
-        <translatorcomment>Телефон. Меню по правому клику мыши.</translatorcomment>
-        <translation>Копирование</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1160"/>
         <location filename="../widgets/filewidget.cpp" line="1192"/>
         <source>new dir</source>
         <comment>phone right click menu</comment>
-        <translatorcomment>Телефон. Меню по правому клику мыши.</translatorcomment>
-        <translation>Новый каталог</translation>
+        <translation>Νέος φάκελος</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1162"/>
         <location filename="../widgets/filewidget.cpp" line="1194"/>
         <source>refresh</source>
         <comment>phone right click menu</comment>
-        <translatorcomment>Телефон. Меню по правому клику мыши.</translatorcomment>
-        <translation>Удалить</translation>
+        <translation>Ανανέωση</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1164"/>
         <location filename="../widgets/filewidget.cpp" line="1196"/>
         <source>delete</source>
         <comment>phone right click menu</comment>
-        <translatorcomment>Телефон. Меню по правому клику мыши.</translatorcomment>
-        <translation>Удалить</translation>
+        <translation>Διαγραφή</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1166"/>
         <location filename="../widgets/filewidget.cpp" line="1198"/>
         <source>hidden files</source>
         <comment>phone right click menu</comment>
-        <translatorcomment>Телефон. Меню по правому клику мыши.</translatorcomment>
-        <translation>Скрытые файлы</translation>
+        <translation>Κρυφά αρχεία</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1200"/>
         <source>open in new tab</source>
         <comment>phone right click menu</comment>
-        <translatorcomment>Телефон. Меню по правому клику мыши.</translatorcomment>
-        <translation>Открыть в новой вкладке</translation>
+        <translation>άνοιγμα σε νέα καρτέλα</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>information</source>
-        <translation>Информация</translation>
+        <translation>πληροφορία</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>It&apos;s not an application</source>
-        <translation>Это не приложение</translation>
+        <translation>Δεν είναι εφαρμογή</translation>
     </message>
 </context>
 <context>
@@ -896,94 +858,87 @@ Make sure that you are allowed to do this</source>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="14"/>
         <source>Logcat</source>
-        <translatorcomment>Заголовок окна Logcat</translatorcomment>
         <translation>Logcat</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="29"/>
         <source>Debug</source>
-        <translatorcomment>Тип сообщения Debug (отладка) [оставил оригинал]</translatorcomment>
-        <translation>Debug</translation>
+        <translation>Αποσφαλμάτωση</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="39"/>
         <source>Warning</source>
-        <translatorcomment>Тип сообщения Warning (предупреждение) [оставил оригинал]</translatorcomment>
-        <translation>Warning</translation>
+        <translation>Προειδοποίηση</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="49"/>
         <source>Information</source>
-        <translatorcomment>Тип сообщения Information (информация) [оставил оригинал]</translatorcomment>
-        <translation>Information</translation>
+        <translation>Πληροφορίες</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="59"/>
         <source>Error</source>
-        <translatorcomment>Тип сообщения Error (ошибка) [оставил оригинал]</translatorcomment>
-        <translation>Error</translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="113"/>
         <source>Verbose</source>
-        <translatorcomment>Тип сообщения Verbose (многословный) [оставил оригинал]</translatorcomment>
-        <translation>Verbose</translation>
+        <translation>Αναλυτικά</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="123"/>
         <source>filter</source>
-        <translation>фильтр</translation>
+        <translation>φίλτρο</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="131"/>
         <source>Sender</source>
-        <translation>Источник</translation>
+        <translation>Αποστολέας</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="136"/>
         <source>Message</source>
-        <translation>Сообщение</translation>
+        <translation>Μήνυμα</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="235"/>
         <source>autoscroll</source>
-        <translation>автопрокрутка</translation>
+        <translation>αυτόματη κύλιση</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="245"/>
         <source>clear</source>
-        <translation>очистить</translation>
+        <translation>καθαρισμός</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="228"/>
         <source>Buffer limit</source>
-        <translatorcomment>Настройка влияет на количество строк в таблце Logcat</translatorcomment>
-        <translation>Кол-во строк</translation>
+        <translation>όριο Buffer</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="44"/>
         <source>clear logcat</source>
-        <translation>очистить logcat</translation>
+        <translation>καθαρισμός logcat</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="45"/>
         <source>copy selected to clipboard</source>
-        <translation>копировать выбранное в буфер обмена</translation>
+        <translation>αντιγραφή επιλογής στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="46"/>
         <source>export selected to file</source>
-        <translation>экспорт выбранного файла</translation>
+        <translation>εξαγωγή επιλογής σε αρχείο</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>Save File...</source>
-        <translation>Сохранить Файл...</translation>
+        <translation>Αποθήκευση αρχείου...</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>txt file</source>
-        <translation>txt файл</translation>
+        <translation>αρχείο κειμένου</translation>
     </message>
 </context>
 <context>
@@ -992,36 +947,31 @@ Make sure that you are allowed to do this</source>
         <location filename="../classes/models/logcatmodel.cpp" line="158"/>
         <source>Time</source>
         <comment>logcat header</comment>
-        <translatorcomment>&quot;Шапка&quot; таблицы Logcat</translatorcomment>
-        <translation>Время</translation>
+        <translation>Χρονος</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="160"/>
         <source>Type</source>
         <comment>logcat header</comment>
-        <translatorcomment>&quot;Шапка&quot; таблицы Logcat</translatorcomment>
-        <translation>Тип</translation>
+        <translation>Τύπος</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="162"/>
         <source>Sender</source>
         <comment>logcat header</comment>
-        <translatorcomment>&quot;Шапка&quot; таблицы Logcat</translatorcomment>
-        <translation>Источник</translation>
+        <translation>Αποστολέας</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="164"/>
         <source>Pid</source>
         <comment>logcat header</comment>
-        <translatorcomment>&quot;Шапка&quot; таблицы Logcat</translatorcomment>
-        <translation>PID</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="166"/>
         <source>Message</source>
         <comment>logcat header</comment>
-        <translatorcomment>&quot;Шапка&quot; таблицы Logcat</translatorcomment>
-        <translation>Сообщение</translation>
+        <translation>Μήνυμα</translation>
     </message>
 </context>
 <context>
@@ -1030,39 +980,38 @@ Make sure that you are allowed to do this</source>
         <location filename="../dialogs/mainwindow.ui" line="107"/>
         <source>Refresh</source>
         <extracomment>refresh state when disconnected</extracomment>
-        <translation>Обновить</translation>
+        <translation>Ανανέωση</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="287"/>
         <source>check for updates</source>
-        <translation>Проверить обновления</translation>
+        <translation>Έλεγχος για ενημερώσεις</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="97"/>
         <source>CONNECT YOUR PHONE</source>
-        <translation>ПОДКЛЮЧИТЕ ВАШ ТЕЛЕФОН</translation>
+        <translation>ΣΥΝΔΕΣΤΕ ΤΟ ΤΗΛΕΦΩΝΟ</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="22"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>Main window title</extracomment>
-        <translatorcomment>Заговок главного окна</translatorcomment>
-        <translation>QtADB - Ваш Android менеджер</translation>
+        <translation>DataBridge - O android διαχειριστής σας</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="172"/>
         <source>&amp;Connection</source>
-        <translation>&amp;Соединение</translation>
+        <translation>&amp;Σύνδεση</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="179"/>
         <source>&amp;Help</source>
-        <translation>&amp;Справка</translation>
+        <translation>&amp;Βοήθεια</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="187"/>
         <source>&amp;Tools</source>
-        <translation>&amp;Инструменты</translation>
+        <translation>&amp;Εργαλεία</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="191"/>
@@ -1087,164 +1036,152 @@ Make sure that you are allowed to do this</source>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="242"/>
         <source>about</source>
-        <translation>О программе</translation>
+        <translation>Σχετικά</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="247"/>
         <source>polski</source>
-        <translation>Польский язык</translation>
+        <translation>Πολωνικά</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="252"/>
         <location filename="../dialogs/mainwindow.ui" line="267"/>
         <source>Reboot</source>
-        <translation>Перезагрузка</translation>
+        <translation>Επανεκκίνηση</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="257"/>
         <location filename="../dialogs/mainwindow.ui" line="272"/>
         <source>Reboot bootloader</source>
-        <translation>Перезагрузить загрузчик</translation>
+        <translation>Επανεκκίνηση bootloader</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="262"/>
         <source>Reboot recovery</source>
-        <translation>Перезагрузка recovery</translation>
+        <translation>Επανεκκίνηση recovery</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="277"/>
         <location filename="../dialogs/mainwindow.ui" line="282"/>
         <source>Power off</source>
-        <translation>Выключить</translation>
+        <translation>Απενεργοποίηση</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="292"/>
         <source>enter register key</source>
-        <translation>Ввод регистрационного ключа</translation>
+        <translation>εισάγετε κλειδί εγγραφής</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="65"/>
         <source>Logcat</source>
         <comment>action in system tray menu</comment>
-        <translatorcomment>Действие в область уведомления через меню</translatorcomment>
-        <translation>Logcat</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="67"/>
         <source>exit</source>
         <comment>action in system tray menu</comment>
-        <translatorcomment>Действие в область уведомления через меню</translatorcomment>
-        <translation>Выход</translation>
+        <translation>έξοδος</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="94"/>
         <source>Files</source>
         <comment>files button</comment>
-        <translatorcomment>Кнопка в главном окне</translatorcomment>
-        <translation>Файлы</translation>
+        <translation>Αρχεία</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="95"/>
         <source>Apps</source>
         <comment>apps button</comment>
-        <translatorcomment>Кнопка в главном окне</translatorcomment>
-        <translation>Приложения</translation>
+        <translation>Εφαρμογές</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="96"/>
         <source>Recovery</source>
         <comment>recovery button</comment>
-        <translatorcomment>Кнопка в главном окне</translatorcomment>
-        <translation>Востановление</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="97"/>
         <source>Fastboot</source>
         <comment>fastbot button</comment>
-        <translatorcomment>Кнопка в главном окне</translatorcomment>
         <translation>Fastboot</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="98"/>
         <source>Phone info</source>
         <comment>phone info button</comment>
-        <translatorcomment>Кнопка в главном окне</translatorcomment>
-        <translation>О телефоне</translation>
+        <translation>Πληρ Τηλεφώνου</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="99"/>
         <source>Screenshot</source>
         <comment>screenshot button</comment>
-        <translatorcomment>Кнопка в главном окне</translatorcomment>
-        <translation>Снимок экрана</translation>
+        <translation>Στιγμιότυπο</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="100"/>
         <source>Settings</source>
         <comment>settings button</comment>
-        <translatorcomment>Кнопка в главном окне</translatorcomment>
-        <translation>Настройки</translation>
+        <translation>Ρυθμίσεις</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="101"/>
         <source>Shell</source>
         <comment>shell button</comment>
-        <translatorcomment>Кнопка в главном окне</translatorcomment>
-        <translation>Консоль</translation>
+        <translation>Κέλυφος</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="102"/>
         <source>Messages</source>
         <comment>messages button</comment>
-        <translatorcomment>Кнопка на панели &quot;Messages&quot;</translatorcomment>
-        <translation>Сообщения</translation>
+        <translation>Μηνύματα</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="104"/>
         <source>Logcat</source>
         <comment>logcat button</comment>
-        <translatorcomment>Кнопка Logcat</translatorcomment>
-        <translation>Logcat</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="702"/>
         <source>Attention!</source>
-        <translation>Внимание!</translation>
+        <translation>Προσοχή!</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="703"/>
         <source>To use message manager You have to turn on WiFi.</source>
-        <translation>Для использования менеджера сообщений Вы должны включить WiFi.</translation>
+        <translation>Για να χρησιμοποιήσετε το διαχειριστή μηνυμάτων πρέπει να ενεργοποιήσετε το ασύρματο δίκτυο.</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="833"/>
         <source>Sms from </source>
         <comment>system tray bubble</comment>
-        <translation>SMS от </translation>
+        <translation>Sms από</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="838"/>
         <source>Sms result</source>
         <comment>system tray bubble</comment>
-        <translation>Sms результат</translation>
+        <translation>Sms αποτέλεσμα</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="892"/>
         <source>New updates</source>
-        <translation>Новые обновления</translation>
+        <translation>Νέες ενημερώσεις</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="892"/>
         <source>New update is available
 </source>
-        <translation>Новые обновления доступны
+        <translation>Νέα ενημέρωση είναι διαθέσιμη
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
         <location filename="../dialogs/mainwindow.cpp" line="916"/>
         <source>Your version: </source>
-        <translation>Ваша версия: </translation>
+        <translation>Η έκδοσή σας: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
@@ -1252,65 +1189,64 @@ Make sure that you are allowed to do this</source>
         <source>
 Latest version: </source>
         <translation>
-Последняя версия: </translation>
+Τελευταία έκδοση: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="894"/>
         <source>Download</source>
-        <translation>Скачать</translation>
+        <translation>Λήψη</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="895"/>
         <source>Close</source>
-        <translation>Закрыть</translation>
+        <translation>Κλείσιμο</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="911"/>
         <source>error</source>
-        <translation>Ошибка</translation>
+        <translation>σφάλμα</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="911"/>
         <source>There was problem while checking for updates</source>
-        <translation>Проблема с проверкой обновлений</translation>
+        <translation>Υπήρξε κάποιο πρόβλημα κατά τον έλεγχο για ενημερώσεις</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>No updates</source>
-        <translation>Нет обновлений</translation>
+        <translation>Καμία ενημέρωση</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>Your version is up to date
 </source>
-        <translation>Ваша версия актуальна
+        <translation>Η έκδοσή σας είναι ενημερωμένη
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1034"/>
         <source>Donate</source>
-        <translation>Пожертвовать</translation>
+        <translation>Δωρεά</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1035"/>
-        <source>It seems that you are using QtADB for a while now. Maybe consider a donation to a project...</source>
-        <translation>Вы кажется попробовали попользоваться программой QtADB. Возможно Вы поможете проекту....</translation>
+        <source>It seems that you are using DataBridge for a while now. Maybe consider a donation to a project...</source>
+        <translation>Φαινεται οτ χρησιμοποιείτε το DataBridge εδώ και αρκετό καιρό. Ίσως να σκεφτείτε μια δωρεά για το project...</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1036"/>
         <source>Yes, I want to donate</source>
-        <translation>Да, Я хочу пожертвовать</translation>
+        <translation>Ναι, θέλω να κάνω δωρεά</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1037"/>
         <source>Remaind me later</source>
-        <translation>Напомнить мне позже</translation>
+        <translation>Υπενθύμιση αργότερα</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1038"/>
         <source>Do not bother me again</source>
-        <translatorcomment>Под вопросом перевод фразы.</translatorcomment>
-        <translation>Не беспокойте меня снова</translation>
+        <translation>Να μη γίνει άλλη υπενθύμιση</translation>
     </message>
 </context>
 <context>
@@ -1319,8 +1255,7 @@ Latest version: </source>
         <location filename="../widgets/messagewidget.ui" line="87"/>
         <source>refresh list</source>
         <extracomment>refresh messages button</extracomment>
-        <translatorcomment>Кнопка в разделе &quot;Сообщения&quot;</translatorcomment>
-        <translation>Обновить список</translation>
+        <translation>ανανέωση λίστας</translation>
     </message>
 </context>
 <context>
@@ -1328,37 +1263,37 @@ Latest version: </source>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="50"/>
         <source>Model</source>
-        <translation>Модель</translation>
+        <translation>Μοντέλο</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="67"/>
         <source>Operator</source>
-        <translation>Оператор</translation>
+        <translation>Χειριστής δικτυου</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="84"/>
         <source>Serial number</source>
-        <translation>Серийный номер</translation>
+        <translation>Σειριακός αριθμός</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="101"/>
         <source>Bootloader</source>
-        <translation>Загрузчик</translation>
+        <translation>Bootloader</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="118"/>
         <source>Rom</source>
-        <translation>Rom</translation>
+        <translation>Ρομ</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="144"/>
         <source>Radio</source>
-        <translation>Radio</translation>
+        <translation>Ράδιο</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="161"/>
         <source>Battery level</source>
-        <translation>Уровень заряда</translation>
+        <translation>Επίπεδο μπαταρίας</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="375"/>
@@ -1366,7 +1301,7 @@ Latest version: </source>
         <location filename="../widgets/phoneinfowidget.ui" line="389"/>
         <location filename="../widgets/phoneinfowidget.ui" line="396"/>
         <source>available:</source>
-        <translation>доступно:</translation>
+        <translation>διαθέσιμα:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="443"/>
@@ -1374,7 +1309,7 @@ Latest version: </source>
         <location filename="../widgets/phoneinfowidget.ui" line="457"/>
         <location filename="../widgets/phoneinfowidget.ui" line="464"/>
         <source>used:</source>
-        <translation>использовано:</translation>
+        <translation>σε χρήση:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="511"/>
@@ -1382,12 +1317,12 @@ Latest version: </source>
         <location filename="../widgets/phoneinfowidget.ui" line="525"/>
         <location filename="../widgets/phoneinfowidget.ui" line="532"/>
         <source>size:</source>
-        <translation>размер:</translation>
+        <translation>μέγεθος:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="690"/>
         <source>refresh</source>
-        <translation>Обновить</translation>
+        <translation>Ανανέωση</translation>
     </message>
 </context>
 <context>
@@ -1398,41 +1333,41 @@ Latest version: </source>
         <location filename="../main.cpp" line="238"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>error</source>
-        <translation>ошибка</translation>
+        <translation>σφάλμα</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="171"/>
         <location filename="../widgets/settingswidget.cpp" line="854"/>
         <source>Choose path to dir with adb and aapt binaries</source>
-        <translation>Выберите каталог где расположены adb и aapt утилиты</translation>
+        <translation>Επιλέξτε τη διαδρομή φακέλου με το adb και τo aapt</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="192"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>there is no adb binary in here!</source>
-        <translation>здесь нет adb утилиты!</translation>
+        <translation>δεν βρέθηκε adb σ&apos;αυτή τη διαδρομή!</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="193"/>
         <source>Choose path</source>
-        <translation>Укажите путь</translation>
+        <translation>Επιλογή διαδρομής</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="194"/>
         <source>Close</source>
-        <translation>Закрыть</translation>
+        <translation>Κλείσιμο</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="224"/>
         <source>It seems that adb is not working properly</source>
-        <translation>Кажется, что adb не работает должным образом</translation>
+        <translation>Φαινεται ότι το adb δεν λειτουργεί σωστά</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="239"/>
         <source>adbd cannot run as root in production builds so You can&apos;t do anything with /system partition. Run anyway?
-(press save to run QtADB and disable this message)</source>
-        <translation>adbd не был запущен с правами суперпользователя так что Вы не можете сделать что-либо с разделом /system. Все равно запустить?
-(нажмите save to run QtADB и отключите это сообщение)</translation>
+(press save to run DataBridge and disable this message)</source>
+        <translation>Ο adbd δεν μπορεί να εκτελεστεί με δικαιώματα υπερχρήστη σε production builds οπότε δεν μπορείτε να κάνετε τίποτα με το διαμέρισμα /system. Εκτέλεση οπωσδήποτε?
+(πατήστε αποθήκευση για εκτέλεση DataBridge και απενεργοποιείστε αυτό το μήνυμα)</translation>
     </message>
 </context>
 <context>
@@ -1440,190 +1375,190 @@ Latest version: </source>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="51"/>
         <source>Nandroid backup</source>
-        <translation>Резервное копирование Nandroid</translation>
+        <translation>ΑντΑσφαλείας Nandroid</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="64"/>
         <source>Bart backup</source>
-        <translation>Резервное копирование Bart</translation>
+        <translation>ΑντΑσφαλείας Bart </translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="77"/>
         <source>Clear battery stats</source>
-        <translation>Очистка статистики батареи</translation>
+        <translation>Καθαρισμός στατιστικών μπαταρίας</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="84"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Wipe data</source>
-        <translation>Удаление данных</translation>
+        <translation>Εκκαθάριση δεδομένων</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="97"/>
         <source>Mount SDcard to computer</source>
-        <translation>Подключение SD карты к компьютеру</translation>
+        <translation>Προσάρτηση κάρτας SD στον υπολογιστή</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="107"/>
         <source>Nandroid restore</source>
-        <translation>Восстановление Nandroid</translation>
+        <translation>Επαναφορά Nandroid</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="120"/>
         <source>Bart restore</source>
-        <translation>Востановление Bart</translation>
+        <translation>Επαναφορά Bart</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="133"/>
         <source>Fix UID mismatches</source>
-        <translation>Исправление неверного UID</translation>
+        <translation>Διόρθωση λάθος συνδυασμών UID</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="143"/>
         <source>Flash zip</source>
-        <translation>Flash zip</translation>
+        <translation>Φλασάρισμα zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="198"/>
         <source>Substring</source>
-        <translation>Подстрока</translation>
+        <translation>Υποαλφαριθμητικό</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="214"/>
         <source>Backup</source>
-        <translation>Сохранение</translation>
+        <translation>ΑντΑσφαλείας</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="234"/>
         <source>Path</source>
-        <translation>Путь</translation>
+        <translation>Διαδρομή</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="416"/>
         <source>Restore</source>
-        <translation>Востановление</translation>
+        <translation>Επαναφορά</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="839"/>
         <source>Choose one of options above</source>
-        <translation>Выберите одну из опций выше</translation>
+        <translation>Επιλέξτε μία απ&apos;τις παραπάνω επιλογές</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fix UID finished!</source>
-        <translation>Востановление UID завершено!</translation>
+        <translation>Η διόρθωση UID ολοκληρώθηκε!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fixing UID mismatches is finished.</source>
-        <translation>Исправление неверного UID завершено.</translation>
+        <translation>Η διόρθωση κακών συνδυασμών UID ολοκληρώθηκε.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <source>Flash Zip</source>
-        <translation>Flash Zip</translation>
+        <translation>Φλασάρισμα Zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Are you sure??</source>
-        <translation>Вы уверены??</translation>
+        <translation>Σίγουρα;;</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Open ROM File</source>
-        <translation>Открыть ROM файл</translation>
+        <translation>Άνοιγμα αρχείου ROM</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Zip files (*.zip)</source>
-        <translation>Файлы Zip (*.zip)</translation>
+        <translation>Αρχεία zip (*.zip)</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="214"/>
         <location filename="../widgets/recoverywidget.cpp" line="544"/>
         <source>Writing commands....</source>
-        <translation>Запись команд....</translation>
+        <translation>Εγγραφή εντολών...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="221"/>
         <location filename="../widgets/recoverywidget.cpp" line="555"/>
         <source>Rebooting....</source>
-        <translation>Перезагрузка....</translation>
+        <translation>Επανεκκίνηση...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>USB mounted</source>
-        <translation>USB подключен</translation>
+        <translation>Το USB προσαρτήθηκε</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>SD card is mounted as usb drive</source>
-        <translation>SD карта подключена как usb диск</translation>
+        <translation>Η κάρτα SD προσαρτήθηκε ως  δίσκος USB</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>USB unmounted</source>
-        <translation>USB отключен</translation>
+        <translation>Το USB αποσυνδέθηκε</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>SD card is unmounted</source>
-        <translation>SD карта извлечена</translation>
+        <translation>Η κάρτα SD είναι αποσυνδεδεμένη</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="247"/>
         <source>Error</source>
-        <translation>Ошибка</translation>
+        <translation>Σφάλμα</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Backup finished!</source>
-        <translation>Сохранение завершено!</translation>
+        <translation>Το ΑντΑσφαλείας ολοκληρώθηκε!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Nandroid backup is finished.</source>
-        <translation>Сохранение Nandroid завершено.</translation>
+        <translation>Το ΑντΑσφαλείας Nanroid ολοκληρώθηκε.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Restore finished!</source>
-        <translation>Восстановление завершено!</translation>
+        <translation>Η επαναφορά ολοκληρώθηκε!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Nandroid restore is finished.</source>
-        <translation>Востановление Nandroid завершено.</translation>
+        <translation>Η επαναφορά Nanroid ολοκληρώθηκε.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="491"/>
         <source>Finished</source>
-        <translation>Завершено</translation>
+        <translation>Ολοκληρώθηκε</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="494"/>
         <source>Finished
 Choose one backup from combo above to restore it</source>
-        <translation>Завершено
-Выберите одну резервную копию из списка выше для восстановления</translation>
+        <translation>Ολοκληρώθηκε
+Επιλέξτε ένα ΑντΑσφαλείας απ&apos; τα παρακάτω για να το επαναφέρετε</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="516"/>
         <source>Looking for backups...</source>
-        <translation>Поиск резервных копий...</translation>
+        <translation>Έρευνα για ΑντΑσφαλείας...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="534"/>
         <source>Information</source>
-        <translation>Информация</translation>
+        <translation>Πληροφορίες</translation>
     </message>
 </context>
 <context>
     <name>RegisterDialog</name>
     <message>
         <source>Dialog</source>
-        <translation type="vanished">Диалог</translation>
+        <translation type="vanished">Διάλογος</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="32"/>
@@ -1633,22 +1568,22 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="53"/>
         <source>insert key</source>
-        <translation>введите ключ</translation>
+        <translation>εισάγετε κλειδί</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="128"/>
         <source>Insert registration key:</source>
-        <translation>Введите регистрационный ключ:</translation>
+        <translation>Εισάγετε κλειδί εγγραφής:</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="137"/>
         <source>don&apos;t have a key? consider donation:  </source>
-        <translation>У Вас нет ключа? подумайте о пожертвовании:</translation>
+        <translation>δεν έχετε κλειδί? κάντε μια δωρεά:</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="187"/>
         <source>cancel</source>
-        <translation>Отмена</translation>
+        <translation>άκυρο</translation>
     </message>
 </context>
 <context>
@@ -1657,39 +1592,35 @@ Choose one backup from combo above to restore it</source>
         <location filename="../widgets/screenshotwidget.ui" line="76"/>
         <source>Refresh</source>
         <extracomment>refresh screenshot button</extracomment>
-        <translatorcomment>Кнопка для обновления изображения экрана</translatorcomment>
-        <translation>Обновить</translation>
+        <translation>Ανανέωση</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="87"/>
         <source>Save</source>
         <extracomment>save screenshot button</extracomment>
-        <translatorcomment>Кнопка сохранения снимка экрана</translatorcomment>
-        <translation>Сохранить</translation>
+        <translation>Αποθήκευση</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="98"/>
         <source>Rotate left</source>
         <extracomment>rotate screenshot</extracomment>
-        <translatorcomment>Поварачивание снимка экрана влево</translatorcomment>
-        <translation>Повернуть влево</translation>
+        <translation>Περιστροφή αριστερά</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="109"/>
         <source>Rotate right</source>
         <extracomment>rotate screenshot</extracomment>
-        <translatorcomment>Поварачивание снимка экрана вправо</translatorcomment>
-        <translation>Повернуть вправо</translation>
+        <translation>Περιστροφή δεξιά</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Save File...</source>
-        <translation>Сохранить Файл...</translation>
+        <translation>Αποθήκευση αρχείου...</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Png file</source>
-        <translation>Png файл</translation>
+        <translation>Αρχείο Png</translation>
     </message>
 </context>
 <context>
@@ -1697,183 +1628,183 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="190"/>
         <source>Save position and size of window on exit</source>
-        <translation>Сохранить расположение и размер окна при выходе</translation>
+        <translation>Αποθήκευση μεγέθους και θέσης του παραθύρου κατά την έξοδο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="197"/>
         <source>Always close copy window after finished</source>
-        <translation>Всегда закрывать окна копирования после завершения</translation>
+        <translation>Πάντα κλείσιμο του αντίγραφου παραθύρου μετά το τελείωμα</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="204"/>
         <source>Show modal copy window</source>
-        <translation>Показывать модальные окна копирования</translation>
+        <translation>Προβολή τρόπου αντιγράφου παραθύρου</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="217"/>
         <source>App font:</source>
-        <translation>Шрифт приложения:</translation>
+        <translation>Γραμματοσειρά εφαρμ:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="243"/>
         <location filename="../widgets/settingswidget.ui" line="282"/>
         <location filename="../widgets/settingswidget.ui" line="315"/>
         <source>Change font</source>
-        <translation>Изменить шрифт</translation>
+        <translation>Αλλαγή γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="256"/>
         <source>Tables font:</source>
-        <translation>Шрифт таблиц:</translation>
+        <translation>Γραμματοσειρά πινάκων:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="289"/>
         <source>Shell font:</source>
-        <translation>Шрифт консоли:</translation>
+        <translation>Γραμματοσειρά κελύφους:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="370"/>
         <source>Kill demon on exit</source>
-        <translation>Убить сервис при выходе</translation>
+        <translation>Τερματισμός του δαίμονα στην έξοδο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="390"/>
         <source>Check for updates on start</source>
-        <translation>Проверять обновления при запуске</translation>
+        <translation>Έλεγχος για ενημερώσεις στην έναρξη</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="940"/>
         <source>Coloring files</source>
-        <translation>Цветные файлы</translation>
+        <translation>Έγχρωμα αρχεία</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="410"/>
         <source>Set toolBar style:</source>
-        <translation>Стиль панели кнопок:</translation>
+        <translation>Ορισμός στυλ μπάρας εργαλείων:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="117"/>
         <source>Shell</source>
-        <translation>Консоль</translation>
+        <translation>Κέλυφος</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="417"/>
         <source>Set toolBar icon size:</source>
-        <translation>Размер панели кнопок:</translation>
+        <translation>Ορισμός μέγεθος εικονιδίου μπάρας εργαλείων:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="424"/>
         <source>Set hide/disable buttons on toolBar:</source>
-        <translation>Скрыть/Отключить кнопки на панели кнопок:</translation>
+        <translation>Ορισμός κρυφών/ανενεργών κουμπιών της μπάρας εργαλείων:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="432"/>
         <source>Icon only</source>
-        <translation>Только значки</translation>
+        <translation>Εικονίδιο μόνο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="437"/>
         <source>Text only</source>
-        <translation>Только текст</translation>
+        <translation>Κειμενο μόνο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="442"/>
         <source>Text beside icon</source>
-        <translation>Текст возле значков</translation>
+        <translation>Κειμενο δίπλα στο εικονίδιο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="447"/>
         <source>Text under icon</source>
-        <translation>Текст под значками</translation>
+        <translation>Κειμενο κάτω απ&apos; το εικονίδιο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="456"/>
         <source>Hide buttons</source>
-        <translation>Скрыть кнопки</translation>
+        <translation>Απόκρυψη κουμπιών</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="461"/>
         <source>Disable buttons</source>
-        <translation>Отключить кнопки</translation>
+        <translation>Απενεργοποίηση κουμπιών</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="483"/>
         <source>Left</source>
-        <translation>Слева</translation>
+        <translation>Αριστερά</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="488"/>
         <source>Right</source>
-        <translation>Справа</translation>
+        <translation>Δεξιά</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="493"/>
         <source>Top</source>
-        <translation>Вверху</translation>
+        <translation>Πάνω</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="498"/>
         <source>Bottom</source>
-        <translation>Внизу</translation>
+        <translation>Κάτω</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="506"/>
         <source>Area of toolBar:</source>
-        <translation>Расположение панели кнопок:</translation>
+        <translation>Περιοχή μπάρας εργαλειών:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="514"/>
         <source>Left to right</source>
-        <translation>Слева направо</translation>
+        <translation>Αριστερά προς δεξιά</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="519"/>
         <source>Right to left</source>
-        <translation>Справа налево</translation>
+        <translation>Δεξιά προς αριστερά</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="527"/>
         <source>App layout:</source>
-        <translation>Слой приложения:</translation>
+        <translation>Διάταξη εφαρμ:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="554"/>
         <source>Computer</source>
-        <translation>Компьютер</translation>
+        <translation>Υπολογιστής</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="575"/>
         <location filename="../widgets/settingswidget.ui" line="797"/>
         <source>Set path on start:</source>
-        <translation>Установить путь при запуске:</translation>
+        <translation>Ορισμός διαδρομής στην έναρξη:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="598"/>
         <location filename="../widgets/settingswidget.ui" line="820"/>
         <source>Remember path on exit</source>
-        <translation>Запомнить путь при выходе</translation>
+        <translation>Ενθύμιση διαδρομής στην έξοδο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="611"/>
         <location filename="../widgets/settingswidget.ui" line="833"/>
         <source>Show hidden files</source>
-        <translation>Показать скрытые файлы</translation>
+        <translation>Προβολή κρυφών αρχείων</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="627"/>
         <location filename="../widgets/settingswidget.ui" line="849"/>
         <source>Show table columns headers</source>
-        <translation>Показывать заголовки стобцов таблиц</translation>
+        <translation>Εμφάνιση επιγραφών  στηλών πίνακα</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="688"/>
         <source>Show app icon instead default</source>
-        <translation>Показывать значок приложения вместо по умолчанию</translation>
+        <translation>Προβολή εικ/δίου εφαρμογής αντί του προεπιλεγμενου</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="701"/>
         <source>Instead of file name show:</source>
-        <translation>Вместо имени файла отображать:</translation>
+        <translation>Αντί του ονόματος αρχείου εμφάνιση:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="714"/>
@@ -1881,7 +1812,10 @@ Choose one backup from combo above to restore it</source>
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</source>
-        <translation>Доступные переменные:
+        <translatorcomment>do not translate this variables!!! translate only &quot;Available variables&quot; leave &lt;appName&gt;
+&lt;appVersion&gt;
+&lt;packageName&gt;</translatorcomment>
+        <translation>Διαθέσιμες μεταβλητές
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</translation>
@@ -1889,17 +1823,17 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="743"/>
         <source>Show/hide computer files columns:</source>
-        <translation>Показать/скрыть столбцы в файлах компьютера:</translation>
+        <translation>Εμφάνιση/απόκρυψη στηλών αρχείων υπολογιστή:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="776"/>
         <source>Phone</source>
-        <translation>Телефон</translation>
+        <translation>Τηλέφωνο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="917"/>
         <source>Show/hide phone files columns:</source>
-        <translation>Показать/скрыть столбцы в файлах телефона:</translation>
+        <translation>Εμφάνιση/απόκρυψη στηλών αρχείων τηλεφώνου:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="951"/>
@@ -1914,150 +1848,150 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1071"/>
         <source>Default action on backup:</source>
-        <translation>Действие по умолчанию при резервном копировании:</translation>
+        <translation>Προεπιλεγμένη ενέργεια για ΑντΑσφαλείας:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1082"/>
         <source>Backup only apk</source>
-        <translation>Сохраняить только apk файлы</translation>
+        <translation>ΑντΑσφαλείας μόνο του αρχείου apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1087"/>
         <source>Backup only data</source>
-        <translation>Восстанавливать только данные</translation>
+        <translation>ΑντΑσφαλείας δεδομένων μόνο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1092"/>
         <source>Backup apk + data</source>
-        <translation>Восстанавливать apk файлы и данные</translation>
+        <translation>ΑντΑσφαλείας αρχείου apk + δεδομένων</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1100"/>
         <source>Default action on restore:</source>
-        <translation>Действие по умолчанию при востановлении:</translation>
+        <translation>Προεπιλεγμένη ενέργεια για την επαναφορά:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1111"/>
         <source>Restore only apk</source>
-        <translation>Восстанавливать только apk файлы</translation>
+        <translation>Επαναφορά εφαρμογής μόνο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1116"/>
         <source>Restore only data</source>
-        <translation>Восстанавливать только данные</translation>
+        <translation>Επαναφορά δεδομένων μόνο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1121"/>
         <source>Restore apk + data</source>
-        <translation>Восстанавливать apk файлы и данные</translation>
+        <translation>Επαναφορά εφαρμογής + δεδομένων</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1129"/>
         <source>Sort by column:</source>
-        <translation>Сортировать столбцы:</translation>
+        <translation>Ταξινόμηση κατά στήλη:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1137"/>
         <source>App name</source>
-        <translation>Имя приложения</translation>
+        <translation>Όνομα εφαρμογής</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1142"/>
         <source>App version</source>
-        <translation>Версия приложения</translation>
+        <translation>Έκδοση εφαρμογών</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1147"/>
         <source>App size</source>
-        <translation>Размер приложения</translation>
+        <translation>Μέγεθος εφαρμογής</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1152"/>
         <source>App package name</source>
-        <translation>Имя пакета приложения</translation>
+        <translation>Όνομα πακέτου εφαρμογής</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1160"/>
         <source>Get backups:</source>
-        <translation>Получить резервные копии:</translation>
+        <translation>Λήψη ΑντΑσφαλείας:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1168"/>
         <location filename="../widgets/settingswidget.ui" line="1182"/>
         <location filename="../widgets/settingswidget.ui" line="1274"/>
         <source>only on start</source>
-        <translation>Только при запуске</translation>
+        <translation>Μόνο στην έναρξη</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1173"/>
         <source>every time before show</source>
-        <translation>Каждый раз перед отображением</translation>
+        <translation>Κάθε φορά πριν την εμφάνιση</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1187"/>
         <location filename="../widgets/settingswidget.ui" line="1279"/>
         <source>every time on show</source>
-        <translation>Каждый раз во время отображения</translation>
+        <translation>Κάθε φορά πριν εμφανιστεί</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1259"/>
         <source>Get applications:</source>
-        <translation>Получить информацию о прилжении:</translation>
+        <translation>Λήψη πληροφοριών εφαρμογής:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1266"/>
         <source>Get system applications:</source>
-        <translation>Получить системные приложения:</translation>
+        <translation>Λήψη εφαρμογών συστήματος:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1300"/>
         <source>Check app version on internet</source>
-        <translation>Проверить версию приложения в интернете</translation>
+        <translation>Έλεγχος για την έκδοση της εφαρμογής στο διαδίκτυο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1320"/>
         <source>Show/hide apps columns:</source>
-        <translation>Показать/скрыть столбцы в таблице приложений:</translation>
+        <translation>Εμφάνιση/απόκρυψη στηλών εφαρμογών:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1327"/>
         <source>Show/hide backups columns:</source>
-        <translation>Показать/скрыть столбцы в таблице резервных копий:</translation>
+        <translation>Εμφάνιση/απόκρυψη στηλών ΑντΑσφαλείας:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1336"/>
         <source>sd ext folder</source>
-        <translation>sd ext каталог</translation>
+        <translation>φάκελος sd ext</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1346"/>
         <source>Detect</source>
-        <translation>Определить</translation>
+        <translation>Ανίχνευση</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1377"/>
         <source>Enable animations</source>
-        <translation>Включить анимацию</translation>
+        <translation>Εφέ κίνησης ενεργό</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1387"/>
         <source>Duration (in miliseconds)</source>
-        <translation>Продолжительность (в миллисекундах)</translation>
+        <translation>Διάρκεια (σε χιλιοδευτερόλεπτα)</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1578"/>
         <source>Change background color</source>
-        <translation>Изменить цвет фона</translation>
+        <translation>Αλλαγή χρώματος φόντου</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1585"/>
         <source>Change font color</source>
-        <translation>Изменить цвет шрифта</translation>
+        <translation>Αλλαγή χρώματος γραμματοσειράς</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1668"/>
         <source>Color files</source>
-        <translation>Цветные файлы</translation>
+        <translation>Αρχεία με χρώμα</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1683"/>
@@ -2067,121 +2001,121 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1408"/>
         <source>UpToDown</source>
-        <translation>Сверху вниз</translation>
+        <translation>ΠάνωΠροςΚάτω</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1413"/>
         <source>DownToUp</source>
-        <translation>Снизу вверх</translation>
+        <translation>ΚάτωΠροςΠάνω</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1418"/>
         <source>LeftToRight</source>
-        <translation>Слева направо</translation>
+        <translation>ΑριστεράΠροςΔεξιά</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1423"/>
         <source>RightToLeft</source>
-        <translation>С право налево</translation>
+        <translation>ΔεξιάΠροςΑριστερά</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1526"/>
         <source>Direction</source>
-        <translation>Направление</translation>
+        <translation>Κατεύθυνση</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="97"/>
         <source>General</source>
-        <translation>Общие</translation>
+        <translation>Γενικά</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="102"/>
         <source>File manager</source>
-        <translation>Файловый менеджер</translation>
+        <translation>Διαχειριστής αρχείων</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="107"/>
         <source>App manager</source>
-        <translation>Менеджер приложений</translation>
+        <translation>Διαχειριστής εφαρμογών</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="112"/>
         <source>Animations</source>
-        <translation>Анимация</translation>
+        <translation>Εφέ κίνησης</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="125"/>
         <source>Remove settings from system</source>
-        <translation>Удалить настройки из системы</translation>
+        <translation>Αφαίρεση ρυθμίσεων απ&apos;το σύστημα</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="138"/>
         <source>Set defaults</source>
-        <translation>Установить по умолчанию</translation>
+        <translation>Ορισμός προεπιλογών</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="151"/>
         <source>Save Settings</source>
-        <translation>Сохранить настройки</translation>
+        <translation>Αποθήκευση ρυθμίσεων</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="167"/>
-        <source>Associate apk files with QtADB</source>
-        <translation>Установить ассоциацию файлов apk с QtADB</translation>
+        <source>Associate apk files with DataBridge</source>
+        <translation>Συσχέτιση αρχείων apk με το DataBridge</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Reset settings??</source>
-        <translation>Сбросить настройки??</translation>
+        <translation>Επαναφορά ρυθμίσεων?</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Are you sure you want restore settings to defaults???</source>
-        <translation>Вы уверены, что хотите сбросить настройки по умолчанию???</translation>
+        <translation>Θέλετε σίγουρα να επαναφέρετε τις προεπιλεγμένες ρυθμίσεις???</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="611"/>
         <source>Icon</source>
         <comment>icon app column</comment>
-        <translation>Значок</translation>
+        <translation>Εικονίδιο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="630"/>
         <source>Icon</source>
         <comment>icon backup column</comment>
-        <translation>Значок</translation>
+        <translation>Εικονίδιο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="648"/>
         <source>Icon</source>
         <comment>icon computer column</comment>
-        <translation>Значок</translation>
+        <translation>Εικονίδιο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="665"/>
         <source>Icon</source>
         <comment>icon phone column</comment>
-        <translation>Значок</translation>
+        <translation>Εικονίδιο</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
         <source>Associate??</source>
-        <translation>Ассоциировать??</translation>
+        <translation>Συσχέτιση??</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
-        <source>Are you sure you want to associate *.apk files with QtADB???</source>
-        <translation>Вы уверены, что хотите ассоциировать apk тип файлов с программой QtADB???</translation>
+        <source>Are you sure you want to associate *.apk files with DataBridge???</source>
+        <translation>Θέλετε σίγουρα να συσχετίσετε τα αρχεια apk με το DataBridge???</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="772"/>
         <source>Install apk</source>
-        <translation>Установить apk</translation>
+        <translation>Εγκατάσταση apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="843"/>
         <source>&lt;Not Found&gt;</source>
-        <translation>&lt;Не найдено&gt;</translation>
+        <translation>&lt;Δε βρέθηκε&gt;</translation>
     </message>
 </context>
 <context>
@@ -2189,75 +2123,74 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="241"/>
         <source>
-QtADB shell help
+DataBridge shell help
 </source>
-        <translation>
-QtADB справка по оболочке</translation>
+        <translation>Βοήθεια για το κέλυφος DataBridge</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="242"/>
         <source>CTRL+C                - interrupt executing command</source>
-        <translation>CTRL+C                - прервать выполняемую команду</translation>
+        <translation>CTRL+C                - διακόπτει την υπό εκτέλεση εντολή</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="243"/>
         <source>ESC                   - interrupt executing command</source>
-        <translation>ESC                   - прервать выполняемую команду</translation>
+        <translation>ESC                  - διακόπτει την υπό εκτέλεση εντολή</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="244"/>
         <source>Shift+CTRL+C          - copy selected text to clipboard</source>
-        <translation>Shift+CTRL+C          - копировать выбранный текст в буфер обмена</translation>
+        <translation>Shift+CTRL+C          - αντιγράφει το επιλεγμένο κείμενο στο πρόχειρο</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="245"/>
         <source>Shift+CTRL+V          - paste text from clipboard</source>
-        <translation>Shift+CTRL+V          - вставить тест из буфера обмена</translation>
+        <translation>Shift+CTRL+V          -επικολλά κείμενο απ&apos;το πρόχειρο</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="246"/>
         <source>Enter/Return          - execute command</source>
-        <translation>Enter/Return          - выполнить команду</translation>
+        <translation>Enter/Return           - εκτελεί την εντολή</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="247"/>
         <source>Up (arrow)            - display previous executed command</source>
-        <translation>Вверх            - показать предыдущую выполненую команду</translation>
+        <translation>Πάνω (βέλος)           - εμφανίζει την προηγούμενη προς εκτέλεση εντολή</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="248"/>
         <source>Down (arrow)          - display next executed command</source>
-        <translation>Вниз          - показать следующую выполненую команду</translation>
+        <translation>Κάτω (βέλος)          - εμφανίζει την επόμενη προς εκτέλεση εντολή</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="249"/>
         <source>Left(arrow)           - move cursor to the left</source>
-        <translation>Лево           - переместить курсор влево</translation>
+        <translation>Αριστερό(βέλος)     - μετακινεί τον κέρσορα αριστερά</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="250"/>
         <source>Right(arrow)          - move cursor to the right</source>
-        <translation>Право          - переместить курсор вправо</translation>
+        <translation>Δεξί(βέλος)           - μετακινεί τον κέρσορα δεξιά</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="251"/>
         <source>CTRL+Left(arrow)      - move cursor to the left skipping over the word</source>
-        <translation>CTRL+Лево      - переместить курсор влево через слово</translation>
+        <translation>CTRL+Αριστερό(βέλος)      - μετακινεί τον κέρσορα προς τα αριστερά παρακάμπτωντας την λέξη</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="252"/>
         <source>CTRL+Right(arrow)     - move cursor to the right skipping over the word</source>
-        <translation>CTRL+Право      - переместить курсор вправо через слово</translation>
+        <translation>CTRL+Δεξί(βέλος)     - μετακινεί τον κέρσορα προς τα δεξιά παρακάμπτωντας την λέξη</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="253"/>
         <source>Delete                - delete next char</source>
-        <translation>Delete                - удаление следующего символа</translation>
+        <translation>Delete               - διαγράφει τον επόμενο χαρακτήρα</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="254"/>
         <source>Backspace             - delete previous char</source>
-        <translation>Backspace             - удаление предыдущего символа</translation>
+        <translation>Backspace            - διαγράφει τον προηγούμενο χαρακτήρα</translation>
     </message>
 </context>
 <context>
@@ -2265,7 +2198,7 @@ QtADB справка по оболочке</translation>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="477"/>
         <source>SUCCESS</source>
-        <translation>УДАЧНО</translation>
+        <translation>ΕΠΙΤΥΧΙΑ</translation>
     </message>
 </context>
 <context>
@@ -2273,12 +2206,12 @@ QtADB справка по оболочке</translation>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="614"/>
         <source>FAILURE</source>
-        <translation>НЕУДАЧНО</translation>
+        <translation>ΑΠΟΤΥΧΙΑ</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="618"/>
         <source>SUCCESS</source>
-        <translation>УДАЧНО</translation>
+        <translation>ΕΠΙΤΥΧΙΑ</translation>
     </message>
 </context>
 <context>
@@ -2288,14 +2221,14 @@ QtADB справка по оболочке</translation>
         <location filename="../dialogs/appdialog.cpp" line="550"/>
         <location filename="../dialogs/appdialog.cpp" line="587"/>
         <source>FAILURE</source>
-        <translation>НЕУДАЧНО</translation>
+        <translation>ΑΠΟΤΥΧΙΑ</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="546"/>
         <location filename="../dialogs/appdialog.cpp" line="554"/>
         <location filename="../dialogs/appdialog.cpp" line="583"/>
         <source>SUCCESS</source>
-        <translation>УДАЧНО</translation>
+        <translation>ΕΠΙΤΥΧΙΑ</translation>
     </message>
 </context>
 <context>
@@ -2303,13 +2236,13 @@ QtADB справка по оболочке</translation>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="669"/>
         <source>FAILURE</source>
-        <translation>НЕУДАЧНО</translation>
+        <translation>ΑΠΟΤΥΧΙΑ</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="673"/>
         <location filename="../dialogs/appdialog.cpp" line="677"/>
         <source>SUCCESS</source>
-        <translation>УДАЧНО</translation>
+        <translation>ΕΠΙΤΥΧΙΑ</translation>
     </message>
 </context>
 <context>
@@ -2317,24 +2250,24 @@ QtADB справка по оболочке</translation>
     <message>
         <location filename="../dialogs/appdialog.ui" line="106"/>
         <source>app</source>
-        <translation>Приложение</translation>
+        <translation>Εφαρμ</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.ui" line="111"/>
         <source>state</source>
-        <translation>Состояние</translation>
+        <translation>Κατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="48"/>
         <location filename="../dialogs/appdialog.cpp" line="49"/>
         <source>Install</source>
-        <translation>Установить</translation>
+        <translation>Εγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="54"/>
         <location filename="../dialogs/appdialog.cpp" line="55"/>
         <source>Uninstall</source>
-        <translation>Удалить</translation>
+        <translation>Απεγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="60"/>
@@ -2342,169 +2275,169 @@ QtADB справка по оболочке</translation>
         <location filename="../dialogs/appdialog.cpp" line="142"/>
         <location filename="../dialogs/appdialog.cpp" line="143"/>
         <source>Reinstall</source>
-        <translation>Переустановить</translation>
+        <translation>Επαναεγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="68"/>
         <location filename="../dialogs/appdialog.cpp" line="69"/>
         <source>Backup apps</source>
-        <translation>Сохранить приложения</translation>
+        <translation>ΑντΑσφαλ εφαρμογών</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="73"/>
         <location filename="../dialogs/appdialog.cpp" line="74"/>
         <source>Backup data</source>
-        <translation>Сохранить данные</translation>
+        <translation>ΑντΑσφαλ δεδομενων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="78"/>
         <location filename="../dialogs/appdialog.cpp" line="79"/>
         <source>Backup apps and data</source>
-        <translation>Сохранить приложения и данные</translation>
+        <translation>ΑντΑσφαλ εφαρμογών και δεδομενων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="87"/>
         <location filename="../dialogs/appdialog.cpp" line="88"/>
         <source>Restore apps</source>
-        <translation>Восстановить приложения</translation>
+        <translation>Επαναφορά εφαρμογών</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="92"/>
         <location filename="../dialogs/appdialog.cpp" line="93"/>
         <source>Restore data</source>
-        <translation>Восстановить данные</translation>
+        <translation>Επαναφορά δεδομενων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="97"/>
         <location filename="../dialogs/appdialog.cpp" line="98"/>
         <location filename="../dialogs/appdialog.cpp" line="179"/>
         <source>Restore apps and data</source>
-        <translation>Восстановить приложения и данные</translation>
+        <translation>Επαναφορά εφαρμογών και δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="130"/>
         <source>Install</source>
         <comment>apd dialog title</comment>
-        <translation>Установить</translation>
+        <translation>Εγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="131"/>
         <source>Install</source>
         <comment>label text</comment>
-        <translation>Установить</translation>
+        <translation>Εγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="136"/>
         <source>Uninstall</source>
         <comment>apd dialog title</comment>
-        <translation>Удалить</translation>
+        <translation>Απεγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="137"/>
         <source>Uninstall</source>
         <comment>label text</comment>
-        <translation>Удалить</translation>
+        <translation>Απεγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="150"/>
         <source>Backup apps</source>
         <comment>apd dialog title</comment>
-        <translation>Сохранить приложения</translation>
+        <translation>ΑντΑσφαλ εφαρμογών</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="151"/>
         <source>Backup apps</source>
         <comment>label text</comment>
-        <translation>Сохранить приложения</translation>
+        <translation>ΑντΑσφαλ εφαρμογών</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="155"/>
         <source>Backup data</source>
         <comment>apd dialog title</comment>
-        <translation>Сохранить данные</translation>
+        <translation>ΑντΑσφαλ δεδομενων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="156"/>
         <source>Backup data</source>
         <comment>label text</comment>
-        <translation>Сохранить данные</translation>
+        <translation>ΑντΑσφαλ δεδομενων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="160"/>
         <source>Backup apps and data</source>
         <comment>apd dialog title</comment>
-        <translation>Сохранить приложения и данные</translation>
+        <translation>ΑντΑσφαλ εφαρμογών και δεδομενων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="161"/>
         <source>Backup apps and data</source>
         <comment>label text</comment>
-        <translation>Сохранить приложения и данные</translation>
+        <translation>ΑντΑσφαλ εφαρμογών και δεδομενων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="169"/>
         <source>Restore apps</source>
         <comment>apd dialog title</comment>
-        <translation>Восстановить приложения</translation>
+        <translation>Επαναφορά εφαρμογών</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="170"/>
         <source>Restore apps</source>
         <comment>label text</comment>
-        <translation>Восстановить приложения</translation>
+        <translation>Επαναφορά εφαρμογών</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="174"/>
         <source>Restore data</source>
         <comment>apd dialog title</comment>
-        <translation>Восстановить данные</translation>
+        <translation>Επαναφορά δεδομενων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="175"/>
         <source>Restore data</source>
         <comment>label text</comment>
-        <translation>Восстановить данные</translation>
+        <translation>Επαναφορά δεδομενων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="180"/>
         <source>Restore apps and data</source>
         <comment>label text</comment>
-        <translation>Восстановить приложения и данные</translation>
+        <translation>Επαναφορά εφαρμογών και δεδομένων</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Cancel operation??</source>
-        <translation>Отменить операцию??</translation>
+        <translation>Ακύρωση δραστηριότητας??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Are you sure You want to cancel operation??</source>
-        <translation>Вы точно уверены, что хотите отменить эту операцию??</translation>
+        <translation>Θέλετε σίγουρα ν&apos;ακυρωθεί αυτή η ενέργεια??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="360"/>
         <source>Install finished</source>
-        <translation>Установка завершена</translation>
+        <translation>Η εγκατάσταση ολοκληρώθηκε</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="364"/>
         <source>Uninstall finished</source>
-        <translation>Удаление завершено</translation>
+        <translation>Η απεγκατάσταση ολοκληρώθηκε</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="368"/>
         <source>Reinstall finished</source>
-        <translation>Переустановка завершена</translation>
+        <translation>Η επανεγκατάσταση ολοκληρώθηκε</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="372"/>
         <source>Backup finished</source>
-        <translation>Сохранение завершено</translation>
+        <translation>Το ΑντΑσφαλείας ολοκληρώθηκε</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="376"/>
         <source>Restore finished</source>
-        <translation>Восстановление завершено</translation>
+        <translation>Η επαναφορά ολοκληρώθηκε</translation>
     </message>
 </context>
 <context>
@@ -2513,69 +2446,68 @@ QtADB справка по оболочке</translation>
         <location filename="../dialogs/appinfo.ui" line="14"/>
         <source>App info</source>
         <extracomment>app info dialog title</extracomment>
-        <translatorcomment>Название диалога информации о приложении</translatorcomment>
-        <translation>Информация о приложении</translation>
+        <translation>Πληρ Εφαρμογής</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="87"/>
         <source>App name</source>
-        <translation>Имя приложения</translation>
+        <translation>Όνομα εφαρμογής</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="111"/>
         <source>App version</source>
-        <translation>Версия приложения</translation>
+        <translation>Έκδοση εφαρμογών</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="135"/>
         <source>Package name</source>
-        <translation>Имя пакета</translation>
+        <translation>Μέγεθος πακέτου</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="159"/>
         <source>File name</source>
-        <translation>Имя файла</translation>
+        <translation>Όνομα αρχείου</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="173"/>
         <source>File Size</source>
-        <translation>Размер файла</translation>
+        <translation>Μέγεθος αρχείου</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="263"/>
         <source>Open in Market (PC)</source>
-        <translation>Открыть в Маркете (ПК)</translation>
+        <translation>Άνοιγμα στο Market(Υπολογιστής)</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="274"/>
         <source>Open in Market (Phone)</source>
-        <translation>Открыть в Маркете (Телефон)</translation>
+        <translation>Άνοιγμα στο Market(Τηλέφωνο)</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="285"/>
         <source>Install</source>
-        <translation>Установить</translation>
+        <translation>Εγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="58"/>
         <location filename="../dialogs/appinfo.cpp" line="103"/>
         <source>Reinstall</source>
-        <translation>Переустановить</translation>
+        <translation>Επανεγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>install</source>
-        <translation>установить</translation>
+        <translation>Εγκατάσταση</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>are you sure???</source>
-        <translation>вы уверены???</translation>
+        <translation>Σίγουρα???</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>reinstall</source>
-        <translation>переустановить</translation>
+        <translation>επανεγκατάσταση</translation>
     </message>
 </context>
 <context>
@@ -2584,58 +2516,57 @@ QtADB справка по оболочке</translation>
         <location filename="../dialogs/dialogkopiuj.ui" line="14"/>
         <source>Copying</source>
         <extracomment>Copy dialog title</extracomment>
-        <translatorcomment>Название диалога копирования</translatorcomment>
-        <translation>Копирование</translation>
+        <translation>Αντιγραφή</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="29"/>
         <source>file:</source>
-        <translation>файл:</translation>
+        <translation>αρχείο:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="43"/>
         <source>from:</source>
-        <translation>из:</translation>
+        <translation>από:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="57"/>
         <source>to:</source>
-        <translation>в:</translation>
+        <translation>προς:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="71"/>
         <source>items remaining:</source>
-        <translation>осталось:</translation>
+        <translation>στοιχεία που απομένουν:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="87"/>
         <source>File:</source>
-        <translation>Файл:</translation>
+        <translation>Αρχείο:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="174"/>
         <source>Total:</source>
-        <translation>Всего:</translation>
+        <translation>Σύνολο:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="198"/>
         <source>close after finished</source>
-        <translation>закрыть после окончания</translation>
+        <translation>κλεισιμο αφού ολοκληρωθει</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="218"/>
         <source>Cancel</source>
-        <translation>Отмена</translation>
+        <translation>Άκυρο</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Close??</source>
-        <translation>Отменить операцию??</translation>
+        <translation>Κλείσιμο??</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Are you sure??</source>
-        <translation>Вы уверены??</translation>
+        <translation>Σίγουρα;;</translation>
     </message>
 </context>
 </TS>

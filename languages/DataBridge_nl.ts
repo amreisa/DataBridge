@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="hu_HU">
+<TS version="2.1" language="nl_NL" sourcelanguage="en">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="23"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>About dialog title</extracomment>
-        <translation>QtADB - Android kezelő</translation>
+        <translation>DataBridge - Uw android manager</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="117"/>
         <source>Created by 7ymekk &amp; mozarcik</source>
-        <translation>Készítette 7ymekk &amp; mozarcik</translation>
+        <translation>Gemaakt door 7ymekk &amp; mozarcik</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="124"/>
         <source>Version</source>
-        <translation>Verzió</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="141"/>
         <source>Questions?? Suggestions??</source>
-        <translation>Kérdések? Javaslatok?</translation>
+        <translation>Vragen??Suggestie??</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="148"/>
         <source>Feel free to contact us:</source>
-        <translation>Kapcsolatfelvétel:</translation>
+        <translation>Neem gerust kontakt met ons op:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="172"/>
         <source>Website:</source>
-        <translation>Weboldal:</translation>
+        <translation>Website:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="193"/>
         <source>Icons in app are from:</source>
-        <translation>Ikonok az alkalmazásban:</translation>
+        <translation>Icons in app zijn van:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="214"/>
         <source>and</source>
-        <translation>és</translation>
+        <translation>en</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="280"/>
@@ -55,7 +55,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;QtADB was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;DataBridge was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -74,37 +74,37 @@ p, li { white-space: pre-wrap; }
         <location filename="../classes/models/apptablemodel.cpp" line="183"/>
         <source>Name</source>
         <comment>application table name</comment>
-        <translation>Alkalmazásnév</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="185"/>
         <source>Version</source>
         <comment>application table version</comment>
-        <translation>Verzió</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="187"/>
         <source>Size</source>
         <comment>applications table size</comment>
-        <translation>Méret</translation>
+        <translation>Grootte</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="189"/>
         <source>Package</source>
         <comment>application table package</comment>
-        <translation>Csomag</translation>
+        <translation>Package</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="191"/>
         <source>File</source>
         <comment>application table file</comment>
-        <translation>Fájl</translation>
+        <translation>File</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="193"/>
         <source>Location</source>
         <comment>application table location</comment>
-        <translation>Hely</translation>
+        <translation>Lokatie</translation>
     </message>
 </context>
 <context>
@@ -112,262 +112,262 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/appwidget.ui" line="69"/>
         <source>applications</source>
-        <translation>Alkalmazások</translation>
+        <translation>applicatie&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="74"/>
         <source>backups</source>
-        <translation>Mentések</translation>
+        <translation>backup&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="79"/>
         <source>system apps</source>
-        <translation>Rendszer alkalmazások</translation>
+        <translation>systeem app&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="89"/>
         <source>filter</source>
-        <translation>szűrő</translation>
+        <translation>filter</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="167"/>
         <source>App name</source>
         <extracomment>app name label</extracomment>
-        <translation>Alkalmazás neve</translation>
+        <translation>App naam</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="181"/>
         <source>App version</source>
         <extracomment>version label</extracomment>
-        <translation>Alkalmazás verziója</translation>
+        <translation>App versie</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="195"/>
         <source>File name</source>
         <extracomment>file name label</extracomment>
-        <translation>Fájlnév</translation>
+        <translation>File naam</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="209"/>
         <source>File Size</source>
         <extracomment>size label</extracomment>
-        <translation>Fájlméret</translation>
+        <translation>File Grootte</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="253"/>
         <source>Package name</source>
         <extracomment>package label</extracomment>
-        <translation>Csomagnév</translation>
+        <translation>Package naam</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="287"/>
         <source>Location</source>
         <extracomment>location label</extracomment>
-        <translation>Hely</translation>
+        <translation>Lokatie</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="334"/>
         <source>Latest version</source>
         <extracomment>latest version label</extracomment>
-        <translation>Utolsó verzió</translation>
+        <translation>Laatste versie</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="368"/>
         <location filename="../widgets/appwidget.cpp" line="801"/>
         <source>uninstall</source>
         <extracomment>uninstall apps</extracomment>
-        <translation>Törlés</translation>
+        <translation>de-installeer</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="400"/>
         <location filename="../widgets/appwidget.cpp" line="684"/>
         <source>backup</source>
         <extracomment>backup apps</extracomment>
-        <translation>Mentés</translation>
+        <translation>backup</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="446"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>restore</source>
         <extracomment>restore backup</extracomment>
-        <translation>Visszaállítás
-</translation>
+        <translation>restore</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="478"/>
         <source>remove</source>
         <extracomment>remove backup</extracomment>
-        <translation>Eltávolítás</translation>
+        <translation>verwijder</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="509"/>
         <source>Refresh</source>
         <extracomment>refresh apps/backups</extracomment>
-        <translation>Frissítés</translation>
+        <translation>Ververs</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="535"/>
         <source>Open in Market (Phone)</source>
-        <translation type="unfinished"></translation>
+        <translation>Open Market (Telefoon)</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="561"/>
         <source>Open in Market (PC)</source>
-        <translation type="unfinished"></translation>
+        <translation>Open Market (PC)</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="174"/>
         <source>Choose where You want to save selected apps</source>
-        <translation>Hova akarod menteni a kiválasztott alkalmazást</translation>
+        <translation>Kies waar je de geselekteerde app&apos;s wilt opslaan</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
         <source>Missing aapt</source>
-        <translation>aapt hiányzik</translation>
+        <translation>Aapt niet aanwezig</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="95"/>
         <source>backup</source>
         <comment>backup menu title</comment>
-        <translation>Mentés</translation>
+        <translation>backup</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="97"/>
         <source>app</source>
         <comment>backup menu action</comment>
-        <translation>Alkalmazás</translation>
+        <translation>app</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="98"/>
         <source>data</source>
         <comment>backup menu action</comment>
-        <translation>Adat</translation>
+        <translation>data</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="99"/>
         <source>app + data</source>
         <comment>backup menu action</comment>
-        <translation>Alkalmazás és adat</translation>
+        <translation>app + data</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="107"/>
         <source>restore</source>
         <comment>restore menu title</comment>
-        <translation>Visszaállítás
-</translation>
+        <translation>restore</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="109"/>
         <source>app</source>
         <comment>restore menu action</comment>
-        <translation>Alkalmazás</translation>
+        <translation>app</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="110"/>
         <source>data</source>
         <comment>restore menu action</comment>
-        <translation>Adat</translation>
+        <translation>data</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="111"/>
         <source>app + data</source>
         <comment>restore menu action</comment>
-        <translation>Alkalmazás és adat</translation>
+        <translation>app + data</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="195"/>
         <source>uninstall</source>
         <comment>right click apps menu</comment>
-        <translation>Törlés</translation>
+        <translation>de-installeer</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="196"/>
         <source>copy to PC</source>
         <comment>right click apps menu</comment>
-        <translation>Másolás a pc-re</translation>
+        <translation>kopieer naar PC</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="197"/>
         <source>Get apps info</source>
         <comment>right click apps menu</comment>
-        <translation>Alkalmazás infó</translation>
+        <translation>Haal app&apos;s info op</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="198"/>
         <source>Get apps version from internet</source>
         <comment>right click apps menu</comment>
-        <translation>Alkalmazás verzió az internetről</translation>
+        <translation>Haal app&apos;s versie van Internet op</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="214"/>
         <source>remove</source>
         <comment>right click backups menu</comment>
-        <translation>Eltávolítás</translation>
+        <translation>verwijder</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="239"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>kiválasztott</translation>
+        <translation>geselekteerd</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="376"/>
         <location filename="../widgets/appwidget.cpp" line="449"/>
         <source>App name</source>
         <comment>combo apps filter</comment>
-        <translation>Alkalmazás neve</translation>
+        <translation>App naam</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="377"/>
         <location filename="../widgets/appwidget.cpp" line="450"/>
         <source>Package name</source>
         <comment>combo apps filter</comment>
-        <translation>Csomagnév</translation>
+        <translation>Package naam</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="378"/>
         <location filename="../widgets/appwidget.cpp" line="451"/>
         <source>File path</source>
         <comment>combo apps filter</comment>
-        <translation>Fájl útvonal</translation>
+        <translation>File path</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="379"/>
         <location filename="../widgets/appwidget.cpp" line="452"/>
         <source>Location</source>
         <comment>combo apps filter</comment>
-        <translation>Hely</translation>
+        <translation>Lokatie</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="415"/>
         <source>App name</source>
         <comment>combo backups filter</comment>
-        <translation>Alkalmazás neve</translation>
+        <translation>App naam</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="416"/>
         <source>Package name</source>
         <comment>combo backups filter</comment>
-        <translation>Csomagnév</translation>
+        <translation>Package naam</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
-        <source>QtADB did not found aapt.
+        <source>DataBridge did not found aapt.
 Download it and place in one directory with adb.
 After You place it in correct directory click Refresh button</source>
-        <translation type="unfinished"></translation>
+        <translation>DataBridge kon aapt niet vinden
+Download het en plaats het in dezelfde folder als adb
+Als je dit gedaan hebt klik Ververs knop</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="619"/>
         <source>Download</source>
         <comment>missing aapt message button</comment>
-        <translation>Letöltés</translation>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="620"/>
         <source>Cancel</source>
         <comment>missing aapt message button</comment>
-        <translation>Mégse</translation>
+        <translation>Hef op</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="685"/>
@@ -375,17 +375,17 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>are you sure???</source>
-        <translation>Biztos vagy benne???</translation>
+        <translation>weet je het zeker???</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="738"/>
         <source>select apps to install</source>
-        <translation>Válassz telepítendő alkalmazásokat</translation>
+        <translation>selekteer te installeren app&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <source>remove backup</source>
-        <translation>Mentés eltávolítása</translation>
+        <translation>verwijder backup</translation>
     </message>
 </context>
 <context>
@@ -394,49 +394,49 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/backuptablemodel.cpp" line="147"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="152"/>
         <source>yes</source>
-        <translation>Igen</translation>
+        <translation>ja</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="149"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="154"/>
         <source>no</source>
-        <translation>Nem</translation>
+        <translation>nee</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="173"/>
         <source>Name</source>
         <comment>backup table header app name</comment>
-        <translation>Alkalmazásnév</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="175"/>
         <source>Version</source>
         <comment>backup table header app version</comment>
-        <translation>Verzió</translation>
+        <translation>Versie</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="177"/>
         <source>Size</source>
         <comment>backup table header app size</comment>
-        <translation>Méret</translation>
+        <translation>Grootte</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="179"/>
         <source>Package</source>
         <comment>backup table header app package</comment>
-        <translation>Csomag</translation>
+        <translation>Package</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="181"/>
         <source>App</source>
         <comment>backup table header apk file</comment>
-        <translation>Alkalmazás</translation>
+        <translation>App</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="183"/>
         <source>Data</source>
         <comment>backup table header data</comment>
-        <translation>Adat</translation>
+        <translation>Data</translation>
     </message>
 </context>
 <context>
@@ -446,22 +446,22 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../dialogs/connectWifi.ui" line="116"/>
         <source>Connect</source>
         <extracomment>Connect wifi dialog title</extracomment>
-        <translation>Kapcsolódás</translation>
+        <translation>Verbind</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="44"/>
         <source>Address</source>
-        <translation>Cím</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="79"/>
         <source>Port</source>
-        <translation>Port</translation>
+        <translation>Poort</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="123"/>
         <source>Cancel</source>
-        <translation>Mégse</translation>
+        <translation>Hef op</translation>
     </message>
 </context>
 <context>
@@ -469,17 +469,17 @@ After You place it in correct directory click Refresh button</source>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="32"/>
         <source>Flash SPL</source>
-        <translation> SPL flesselés</translation>
+        <translation>Flash SPL</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="55"/>
         <source>Flash recovery</source>
-        <translation>recovery flesselés</translation>
+        <translation>Flash recovery</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="65"/>
         <source>Flash radio</source>
-        <translation> radio flesselés</translation>
+        <translation>Flash radio</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="75"/>
@@ -489,7 +489,7 @@ After You place it in correct directory click Refresh button</source>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
         <source>Choose img file...</source>
-        <translation>Válassz img fájlt</translation>
+        <translation>Kies img file...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
@@ -497,12 +497,12 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>IMG File </source>
-        <translation>IMG fájl</translation>
+        <translation>IMG file</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="105"/>
         <source>Choose hboot img file...</source>
-        <translation>Válassz hboot img fájlt</translation>
+        <translation>Kies hboot img file...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="112"/>
@@ -512,31 +512,31 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="182"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Error!</source>
-        <translation>Hiba!</translation>
+        <translation>Fout!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="114"/>
         <location filename="../widgets/fastbootwidget.cpp" line="149"/>
         <location filename="../widgets/fastbootwidget.cpp" line="184"/>
         <source>Success!</source>
-        <translation>Sikerült!</translation>
+        <translation>Succes!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="118"/>
         <location filename="../widgets/fastbootwidget.cpp" line="153"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Operation cancelled!</source>
-        <translation>Művelet törölve!</translation>
+        <translation>Operatie opgeheven!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <source>Choose radio img file...</source>
-        <translation>Válassz rádió img fájlt</translation>
+        <translation>Kies radio img file...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>Choose recovery img file...</source>
-        <translation>Válassz recovery img fájlt</translation>
+        <translation>Kies recovery img file...</translation>
     </message>
 </context>
 <context>
@@ -545,19 +545,19 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/filetablemodel.cpp" line="207"/>
         <source>Name</source>
         <comment>file table file name</comment>
-        <translation>Alkalmazásnév</translation>
+        <translation>Naam</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="209"/>
         <source>Size</source>
         <comment>file table file size</comment>
-        <translation>Méret</translation>
+        <translation>Grootte</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="211"/>
         <source>Date</source>
         <comment>file table file date</comment>
-        <translation>Dátum</translation>
+        <translation>Datum</translation>
     </message>
 </context>
 <context>
@@ -566,72 +566,72 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.ui" line="35"/>
         <source>computer</source>
         <extracomment>table title</extracomment>
-        <translation>Számítógép</translation>
+        <translation>computer</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="116"/>
         <location filename="../widgets/filewidget.ui" line="224"/>
         <source>filter</source>
-        <translation>szűrő</translation>
+        <translation>filter</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="45"/>
         <source>phone</source>
         <extracomment>table title</extracomment>
-        <translation>Telefon</translation>
+        <translation>telefoon</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="270"/>
         <source>F2 rename</source>
         <extracomment>rename button</extracomment>
-        <translation>F2 átnevezés</translation>
+        <translation>F2 hernoem</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="290"/>
         <source>F3 select all/none</source>
         <extracomment>select button</extracomment>
-        <translation>F3 válassz mindent/semmit</translation>
+        <translation>F3 selekteer alles/niets</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="310"/>
         <source>F4 install</source>
         <extracomment>install button</extracomment>
-        <translation>Telepít</translation>
+        <translation>F4 installeer</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="330"/>
         <source>F5 copy</source>
         <extracomment>copy button</extracomment>
-        <translation>F5 másol</translation>
+        <translation>F5 kopieer</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="350"/>
         <source>F6 new dir</source>
         <extracomment>new dir button</extracomment>
-        <translation>F6 új könyvtár</translation>
+        <translation>F6 nieuwe folder</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="370"/>
         <source>F7 refresh</source>
         <extracomment>refresh files button</extracomment>
-        <translation>F7 frissítés</translation>
+        <translation>F7 ververs</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="390"/>
         <source>F8 delete</source>
         <extracomment>delete button</extracomment>
-        <translation>F8 törlés</translation>
+        <translation>F8 wis</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="410"/>
         <source>F9 hidden files</source>
         <extracomment>hidden button</extracomment>
-        <translation>F9 rejtett fájlok</translation>
+        <translation>F9 verborgen file&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1942"/>
         <source>install</source>
-        <translation>Telepítés</translation>
+        <translation>installeer</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="592"/>
@@ -639,7 +639,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="1264"/>
         <location filename="../widgets/filewidget.cpp" line="1334"/>
         <source>select some files first</source>
-        <translation>Válassz először fájlokat</translation>
+        <translation>selekteer eerst enkele file&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -648,7 +648,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>copying</source>
-        <translation>Másolás folyamatban</translation>
+        <translation>kopieeren</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -660,7 +660,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>are you sure???</source>
-        <translation>Biztos vagy benne???</translation>
+        <translation>weet je het zeker???</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="614"/>
@@ -669,189 +669,188 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2155"/>
         <location filename="../widgets/filewidget.cpp" line="2207"/>
         <source>theres nothing to copy. Maybe selected dirs are empty</source>
-        <translation>Semmi sem lett másolva.
-Talán üresek a kiválasztott könyvtárak</translation>
+        <translation>er is niets te kopieeren. Zijn de gekozen folder&apos;s misschien leeg</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="642"/>
         <location filename="../widgets/filewidget.cpp" line="1338"/>
         <source>deleting</source>
-        <translation>Törlés folyamatban</translation>
+        <translation>wissen</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="660"/>
         <location filename="../widgets/filewidget.cpp" line="1371"/>
         <location filename="../widgets/filewidget.cpp" line="1380"/>
         <source>getting files...</source>
-        <translation>fájlok elérése</translation>
+        <translation>file&apos;s ophalen...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="756"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>error</source>
-        <translation>Hiba</translation>
+        <translation>fout</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="757"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>dir was not created.
 Make sure that you are allowed to do this</source>
-        <translation>Könyvtár nem készült.
-Biztos, hogy engedélyezted?</translation>
+        <translation>folder was niet gemaakt.
+Ben je gemachtigd dit te doen</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1748"/>
         <source>selected</source>
-        <translation>kiválasztva</translation>
+        <translation>geselekteerd</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1634"/>
         <source>searching...</source>
-        <translation>keresés...</translation>
+        <translation>zoeken...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="538"/>
         <source>rename</source>
         <comment>computer right click menu</comment>
-        <translation>Átnevezés</translation>
+        <translation>hernoem</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="540"/>
         <source>select all</source>
         <comment>computer right click menu</comment>
-        <translation>Mindent kiválaszt</translation>
+        <translation>selekteer alles</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="542"/>
         <source>select none</source>
         <comment>computer right click menu</comment>
-        <translation>Semmit sem választ</translation>
+        <translation>selekteer niets</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="544"/>
         <source>copy</source>
         <comment>computer right click menu</comment>
-        <translation>másol</translation>
+        <translation>kopieer</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="546"/>
         <source>new dir</source>
         <comment>computer right click menu</comment>
-        <translation>Új könyvtár</translation>
+        <translation>nieuwe folder</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="548"/>
         <source>refresh</source>
         <comment>computer right click menu</comment>
-        <translation>Frissítés</translation>
+        <translation>ververs</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="550"/>
         <source>delete</source>
         <comment>computer right click menu</comment>
-        <translation>Törlés</translation>
+        <translation>wis</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="552"/>
         <source>hidden files</source>
         <comment>computer right click menu</comment>
-        <translation>Rejtett fájlok</translation>
+        <translation>verborgen file&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="554"/>
         <source>install</source>
         <comment>computer right click menu</comment>
-        <translation>Telepítés</translation>
+        <translation>installeer</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="556"/>
         <source>Show app info</source>
         <comment>computer right click menu</comment>
-        <translation>Mutasd az alkalmázás info-t</translation>
+        <translation>Toon app info</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="558"/>
         <source>open in new tab</source>
         <comment>computer right click menu</comment>
-        <translation>Megnyitás új tabon</translation>
+        <translation>open in nieuwe tab</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="971"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>kiválasztva</translation>
+        <translation>geselekteerd</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1152"/>
         <location filename="../widgets/filewidget.cpp" line="1184"/>
         <source>rename</source>
         <comment>phone right click menu</comment>
-        <translation>Átnevezés</translation>
+        <translation>hernoem</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1154"/>
         <location filename="../widgets/filewidget.cpp" line="1186"/>
         <source>select all</source>
         <comment>phone right click menu</comment>
-        <translation>Mindent kiválaszt</translation>
+        <translation>selekteer alles</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1156"/>
         <location filename="../widgets/filewidget.cpp" line="1188"/>
         <source>select none</source>
         <comment>phone right click menu</comment>
-        <translation>Semmit sem választ</translation>
+        <translation>selekteer niets</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1158"/>
         <location filename="../widgets/filewidget.cpp" line="1190"/>
         <source>copy</source>
         <comment>phone right click menu</comment>
-        <translation>másol</translation>
+        <translation>kopieer</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1160"/>
         <location filename="../widgets/filewidget.cpp" line="1192"/>
         <source>new dir</source>
         <comment>phone right click menu</comment>
-        <translation>Új könyvtár</translation>
+        <translation>nieuwe folder</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1162"/>
         <location filename="../widgets/filewidget.cpp" line="1194"/>
         <source>refresh</source>
         <comment>phone right click menu</comment>
-        <translation>Frissítés</translation>
+        <translation>ververs</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1164"/>
         <location filename="../widgets/filewidget.cpp" line="1196"/>
         <source>delete</source>
         <comment>phone right click menu</comment>
-        <translation>Törlés</translation>
+        <translation>wis</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1166"/>
         <location filename="../widgets/filewidget.cpp" line="1198"/>
         <source>hidden files</source>
         <comment>phone right click menu</comment>
-        <translation>Rejtett fájlok</translation>
+        <translation>verborgen file&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1200"/>
         <source>open in new tab</source>
         <comment>phone right click menu</comment>
-        <translation>Megnyitás új tabon</translation>
+        <translation>open in nieuwe tab</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>information</source>
-        <translation>információ</translation>
+        <translation>informatie</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>It&apos;s not an application</source>
-        <translation>Ez nem alkalmazás!</translation>
+        <translation>Het is geen applikatie</translation>
     </message>
 </context>
 <context>
@@ -864,82 +863,82 @@ Biztos, hogy engedélyezted?</translation>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="29"/>
         <source>Debug</source>
-        <translation>Hibakeresés</translation>
+        <translation>Debug</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="39"/>
         <source>Warning</source>
-        <translation>Figyelmeztetés</translation>
+        <translation>Waarschuwing</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="49"/>
         <source>Information</source>
-        <translation>Információ</translation>
+        <translation>Informatie</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="59"/>
         <source>Error</source>
-        <translation>Hiba</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="113"/>
         <source>Verbose</source>
-        <translation>Kibontva</translation>
+        <translation>Breedsprakig</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="123"/>
         <source>filter</source>
-        <translation>szűrő</translation>
+        <translation>filter</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="131"/>
         <source>Sender</source>
-        <translation>Küldő</translation>
+        <translation>Afzender</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="136"/>
         <source>Message</source>
-        <translation>Üzenet</translation>
+        <translation>Bericht</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="235"/>
         <source>autoscroll</source>
-        <translation type="unfinished"></translation>
+        <translation>autoscroll</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="245"/>
         <source>clear</source>
-        <translation type="unfinished"></translation>
+        <translation>clear</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="228"/>
         <source>Buffer limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Buffer limiet</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="44"/>
         <source>clear logcat</source>
-        <translation type="unfinished"></translation>
+        <translation>maak logcat leeg</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="45"/>
         <source>copy selected to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>kopie geselecteerde naar plabord</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="46"/>
         <source>export selected to file</source>
-        <translation type="unfinished"></translation>
+        <translation>export geselecteerde naar file</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>Save File...</source>
-        <translation type="unfinished">Fájl mentése...</translation>
+        <translation>Opslaan file...</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>txt file</source>
-        <translation type="unfinished"></translation>
+        <translation>text file</translation>
     </message>
 </context>
 <context>
@@ -948,19 +947,20 @@ Biztos, hogy engedélyezted?</translation>
         <location filename="../classes/models/logcatmodel.cpp" line="158"/>
         <source>Time</source>
         <comment>logcat header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tijd</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="160"/>
         <source>Type</source>
         <comment>logcat header</comment>
-        <translation>Típus</translation>
+        <translatorcomment>logcat kop</translatorcomment>
+        <translation>Type</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="162"/>
         <source>Sender</source>
         <comment>logcat header</comment>
-        <translation>Küldő</translation>
+        <translation>Afzender</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="164"/>
@@ -972,7 +972,7 @@ Biztos, hogy engedélyezted?</translation>
         <location filename="../classes/models/logcatmodel.cpp" line="166"/>
         <source>Message</source>
         <comment>logcat header</comment>
-        <translation>Üzenet</translation>
+        <translation>Bericht</translation>
     </message>
 </context>
 <context>
@@ -981,38 +981,38 @@ Biztos, hogy engedélyezted?</translation>
         <location filename="../dialogs/mainwindow.ui" line="107"/>
         <source>Refresh</source>
         <extracomment>refresh state when disconnected</extracomment>
-        <translation>Frissítés</translation>
+        <translation>Ververs</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="287"/>
         <source>check for updates</source>
-        <translation>Frissítések keresése</translation>
+        <translation>Check voor update&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="97"/>
         <source>CONNECT YOUR PHONE</source>
-        <translation>CSATLAKOZTASD A TELEFONODAT</translation>
+        <translation>VERBIND UW TELEFOON</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="22"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>Main window title</extracomment>
-        <translation>QtADB - Android kezelő</translation>
+        <translation>DataBridge - Uw android manager</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="172"/>
         <source>&amp;Connection</source>
-        <translation>&amp;Kapcsolat</translation>
+        <translation>&amp;Verbinding</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="179"/>
         <source>&amp;Help</source>
-        <translation>&amp;Segítség</translation>
+        <translation>&amp;Help</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="187"/>
         <source>&amp;Tools</source>
-        <translation>&amp;Eszközök</translation>
+        <translation>&amp;Tool&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="191"/>
@@ -1037,57 +1037,41 @@ Biztos, hogy engedélyezted?</translation>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="242"/>
         <source>about</source>
-        <translatorcomment>A programról</translatorcomment>
-        <translation>About</translation>
+        <translation>over</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="247"/>
         <source>polski</source>
-        <translatorcomment>lengyel</translatorcomment>
-        <translation>Język lengyel</translation>
+        <translation>pools</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="252"/>
         <location filename="../dialogs/mainwindow.ui" line="267"/>
         <source>Reboot</source>
-        <translatorcomment>Újraindítás</translatorcomment>
-        <translation>Újraindítás</translation>
+        <translation>Reboot</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="257"/>
         <location filename="../dialogs/mainwindow.ui" line="272"/>
         <source>Reboot bootloader</source>
-        <translatorcomment>Újraindítás bootloaderbe</translatorcomment>
         <translation>Reboot bootloader</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="262"/>
         <source>Reboot recovery</source>
-        <translatorcomment>Újraindítás recoverybe</translatorcomment>
         <translation>Reboot recovery</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="277"/>
         <location filename="../dialogs/mainwindow.ui" line="282"/>
         <source>Power off</source>
-        <translatorcomment>Kikapcsolás</translatorcomment>
-        <translation>Kikapcsolás</translation>
+        <translation>Power off</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="292"/>
         <source>enter register key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../dialogs/mainwindow.cpp" line="911"/>
-        <source>error</source>
-        <translatorcomment>Hiba</translatorcomment>
-        <translation>Hiba</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/mainwindow.cpp" line="892"/>
-        <source>New updates</source>
-        <translation>Új frissítések</translation>
+        <translatorcomment>voer registratie key in</translatorcomment>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="65"/>
@@ -1099,19 +1083,19 @@ Biztos, hogy engedélyezted?</translation>
         <location filename="../dialogs/mainwindow.cpp" line="67"/>
         <source>exit</source>
         <comment>action in system tray menu</comment>
-        <translation>Kilépés</translation>
+        <translation>exit</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="94"/>
         <source>Files</source>
         <comment>files button</comment>
-        <translation>Fájlok</translation>
+        <translation>File&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="95"/>
         <source>Apps</source>
         <comment>apps button</comment>
-        <translation>Progi</translation>
+        <translation>App&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="96"/>
@@ -1129,19 +1113,19 @@ Biztos, hogy engedélyezted?</translation>
         <location filename="../dialogs/mainwindow.cpp" line="98"/>
         <source>Phone info</source>
         <comment>phone info button</comment>
-        <translation>Telefon információ</translation>
+        <translation>Telefoon info</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="99"/>
         <source>Screenshot</source>
         <comment>screenshot button</comment>
-        <translation>Képernyőmentés</translation>
+        <translation>Scherm afdruk</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="100"/>
         <source>Settings</source>
         <comment>settings button</comment>
-        <translation>Beállítások</translation>
+        <translation>Instellingen</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="101"/>
@@ -1153,7 +1137,8 @@ Biztos, hogy engedélyezted?</translation>
         <location filename="../dialogs/mainwindow.cpp" line="102"/>
         <source>Messages</source>
         <comment>messages button</comment>
-        <translation type="unfinished"></translation>
+        <translatorcomment>berichten knop</translatorcomment>
+        <translation>Berichten</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="104"/>
@@ -1164,37 +1149,42 @@ Biztos, hogy engedélyezted?</translation>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="702"/>
         <source>Attention!</source>
-        <translation type="unfinished"></translation>
+        <translation>Attentie!</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="703"/>
         <source>To use message manager You have to turn on WiFi.</source>
-        <translation type="unfinished"></translation>
+        <translation>Om message manager te gebruiken Zet WiFi aan.</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="833"/>
         <source>Sms from </source>
         <comment>system tray bubble</comment>
-        <translation>-től üzenet</translation>
+        <translation>Sms van</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="838"/>
         <source>Sms result</source>
         <comment>system tray bubble</comment>
-        <translation>Sms eredmény</translation>
+        <translation>Sms resultaat</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/mainwindow.cpp" line="892"/>
+        <source>New updates</source>
+        <translation>Nieuwe update&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="892"/>
         <source>New update is available
 </source>
-        <translation>Új frissítések elérhetők
+        <translation>Nieuwe update is bescikbaar
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
         <location filename="../dialogs/mainwindow.cpp" line="916"/>
         <source>Your version: </source>
-        <translation>Verziód: </translation>
+        <translation>Uw versie: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
@@ -1202,59 +1192,64 @@ Biztos, hogy engedélyezted?</translation>
         <source>
 Latest version: </source>
         <translation>
-Utolsó verzió: </translation>
+Laatste versie: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="894"/>
         <source>Download</source>
-        <translation>Letöltés</translation>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="895"/>
         <source>Close</source>
-        <translation>Bezárás</translation>
+        <translation>Sluit</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/mainwindow.cpp" line="911"/>
+        <source>error</source>
+        <translation>fout</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="911"/>
         <source>There was problem while checking for updates</source>
-        <translation>Gond a frissítések keresésénél</translation>
+        <translation>Er was een probleem tijdens checken voor update&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>No updates</source>
-        <translation>Nincs frissítés</translation>
+        <translation>Geen update&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>Your version is up to date
 </source>
-        <translation>Frissítésed naprakész
+        <translation>Uw versie is up to date
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1034"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Doneer</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1035"/>
-        <source>It seems that you are using QtADB for a while now. Maybe consider a donation to a project...</source>
-        <translation type="unfinished"></translation>
+        <source>It seems that you are using DataBridge for a while now. Maybe consider a donation to a project...</source>
+        <translation>Je gebruikt DataBridge schijnbaar nu alweer enige tijd. Overweeg een donatie voor een project...</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1036"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Ja, ik wil doneren</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1037"/>
         <source>Remaind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>Herinner mij later</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1038"/>
         <source>Do not bother me again</source>
-        <translation type="unfinished"></translation>
+        <translation>Vraag mij niet meer</translation>
     </message>
 </context>
 <context>
@@ -1263,7 +1258,7 @@ Utolsó verzió: </translation>
         <location filename="../widgets/messagewidget.ui" line="87"/>
         <source>refresh list</source>
         <extracomment>refresh messages button</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Ververs de lijst</translation>
     </message>
 </context>
 <context>
@@ -1271,22 +1266,21 @@ Utolsó verzió: </translation>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="50"/>
         <source>Model</source>
-        <translation>Modell</translation>
+        <translation>Model</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="67"/>
         <source>Operator</source>
-        <translation>Szolgáltató</translation>
+        <translation>Operator</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="84"/>
         <source>Serial number</source>
-        <translation>Szériaszám</translation>
+        <translation>Serie nummer</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="101"/>
         <source>Bootloader</source>
-        <translatorcomment>nem fordítom, mert így megszokott</translatorcomment>
         <translation>Bootloader</translation>
     </message>
     <message>
@@ -1297,12 +1291,12 @@ Utolsó verzió: </translation>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="144"/>
         <source>Radio</source>
-        <translation>Rádió</translation>
+        <translation>Radio</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="161"/>
         <source>Battery level</source>
-        <translation>Akkuszint</translation>
+        <translation>Batterij lading</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="375"/>
@@ -1310,7 +1304,7 @@ Utolsó verzió: </translation>
         <location filename="../widgets/phoneinfowidget.ui" line="389"/>
         <location filename="../widgets/phoneinfowidget.ui" line="396"/>
         <source>available:</source>
-        <translation>elérhető:</translation>
+        <translation>beschikbaar:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="443"/>
@@ -1318,7 +1312,7 @@ Utolsó verzió: </translation>
         <location filename="../widgets/phoneinfowidget.ui" line="457"/>
         <location filename="../widgets/phoneinfowidget.ui" line="464"/>
         <source>used:</source>
-        <translation>használatban:</translation>
+        <translation>gebruuikt:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="511"/>
@@ -1326,12 +1320,12 @@ Utolsó verzió: </translation>
         <location filename="../widgets/phoneinfowidget.ui" line="525"/>
         <location filename="../widgets/phoneinfowidget.ui" line="532"/>
         <source>size:</source>
-        <translation>Méret:</translation>
+        <translation>grootte:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="690"/>
         <source>refresh</source>
-        <translation>Frissítés</translation>
+        <translation>ververs</translation>
     </message>
 </context>
 <context>
@@ -1342,40 +1336,41 @@ Utolsó verzió: </translation>
         <location filename="../main.cpp" line="238"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>error</source>
-        <translation>Hiba</translation>
+        <translation>fout</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="171"/>
         <location filename="../widgets/settingswidget.cpp" line="854"/>
         <source>Choose path to dir with adb and aapt binaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Kies path naar folder met adb en aapt binarie file&apos;s</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="192"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>there is no adb binary in here!</source>
-        <translation type="unfinished"></translation>
+        <translation>er is geen adb binary hier!</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="193"/>
         <source>Choose path</source>
-        <translation>Válassz útvonalat</translation>
+        <translation>Kies path</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="194"/>
         <source>Close</source>
-        <translation>Bezárás</translation>
+        <translation>Sluit</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="224"/>
         <source>It seems that adb is not working properly</source>
-        <translation type="unfinished"></translation>
+        <translation>Het schijnt dat adb niet goed werkt</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="239"/>
         <source>adbd cannot run as root in production builds so You can&apos;t do anything with /system partition. Run anyway?
-(press save to run QtADB and disable this message)</source>
-        <translation type="unfinished"></translation>
+(press save to run DataBridge and disable this message)</source>
+        <translation>adbd als root werkt niet in production buildsJe kunt niets doen met /systeem partitie. Toch starten?
+(druk veilig om DataBridge testarten en disable dit bericht)</translation>
     </message>
 </context>
 <context>
@@ -1383,48 +1378,48 @@ Utolsó verzió: </translation>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="51"/>
         <source>Nandroid backup</source>
-        <translation>Nandroid mentés</translation>
+        <translation>Nandroid backup</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="64"/>
         <source>Bart backup</source>
-        <translation>Bart mentés</translation>
+        <translation>Bart backup</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="77"/>
         <source>Clear battery stats</source>
-        <translation>Akku stat. nullázása</translation>
+        <translation>Clear batterij status</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="84"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Wipe data</source>
-        <translation>Wipe adat</translation>
+        <translation>Wipe data</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="97"/>
         <source>Mount SDcard to computer</source>
-        <translation>SD csatolása a számítógéphez</translation>
+        <translation>Mount SDcard naar computer</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="107"/>
         <source>Nandroid restore</source>
-        <translation>Nandroid visszaállítás</translation>
+        <translation>Nandroid restore</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="120"/>
         <source>Bart restore</source>
-        <translation>Bart visszaállítás</translation>
+        <translation>Bart restore</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="133"/>
         <source>Fix UID mismatches</source>
-        <translation>Fix UID nem stimmel</translation>
+        <translation>Fix UID wirwar</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="143"/>
         <source>Flash zip</source>
-        <translation> zip flesselése</translation>
+        <translation>Flash zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="198"/>
@@ -1434,132 +1429,132 @@ Utolsó verzió: </translation>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="214"/>
         <source>Backup</source>
-        <translation>Mentés</translation>
+        <translation>Backup</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="234"/>
         <source>Path</source>
-        <translation>Útvonal</translation>
+        <translation>Path</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="416"/>
         <source>Restore</source>
-        <translation>Visszaállítás</translation>
+        <translation>Restore</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="839"/>
         <source>Choose one of options above</source>
-        <translation>Válassz a fenti lehetőségekből</translation>
+        <translation>Kies een van de optie&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fix UID finished!</source>
-        <translation>Fix UID kész</translation>
+        <translation>Fix UID klaar!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fixing UID mismatches is finished.</source>
-        <translation>UID eltérések javítása kész</translation>
+        <translation>Fixen UID wirwar is klaar.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <source>Flash Zip</source>
-        <translation>Zip flesselése</translation>
+        <translation>Flash Zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Are you sure??</source>
-        <translation>Biztos vagy benne?</translation>
+        <translation>Weet je het zeker??</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Open ROM File</source>
-        <translation> ROM fájl megnyitása</translation>
+        <translation>Open ROM file</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Zip files (*.zip)</source>
-        <translation>Zip fájlok (*.zip)</translation>
+        <translation>Zip file&apos;s (*.zip)</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="214"/>
         <location filename="../widgets/recoverywidget.cpp" line="544"/>
         <source>Writing commands....</source>
-        <translation>parancsok írása</translation>
+        <translation>Schrijven kommando&apos;s...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="221"/>
         <location filename="../widgets/recoverywidget.cpp" line="555"/>
         <source>Rebooting....</source>
-        <translation>Újraindítás...</translation>
+        <translation>Herbooten....</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>USB mounted</source>
-        <translation>USB leválasztva</translation>
+        <translation>USB gemount</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>SD card is mounted as usb drive</source>
-        <translation>SD-kártya csatolva, mint usb meghajtó</translation>
+        <translation>SD kaart is gemount als usb drive</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>USB unmounted</source>
-        <translation>USB leválasztva</translation>
+        <translation>USB ontmountet</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>SD card is unmounted</source>
-        <translation>SD-kártya leválasztva</translation>
+        <translation>SD kaart is ontmountet</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="247"/>
         <source>Error</source>
-        <translation>Hiba</translation>
+        <translation>Fout</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Backup finished!</source>
-        <translation>Backup kész!</translation>
+        <translation>Backup klaar!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Nandroid backup is finished.</source>
-        <translation>Nandroid mentés kész.</translation>
+        <translation>Nandroid backup is klaar.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Restore finished!</source>
-        <translation>Visszaállítás kész</translation>
+        <translation>Restore klaar!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Nandroid restore is finished.</source>
-        <translation>Nandroid visszaállítás kész</translation>
+        <translation>Nandroid restore is klaar.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="491"/>
         <source>Finished</source>
-        <translation>Kész</translation>
+        <translation>Klaar</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="494"/>
         <source>Finished
 Choose one backup from combo above to restore it</source>
-        <translation>Kész
-Válassz egy mentést felülről</translation>
+        <translation>Klaar
+Kiies een bovenliggend backup om het te restoren</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="516"/>
         <source>Looking for backups...</source>
-        <translation>Mentések keresése</translation>
+        <translation>Opzoeken van backup&apos;s...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="534"/>
         <source>Information</source>
-        <translation>Információ</translation>
+        <translation>Informatie</translation>
     </message>
 </context>
 <context>
@@ -1572,22 +1567,22 @@ Válassz egy mentést felülről</translation>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="53"/>
         <source>insert key</source>
-        <translation type="unfinished"></translation>
+        <translation>voer sleutel in</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="128"/>
         <source>Insert registration key:</source>
-        <translation type="unfinished"></translation>
+        <translation>Voer registratie sleutel in:</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="137"/>
         <source>don&apos;t have a key? consider donation:  </source>
-        <translation type="unfinished"></translation>
+        <translation>heb je geen sleutel? overweeg donatie:  </translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="187"/>
         <source>cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>hef op</translation>
     </message>
 </context>
 <context>
@@ -1596,35 +1591,35 @@ Válassz egy mentést felülről</translation>
         <location filename="../widgets/screenshotwidget.ui" line="76"/>
         <source>Refresh</source>
         <extracomment>refresh screenshot button</extracomment>
-        <translation>Frissítés</translation>
+        <translation>Ververs</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="87"/>
         <source>Save</source>
         <extracomment>save screenshot button</extracomment>
-        <translation>Mentés</translation>
+        <translation>Opslaan</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="98"/>
         <source>Rotate left</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>Forgatás balra</translation>
+        <translation>Draai links</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="109"/>
         <source>Rotate right</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>Forgatás jobbra</translation>
+        <translation>Draai rechts</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Save File...</source>
-        <translation>Fájl mentése...</translation>
+        <translation>Opslaan file...</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Png file</source>
-        <translation>PNG-fájl</translation>
+        <translation>Png file</translation>
     </message>
 </context>
 <context>
@@ -1632,183 +1627,183 @@ Válassz egy mentést felülről</translation>
     <message>
         <location filename="../widgets/settingswidget.ui" line="190"/>
         <source>Save position and size of window on exit</source>
-        <translation>Ablakpozíció és méret mentése kilépéskor</translation>
+        <translation>Sla positie en venster grootte op bij exit</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="197"/>
         <source>Always close copy window after finished</source>
-        <translation>Másolás ablak bezárása, ha befejeződött</translation>
+        <translation>Sluit altijd kopieer venster als je klaar bent</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="204"/>
         <source>Show modal copy window</source>
-        <translation>Másolási lehetőség ablak mutatása</translation>
+        <translation>Toon modal kopie venster</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="217"/>
         <source>App font:</source>
-        <translation>Alkalmazás betűtípus:</translation>
+        <translation>App font:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="243"/>
         <location filename="../widgets/settingswidget.ui" line="282"/>
         <location filename="../widgets/settingswidget.ui" line="315"/>
         <source>Change font</source>
-        <translation>Betűtípus változtatás</translation>
+        <translation>Verander font</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="256"/>
         <source>Tables font:</source>
-        <translation>Táblázat betűtípus:</translation>
+        <translation>Tabel font:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="289"/>
         <source>Shell font:</source>
-        <translation>Shell betűtípus:</translation>
+        <translation>Shell font:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="370"/>
         <source>Kill demon on exit</source>
-        <translation>Démon leállítása kilépéskor</translation>
+        <translation>Kill daemon bij exit</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="390"/>
         <source>Check for updates on start</source>
-        <translation>Frissítések keresése indításkor</translation>
+        <translation>Check voor update&apos;s bij start</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="940"/>
         <source>Coloring files</source>
-        <translation>Fájlok színezése</translation>
+        <translation>File&apos;s kleuren</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="410"/>
         <source>Set toolBar style:</source>
-        <translation>Eszköztár stílusa</translation>
+        <translation>Zet toolBar stijl:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="117"/>
         <source>Shell</source>
-        <translation>Héj</translation>
+        <translation>Shell</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="417"/>
         <source>Set toolBar icon size:</source>
-        <translation>Eszköztár ikonmérete</translation>
+        <translation>Zet toolbar icon grootte:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="424"/>
         <source>Set hide/disable buttons on toolBar:</source>
-        <translation>Gombok elrejtése/tiltása az eszköztáron</translation>
+        <translation>Zet verberg/disable knoppen op toolBar:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="432"/>
         <source>Icon only</source>
-        <translation>Csak ikon</translation>
+        <translation>Icon alleen</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="437"/>
         <source>Text only</source>
-        <translation>Csak szöveg</translation>
+        <translation>Text alleen</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="442"/>
         <source>Text beside icon</source>
-        <translation>Szöveg az ikonban</translation>
+        <translation>Text naast icon</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="447"/>
         <source>Text under icon</source>
-        <translation>Szöveg az ikon alatt</translation>
+        <translation>Text onder icon</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="456"/>
         <source>Hide buttons</source>
-        <translation>Gombok elrejtése</translation>
+        <translation>Verberg knoppen</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="461"/>
         <source>Disable buttons</source>
-        <translation>Gombok tiltása</translation>
+        <translation>Disable knoppen</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="483"/>
         <source>Left</source>
-        <translation>Bal</translation>
+        <translation>Links</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="488"/>
         <source>Right</source>
-        <translation>Jobb</translation>
+        <translation>Rechts</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="493"/>
         <source>Top</source>
-        <translation>fel</translation>
+        <translation>Boven</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="498"/>
         <source>Bottom</source>
-        <translation>Lent</translation>
+        <translation>Onder</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="506"/>
         <source>Area of toolBar:</source>
-        <translation>Eszköztár helye</translation>
+        <translation>Gebied van toolBar:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="514"/>
         <source>Left to right</source>
-        <translation type="unfinished"></translation>
+        <translation>Links naar rechts</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="519"/>
         <source>Right to left</source>
-        <translation type="unfinished"></translation>
+        <translation>Rechts naar links</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="527"/>
         <source>App layout:</source>
-        <translation type="unfinished"></translation>
+        <translation>App layout:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="554"/>
         <source>Computer</source>
-        <translation>Számítógép</translation>
+        <translation>Computer</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="575"/>
         <location filename="../widgets/settingswidget.ui" line="797"/>
         <source>Set path on start:</source>
-        <translation>Útvonalválasztás indításkor:</translation>
+        <translation>Zet path b ij start:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="598"/>
         <location filename="../widgets/settingswidget.ui" line="820"/>
         <source>Remember path on exit</source>
-        <translation>Emlékezés az útvonalra kilépéskor</translation>
+        <translation>Herinner  path bij exit</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="611"/>
         <location filename="../widgets/settingswidget.ui" line="833"/>
         <source>Show hidden files</source>
-        <translation>Rejtett fájlok mutatása</translation>
+        <translation>Toon verborgen file&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="627"/>
         <location filename="../widgets/settingswidget.ui" line="849"/>
         <source>Show table columns headers</source>
-        <translation>Táblázat oszlopok mutatása</translation>
+        <translation>Toon tabel kolom headers</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="688"/>
         <source>Show app icon instead default</source>
-        <translation>Mutass alkalmazásikont az alapértelmezett helyett</translation>
+        <translation>Toon app icon inplaats van default</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="701"/>
         <source>Instead of file name show:</source>
-        <translation>Fájlnév helyett mutasd:</translation>
+        <translation>Inplaats van de file naam toon:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="714"/>
@@ -1816,22 +1811,28 @@ Válassz egy mentést felülről</translation>
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</source>
-        <translation></translation>
+        <translatorcomment>do not translate this variables!!! translate only &quot;Available variables&quot; leave &lt;appName&gt;
+&lt;appVersion&gt;
+&lt;packageName&gt;</translatorcomment>
+        <translation>Beschikbare variabelen:
+&lt;appName&gt;
+&lt;appVersion&gt;
+&lt;packageName&gt;</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="743"/>
         <source>Show/hide computer files columns:</source>
-        <translation>PC-fájlok  oszlop mutatása/elrejtése</translation>
+        <translation>Toon/verberg compuer file&apos;s kolommen:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="776"/>
         <source>Phone</source>
-        <translation>Telefon</translation>
+        <translation>Telefoon</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="917"/>
         <source>Show/hide phone files columns:</source>
-        <translation>Telefon-fájlok  oszlop mutatása/elrejtése</translation>
+        <translation>Toon/verberg telefoon file&apos;s kolommen:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="951"/>
@@ -1846,150 +1847,150 @@ Válassz egy mentést felülről</translation>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1071"/>
         <source>Default action on backup:</source>
-        <translation>Alapértelmezés mentéskor:</translation>
+        <translation>Default aktie bij backup:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1082"/>
         <source>Backup only apk</source>
-        <translation>Csak apk fájlok mentése</translation>
+        <translation>Backup alleen apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1087"/>
         <source>Backup only data</source>
-        <translation>Csak adat mentése</translation>
+        <translation>Backup alleen data</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1092"/>
         <source>Backup apk + data</source>
-        <translation>apk+adat mentése</translation>
+        <translation>Backup apk + data</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1100"/>
         <source>Default action on restore:</source>
-        <translation>Alapértelmezett akció visszaállításkor:</translation>
+        <translation>Default aktie bij restore:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1111"/>
         <source>Restore only apk</source>
-        <translation>Csak  apk fájlok visszaállítása</translation>
+        <translation>Restore alleen apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1116"/>
         <source>Restore only data</source>
-        <translation>Csak adatfájlok visszaállítása</translation>
+        <translation>Restore alleen data</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1121"/>
         <source>Restore apk + data</source>
-        <translation>apk+adat visszaállítása</translation>
+        <translation>Restore apk + data</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1129"/>
         <source>Sort by column:</source>
-        <translation>Rendezés oszlopként:</translation>
+        <translation>Sorteer per kolom:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1137"/>
         <source>App name</source>
-        <translation>Alkalmazás neve</translation>
+        <translation>App naam</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1142"/>
         <source>App version</source>
-        <translation>Alkalmazás verziója</translation>
+        <translation>App versie</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1147"/>
         <source>App size</source>
-        <translation>Alkalmazás mérete</translation>
+        <translation>App grootte</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1152"/>
         <source>App package name</source>
-        <translation>Alkalmazás csomag neve</translation>
+        <translation>App package naam</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1160"/>
         <source>Get backups:</source>
-        <translation>Mentés létrehozása:</translation>
+        <translation>Haal backup&apos;s op:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1168"/>
         <location filename="../widgets/settingswidget.ui" line="1182"/>
         <location filename="../widgets/settingswidget.ui" line="1274"/>
         <source>only on start</source>
-        <translation>Csak indításkor</translation>
+        <translation>alleen bij start</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1173"/>
         <source>every time before show</source>
-        <translation>Minden megtekintés előtt</translation>
+        <translation>elke keer voor tonen</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1187"/>
         <location filename="../widgets/settingswidget.ui" line="1279"/>
         <source>every time on show</source>
-        <translation>Minden megtekintés előtt</translation>
+        <translation>elke keer bij tonen</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1259"/>
         <source>Get applications:</source>
-        <translation>Alkalmazás infó lekérdezése:</translation>
+        <translation>Haal applicatie&apos;s op:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1266"/>
         <source>Get system applications:</source>
-        <translation>Rendszeralkalmazások elérése</translation>
+        <translation>Haal systeem applikatie&apos;s op:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1300"/>
         <source>Check app version on internet</source>
-        <translation>Alkalmazás verzió ellenőrzése az interneten</translation>
+        <translation>Test app versie op internet</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1320"/>
         <source>Show/hide apps columns:</source>
-        <translation>Alkalmazások oszlop mutatása/elrejtése</translation>
+        <translation>Toon/verberg app&apos;s kolom:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1327"/>
         <source>Show/hide backups columns:</source>
-        <translation>Mentések  oszlop mutatása/elrejtése</translation>
+        <translation>Toon/verberg backup&apos;s kolom:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1336"/>
         <source>sd ext folder</source>
-        <translation type="unfinished"></translation>
+        <translation>sd ext folder</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1346"/>
         <source>Detect</source>
-        <translation type="unfinished"></translation>
+        <translation>Detecteer</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1377"/>
         <source>Enable animations</source>
-        <translation>Animációk engedélyezése</translation>
+        <translation>Sta animatie&apos;s toe</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1387"/>
         <source>Duration (in miliseconds)</source>
-        <translation>Időtartam (millisec.-ben)</translation>
+        <translation>Duur (in miliseconden)</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1578"/>
         <source>Change background color</source>
-        <translation>Háttérszín-változtatás</translation>
+        <translation>Verander achtergrond kleur</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1585"/>
         <source>Change font color</source>
-        <translation>Betűszín változtatás</translation>
+        <translation>Verander font kleur</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1668"/>
         <source>Color files</source>
-        <translation>Fájlok színe</translation>
+        <translation>Kleur file&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1683"/>
@@ -1999,121 +2000,121 @@ Válassz egy mentést felülről</translation>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1408"/>
         <source>UpToDown</source>
-        <translation>Felülről lefelé</translation>
+        <translation>BovenNaarBeneden</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1413"/>
         <source>DownToUp</source>
-        <translation>lentről felfelé</translation>
+        <translation>BenedenNaarBoven</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1418"/>
         <source>LeftToRight</source>
-        <translation>Balról jobbra</translation>
+        <translation>LinksNaarRechts</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1423"/>
         <source>RightToLeft</source>
-        <translation>Jobbról balra</translation>
+        <translation>RechtsNaarLinks</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1526"/>
         <source>Direction</source>
-        <translation>irány</translation>
+        <translation>Richting</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="97"/>
         <source>General</source>
-        <translation>Általános</translation>
+        <translation>Algemeen</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="102"/>
         <source>File manager</source>
-        <translation>Fájlkezelő</translation>
+        <translation>File manager</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="107"/>
         <source>App manager</source>
-        <translation>Alkalmazáskezelő</translation>
+        <translation>App manager</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="112"/>
         <source>Animations</source>
-        <translation>Animációk</translation>
+        <translation>Animatie&apos;s</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="125"/>
         <source>Remove settings from system</source>
-        <translation>Beállítások eltávolítása a rendszerből</translation>
+        <translation>Verwijder settings van systeem</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="138"/>
         <source>Set defaults</source>
-        <translation>Alapértelmezések beállítása</translation>
+        <translation>Zet defaults</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="151"/>
         <source>Save Settings</source>
-        <translation>Beállítások mentése</translation>
+        <translation>Sla instellingen op</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="167"/>
-        <source>Associate apk files with QtADB</source>
-        <translation>Alkalmazás társítása a QtADB-vel</translation>
+        <source>Associate apk files with DataBridge</source>
+        <translation>Assosieer apk file&apos;s met DataBridge</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Reset settings??</source>
-        <translation type="unfinished"></translation>
+        <translation>Reset instellingen??</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Are you sure you want restore settings to defaults???</source>
-        <translation type="unfinished"></translation>
+        <translation>Weet je zeker dat je de instellingen wilt terugzetten naar default???</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="611"/>
         <source>Icon</source>
         <comment>icon app column</comment>
-        <translation>Ikon</translation>
+        <translation>Icon</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="630"/>
         <source>Icon</source>
         <comment>icon backup column</comment>
-        <translation>Ikon</translation>
+        <translation>Icon</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="648"/>
         <source>Icon</source>
         <comment>icon computer column</comment>
-        <translation>Ikon</translation>
+        <translation>Icon</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="665"/>
         <source>Icon</source>
         <comment>icon phone column</comment>
-        <translation>Ikon</translation>
+        <translation>Icon</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
         <source>Associate??</source>
-        <translation type="unfinished"></translation>
+        <translation>Associeer??</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
-        <source>Are you sure you want to associate *.apk files with QtADB???</source>
-        <translation type="unfinished"></translation>
+        <source>Are you sure you want to associate *.apk files with DataBridge???</source>
+        <translation>Weet je zeker dat je apk file&apos;s wilt associeren met DataBridge???</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="772"/>
         <source>Install apk</source>
-        <translation>apk telepítése</translation>
+        <translation>Installeer apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="843"/>
         <source>&lt;Not Found&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Niet Gevonden&gt;</translation>
     </message>
 </context>
 <context>
@@ -2121,74 +2122,76 @@ Válassz egy mentést felülről</translation>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="241"/>
         <source>
-QtADB shell help
+DataBridge shell help
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+DataBridge shell help
+</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="242"/>
         <source>CTRL+C                - interrupt executing command</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+C                -onderbreekt uitvoerende opdracht</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="243"/>
         <source>ESC                   - interrupt executing command</source>
-        <translation type="unfinished"></translation>
+        <translation>ESC                   -onderbreekt uitvoerende opdracht</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="244"/>
         <source>Shift+CTRL+C          - copy selected text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+CTRL+C          -kopieer geselekteerde text naar plakbord</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="245"/>
         <source>Shift+CTRL+V          - paste text from clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+CTRL+V          -plak de text van plakbord</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="246"/>
         <source>Enter/Return          - execute command</source>
-        <translation type="unfinished"></translation>
+        <translation>Enter/Return          -voer opdracht uit</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="247"/>
         <source>Up (arrow)            - display previous executed command</source>
-        <translation type="unfinished"></translation>
+        <translation>pijl (Omhoog)            -toon vorig uitgevoerde opdracht</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="248"/>
         <source>Down (arrow)          - display next executed command</source>
-        <translation type="unfinished"></translation>
+        <translation>pijl (Omlaag)          -toon volgene uitgevoerde opdracht</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="249"/>
         <source>Left(arrow)           - move cursor to the left</source>
-        <translation type="unfinished"></translation>
+        <translation>pijl(Links)           -beweeg cursor naar links</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="250"/>
         <source>Right(arrow)          - move cursor to the right</source>
-        <translation type="unfinished"></translation>
+        <translation>pijl(Rechts)          -beweeg de cursor naar rechts</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="251"/>
         <source>CTRL+Left(arrow)      - move cursor to the left skipping over the word</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+pijl(Links)      beweeg cursor naar links spring over het woord</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="252"/>
         <source>CTRL+Right(arrow)     - move cursor to the right skipping over the word</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+pijl(Rechts)     -beweeg cursor naar rechts spring over het woord</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="253"/>
         <source>Delete                - delete next char</source>
-        <translation type="unfinished"></translation>
+        <translation>Delete                -wis volgende karakter</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="254"/>
         <source>Backspace             - delete previous char</source>
-        <translation type="unfinished"></translation>
+        <translation>Backspace             -wis vorige karakter</translation>
     </message>
 </context>
 <context>
@@ -2196,7 +2199,7 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="477"/>
         <source>SUCCESS</source>
-        <translation>SIKERÜLT</translation>
+        <translation>SUCCES</translation>
     </message>
 </context>
 <context>
@@ -2204,12 +2207,12 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="614"/>
         <source>FAILURE</source>
-        <translation>HIBA</translation>
+        <translation>FOUTJE</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="618"/>
         <source>SUCCESS</source>
-        <translation>SIKERES</translation>
+        <translation>SUCCES</translation>
     </message>
 </context>
 <context>
@@ -2219,14 +2222,14 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="550"/>
         <location filename="../dialogs/appdialog.cpp" line="587"/>
         <source>FAILURE</source>
-        <translation>HIBA</translation>
+        <translation>FOUTJE</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="546"/>
         <location filename="../dialogs/appdialog.cpp" line="554"/>
         <location filename="../dialogs/appdialog.cpp" line="583"/>
         <source>SUCCESS</source>
-        <translation>SIKERES</translation>
+        <translation>SUCCES</translation>
     </message>
 </context>
 <context>
@@ -2234,13 +2237,13 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="669"/>
         <source>FAILURE</source>
-        <translation>FAILURE</translation>
+        <translation>FOUTJE</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="673"/>
         <location filename="../dialogs/appdialog.cpp" line="677"/>
         <source>SUCCESS</source>
-        <translation>SUCCESS</translation>
+        <translation>SUCCES</translation>
     </message>
 </context>
 <context>
@@ -2248,24 +2251,24 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.ui" line="106"/>
         <source>app</source>
-        <translation>Alkalmazás</translation>
+        <translation>app</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.ui" line="111"/>
         <source>state</source>
-        <translation>Állapot</translation>
+        <translation>status</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="48"/>
         <location filename="../dialogs/appdialog.cpp" line="49"/>
         <source>Install</source>
-        <translation>Telepítés</translation>
+        <translation>Installeer</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="54"/>
         <location filename="../dialogs/appdialog.cpp" line="55"/>
         <source>Uninstall</source>
-        <translation>Eltávolítás</translation>
+        <translation>De-installeer</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="60"/>
@@ -2273,239 +2276,239 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="142"/>
         <location filename="../dialogs/appdialog.cpp" line="143"/>
         <source>Reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>Herinstalleren</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="68"/>
         <location filename="../dialogs/appdialog.cpp" line="69"/>
         <source>Backup apps</source>
-        <translation>Alkalmazások mentése</translation>
+        <translation>Backup app&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="73"/>
         <location filename="../dialogs/appdialog.cpp" line="74"/>
         <source>Backup data</source>
-        <translation>Adat mentése</translation>
+        <translation>Backup data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="78"/>
         <location filename="../dialogs/appdialog.cpp" line="79"/>
         <source>Backup apps and data</source>
-        <translation>Alkalmazások és adat mentése</translation>
+        <translation>Backup app&apos;s en data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="87"/>
         <location filename="../dialogs/appdialog.cpp" line="88"/>
         <source>Restore apps</source>
-        <translation>Alkalmazások visszaállítása</translation>
+        <translation>Restore app&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="92"/>
         <location filename="../dialogs/appdialog.cpp" line="93"/>
         <source>Restore data</source>
-        <translation>Adat visszaállítása</translation>
+        <translation>Restore data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="97"/>
         <location filename="../dialogs/appdialog.cpp" line="98"/>
         <location filename="../dialogs/appdialog.cpp" line="179"/>
         <source>Restore apps and data</source>
-        <translation>Alkalmazások és adat visszaállítása</translation>
+        <translation>restore app&apos;s en data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="130"/>
         <source>Install</source>
         <comment>apd dialog title</comment>
-        <translation>Telepítés</translation>
+        <translation>Installeer</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="131"/>
         <source>Install</source>
         <comment>label text</comment>
-        <translation>Telepítés</translation>
+        <translation>Installeer</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="136"/>
         <source>Uninstall</source>
         <comment>apd dialog title</comment>
-        <translation>Eltávolítás</translation>
+        <translation>De-installeer</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="137"/>
         <source>Uninstall</source>
         <comment>label text</comment>
-        <translation>Eltávolítás</translation>
+        <translation>De-installeer</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="150"/>
         <source>Backup apps</source>
         <comment>apd dialog title</comment>
-        <translation>Alkalmazások mentése</translation>
+        <translation>Backup app&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="151"/>
         <source>Backup apps</source>
         <comment>label text</comment>
-        <translation>Alkalmazások mentése</translation>
+        <translation>Backup app&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="155"/>
         <source>Backup data</source>
         <comment>apd dialog title</comment>
-        <translation>Adat mentése</translation>
+        <translation>Backup data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="156"/>
         <source>Backup data</source>
         <comment>label text</comment>
-        <translation>Adat mentése</translation>
+        <translation>Backup data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="160"/>
         <source>Backup apps and data</source>
         <comment>apd dialog title</comment>
-        <translation>Alkalmazások és adat mentése</translation>
+        <translation>Backup app&apos;s en data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="161"/>
         <source>Backup apps and data</source>
         <comment>label text</comment>
-        <translation>Alkalmazások és adat mentése</translation>
+        <translation>Backup app&apos;s en data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="169"/>
         <source>Restore apps</source>
         <comment>apd dialog title</comment>
-        <translation>Alkalmazások visszaállítása</translation>
+        <translation>Restore app&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="170"/>
         <source>Restore apps</source>
         <comment>label text</comment>
-        <translation>Alkalmazások visszaállítása</translation>
+        <translation>Restore app&apos;s</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="174"/>
         <source>Restore data</source>
         <comment>apd dialog title</comment>
-        <translation>Adat visszaállítása</translation>
+        <translation>Restore data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="175"/>
         <source>Restore data</source>
         <comment>label text</comment>
-        <translation>Adat visszaállítása</translation>
+        <translation>Restore data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="180"/>
         <source>Restore apps and data</source>
         <comment>label text</comment>
-        <translation>Alkalmazások és adat visszaállítása</translation>
+        <translation>restore app&apos;s en data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Cancel operation??</source>
-        <translation>Feladat törlése??</translation>
+        <translation>Hef  operatie op??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Are you sure You want to cancel operation??</source>
-        <translation>Mégse akarod végrehajtani a műveletet??</translation>
+        <translation>Weet je zeker  dat je de operatie wilt opheffen??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="360"/>
         <source>Install finished</source>
-        <translation>Telepítés befejezve</translation>
+        <translation>Installatie klaar</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="364"/>
         <source>Uninstall finished</source>
-        <translation>Eltávilítás befejezve</translation>
+        <translation>De-installatie klaar</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="368"/>
         <source>Reinstall finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Herinstalleren klaar</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="372"/>
         <source>Backup finished</source>
-        <translation>Mentés elkészült</translation>
+        <translation>Backup klaar</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="376"/>
         <source>Restore finished</source>
-        <translation>Visszaállítás befejezve</translation>
+        <translation>Restore klaar</translation>
     </message>
 </context>
 <context>
     <name>appInfo</name>
     <message>
-        <location filename="../dialogs/appinfo.ui" line="14"/>
-        <source>App info</source>
-        <extracomment>app info dialog title</extracomment>
-        <translation>Alkalmazás infó</translation>
+        <location filename="../dialogs/appinfo.ui" line="111"/>
+        <source>App version</source>
+        <translation>App versie</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="87"/>
         <source>App name</source>
-        <translation>Alkalmazás neve</translation>
+        <translation>App naam</translation>
     </message>
     <message>
-        <location filename="../dialogs/appinfo.ui" line="111"/>
-        <source>App version</source>
-        <translation>Alkalmazás verziója</translation>
+        <location filename="../dialogs/appinfo.ui" line="14"/>
+        <source>App info</source>
+        <extracomment>app info dialog title</extracomment>
+        <translation>App info</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="135"/>
         <source>Package name</source>
-        <translation>Csomagnév</translation>
+        <translation>Package naam</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="159"/>
         <source>File name</source>
-        <translation>Fájlnév</translation>
+        <translation>File naam</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="173"/>
         <source>File Size</source>
-        <translation>Fájlméret</translation>
+        <translation>File grootte</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="263"/>
         <source>Open in Market (PC)</source>
-        <translation type="unfinished"></translation>
+        <translation>Open Market(PC)</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="274"/>
         <source>Open in Market (Phone)</source>
-        <translation type="unfinished"></translation>
+        <translation>Open Market (Telefoon)</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="285"/>
         <source>Install</source>
-        <translation>Telepítés</translation>
+        <translation>Installeer</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="58"/>
         <location filename="../dialogs/appinfo.cpp" line="103"/>
         <source>Reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>Herinstalleren</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>install</source>
-        <translation>Telepítés</translation>
+        <translation>installeer</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>are you sure???</source>
-        <translation>Biztos vagy benne???</translation>
+        <translation>weet je het zeker???</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>herinstalleren</translation>
     </message>
 </context>
 <context>
@@ -2514,57 +2517,57 @@ QtADB shell help
         <location filename="../dialogs/dialogkopiuj.ui" line="14"/>
         <source>Copying</source>
         <extracomment>Copy dialog title</extracomment>
-        <translation>Másolás</translation>
+        <translation>Kopieer</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="29"/>
         <source>file:</source>
-        <translation>fájl:</translation>
+        <translation>file:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="43"/>
         <source>from:</source>
-        <translation>Feladó:</translation>
+        <translation>van:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="57"/>
         <source>to:</source>
-        <translation>Címzett:</translation>
+        <translation>naar:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="71"/>
         <source>items remaining:</source>
-        <translation>Hátralévő tételek:</translation>
+        <translation>overgebleven item&apos;s:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="87"/>
         <source>File:</source>
-        <translation>Fájl:</translation>
+        <translation>File:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="174"/>
         <source>Total:</source>
-        <translation>Összes:</translation>
+        <translation>Totaal:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="198"/>
         <source>close after finished</source>
-        <translation>Bezárás, ha kész</translation>
+        <translation>sluiten als klaar</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="218"/>
         <source>Cancel</source>
-        <translation>Mégse</translation>
+        <translation>Hef op</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Close??</source>
-        <translation>Töröljem a műveletet??</translation>
+        <translation>Sluiten??</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Are you sure??</source>
-        <translation>Biztos vagy benne?</translation>
+        <translation>Weet je het zeker??</translation>
     </message>
 </context>
 </TS>

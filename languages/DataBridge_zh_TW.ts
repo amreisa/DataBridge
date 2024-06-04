@@ -1,53 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="el_GR">
+<TS version="2.1" language="zh_TW">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="23"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>About dialog title</extracomment>
-        <translation>QtADB - O android διαχειριστής σας</translation>
+        <translatorcomment>關於對話框的標題</translatorcomment>
+        <translation>DataBridge - 你的安卓管理專家</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="117"/>
         <source>Created by 7ymekk &amp; mozarcik</source>
-        <translation>Δημιουργήθηκε από 7ymekk &amp; mozarcik</translation>
+        <translation>開發者：7ymekk&amp;mozarcik</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="124"/>
         <source>Version</source>
-        <translation>Έκδοση</translation>
+        <translation>版本</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="141"/>
         <source>Questions?? Suggestions??</source>
-        <translation>Ερωτήσεις;; Υποδείξεις;;</translation>
+        <translation>問題及建議?</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="148"/>
         <source>Feel free to contact us:</source>
-        <translation>Επικοινωνήστε μαζί μας:</translation>
+        <translation>歡迎聯繫我們:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="172"/>
         <source>Website:</source>
-        <translation>Ιστοσελίδα:</translation>
+        <translation>網站:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="193"/>
         <source>Icons in app are from:</source>
-        <translation>Τα εικονίδια της εφαρμογής είναι από:</translation>
+        <translation>應用程序圖標來源:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="214"/>
         <source>and</source>
-        <translation>καί</translation>
+        <translation>及</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="280"/>
         <source>Ok</source>
-        <translation>Ok</translation>
+        <translation>確定</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="303"/>
@@ -55,7 +56,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;QtADB was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;DataBridge was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -74,37 +75,43 @@ p, li { white-space: pre-wrap; }
         <location filename="../classes/models/apptablemodel.cpp" line="183"/>
         <source>Name</source>
         <comment>application table name</comment>
-        <translation>Όνομα εφαρμογής</translation>
+        <translatorcomment>應用程序表名稱</translatorcomment>
+        <translation>名稱</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="185"/>
         <source>Version</source>
         <comment>application table version</comment>
-        <translation>Έκδοση</translation>
+        <translatorcomment>應用程序表版本</translatorcomment>
+        <translation>版本</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="187"/>
         <source>Size</source>
         <comment>applications table size</comment>
-        <translation>Μέγεθος</translation>
+        <translatorcomment>應用程序表大小</translatorcomment>
+        <translation>大小</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="189"/>
         <source>Package</source>
         <comment>application table package</comment>
-        <translation>Πακέτο</translation>
+        <translatorcomment>應用程序表程序包</translatorcomment>
+        <translation>程序包</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="191"/>
         <source>File</source>
         <comment>application table file</comment>
-        <translation>Αρχείο</translation>
+        <translatorcomment>應用程序表文件</translatorcomment>
+        <translation>文件</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="193"/>
         <source>Location</source>
         <comment>application table location</comment>
-        <translation>Τοποθεσία</translation>
+        <translatorcomment>應用程序表位置</translatorcomment>
+        <translation>位置</translation>
     </message>
 </context>
 <context>
@@ -112,262 +119,296 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/appwidget.ui" line="69"/>
         <source>applications</source>
-        <translation>Εφαρμογές</translation>
+        <translation>應用</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="74"/>
         <source>backups</source>
-        <translation>ΑντΑσφαλείας</translation>
+        <translation>備份</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="79"/>
         <source>system apps</source>
-        <translation>εφαρμογές συστήματος</translation>
+        <translation>系統應用程序</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="89"/>
         <source>filter</source>
-        <translation>φίλτρο</translation>
+        <translation>篩選</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="167"/>
         <source>App name</source>
         <extracomment>app name label</extracomment>
-        <translation>Όνομα εφαρμογής</translation>
+        <translatorcomment>應用程序名稱標籤</translatorcomment>
+        <translation>應用程序名稱</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="181"/>
         <source>App version</source>
         <extracomment>version label</extracomment>
-        <translation>Έκδοση εφαρμογών</translation>
+        <translatorcomment>版本標籤</translatorcomment>
+        <translation>應用程序版本</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="195"/>
         <source>File name</source>
         <extracomment>file name label</extracomment>
-        <translation>Όνομα αρχείου</translation>
+        <translatorcomment>文件名標籤</translatorcomment>
+        <translation>文件名</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="209"/>
         <source>File Size</source>
         <extracomment>size label</extracomment>
-        <translation>Μέγεθος αρχείου</translation>
+        <translatorcomment>大小標籤</translatorcomment>
+        <translation>文件大小</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="253"/>
         <source>Package name</source>
         <extracomment>package label</extracomment>
-        <translation>Μέγεθος πακέτου</translation>
+        <translatorcomment>程序包標籤</translatorcomment>
+        <translation>程序包名稱</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="287"/>
         <source>Location</source>
         <extracomment>location label</extracomment>
-        <translation>Τοποθεσία</translation>
+        <translatorcomment>位置標籤</translatorcomment>
+        <translation>位置</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="334"/>
         <source>Latest version</source>
         <extracomment>latest version label</extracomment>
-        <translation>Τελευταια έκδοση</translation>
+        <translatorcomment>最新版本標籤</translatorcomment>
+        <translation>最新版本</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="368"/>
         <location filename="../widgets/appwidget.cpp" line="801"/>
         <source>uninstall</source>
         <extracomment>uninstall apps</extracomment>
-        <translation>Απεγκατάσταση</translation>
+        <translatorcomment>卸載應用</translatorcomment>
+        <translation>卸載</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="400"/>
         <location filename="../widgets/appwidget.cpp" line="684"/>
         <source>backup</source>
         <extracomment>backup apps</extracomment>
-        <translation>ΑντΑσφαλείας</translation>
+        <translatorcomment>備份應用程序</translatorcomment>
+        <translation>備份</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="446"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>restore</source>
         <extracomment>restore backup</extracomment>
-        <translation>Επαναφορά</translation>
+        <translatorcomment>還原備份</translatorcomment>
+        <translation>還原</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="478"/>
         <source>remove</source>
         <extracomment>remove backup</extracomment>
-        <translation>Αφαίρεση</translation>
+        <translatorcomment>刪除備份</translatorcomment>
+        <translation>刪除</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="509"/>
         <source>Refresh</source>
         <extracomment>refresh apps/backups</extracomment>
-        <translation>Ανανέωση</translation>
+        <translatorcomment>刷新應用程序/備份</translatorcomment>
+        <translation>刷新</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="535"/>
         <source>Open in Market (Phone)</source>
-        <translation>Άνοιγμα στο Market(Τηλέφωνο)</translation>
+        <translation>使用手機中的電子市場查看</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="561"/>
         <source>Open in Market (PC)</source>
-        <translation>Άνοιγμα στο Market(Υπολογιστης)</translation>
+        <translation>使用電腦上的電子市場查看</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="174"/>
         <source>Choose where You want to save selected apps</source>
-        <translation>Επιλέξτε που θέλετε να αποθηκευθούν οι επιλεγμένες εφαρμογές</translation>
+        <translation>選擇您要保存的應用程序的路徑</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
         <source>Missing aapt</source>
-        <translation>Λείπει το aapt</translation>
+        <translation>沒有找到aapt</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="95"/>
         <source>backup</source>
         <comment>backup menu title</comment>
-        <translation>ΑντΑσφαλείας</translation>
+        <translatorcomment>備份菜單標題</translatorcomment>
+        <translation>備份</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="97"/>
         <source>app</source>
         <comment>backup menu action</comment>
-        <translation>Εφαρμ</translation>
+        <translatorcomment>備份菜單操作</translatorcomment>
+        <translation>應用程序</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="98"/>
         <source>data</source>
         <comment>backup menu action</comment>
-        <translation>δεδομένα</translation>
+        <translatorcomment>備份菜單操作</translatorcomment>
+        <translation>數據</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="99"/>
         <source>app + data</source>
         <comment>backup menu action</comment>
-        <translation>εφαρμογή + δεδομενα</translation>
+        <translatorcomment>備份菜單操作</translatorcomment>
+        <translation>應用及數據</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="107"/>
         <source>restore</source>
         <comment>restore menu title</comment>
-        <translation>Επαναφορά</translation>
+        <translatorcomment>還原菜單標題</translatorcomment>
+        <translation>還原</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="109"/>
         <source>app</source>
         <comment>restore menu action</comment>
-        <translation>Εφαρμ</translation>
+        <translatorcomment>還原菜單操作</translatorcomment>
+        <translation>應用程序</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="110"/>
         <source>data</source>
         <comment>restore menu action</comment>
-        <translation>δεδομένα</translation>
+        <translatorcomment>還原菜單操作</translatorcomment>
+        <translation>數據</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="111"/>
         <source>app + data</source>
         <comment>restore menu action</comment>
-        <translation>εφαρμογή + δεδομενα</translation>
+        <translatorcomment>還原菜單操作</translatorcomment>
+        <translation>應用及數據</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="195"/>
         <source>uninstall</source>
         <comment>right click apps menu</comment>
-        <translation>Απεγκατάσταση</translation>
+        <translatorcomment>右鍵點擊應用菜單</translatorcomment>
+        <translation>卸載</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="196"/>
         <source>copy to PC</source>
         <comment>right click apps menu</comment>
-        <translation>Αντιγραφή στο PC</translation>
+        <translatorcomment>右鍵單擊應用程序菜單</translatorcomment>
+        <translation>複製到電腦</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="197"/>
         <source>Get apps info</source>
         <comment>right click apps menu</comment>
-        <translation>ΛήψηΠληρΕφαρμογών</translation>
+        <translatorcomment>右鍵單擊應用程序菜單</translatorcomment>
+        <translation>獲取應用程序信息</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="198"/>
         <source>Get apps version from internet</source>
         <comment>right click apps menu</comment>
-        <translation>Λήψη έκδοσης εφαρμογών απ&apos;το διαδίκτυο</translation>
+        <translatorcomment>右鍵單擊應用程序菜單</translatorcomment>
+        <translation>從互聯網獲取應用程序版本</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="214"/>
         <source>remove</source>
         <comment>right click backups menu</comment>
-        <translation>Αφαίρεση</translation>
+        <translatorcomment>點擊右鍵備份菜單</translatorcomment>
+        <translation>刪除</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="239"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>επιλεγμένο</translation>
+        <translatorcomment>從下表中選擇標籤</translatorcomment>
+        <translation>選中的</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="376"/>
         <location filename="../widgets/appwidget.cpp" line="449"/>
         <source>App name</source>
         <comment>combo apps filter</comment>
-        <translation>Όνομα εφαρμογής</translation>
+        <translatorcomment>組合應用程序過濾器</translatorcomment>
+        <translation>應用程序名稱</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="377"/>
         <location filename="../widgets/appwidget.cpp" line="450"/>
         <source>Package name</source>
         <comment>combo apps filter</comment>
-        <translation>Μέγεθος πακέτου</translation>
+        <translatorcomment>組合應用程序過濾器</translatorcomment>
+        <translation>程序包名稱</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="378"/>
         <location filename="../widgets/appwidget.cpp" line="451"/>
         <source>File path</source>
         <comment>combo apps filter</comment>
-        <translation>Διαδρομή αρχείου</translation>
+        <translatorcomment>組合應用程序過濾器</translatorcomment>
+        <translation>文件路徑</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="379"/>
         <location filename="../widgets/appwidget.cpp" line="452"/>
         <source>Location</source>
         <comment>combo apps filter</comment>
-        <translation>Τοποθεσία</translation>
+        <translatorcomment>組合應用程序過濾器</translatorcomment>
+        <translation>位置</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="415"/>
         <source>App name</source>
         <comment>combo backups filter</comment>
-        <translation>Όνομα εφαρμογής</translation>
+        <translatorcomment>備份過濾組合</translatorcomment>
+        <translation>應用程序名稱</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="416"/>
         <source>Package name</source>
         <comment>combo backups filter</comment>
-        <translation>Μέγεθος πακέτου</translation>
+        <translatorcomment>備份過濾組合</translatorcomment>
+        <translation>程序包名稱</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
-        <source>QtADB did not found aapt.
+        <source>DataBridge did not found aapt.
 Download it and place in one directory with adb.
 After You place it in correct directory click Refresh button</source>
-        <translation>Το QtADB δεν βρήκε το aapt.
-Κατεβάστε το και βάλτε στον ίδιο φάκελο με το adb.
-Αφού το τοποθετήσετε στο σωστό φάκελο κάντε κλικ στο κουμπί Ανανέωση</translation>
+        <translation>DataBridge沒有發現aapt.
+下載並將它放置在adb文件目錄.
+放置到正確目錄後點擊刷新按鈕</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="619"/>
         <source>Download</source>
         <comment>missing aapt message button</comment>
-        <translation>Λήψη</translation>
+        <translatorcomment>缺少aapt信息按鈕</translatorcomment>
+        <translation>下載</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="620"/>
         <source>Cancel</source>
         <comment>missing aapt message button</comment>
-        <translation>Άκυρο</translation>
+        <translatorcomment>缺少aapt信息按鈕</translatorcomment>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="685"/>
@@ -375,17 +416,17 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>are you sure???</source>
-        <translation>Σίγουρα???</translation>
+        <translation>你確定嗎???</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="738"/>
         <source>select apps to install</source>
-        <translation>Επιλέξτε εφαρμογές για εγκατάσταση</translation>
+        <translation>選擇安裝的應用程序</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <source>remove backup</source>
-        <translation>Αφαίρεση ΑντΑσφαλείας</translation>
+        <translation>刪除備份</translation>
     </message>
 </context>
 <context>
@@ -394,49 +435,55 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/backuptablemodel.cpp" line="147"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="152"/>
         <source>yes</source>
-        <translation>ναι</translation>
+        <translation>是</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="149"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="154"/>
         <source>no</source>
-        <translation>όχι</translation>
+        <translation>否</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="173"/>
         <source>Name</source>
         <comment>backup table header app name</comment>
-        <translation>Όνομα εφαρμογής</translation>
+        <translatorcomment>備份表頭的應用程序名稱</translatorcomment>
+        <translation>名稱</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="175"/>
         <source>Version</source>
         <comment>backup table header app version</comment>
-        <translation>Έκδοση</translation>
+        <translatorcomment>備份表頭應用程序版本</translatorcomment>
+        <translation>版本</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="177"/>
         <source>Size</source>
         <comment>backup table header app size</comment>
-        <translation>Μέγεθος</translation>
+        <translatorcomment>備份表頭應用程序的大小</translatorcomment>
+        <translation>大小</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="179"/>
         <source>Package</source>
         <comment>backup table header app package</comment>
-        <translation>Πακέτο</translation>
+        <translatorcomment>備份表頭應用程序包</translatorcomment>
+        <translation>程序包</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="181"/>
         <source>App</source>
         <comment>backup table header apk file</comment>
-        <translation>Apk</translation>
+        <translatorcomment>apk文件備份表頭</translatorcomment>
+        <translation>應用程序</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="183"/>
         <source>Data</source>
         <comment>backup table header data</comment>
-        <translation>Δεδομένα</translation>
+        <translatorcomment>表頭數據備份</translatorcomment>
+        <translation>數據</translation>
     </message>
 </context>
 <context>
@@ -446,22 +493,23 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../dialogs/connectWifi.ui" line="116"/>
         <source>Connect</source>
         <extracomment>Connect wifi dialog title</extracomment>
-        <translation>Σύνδεση</translation>
+        <translatorcomment>連接無線對話框標題</translatorcomment>
+        <translation>連接</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="44"/>
         <source>Address</source>
-        <translation>Διεύθυνση</translation>
+        <translation>地址</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="79"/>
         <source>Port</source>
-        <translation>Θύρα</translation>
+        <translation>端口</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="123"/>
         <source>Cancel</source>
-        <translation>Άκυρο</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
@@ -469,17 +517,17 @@ After You place it in correct directory click Refresh button</source>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="32"/>
         <source>Flash SPL</source>
-        <translation>Φλασάρισμα SPL</translation>
+        <translation>Flash SPL</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="55"/>
         <source>Flash recovery</source>
-        <translation>Φλασάρισμα Ανάκτησης</translation>
+        <translation>Flash recovery</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="65"/>
         <source>Flash radio</source>
-        <translation>Φλασάρισμα ράδιο</translation>
+        <translation>Flash radio</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="75"/>
@@ -489,7 +537,7 @@ After You place it in correct directory click Refresh button</source>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
         <source>Choose img file...</source>
-        <translation>Επιλογή αρχείου img...</translation>
+        <translation>選擇 img 文件...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
@@ -497,12 +545,12 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>IMG File </source>
-        <translation>Αρχείο IMG</translation>
+        <translation>IMG 文件</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="105"/>
         <source>Choose hboot img file...</source>
-        <translation>Επιλογή αρχείου hboot img...</translation>
+        <translation>選擇 hboot img 文件...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="112"/>
@@ -512,31 +560,31 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="182"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Error!</source>
-        <translation>Σφάλμα!</translation>
+        <translation>錯誤!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="114"/>
         <location filename="../widgets/fastbootwidget.cpp" line="149"/>
         <location filename="../widgets/fastbootwidget.cpp" line="184"/>
         <source>Success!</source>
-        <translation>Επιτυχία!</translation>
+        <translation>成功!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="118"/>
         <location filename="../widgets/fastbootwidget.cpp" line="153"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Operation cancelled!</source>
-        <translation>Η λειτουργία ακυρώθηκε!</translation>
+        <translation>取消操作!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <source>Choose radio img file...</source>
-        <translation>Επιλογή αρχείου radio img...</translation>
+        <translation>選擇 radio img 文件...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>Choose recovery img file...</source>
-        <translation>Επιλογή αρχείου recovery img...</translation>
+        <translation>選擇 recovery img 文件...</translation>
     </message>
 </context>
 <context>
@@ -545,19 +593,22 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/filetablemodel.cpp" line="207"/>
         <source>Name</source>
         <comment>file table file name</comment>
-        <translation>Όνομα εφαρμογής</translation>
+        <translatorcomment>文件表文件名稱</translatorcomment>
+        <translation>名稱</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="209"/>
         <source>Size</source>
         <comment>file table file size</comment>
-        <translation>Μέγεθος</translation>
+        <translatorcomment>文件表文件大小</translatorcomment>
+        <translation>大小</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="211"/>
         <source>Date</source>
         <comment>file table file date</comment>
-        <translation>Ημερομηνία</translation>
+        <translatorcomment>文件表文件日期</translatorcomment>
+        <translation>日期</translation>
     </message>
 </context>
 <context>
@@ -566,72 +617,82 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.ui" line="35"/>
         <source>computer</source>
         <extracomment>table title</extracomment>
-        <translation>υπολογιστής</translation>
+        <translatorcomment>表格標題</translatorcomment>
+        <translation>電腦</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="116"/>
         <location filename="../widgets/filewidget.ui" line="224"/>
         <source>filter</source>
-        <translation>φίλτρο</translation>
+        <translation>篩選</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="45"/>
         <source>phone</source>
         <extracomment>table title</extracomment>
-        <translation>τηλέφωνο</translation>
+        <translatorcomment>表格標題</translatorcomment>
+        <translation>手機</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="270"/>
         <source>F2 rename</source>
         <extracomment>rename button</extracomment>
-        <translation>F2 μετονομασία</translation>
+        <translatorcomment>重命名按鈕</translatorcomment>
+        <translation>F2 重命名</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="290"/>
         <source>F3 select all/none</source>
         <extracomment>select button</extracomment>
-        <translation>F3 επιλογή όλα/κανένα</translation>
+        <translatorcomment>選擇按鈕</translatorcomment>
+        <translation>F3 全部/取消選定</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="310"/>
         <source>F4 install</source>
         <extracomment>install button</extracomment>
-        <translation>F4 εγκατάσταση</translation>
+        <translatorcomment>安裝按鈕</translatorcomment>
+        <translation>F4 安裝</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="330"/>
         <source>F5 copy</source>
         <extracomment>copy button</extracomment>
-        <translation>F5 αντιγραφή</translation>
+        <translatorcomment>複製按鈕</translatorcomment>
+        <translation>F5 複製</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="350"/>
         <source>F6 new dir</source>
         <extracomment>new dir button</extracomment>
-        <translation>F6 νέος φάκελος</translation>
+        <translatorcomment>新建目錄按鈕</translatorcomment>
+        <translation>F6 新建目錄</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="370"/>
         <source>F7 refresh</source>
         <extracomment>refresh files button</extracomment>
-        <translation>F7 ανανέωση</translation>
+        <translatorcomment>刷新文件按鈕</translatorcomment>
+        <translation>F7 刷新</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="390"/>
         <source>F8 delete</source>
         <extracomment>delete button</extracomment>
-        <translation>F8 διαγραφή</translation>
+        <translatorcomment>刪除按鈕</translatorcomment>
+        <translation>F8 刪除</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="410"/>
         <source>F9 hidden files</source>
         <extracomment>hidden button</extracomment>
-        <translation>F9 κρυφά αρχεία</translation>
+        <translatorcomment>隱藏按鈕</translatorcomment>
+        <translation>F9 隱藏文件</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1942"/>
         <source>install</source>
-        <translation>Εγκατάσταση</translation>
+        <translation>安裝</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="592"/>
@@ -639,7 +700,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="1264"/>
         <location filename="../widgets/filewidget.cpp" line="1334"/>
         <source>select some files first</source>
-        <translation>Επιλέξτε μερικά αρχεία πρώτα</translation>
+        <translation>首先選擇一些文件</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -648,7 +709,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>copying</source>
-        <translation>Αντιγραφή</translation>
+        <translation>正在複製</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -660,7 +721,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>are you sure???</source>
-        <translation>Σίγουρα???</translation>
+        <translation>你確定嗎???</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="614"/>
@@ -669,188 +730,209 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2155"/>
         <location filename="../widgets/filewidget.cpp" line="2207"/>
         <source>theres nothing to copy. Maybe selected dirs are empty</source>
-        <translation>Δε&apos;ν υπάρχει τίποτα για αντιγραφή. \nΊσως οι επιλεγμένοι φάκελοι να είναι άδειοι</translation>
+        <translation>沒有任何東西需要複製.
+可能你選擇的是空目錄</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="642"/>
         <location filename="../widgets/filewidget.cpp" line="1338"/>
         <source>deleting</source>
-        <translation>Διαγραφή</translation>
+        <translation>正在刪除</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="660"/>
         <location filename="../widgets/filewidget.cpp" line="1371"/>
         <location filename="../widgets/filewidget.cpp" line="1380"/>
         <source>getting files...</source>
-        <translation>λήψη αρχείων...</translation>
+        <translation>正在獲取文件...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="756"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>error</source>
-        <translation>Σφάλμα</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="757"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>dir was not created.
 Make sure that you are allowed to do this</source>
-        <translation>Ο φάκελος δε δημιουργήθηκε.
-Σιγουρευτείτε ότι είστε εξουσιοδοτημένος γι&apos;αυτή την ενέργεια</translation>
+        <translation>目錄建立失敗.
+請確認你有響應的權限</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1748"/>
         <source>selected</source>
-        <translation>επιλεγμένο</translation>
+        <translation>選擇</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1634"/>
         <source>searching...</source>
-        <translation>αναζήτηση...</translation>
+        <translation>正在搜索...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="538"/>
         <source>rename</source>
         <comment>computer right click menu</comment>
-        <translation>Μετονομασία</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>重命名</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="540"/>
         <source>select all</source>
         <comment>computer right click menu</comment>
-        <translation>Επιλογή όλων</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>全部選定</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="542"/>
         <source>select none</source>
         <comment>computer right click menu</comment>
-        <translation>Επιλογή κανενός</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>取消選定</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="544"/>
         <source>copy</source>
         <comment>computer right click menu</comment>
-        <translation>Αντιγραφή</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>複製</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="546"/>
         <source>new dir</source>
         <comment>computer right click menu</comment>
-        <translation>Νέος φάκελος</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>新建目錄</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="548"/>
         <source>refresh</source>
         <comment>computer right click menu</comment>
-        <translation>Ανανέωση</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>刷新</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="550"/>
         <source>delete</source>
         <comment>computer right click menu</comment>
-        <translation>Διαγραφή</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>刪除</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="552"/>
         <source>hidden files</source>
         <comment>computer right click menu</comment>
-        <translation>Κρυφά αρχεία</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>隱藏文件</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="554"/>
         <source>install</source>
         <comment>computer right click menu</comment>
-        <translation>Εγκατάσταση</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>安裝</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="556"/>
         <source>Show app info</source>
         <comment>computer right click menu</comment>
-        <translation>Εμφάνιση πληρ εφαρμογής</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>應用程序信息顯示</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="558"/>
         <source>open in new tab</source>
         <comment>computer right click menu</comment>
-        <translation>άνοιγμα σε νέα καρτέλα</translation>
+        <translatorcomment>電腦右鍵點擊菜單</translatorcomment>
+        <translation>在新標籤打開</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="971"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>επιλεγμένο</translation>
+        <translation>選擇</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1152"/>
         <location filename="../widgets/filewidget.cpp" line="1184"/>
         <source>rename</source>
         <comment>phone right click menu</comment>
-        <translation>Μετονομασία</translation>
+        <translatorcomment>手機右鍵點擊菜單</translatorcomment>
+        <translation>重命名</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1154"/>
         <location filename="../widgets/filewidget.cpp" line="1186"/>
         <source>select all</source>
         <comment>phone right click menu</comment>
-        <translation>Επιλογή όλων</translation>
+        <translatorcomment>手機右鍵點擊菜單</translatorcomment>
+        <translation>全部選定</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1156"/>
         <location filename="../widgets/filewidget.cpp" line="1188"/>
         <source>select none</source>
         <comment>phone right click menu</comment>
-        <translation>Επιλογή κανενός</translation>
+        <translatorcomment>手機右鍵點擊菜單</translatorcomment>
+        <translation>取消選定</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1158"/>
         <location filename="../widgets/filewidget.cpp" line="1190"/>
         <source>copy</source>
         <comment>phone right click menu</comment>
-        <translation>Αντιγραφή</translation>
+        <translatorcomment>手機右鍵點擊菜單</translatorcomment>
+        <translation>複製</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1160"/>
         <location filename="../widgets/filewidget.cpp" line="1192"/>
         <source>new dir</source>
         <comment>phone right click menu</comment>
-        <translation>Νέος φάκελος</translation>
+        <translatorcomment>手機右鍵點擊菜單</translatorcomment>
+        <translation>新建目錄</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1162"/>
         <location filename="../widgets/filewidget.cpp" line="1194"/>
         <source>refresh</source>
         <comment>phone right click menu</comment>
-        <translation>Ανανέωση</translation>
+        <translatorcomment>手機右鍵點擊菜單</translatorcomment>
+        <translation>刷新</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1164"/>
         <location filename="../widgets/filewidget.cpp" line="1196"/>
         <source>delete</source>
         <comment>phone right click menu</comment>
-        <translation>Διαγραφή</translation>
+        <translatorcomment>手機右鍵點擊菜單</translatorcomment>
+        <translation>刪除</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1166"/>
         <location filename="../widgets/filewidget.cpp" line="1198"/>
         <source>hidden files</source>
         <comment>phone right click menu</comment>
-        <translation>Κρυφά αρχεία</translation>
+        <translatorcomment>手機右鍵點擊菜單</translatorcomment>
+        <translation>隱藏文件</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1200"/>
         <source>open in new tab</source>
         <comment>phone right click menu</comment>
-        <translation>άνοιγμα σε νέα καρτέλα</translation>
+        <translatorcomment>手機右鍵點擊菜單</translatorcomment>
+        <translation>在新標籤打開</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>information</source>
-        <translation>πληροφορία</translation>
+        <translation>信息</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>It&apos;s not an application</source>
-        <translation>Δεν είναι εφαρμογή</translation>
+        <translation>這不是一個應用程序</translation>
     </message>
 </context>
 <context>
@@ -858,87 +940,87 @@ Make sure that you are allowed to do this</source>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="14"/>
         <source>Logcat</source>
-        <translation>Logcat</translation>
+        <translation>日誌</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="29"/>
         <source>Debug</source>
-        <translation>Αποσφαλμάτωση</translation>
+        <translation>調試</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="39"/>
         <source>Warning</source>
-        <translation>Προειδοποίηση</translation>
+        <translation>警告</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="49"/>
         <source>Information</source>
-        <translation>Πληροφορίες</translation>
+        <translation>信息</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="59"/>
         <source>Error</source>
-        <translation>Σφάλμα</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="113"/>
         <source>Verbose</source>
-        <translation>Αναλυτικά</translation>
+        <translation>詳情</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="123"/>
         <source>filter</source>
-        <translation>φίλτρο</translation>
+        <translation>篩選</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="131"/>
         <source>Sender</source>
-        <translation>Αποστολέας</translation>
+        <translation>發送者</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="136"/>
         <source>Message</source>
-        <translation>Μήνυμα</translation>
+        <translation>消息</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="235"/>
         <source>autoscroll</source>
-        <translation>αυτόματη κύλιση</translation>
+        <translation>自動滾屏</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="245"/>
         <source>clear</source>
-        <translation>καθαρισμός</translation>
+        <translation>清除</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="228"/>
         <source>Buffer limit</source>
-        <translation>όριο Buffer</translation>
+        <translation>緩衝區限制</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="44"/>
         <source>clear logcat</source>
-        <translation>καθαρισμός logcat</translation>
+        <translation>清除日誌</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="45"/>
         <source>copy selected to clipboard</source>
-        <translation>αντιγραφή επιλογής στο πρόχειρο</translation>
+        <translation>選擇複製到剪貼板</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="46"/>
         <source>export selected to file</source>
-        <translation>εξαγωγή επιλογής σε αρχείο</translation>
+        <translation>選擇導出文件</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>Save File...</source>
-        <translation>Αποθήκευση αρχείου...</translation>
+        <translation>保存文件...</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>txt file</source>
-        <translation>αρχείο κειμένου</translation>
+        <translation>txt文件</translation>
     </message>
 </context>
 <context>
@@ -947,31 +1029,31 @@ Make sure that you are allowed to do this</source>
         <location filename="../classes/models/logcatmodel.cpp" line="158"/>
         <source>Time</source>
         <comment>logcat header</comment>
-        <translation>Χρονος</translation>
+        <translation>時間</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="160"/>
         <source>Type</source>
         <comment>logcat header</comment>
-        <translation>Τύπος</translation>
+        <translation>類型</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="162"/>
         <source>Sender</source>
         <comment>logcat header</comment>
-        <translation>Αποστολέας</translation>
+        <translation>發送者</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="164"/>
         <source>Pid</source>
         <comment>logcat header</comment>
-        <translation></translation>
+        <translation>PID</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="166"/>
         <source>Message</source>
         <comment>logcat header</comment>
-        <translation>Μήνυμα</translation>
+        <translation>消息</translation>
     </message>
 </context>
 <context>
@@ -980,38 +1062,39 @@ Make sure that you are allowed to do this</source>
         <location filename="../dialogs/mainwindow.ui" line="107"/>
         <source>Refresh</source>
         <extracomment>refresh state when disconnected</extracomment>
-        <translation>Ανανέωση</translation>
+        <translation>刷新</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="287"/>
         <source>check for updates</source>
-        <translation>Έλεγχος για ενημερώσεις</translation>
+        <translation>檢查更新</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="97"/>
         <source>CONNECT YOUR PHONE</source>
-        <translation>ΣΥΝΔΕΣΤΕ ΤΟ ΤΗΛΕΦΩΝΟ</translation>
+        <translation>連接到手機</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="22"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>Main window title</extracomment>
-        <translation>QtADB - O android διαχειριστής σας</translation>
+        <translatorcomment>主窗口標題</translatorcomment>
+        <translation>DataBridge - 你的安卓管理專家</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="172"/>
         <source>&amp;Connection</source>
-        <translation>&amp;Σύνδεση</translation>
+        <translation>&amp;連接</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="179"/>
         <source>&amp;Help</source>
-        <translation>&amp;Βοήθεια</translation>
+        <translation>&amp;幫助</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="187"/>
         <source>&amp;Tools</source>
-        <translation>&amp;Εργαλεία</translation>
+        <translation>&amp;工具</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="191"/>
@@ -1026,162 +1109,171 @@ Make sure that you are allowed to do this</source>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="232"/>
         <source>usb</source>
-        <translation>Usb</translation>
+        <translation>usb</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="237"/>
         <source>wifi</source>
-        <translation>Wifi</translation>
+        <translation>wifi</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="242"/>
         <source>about</source>
-        <translation>Σχετικά</translation>
+        <translation>關於</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="247"/>
         <source>polski</source>
-        <translation>Πολωνικά</translation>
+        <translation>波蘭語</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="252"/>
         <location filename="../dialogs/mainwindow.ui" line="267"/>
         <source>Reboot</source>
-        <translation>Επανεκκίνηση</translation>
+        <translation>重啟手機</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="257"/>
         <location filename="../dialogs/mainwindow.ui" line="272"/>
         <source>Reboot bootloader</source>
-        <translation>Επανεκκίνηση bootloader</translation>
+        <translation>重啟進入引導模式</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="262"/>
         <source>Reboot recovery</source>
-        <translation>Επανεκκίνηση recovery</translation>
+        <translation>重啟進入恢復模式</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="277"/>
         <location filename="../dialogs/mainwindow.ui" line="282"/>
         <source>Power off</source>
-        <translation>Απενεργοποίηση</translation>
+        <translation>關閉電源</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="292"/>
         <source>enter register key</source>
-        <translation>εισάγετε κλειδί εγγραφής</translation>
+        <translation>輸入註冊碼</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="65"/>
         <source>Logcat</source>
         <comment>action in system tray menu</comment>
-        <translation></translation>
+        <translatorcomment>系統托盤菜單操作</translatorcomment>
+        <translation>日誌工具</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="67"/>
         <source>exit</source>
         <comment>action in system tray menu</comment>
-        <translation>έξοδος</translation>
+        <translatorcomment>設置系統托盤菜單</translatorcomment>
+        <translation>退出</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="94"/>
         <source>Files</source>
         <comment>files button</comment>
-        <translation>Αρχεία</translation>
+        <translatorcomment>文件按鈕</translatorcomment>
+        <translation>文件</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="95"/>
         <source>Apps</source>
         <comment>apps button</comment>
-        <translation>Εφαρμογές</translation>
+        <translatorcomment>應用程序按鈕</translatorcomment>
+        <translation>應用程序</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="96"/>
         <source>Recovery</source>
         <comment>recovery button</comment>
-        <translation></translation>
+        <translation>恢復</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="97"/>
         <source>Fastboot</source>
         <comment>fastbot button</comment>
+        <translatorcomment>快速啟動按鈕</translatorcomment>
         <translation>Fastboot</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="98"/>
         <source>Phone info</source>
         <comment>phone info button</comment>
-        <translation>Πληρ Τηλεφώνου</translation>
+        <translation>手機信息</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="99"/>
         <source>Screenshot</source>
         <comment>screenshot button</comment>
-        <translation>Στιγμιότυπο</translation>
+        <translation>截圖</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="100"/>
         <source>Settings</source>
         <comment>settings button</comment>
-        <translation>Ρυθμίσεις</translation>
+        <translation>設置</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="101"/>
         <source>Shell</source>
         <comment>shell button</comment>
-        <translation>Κέλυφος</translation>
+        <translatorcomment>命令行工具按鈕</translatorcomment>
+        <translation>命令行工具</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="102"/>
         <source>Messages</source>
         <comment>messages button</comment>
-        <translation>Μηνύματα</translation>
+        <translatorcomment>短信按鈕</translatorcomment>
+        <translation>短信</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="104"/>
         <source>Logcat</source>
         <comment>logcat button</comment>
-        <translation></translation>
+        <translatorcomment>日誌工具按鈕</translatorcomment>
+        <translation>日誌工具</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="702"/>
         <source>Attention!</source>
-        <translation>Προσοχή!</translation>
+        <translation>注意!</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="703"/>
         <source>To use message manager You have to turn on WiFi.</source>
-        <translation>Για να χρησιμοποιήσετε το διαχειριστή μηνυμάτων πρέπει να ενεργοποιήσετε το ασύρματο δίκτυο.</translation>
+        <translation>你必須打開WiFi無線網絡連接才能使用消息管理器.</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="833"/>
         <source>Sms from </source>
         <comment>system tray bubble</comment>
-        <translation>Sms από</translation>
+        <translatorcomment>系統托盤氣泡</translatorcomment>
+        <translation>短信來自</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="838"/>
         <source>Sms result</source>
         <comment>system tray bubble</comment>
-        <translation>Sms αποτέλεσμα</translation>
+        <translation>短信發送結果</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="892"/>
         <source>New updates</source>
-        <translation>Νέες ενημερώσεις</translation>
+        <translation>新的更新</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="892"/>
         <source>New update is available
 </source>
-        <translation>Νέα ενημέρωση είναι διαθέσιμη
+        <translation>有可用的更新
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
         <location filename="../dialogs/mainwindow.cpp" line="916"/>
         <source>Your version: </source>
-        <translation>Η έκδοσή σας: </translation>
+        <translation>你的版本: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
@@ -1189,64 +1281,64 @@ Make sure that you are allowed to do this</source>
         <source>
 Latest version: </source>
         <translation>
-Τελευταία έκδοση: </translation>
+最新版本: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="894"/>
         <source>Download</source>
-        <translation>Λήψη</translation>
+        <translation>下載</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="895"/>
         <source>Close</source>
-        <translation>Κλείσιμο</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="911"/>
         <source>error</source>
-        <translation>σφάλμα</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="911"/>
         <source>There was problem while checking for updates</source>
-        <translation>Υπήρξε κάποιο πρόβλημα κατά τον έλεγχο για ενημερώσεις</translation>
+        <translation>更新檢查過程中出現問題</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>No updates</source>
-        <translation>Καμία ενημέρωση</translation>
+        <translation>沒有更新</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>Your version is up to date
 </source>
-        <translation>Η έκδοσή σας είναι ενημερωμένη
+        <translation>當前版本是最新的
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1034"/>
         <source>Donate</source>
-        <translation>Δωρεά</translation>
+        <translation>捐贈</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1035"/>
-        <source>It seems that you are using QtADB for a while now. Maybe consider a donation to a project...</source>
-        <translation>Φαινεται οτ χρησιμοποιείτε το QtADB εδώ και αρκετό καιρό. Ίσως να σκεφτείτε μια δωρεά για το project...</translation>
+        <source>It seems that you are using DataBridge for a while now. Maybe consider a donation to a project...</source>
+        <translation>看來你已經使用DataBridge軟件一段時間了,如果使用滿意請考慮捐贈此開發項目...</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1036"/>
         <source>Yes, I want to donate</source>
-        <translation>Ναι, θέλω να κάνω δωρεά</translation>
+        <translation>是的,我想捐款</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1037"/>
         <source>Remaind me later</source>
-        <translation>Υπενθύμιση αργότερα</translation>
+        <translation>以後再提醒我</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1038"/>
         <source>Do not bother me again</source>
-        <translation>Να μη γίνει άλλη υπενθύμιση</translation>
+        <translation>請不要再提醒了</translation>
     </message>
 </context>
 <context>
@@ -1255,7 +1347,8 @@ Latest version: </source>
         <location filename="../widgets/messagewidget.ui" line="87"/>
         <source>refresh list</source>
         <extracomment>refresh messages button</extracomment>
-        <translation>ανανέωση λίστας</translation>
+        <translatorcomment>刷新列表按鈕</translatorcomment>
+        <translation>刷新列表</translation>
     </message>
 </context>
 <context>
@@ -1263,37 +1356,37 @@ Latest version: </source>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="50"/>
         <source>Model</source>
-        <translation>Μοντέλο</translation>
+        <translation>型號</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="67"/>
         <source>Operator</source>
-        <translation>Χειριστής δικτυου</translation>
+        <translation>運營商</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="84"/>
         <source>Serial number</source>
-        <translation>Σειριακός αριθμός</translation>
+        <translation>序列號</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="101"/>
         <source>Bootloader</source>
-        <translation>Bootloader</translation>
+        <translation>引導程序</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="118"/>
         <source>Rom</source>
-        <translation>Ρομ</translation>
+        <translation>Rom</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="144"/>
         <source>Radio</source>
-        <translation>Ράδιο</translation>
+        <translation>Radio</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="161"/>
         <source>Battery level</source>
-        <translation>Επίπεδο μπαταρίας</translation>
+        <translation>電池電量</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="375"/>
@@ -1301,7 +1394,7 @@ Latest version: </source>
         <location filename="../widgets/phoneinfowidget.ui" line="389"/>
         <location filename="../widgets/phoneinfowidget.ui" line="396"/>
         <source>available:</source>
-        <translation>διαθέσιμα:</translation>
+        <translation>可用空間:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="443"/>
@@ -1309,7 +1402,7 @@ Latest version: </source>
         <location filename="../widgets/phoneinfowidget.ui" line="457"/>
         <location filename="../widgets/phoneinfowidget.ui" line="464"/>
         <source>used:</source>
-        <translation>σε χρήση:</translation>
+        <translation>已用空間:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="511"/>
@@ -1317,12 +1410,12 @@ Latest version: </source>
         <location filename="../widgets/phoneinfowidget.ui" line="525"/>
         <location filename="../widgets/phoneinfowidget.ui" line="532"/>
         <source>size:</source>
-        <translation>μέγεθος:</translation>
+        <translation>大小:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="690"/>
         <source>refresh</source>
-        <translation>Ανανέωση</translation>
+        <translation>刷新</translation>
     </message>
 </context>
 <context>
@@ -1333,41 +1426,41 @@ Latest version: </source>
         <location filename="../main.cpp" line="238"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>error</source>
-        <translation>σφάλμα</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="171"/>
         <location filename="../widgets/settingswidget.cpp" line="854"/>
         <source>Choose path to dir with adb and aapt binaries</source>
-        <translation>Επιλέξτε τη διαδρομή φακέλου με το adb και τo aapt</translation>
+        <translation>選擇adb和aapt目錄</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="192"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>there is no adb binary in here!</source>
-        <translation>δεν βρέθηκε adb σ&apos;αυτή τη διαδρομή!</translation>
+        <translation>沒有找到adb!</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="193"/>
         <source>Choose path</source>
-        <translation>Επιλογή διαδρομής</translation>
+        <translation>選擇路徑</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="194"/>
         <source>Close</source>
-        <translation>Κλείσιμο</translation>
+        <translation>關閉</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="224"/>
         <source>It seems that adb is not working properly</source>
-        <translation>Φαινεται ότι το adb δεν λειτουργεί σωστά</translation>
+        <translation>adb無法正常工作</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="239"/>
         <source>adbd cannot run as root in production builds so You can&apos;t do anything with /system partition. Run anyway?
-(press save to run QtADB and disable this message)</source>
-        <translation>Ο adbd δεν μπορεί να εκτελεστεί με δικαιώματα υπερχρήστη σε production builds οπότε δεν μπορείτε να κάνετε τίποτα με το διαμέρισμα /system. Εκτέλεση οπωσδήποτε?
-(πατήστε αποθήκευση για εκτέλεση QtADB και απενεργοποιείστε αυτό το μήνυμα)</translation>
+(press save to run DataBridge and disable this message)</source>
+        <translation>adbd不能以root權限運行,因此無法對/system分區做任何操作。你確定要運行嗎?
+(禁用此消息默認運行DataBridge)</translation>
     </message>
 </context>
 <context>
@@ -1375,215 +1468,211 @@ Latest version: </source>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="51"/>
         <source>Nandroid backup</source>
-        <translation>ΑντΑσφαλείας Nandroid</translation>
+        <translation>Nandroid 備份</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="64"/>
         <source>Bart backup</source>
-        <translation>ΑντΑσφαλείας Bart </translation>
+        <translation>Bart 備份</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="77"/>
         <source>Clear battery stats</source>
-        <translation>Καθαρισμός στατιστικών μπαταρίας</translation>
+        <translation>清除電池統計信息</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="84"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Wipe data</source>
-        <translation>Εκκαθάριση δεδομένων</translation>
+        <translation>Wipe 數據</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="97"/>
         <source>Mount SDcard to computer</source>
-        <translation>Προσάρτηση κάρτας SD στον υπολογιστή</translation>
+        <translation>連接SD卡到電腦</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="107"/>
         <source>Nandroid restore</source>
-        <translation>Επαναφορά Nandroid</translation>
+        <translation>Nandroid 還原</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="120"/>
         <source>Bart restore</source>
-        <translation>Επαναφορά Bart</translation>
+        <translation>Bart 恢復</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="133"/>
         <source>Fix UID mismatches</source>
-        <translation>Διόρθωση λάθος συνδυασμών UID</translation>
+        <translation>修復UID匹配錯誤</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="143"/>
         <source>Flash zip</source>
-        <translation>Φλασάρισμα zip</translation>
+        <translation>Flash zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="198"/>
         <source>Substring</source>
-        <translation>Υποαλφαριθμητικό</translation>
+        <translation>子字符串</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="214"/>
         <source>Backup</source>
-        <translation>ΑντΑσφαλείας</translation>
+        <translation>備份</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="234"/>
         <source>Path</source>
-        <translation>Διαδρομή</translation>
+        <translation>路徑</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="416"/>
         <source>Restore</source>
-        <translation>Επαναφορά</translation>
+        <translation>還原</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="839"/>
         <source>Choose one of options above</source>
-        <translation>Επιλέξτε μία απ&apos;τις παραπάνω επιλογές</translation>
+        <translation>請從以上選項中選擇一個</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fix UID finished!</source>
-        <translation>Η διόρθωση UID ολοκληρώθηκε!</translation>
+        <translation>修復UID完成!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fixing UID mismatches is finished.</source>
-        <translation>Η διόρθωση κακών συνδυασμών UID ολοκληρώθηκε.</translation>
+        <translation>UID匹配錯誤已修復完成.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <source>Flash Zip</source>
-        <translation>Φλασάρισμα Zip</translation>
+        <translation>Flash Zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Are you sure??</source>
-        <translation>Σίγουρα;;</translation>
+        <translation>你確定嗎??</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Open ROM File</source>
-        <translation>Άνοιγμα αρχείου ROM</translation>
+        <translation>打開ROM文件</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Zip files (*.zip)</source>
-        <translation>Αρχεία zip (*.zip)</translation>
+        <translation>壓縮文件 (*.zip)</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="214"/>
         <location filename="../widgets/recoverywidget.cpp" line="544"/>
         <source>Writing commands....</source>
-        <translation>Εγγραφή εντολών...</translation>
+        <translation>寫入命令....</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="221"/>
         <location filename="../widgets/recoverywidget.cpp" line="555"/>
         <source>Rebooting....</source>
-        <translation>Επανεκκίνηση...</translation>
+        <translation>正在重新啟動....</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>USB mounted</source>
-        <translation>Το USB προσαρτήθηκε</translation>
+        <translation>掛載USB</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>SD card is mounted as usb drive</source>
-        <translation>Η κάρτα SD προσαρτήθηκε ως  δίσκος USB</translation>
+        <translation>SD卡已經通過USB掛載</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>USB unmounted</source>
-        <translation>Το USB αποσυνδέθηκε</translation>
+        <translation>卸載USB</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>SD card is unmounted</source>
-        <translation>Η κάρτα SD είναι αποσυνδεδεμένη</translation>
+        <translation>SD卡已卸載</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="247"/>
         <source>Error</source>
-        <translation>Σφάλμα</translation>
+        <translation>錯誤</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Backup finished!</source>
-        <translation>Το ΑντΑσφαλείας ολοκληρώθηκε!</translation>
+        <translation>備份完成!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Nandroid backup is finished.</source>
-        <translation>Το ΑντΑσφαλείας Nanroid ολοκληρώθηκε.</translation>
+        <translation>Nandroid 備份完成.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Restore finished!</source>
-        <translation>Η επαναφορά ολοκληρώθηκε!</translation>
+        <translation>還原完成!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Nandroid restore is finished.</source>
-        <translation>Η επαναφορά Nanroid ολοκληρώθηκε.</translation>
+        <translation>Nandroid 還原完成.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="491"/>
         <source>Finished</source>
-        <translation>Ολοκληρώθηκε</translation>
+        <translation>完成</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="494"/>
         <source>Finished
 Choose one backup from combo above to restore it</source>
-        <translation>Ολοκληρώθηκε
-Επιλέξτε ένα ΑντΑσφαλείας απ&apos; τα παρακάτω για να το επαναφέρετε</translation>
+        <translation>完成
+選擇要還原的備份</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="516"/>
         <source>Looking for backups...</source>
-        <translation>Έρευνα για ΑντΑσφαλείας...</translation>
+        <translation>正在查找備份...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="534"/>
         <source>Information</source>
-        <translation>Πληροφορίες</translation>
+        <translation>信息</translation>
     </message>
 </context>
 <context>
     <name>RegisterDialog</name>
     <message>
-        <source>Dialog</source>
-        <translation type="vanished">Διάλογος</translation>
-    </message>
-    <message>
         <location filename="../dialogs/registerdialog.ui" line="32"/>
         <source>Register</source>
-        <translation type="unfinished"></translation>
+        <translation>註冊</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="53"/>
         <source>insert key</source>
-        <translation>εισάγετε κλειδί</translation>
+        <translation>輸入註冊碼</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="128"/>
         <source>Insert registration key:</source>
-        <translation>Εισάγετε κλειδί εγγραφής:</translation>
+        <translation>輸入註冊碼:</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="137"/>
         <source>don&apos;t have a key? consider donation:  </source>
-        <translation>δεν έχετε κλειδί? κάντε μια δωρεά:</translation>
+        <translation>如果沒有註冊碼?請考慮通過捐贈來獲得註冊碼:</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="187"/>
         <source>cancel</source>
-        <translation>άκυρο</translation>
+        <translation>取消</translation>
     </message>
 </context>
 <context>
@@ -1592,35 +1681,39 @@ Choose one backup from combo above to restore it</source>
         <location filename="../widgets/screenshotwidget.ui" line="76"/>
         <source>Refresh</source>
         <extracomment>refresh screenshot button</extracomment>
-        <translation>Ανανέωση</translation>
+        <translatorcomment>刷新截圖按鈕</translatorcomment>
+        <translation>刷新</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="87"/>
         <source>Save</source>
         <extracomment>save screenshot button</extracomment>
-        <translation>Αποθήκευση</translation>
+        <translatorcomment>保存截圖按鈕</translatorcomment>
+        <translation>保存</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="98"/>
         <source>Rotate left</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>Περιστροφή αριστερά</translation>
+        <translatorcomment>旋轉屏幕截圖</translatorcomment>
+        <translation>向左旋轉</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="109"/>
         <source>Rotate right</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>Περιστροφή δεξιά</translation>
+        <translatorcomment>旋轉屏幕截圖</translatorcomment>
+        <translation>向右旋轉</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Save File...</source>
-        <translation>Αποθήκευση αρχείου...</translation>
+        <translation>保存文件...</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Png file</source>
-        <translation>Αρχείο Png</translation>
+        <translation>Png 文件</translation>
     </message>
 </context>
 <context>
@@ -1628,183 +1721,183 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="190"/>
         <source>Save position and size of window on exit</source>
-        <translation>Αποθήκευση μεγέθους και θέσης του παραθύρου κατά την έξοδο</translation>
+        <translation>退出時保存窗口位置和大小</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="197"/>
         <source>Always close copy window after finished</source>
-        <translation>Πάντα κλείσιμο του αντίγραφου παραθύρου μετά το τελείωμα</translation>
+        <translation>默認在複製完成後關閉窗口</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="204"/>
         <source>Show modal copy window</source>
-        <translation>Προβολή τρόπου αντιγράφου παραθύρου</translation>
+        <translation>顯示模式複製窗口</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="217"/>
         <source>App font:</source>
-        <translation>Γραμματοσειρά εφαρμ:</translation>
+        <translation>應用程序字體:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="243"/>
         <location filename="../widgets/settingswidget.ui" line="282"/>
         <location filename="../widgets/settingswidget.ui" line="315"/>
         <source>Change font</source>
-        <translation>Αλλαγή γραμματοσειράς</translation>
+        <translation>更改字體</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="256"/>
         <source>Tables font:</source>
-        <translation>Γραμματοσειρά πινάκων:</translation>
+        <translation>表字體:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="289"/>
         <source>Shell font:</source>
-        <translation>Γραμματοσειρά κελύφους:</translation>
+        <translation>命令行工具字體:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="370"/>
         <source>Kill demon on exit</source>
-        <translation>Τερματισμός του δαίμονα στην έξοδο</translation>
+        <translation>退出時殺死進程</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="390"/>
         <source>Check for updates on start</source>
-        <translation>Έλεγχος για ενημερώσεις στην έναρξη</translation>
+        <translation>啟動時檢查更新</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="940"/>
         <source>Coloring files</source>
-        <translation>Έγχρωμα αρχεία</translation>
+        <translation>文件著色中</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="410"/>
         <source>Set toolBar style:</source>
-        <translation>Ορισμός στυλ μπάρας εργαλείων:</translation>
+        <translation>設置按鈕欄樣式:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="117"/>
         <source>Shell</source>
-        <translation>Κέλυφος</translation>
+        <translation>命令行工具</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="417"/>
         <source>Set toolBar icon size:</source>
-        <translation>Ορισμός μέγεθος εικονιδίου μπάρας εργαλείων:</translation>
+        <translation>設置按鈕欄圖標大小:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="424"/>
         <source>Set hide/disable buttons on toolBar:</source>
-        <translation>Ορισμός κρυφών/ανενεργών κουμπιών της μπάρας εργαλείων:</translation>
+        <translation>在按鈕欄上設置隱藏/禁用按鈕:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="432"/>
         <source>Icon only</source>
-        <translation>Εικονίδιο μόνο</translation>
+        <translation>僅圖標</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="437"/>
         <source>Text only</source>
-        <translation>Κειμενο μόνο</translation>
+        <translation>僅文字</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="442"/>
         <source>Text beside icon</source>
-        <translation>Κειμενο δίπλα στο εικονίδιο</translation>
+        <translation>文字在圖標邊上</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="447"/>
         <source>Text under icon</source>
-        <translation>Κειμενο κάτω απ&apos; το εικονίδιο</translation>
+        <translation>文字在圖標下</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="456"/>
         <source>Hide buttons</source>
-        <translation>Απόκρυψη κουμπιών</translation>
+        <translation>隱藏按鈕</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="461"/>
         <source>Disable buttons</source>
-        <translation>Απενεργοποίηση κουμπιών</translation>
+        <translation>禁用按鈕</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="483"/>
         <source>Left</source>
-        <translation>Αριστερά</translation>
+        <translation>左邊</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="488"/>
         <source>Right</source>
-        <translation>Δεξιά</translation>
+        <translation>右邊</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="493"/>
         <source>Top</source>
-        <translation>Πάνω</translation>
+        <translation>頂部</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="498"/>
         <source>Bottom</source>
-        <translation>Κάτω</translation>
+        <translation>底部</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="506"/>
         <source>Area of toolBar:</source>
-        <translation>Περιοχή μπάρας εργαλειών:</translation>
+        <translation>工具欄區:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="514"/>
         <source>Left to right</source>
-        <translation>Αριστερά προς δεξιά</translation>
+        <translation>從左到右</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="519"/>
         <source>Right to left</source>
-        <translation>Δεξιά προς αριστερά</translation>
+        <translation>從右到左</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="527"/>
         <source>App layout:</source>
-        <translation>Διάταξη εφαρμ:</translation>
+        <translation>應用程序佈局方向:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="554"/>
         <source>Computer</source>
-        <translation>Υπολογιστής</translation>
+        <translation>電腦</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="575"/>
         <location filename="../widgets/settingswidget.ui" line="797"/>
         <source>Set path on start:</source>
-        <translation>Ορισμός διαδρομής στην έναρξη:</translation>
+        <translation>設置啟動路徑:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="598"/>
         <location filename="../widgets/settingswidget.ui" line="820"/>
         <source>Remember path on exit</source>
-        <translation>Ενθύμιση διαδρομής στην έξοδο</translation>
+        <translation>退出時記住路徑</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="611"/>
         <location filename="../widgets/settingswidget.ui" line="833"/>
         <source>Show hidden files</source>
-        <translation>Προβολή κρυφών αρχείων</translation>
+        <translation>顯示隱藏文件</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="627"/>
         <location filename="../widgets/settingswidget.ui" line="849"/>
         <source>Show table columns headers</source>
-        <translation>Εμφάνιση επιγραφών  στηλών πίνακα</translation>
+        <translation>顯示表列標題</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="688"/>
         <source>Show app icon instead default</source>
-        <translation>Προβολή εικ/δίου εφαρμογής αντί του προεπιλεγμενου</translation>
+        <translation>顯示默認程序圖標</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="701"/>
         <source>Instead of file name show:</source>
-        <translation>Αντί του ονόματος αρχείου εμφάνιση:</translation>
+        <translation>替換顯示文件名稱:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="714"/>
@@ -1812,28 +1905,25 @@ Choose one backup from combo above to restore it</source>
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</source>
-        <translatorcomment>do not translate this variables!!! translate only &quot;Available variables&quot; leave &lt;appName&gt;
-&lt;appVersion&gt;
-&lt;packageName&gt;</translatorcomment>
-        <translation>Διαθέσιμες μεταβλητές
-&lt;appName&gt;
-&lt;appVersion&gt;
-&lt;packageName&gt;</translation>
+        <translation>詳細信息:
+&lt;應用名稱&gt;
+&lt;應用版本&gt;
+&lt;安裝包名&gt;</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="743"/>
         <source>Show/hide computer files columns:</source>
-        <translation>Εμφάνιση/απόκρυψη στηλών αρχείων υπολογιστή:</translation>
+        <translation>顯示/隱藏電腦文件欄:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="776"/>
         <source>Phone</source>
-        <translation>Τηλέφωνο</translation>
+        <translation>手機</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="917"/>
         <source>Show/hide phone files columns:</source>
-        <translation>Εμφάνιση/απόκρυψη στηλών αρχείων τηλεφώνου:</translation>
+        <translation>顯示/隱藏手機文件欄:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="951"/>
@@ -1848,150 +1938,150 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1071"/>
         <source>Default action on backup:</source>
-        <translation>Προεπιλεγμένη ενέργεια για ΑντΑσφαλείας:</translation>
+        <translation>備份默認設置:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1082"/>
         <source>Backup only apk</source>
-        <translation>ΑντΑσφαλείας μόνο του αρχείου apk</translation>
+        <translation>僅備份apk文件</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1087"/>
         <source>Backup only data</source>
-        <translation>ΑντΑσφαλείας δεδομένων μόνο</translation>
+        <translation>僅備份數據</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1092"/>
         <source>Backup apk + data</source>
-        <translation>ΑντΑσφαλείας αρχείου apk + δεδομένων</translation>
+        <translation>備份apk文件及數據</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1100"/>
         <source>Default action on restore:</source>
-        <translation>Προεπιλεγμένη ενέργεια για την επαναφορά:</translation>
+        <translation>還原默認設置:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1111"/>
         <source>Restore only apk</source>
-        <translation>Επαναφορά εφαρμογής μόνο</translation>
+        <translation>僅還原apk文件</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1116"/>
         <source>Restore only data</source>
-        <translation>Επαναφορά δεδομένων μόνο</translation>
+        <translation>僅還原數據</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1121"/>
         <source>Restore apk + data</source>
-        <translation>Επαναφορά εφαρμογής + δεδομένων</translation>
+        <translation>還原apk文件和數據</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1129"/>
         <source>Sort by column:</source>
-        <translation>Ταξινόμηση κατά στήλη:</translation>
+        <translation>以列排序:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1137"/>
         <source>App name</source>
-        <translation>Όνομα εφαρμογής</translation>
+        <translation>應用程序名稱</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1142"/>
         <source>App version</source>
-        <translation>Έκδοση εφαρμογών</translation>
+        <translation>應用程序版本</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1147"/>
         <source>App size</source>
-        <translation>Μέγεθος εφαρμογής</translation>
+        <translation>應用程序大小</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1152"/>
         <source>App package name</source>
-        <translation>Όνομα πακέτου εφαρμογής</translation>
+        <translation>程序包名</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1160"/>
         <source>Get backups:</source>
-        <translation>Λήψη ΑντΑσφαλείας:</translation>
+        <translation>獲取備份:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1168"/>
         <location filename="../widgets/settingswidget.ui" line="1182"/>
         <location filename="../widgets/settingswidget.ui" line="1274"/>
         <source>only on start</source>
-        <translation>Μόνο στην έναρξη</translation>
+        <translation>僅在啟動時</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1173"/>
         <source>every time before show</source>
-        <translation>Κάθε φορά πριν την εμφάνιση</translation>
+        <translation>每次之前顯示</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1187"/>
         <location filename="../widgets/settingswidget.ui" line="1279"/>
         <source>every time on show</source>
-        <translation>Κάθε φορά πριν εμφανιστεί</translation>
+        <translation>始終顯示</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1259"/>
         <source>Get applications:</source>
-        <translation>Λήψη πληροφοριών εφαρμογής:</translation>
+        <translation>獲取應用程序信息:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1266"/>
         <source>Get system applications:</source>
-        <translation>Λήψη εφαρμογών συστήματος:</translation>
+        <translation>獲取系統應用程序:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1300"/>
         <source>Check app version on internet</source>
-        <translation>Έλεγχος για την έκδοση της εφαρμογής στο διαδίκτυο</translation>
+        <translation>檢查網上應用程序版本</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1320"/>
         <source>Show/hide apps columns:</source>
-        <translation>Εμφάνιση/απόκρυψη στηλών εφαρμογών:</translation>
+        <translation>顯示/隱藏應用程序欄:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1327"/>
         <source>Show/hide backups columns:</source>
-        <translation>Εμφάνιση/απόκρυψη στηλών ΑντΑσφαλείας:</translation>
+        <translation>顯示/隱藏備份欄:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1336"/>
         <source>sd ext folder</source>
-        <translation>φάκελος sd ext</translation>
+        <translation>SD卡擴展目錄</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1346"/>
         <source>Detect</source>
-        <translation>Ανίχνευση</translation>
+        <translation>檢測</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1377"/>
         <source>Enable animations</source>
-        <translation>Εφέ κίνησης ενεργό</translation>
+        <translation>允許動畫效果</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1387"/>
         <source>Duration (in miliseconds)</source>
-        <translation>Διάρκεια (σε χιλιοδευτερόλεπτα)</translation>
+        <translation>持續時間(毫秒)</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1578"/>
         <source>Change background color</source>
-        <translation>Αλλαγή χρώματος φόντου</translation>
+        <translation>更改背景顏色</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1585"/>
         <source>Change font color</source>
-        <translation>Αλλαγή χρώματος γραμματοσειράς</translation>
+        <translation>更改字體顏色</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1668"/>
         <source>Color files</source>
-        <translation>Αρχεία με χρώμα</translation>
+        <translation>色彩文件</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1683"/>
@@ -2001,121 +2091,125 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1408"/>
         <source>UpToDown</source>
-        <translation>ΠάνωΠροςΚάτω</translation>
+        <translation>從上到下</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1413"/>
         <source>DownToUp</source>
-        <translation>ΚάτωΠροςΠάνω</translation>
+        <translation>從下到上</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1418"/>
         <source>LeftToRight</source>
-        <translation>ΑριστεράΠροςΔεξιά</translation>
+        <translation>從左到右</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1423"/>
         <source>RightToLeft</source>
-        <translation>ΔεξιάΠροςΑριστερά</translation>
+        <translation>從右到左</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1526"/>
         <source>Direction</source>
-        <translation>Κατεύθυνση</translation>
+        <translation>方向</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="97"/>
         <source>General</source>
-        <translation>Γενικά</translation>
+        <translation>常規</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="102"/>
         <source>File manager</source>
-        <translation>Διαχειριστής αρχείων</translation>
+        <translation>文件管理</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="107"/>
         <source>App manager</source>
-        <translation>Διαχειριστής εφαρμογών</translation>
+        <translation>應用程序管理</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="112"/>
         <source>Animations</source>
-        <translation>Εφέ κίνησης</translation>
+        <translation>動畫效果</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="125"/>
         <source>Remove settings from system</source>
-        <translation>Αφαίρεση ρυθμίσεων απ&apos;το σύστημα</translation>
+        <translation>從系統中刪除設置</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="138"/>
         <source>Set defaults</source>
-        <translation>Ορισμός προεπιλογών</translation>
+        <translation>默認設置</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="151"/>
         <source>Save Settings</source>
-        <translation>Αποθήκευση ρυθμίσεων</translation>
+        <translation>保存設置</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="167"/>
-        <source>Associate apk files with QtADB</source>
-        <translation>Συσχέτιση αρχείων apk με το QtADB</translation>
+        <source>Associate apk files with DataBridge</source>
+        <translation>使用DataBridge關聯apk文件</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Reset settings??</source>
-        <translation>Επαναφορά ρυθμίσεων?</translation>
+        <translation>初始化設置??</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Are you sure you want restore settings to defaults???</source>
-        <translation>Θέλετε σίγουρα να επαναφέρετε τις προεπιλεγμένες ρυθμίσεις???</translation>
+        <translation>你確定要恢復默認設置嗎???</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="611"/>
         <source>Icon</source>
         <comment>icon app column</comment>
-        <translation>Εικονίδιο</translation>
+        <translatorcomment>應用欄圖標</translatorcomment>
+        <translation>圖標</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="630"/>
         <source>Icon</source>
         <comment>icon backup column</comment>
-        <translation>Εικονίδιο</translation>
+        <translatorcomment>備份欄圖標</translatorcomment>
+        <translation>圖標</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="648"/>
         <source>Icon</source>
         <comment>icon computer column</comment>
-        <translation>Εικονίδιο</translation>
+        <translatorcomment>電腦欄圖標</translatorcomment>
+        <translation>圖標</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="665"/>
         <source>Icon</source>
         <comment>icon phone column</comment>
-        <translation>Εικονίδιο</translation>
+        <translatorcomment>手機欄圖標</translatorcomment>
+        <translation>圖標</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
         <source>Associate??</source>
-        <translation>Συσχέτιση??</translation>
+        <translation>關聯?</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
-        <source>Are you sure you want to associate *.apk files with QtADB???</source>
-        <translation>Θέλετε σίγουρα να συσχετίσετε τα αρχεια apk με το QtADB???</translation>
+        <source>Are you sure you want to associate *.apk files with DataBridge???</source>
+        <translation>你確定使用DataBridge關聯*.apk文件嗎???</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="772"/>
         <source>Install apk</source>
-        <translation>Εγκατάσταση apk</translation>
+        <translation>安裝apk文件</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="843"/>
         <source>&lt;Not Found&gt;</source>
-        <translation>&lt;Δε βρέθηκε&gt;</translation>
+        <translation>&lt;沒有發現&gt;</translation>
     </message>
 </context>
 <context>
@@ -2123,74 +2217,75 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="241"/>
         <source>
-QtADB shell help
+DataBridge shell help
 </source>
-        <translation>Βοήθεια για το κέλυφος QtADB</translation>
+        <translation>
+DataBridge 命令行工具幫助</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="242"/>
         <source>CTRL+C                - interrupt executing command</source>
-        <translation>CTRL+C                - διακόπτει την υπό εκτέλεση εντολή</translation>
+        <translation>CTRL+C鍵                - 中斷執行</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="243"/>
         <source>ESC                   - interrupt executing command</source>
-        <translation>ESC                  - διακόπτει την υπό εκτέλεση εντολή</translation>
+        <translation>ESC                   - 中斷執行</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="244"/>
         <source>Shift+CTRL+C          - copy selected text to clipboard</source>
-        <translation>Shift+CTRL+C          - αντιγράφει το επιλεγμένο κείμενο στο πρόχειρο</translation>
+        <translation>Shift+CTRL+C          - 複製選中文本</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="245"/>
         <source>Shift+CTRL+V          - paste text from clipboard</source>
-        <translation>Shift+CTRL+V          -επικολλά κείμενο απ&apos;το πρόχειρο</translation>
+        <translation>Shift+CTRL+V          - 粘貼文本</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="246"/>
         <source>Enter/Return          - execute command</source>
-        <translation>Enter/Return           - εκτελεί την εντολή</translation>
+        <translation>Enter/Return          - 執行命令</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="247"/>
         <source>Up (arrow)            - display previous executed command</source>
-        <translation>Πάνω (βέλος)           - εμφανίζει την προηγούμενη προς εκτέλεση εντολή</translation>
+        <translation>向上(箭頭)            - 顯示上一條命令</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="248"/>
         <source>Down (arrow)          - display next executed command</source>
-        <translation>Κάτω (βέλος)          - εμφανίζει την επόμενη προς εκτέλεση εντολή</translation>
+        <translation>向下(箭頭)          - 顯示下一個命令</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="249"/>
         <source>Left(arrow)           - move cursor to the left</source>
-        <translation>Αριστερό(βέλος)     - μετακινεί τον κέρσορα αριστερά</translation>
+        <translation>向左(箭頭)           - 向左移動光標</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="250"/>
         <source>Right(arrow)          - move cursor to the right</source>
-        <translation>Δεξί(βέλος)           - μετακινεί τον κέρσορα δεξιά</translation>
+        <translation>向右(箭頭)          - 向右移動光標</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="251"/>
         <source>CTRL+Left(arrow)      - move cursor to the left skipping over the word</source>
-        <translation>CTRL+Αριστερό(βέλος)      - μετακινεί τον κέρσορα προς τα αριστερά παρακάμπτωντας την λέξη</translation>
+        <translation>CTRL+向左(箭頭)      - 向左移動光標跳過這個字</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="252"/>
         <source>CTRL+Right(arrow)     - move cursor to the right skipping over the word</source>
-        <translation>CTRL+Δεξί(βέλος)     - μετακινεί τον κέρσορα προς τα δεξιά παρακάμπτωντας την λέξη</translation>
+        <translation>CTRL+向右(箭頭)     - 向右移動光標跳過這個字</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="253"/>
         <source>Delete                - delete next char</source>
-        <translation>Delete               - διαγράφει τον επόμενο χαρακτήρα</translation>
+        <translation>Delete                - 刪除下一個字符</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="254"/>
         <source>Backspace             - delete previous char</source>
-        <translation>Backspace            - διαγράφει τον προηγούμενο χαρακτήρα</translation>
+        <translation>退格鍵             - 刪除以前字符</translation>
     </message>
 </context>
 <context>
@@ -2198,7 +2293,7 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="477"/>
         <source>SUCCESS</source>
-        <translation>ΕΠΙΤΥΧΙΑ</translation>
+        <translation>成功</translation>
     </message>
 </context>
 <context>
@@ -2206,12 +2301,12 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="614"/>
         <source>FAILURE</source>
-        <translation>ΑΠΟΤΥΧΙΑ</translation>
+        <translation>失敗</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="618"/>
         <source>SUCCESS</source>
-        <translation>ΕΠΙΤΥΧΙΑ</translation>
+        <translation>成功</translation>
     </message>
 </context>
 <context>
@@ -2221,14 +2316,14 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="550"/>
         <location filename="../dialogs/appdialog.cpp" line="587"/>
         <source>FAILURE</source>
-        <translation>ΑΠΟΤΥΧΙΑ</translation>
+        <translation>失敗</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="546"/>
         <location filename="../dialogs/appdialog.cpp" line="554"/>
         <location filename="../dialogs/appdialog.cpp" line="583"/>
         <source>SUCCESS</source>
-        <translation>ΕΠΙΤΥΧΙΑ</translation>
+        <translation>成功</translation>
     </message>
 </context>
 <context>
@@ -2236,13 +2331,13 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="669"/>
         <source>FAILURE</source>
-        <translation>ΑΠΟΤΥΧΙΑ</translation>
+        <translation>失敗</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="673"/>
         <location filename="../dialogs/appdialog.cpp" line="677"/>
         <source>SUCCESS</source>
-        <translation>ΕΠΙΤΥΧΙΑ</translation>
+        <translation>成功</translation>
     </message>
 </context>
 <context>
@@ -2250,24 +2345,24 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.ui" line="106"/>
         <source>app</source>
-        <translation>Εφαρμ</translation>
+        <translation>應用程序</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.ui" line="111"/>
         <source>state</source>
-        <translation>Κατάσταση</translation>
+        <translation>狀態</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="48"/>
         <location filename="../dialogs/appdialog.cpp" line="49"/>
         <source>Install</source>
-        <translation>Εγκατάσταση</translation>
+        <translation>安裝</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="54"/>
         <location filename="../dialogs/appdialog.cpp" line="55"/>
         <source>Uninstall</source>
-        <translation>Απεγκατάσταση</translation>
+        <translation>卸載</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="60"/>
@@ -2275,169 +2370,184 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="142"/>
         <location filename="../dialogs/appdialog.cpp" line="143"/>
         <source>Reinstall</source>
-        <translation>Επαναεγκατάσταση</translation>
+        <translation>重新安裝</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="68"/>
         <location filename="../dialogs/appdialog.cpp" line="69"/>
         <source>Backup apps</source>
-        <translation>ΑντΑσφαλ εφαρμογών</translation>
+        <translation>備份應用程序</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="73"/>
         <location filename="../dialogs/appdialog.cpp" line="74"/>
         <source>Backup data</source>
-        <translation>ΑντΑσφαλ δεδομενων</translation>
+        <translation>備份數據</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="78"/>
         <location filename="../dialogs/appdialog.cpp" line="79"/>
         <source>Backup apps and data</source>
-        <translation>ΑντΑσφαλ εφαρμογών και δεδομενων</translation>
+        <translation>應用程序和數據備份</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="87"/>
         <location filename="../dialogs/appdialog.cpp" line="88"/>
         <source>Restore apps</source>
-        <translation>Επαναφορά εφαρμογών</translation>
+        <translation>恢復應用程序</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="92"/>
         <location filename="../dialogs/appdialog.cpp" line="93"/>
         <source>Restore data</source>
-        <translation>Επαναφορά δεδομενων</translation>
+        <translation>還原數據</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="97"/>
         <location filename="../dialogs/appdialog.cpp" line="98"/>
         <location filename="../dialogs/appdialog.cpp" line="179"/>
         <source>Restore apps and data</source>
-        <translation>Επαναφορά εφαρμογών και δεδομένων</translation>
+        <translation>應用程序和數據恢復</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="130"/>
         <source>Install</source>
         <comment>apd dialog title</comment>
-        <translation>Εγκατάσταση</translation>
+        <translatorcomment>apd對話框標題</translatorcomment>
+        <translation>安裝</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="131"/>
         <source>Install</source>
         <comment>label text</comment>
-        <translation>Εγκατάσταση</translation>
+        <translatorcomment>標籤文本</translatorcomment>
+        <translation>安裝</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="136"/>
         <source>Uninstall</source>
         <comment>apd dialog title</comment>
-        <translation>Απεγκατάσταση</translation>
+        <translatorcomment>apd對話框標題</translatorcomment>
+        <translation>卸載</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="137"/>
         <source>Uninstall</source>
         <comment>label text</comment>
-        <translation>Απεγκατάσταση</translation>
+        <translatorcomment>標籤文本</translatorcomment>
+        <translation>卸載</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="150"/>
         <source>Backup apps</source>
         <comment>apd dialog title</comment>
-        <translation>ΑντΑσφαλ εφαρμογών</translation>
+        <translatorcomment>apd對話框標題</translatorcomment>
+        <translation>備份應用程序</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="151"/>
         <source>Backup apps</source>
         <comment>label text</comment>
-        <translation>ΑντΑσφαλ εφαρμογών</translation>
+        <translatorcomment>標籤文本</translatorcomment>
+        <translation>備份應用程序</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="155"/>
         <source>Backup data</source>
         <comment>apd dialog title</comment>
-        <translation>ΑντΑσφαλ δεδομενων</translation>
+        <translatorcomment>apd的對話框標題</translatorcomment>
+        <translation>備份數據</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="156"/>
         <source>Backup data</source>
         <comment>label text</comment>
-        <translation>ΑντΑσφαλ δεδομενων</translation>
+        <translatorcomment>標籤文本</translatorcomment>
+        <translation>備份數據</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="160"/>
         <source>Backup apps and data</source>
         <comment>apd dialog title</comment>
-        <translation>ΑντΑσφαλ εφαρμογών και δεδομενων</translation>
+        <translatorcomment>apd對話框標題</translatorcomment>
+        <translation>應用程序和數據備份</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="161"/>
         <source>Backup apps and data</source>
         <comment>label text</comment>
-        <translation>ΑντΑσφαλ εφαρμογών και δεδομενων</translation>
+        <translatorcomment>標籤文本</translatorcomment>
+        <translation>應用程序和數據備份</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="169"/>
         <source>Restore apps</source>
         <comment>apd dialog title</comment>
-        <translation>Επαναφορά εφαρμογών</translation>
+        <translatorcomment>apd對話框標題</translatorcomment>
+        <translation>恢復應用程序</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="170"/>
         <source>Restore apps</source>
         <comment>label text</comment>
-        <translation>Επαναφορά εφαρμογών</translation>
+        <translatorcomment>標籤文本</translatorcomment>
+        <translation>恢復應用程序</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="174"/>
         <source>Restore data</source>
         <comment>apd dialog title</comment>
-        <translation>Επαναφορά δεδομενων</translation>
+        <translatorcomment>apd對話框標題</translatorcomment>
+        <translation>還原數據</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="175"/>
         <source>Restore data</source>
         <comment>label text</comment>
-        <translation>Επαναφορά δεδομενων</translation>
+        <translatorcomment>標籤文本</translatorcomment>
+        <translation>還原數據</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="180"/>
         <source>Restore apps and data</source>
         <comment>label text</comment>
-        <translation>Επαναφορά εφαρμογών και δεδομένων</translation>
+        <translatorcomment>標籤文本</translatorcomment>
+        <translation>應用程序和數據恢復</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Cancel operation??</source>
-        <translation>Ακύρωση δραστηριότητας??</translation>
+        <translation>取消操作??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Are you sure You want to cancel operation??</source>
-        <translation>Θέλετε σίγουρα ν&apos;ακυρωθεί αυτή η ενέργεια??</translation>
+        <translation>你真的要取消此操作嗎?</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="360"/>
         <source>Install finished</source>
-        <translation>Η εγκατάσταση ολοκληρώθηκε</translation>
+        <translation>安裝完成</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="364"/>
         <source>Uninstall finished</source>
-        <translation>Η απεγκατάσταση ολοκληρώθηκε</translation>
+        <translation>卸載完成</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="368"/>
         <source>Reinstall finished</source>
-        <translation>Η επανεγκατάσταση ολοκληρώθηκε</translation>
+        <translation>重新安裝完成</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="372"/>
         <source>Backup finished</source>
-        <translation>Το ΑντΑσφαλείας ολοκληρώθηκε</translation>
+        <translation>備份完成</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="376"/>
         <source>Restore finished</source>
-        <translation>Η επαναφορά ολοκληρώθηκε</translation>
+        <translation>還原完成</translation>
     </message>
 </context>
 <context>
@@ -2446,68 +2556,69 @@ QtADB shell help
         <location filename="../dialogs/appinfo.ui" line="14"/>
         <source>App info</source>
         <extracomment>app info dialog title</extracomment>
-        <translation>Πληρ Εφαρμογής</translation>
+        <translatorcomment>應用程序信息對話框標題</translatorcomment>
+        <translation>應用程序信息</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="87"/>
         <source>App name</source>
-        <translation>Όνομα εφαρμογής</translation>
+        <translation>應用程序名稱</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="111"/>
         <source>App version</source>
-        <translation>Έκδοση εφαρμογών</translation>
+        <translation>應用程序版本</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="135"/>
         <source>Package name</source>
-        <translation>Μέγεθος πακέτου</translation>
+        <translation>程序包名</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="159"/>
         <source>File name</source>
-        <translation>Όνομα αρχείου</translation>
+        <translation>文件名</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="173"/>
         <source>File Size</source>
-        <translation>Μέγεθος αρχείου</translation>
+        <translation>文件大小</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="263"/>
         <source>Open in Market (PC)</source>
-        <translation>Άνοιγμα στο Market(Υπολογιστής)</translation>
+        <translation>在電腦上用電子市場查看</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="274"/>
         <source>Open in Market (Phone)</source>
-        <translation>Άνοιγμα στο Market(Τηλέφωνο)</translation>
+        <translation>在手機上用電子市場查看</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="285"/>
         <source>Install</source>
-        <translation>Εγκατάσταση</translation>
+        <translation>安裝</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="58"/>
         <location filename="../dialogs/appinfo.cpp" line="103"/>
         <source>Reinstall</source>
-        <translation>Επανεγκατάσταση</translation>
+        <translation>重新安裝</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>install</source>
-        <translation>Εγκατάσταση</translation>
+        <translation>安裝</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>are you sure???</source>
-        <translation>Σίγουρα???</translation>
+        <translation>你確定嗎???</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>reinstall</source>
-        <translation>επανεγκατάσταση</translation>
+        <translation>重新安裝</translation>
     </message>
 </context>
 <context>
@@ -2516,57 +2627,58 @@ QtADB shell help
         <location filename="../dialogs/dialogkopiuj.ui" line="14"/>
         <source>Copying</source>
         <extracomment>Copy dialog title</extracomment>
-        <translation>Αντιγραφή</translation>
+        <translatorcomment>複製對話框標題</translatorcomment>
+        <translation>複製</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="29"/>
         <source>file:</source>
-        <translation>αρχείο:</translation>
+        <translation>文件:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="43"/>
         <source>from:</source>
-        <translation>από:</translation>
+        <translation>從:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="57"/>
         <source>to:</source>
-        <translation>προς:</translation>
+        <translation>到:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="71"/>
         <source>items remaining:</source>
-        <translation>στοιχεία που απομένουν:</translation>
+        <translation>項目剩餘:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="87"/>
         <source>File:</source>
-        <translation>Αρχείο:</translation>
+        <translation>文件:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="174"/>
         <source>Total:</source>
-        <translation>Σύνολο:</translation>
+        <translation>總計:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="198"/>
         <source>close after finished</source>
-        <translation>κλεισιμο αφού ολοκληρωθει</translation>
+        <translation>完成後關閉</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="218"/>
         <source>Cancel</source>
-        <translation>Άκυρο</translation>
+        <translation>取消</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Close??</source>
-        <translation>Κλείσιμο??</translation>
+        <translation>關閉??</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Are you sure??</source>
-        <translation>Σίγουρα;;</translation>
+        <translation>你確定嗎??</translation>
     </message>
 </context>
 </TS>

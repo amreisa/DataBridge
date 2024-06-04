@@ -82,7 +82,7 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWind
     qDebug()<<QDateTime::currentDateTime().toString("dd-MM-yyyy hh:mm:ss");
     qDebug()<<"App version - "<<QCoreApplication::applicationVersion();
 
-//    this->setWindowTitle("QtADB");
+//    this->setWindowTitle("DataBridge");
 
     this->ui->centralWidget->setLayout(ui->gridLayout);
 
@@ -148,7 +148,7 @@ MainWindow::MainWindow(QWidget *parent) :QMainWindow(parent),ui(new Ui::MainWind
     if (this->settingsWidget->checkForUpdatesOnStart)
         this->updateApp.checkUpdates();
 
-//    this->setWindowTitle("QtADB " + QString::number(this->height()) + "x" + QString::number(this->width()));
+//    this->setWindowTitle("DataBridge " + QString::number(this->height()) + "x" + QString::number(this->width()));
 }
 #ifdef WIN7PROGRESS
 bool MainWindow::winEvent(MSG *message, long *result)
@@ -160,7 +160,7 @@ void MainWindow::resizeEvent(QResizeEvent * event)
 {
     Q_UNUSED(event);
 
-//    this->setWindowTitle("QtADB " + QString::number(this->height()) + "x" + QString::number(this->width()));
+//    this->setWindowTitle("DataBridge " + QString::number(this->height()) + "x" + QString::number(this->width()));
 
 }
 MainWindow::~MainWindow()
@@ -744,8 +744,8 @@ bool MainWindow::verifyKey(QString email,QString key)
 
 bool MainWindow::verifyRegistered(QString email)
 {
-    email.append("qtadb");
-    email.prepend("QtADB");
+    email.append("DataBridge");
+    email.prepend("DataBridge");
 
     QSettings settings;
     QStringList keyList(settings.value("registerKey").toStringList());
@@ -969,7 +969,7 @@ void MainWindow::updatesCheckFinished(bool gotUpdate, QString oldVersion, QStrin
 
         if (msgBox->clickedButton() == getUpdatesMsg)
         {
-            QDesktopServices::openUrl ( QUrl("http://qtadb.wordpress.com/download/") );
+            QDesktopServices::openUrl ( QUrl("http://DataBridge.wordpress.com/download/") );
         }
         delete getUpdatesMsg;
         delete closeMsg;
@@ -1103,7 +1103,7 @@ void MainWindow::donateMessage()
         if (firstRun.addDays(14) <= QDate::currentDate() && runCount >= 10)
         {
             QMessageBox *msgBox = new QMessageBox(QMessageBox::Information, tr("Donate"),
-                                                  tr("It seems that you are using QtADB for a while now. Maybe consider a donation to a project..."));
+                                                  tr("It seems that you are using DataBridge for a while now. Maybe consider a donation to a project..."));
             QPushButton *donate = msgBox->addButton(tr("Yes, I want to donate"), QMessageBox::AcceptRole);
             QPushButton *remaindLater = msgBox->addButton(tr("Remaind me later"), QMessageBox::RejectRole);
             QPushButton *dontRemaind = msgBox->addButton(tr("Do not bother me again"), QMessageBox::RejectRole);

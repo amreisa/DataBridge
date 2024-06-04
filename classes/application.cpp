@@ -42,7 +42,7 @@ Application::~Application()
 
 void Application::loadTranslations(const QString& dir)
 {
-        QString filter = "qtadb_*.qm";
+        QString filter = "DataBridge_*.qm";
         QDir directory;
         directory.setPath(dir);
         QDir::Filters filters = QDir::Files | QDir::Readable;

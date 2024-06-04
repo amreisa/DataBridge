@@ -18,7 +18,7 @@
 QT += network core widgets
 #QT += declarative
 QT += quick
-TARGET = QtADB
+TARGET = DataBridge
 
 TEMPLATE = app
 SOURCES += main.cpp \
@@ -115,8 +115,8 @@ defineReplace(prependAll) {
  return($$result)
 }
 
-#TRANSLATIONS = $$prependAll(LANGUAGES, $$PWD/languages/qtadb_, .ts)
-TRANSLATIONS = $$prependAll(LANGUAGES, languages/qtadb_, .ts)
+#TRANSLATIONS = $$prependAll(LANGUAGES, $$PWD/languages/DataBridge_, .ts)
+TRANSLATIONS = $$prependAll(LANGUAGES, languages/DataBridge_, .ts)
 
 TRANSLATIONS_FILES =
 
@@ -139,7 +139,7 @@ for(tsfile, TRANSLATIONS) {
 #
 #qtPrepareTool(LUPDATE, lupdate)
 #LUPDATE += -locations relative -no-ui-lines
-#TSFILES = $$files($$PWD/languages/qtadb_''''.ts) $$PWD/languages/qtadb_untranslated.ts
+#TSFILES = $$files($$PWD/languages/DataBridge_''''.ts) $$PWD/languages/DataBridge_untranslated.ts
 #for(file, TSFILES) {
 # lang = $$replace(file, .''''_([^/]*).ts, 1)
 # v = ts-$${lang}.commands
@@ -160,23 +160,23 @@ for(tsfile, TRANSLATIONS) {
 #QMAKE_EXTRA_TARGETS += commit-ts
 
 #TRANSLATIONS = \
-#	languages/qtadb_ar.ts \
-#	languages/qtadb_de.ts \
-#	languages/qtadb_en.ts \
-#	languages/qtadb_hu.ts \
-#	languages/qtadb_ja.ts \
-#	languages/qtadb_pl.ts \
-#	languages/qtadb_ru.ts \
-#	languages/qtadb_sv.ts \
-#	languages/qtadb_cs.ts \
-#	languages/qtadb_el.ts \
-#	languages/qtadb_es.ts \
-#	languages/qtadb_it.ts \
-#	languages/qtadb_nl.ts \
-#	languages/qtadb_pt.ts \
-#	languages/qtadb_sr.ts \
-#	languages/qtadb_zh.ts \
-#	languages/qtadb_zh_TW.ts
+#	languages/DataBridge_ar.ts \
+#	languages/DataBridge_de.ts \
+#	languages/DataBridge_en.ts \
+#	languages/DataBridge_hu.ts \
+#	languages/DataBridge_ja.ts \
+#	languages/DataBridge_pl.ts \
+#	languages/DataBridge_ru.ts \
+#	languages/DataBridge_sv.ts \
+#	languages/DataBridge_cs.ts \
+#	languages/DataBridge_el.ts \
+#	languages/DataBridge_es.ts \
+#	languages/DataBridge_it.ts \
+#	languages/DataBridge_nl.ts \
+#	languages/DataBridge_pt.ts \
+#	languages/DataBridge_sr.ts \
+#	languages/DataBridge_zh.ts \
+#	languages/DataBridge_zh_TW.ts
 
 RC_FILE = ikonka.rc
 RESOURCES += zasoby.qrc
@@ -203,7 +203,7 @@ LIBS += libole32
 }
 
 mac {
-QMAKE_INFO_PLIST = QtADB.plist
+QMAKE_INFO_PLIST = DataBridge.plist
 ICON = images/android.icns
 BUSYBOX.files = otherFiles/busybox
 BUSYBOX.path = Contents/Resources

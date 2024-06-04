@@ -71,8 +71,6 @@ void UpdateApp::gotWWW(QNetworkReply * pReply)
     }
 }
 
-void UpdateApp::checkUpdates()
-{
-    //https://qtadb.wordpress.com/download/
-    this->reply = this->updateMan->get(QNetworkRequest(QUrl("http://qtadb.com/wordpress/download")));
+void UpdateApp::checkUpdates() {
+    this->reply = this->updateMan->get(QNetworkRequest(QUrl("http://DataBridge.com/wordpress/download")));
 }

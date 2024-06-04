@@ -38,23 +38,23 @@
         <file>images/help.png</file>
     </qresource>
     <qresource prefix="/lang">
-        <file alias="qtadb_en.qm">languages/qtadb_en.qm</file>
-        <file alias="qtadb_pl.qm">languages/qtadb_pl.qm</file>
-        <file alias="qtadb_el.qm">languages/qtadb_el.qm</file>
-        <file alias="qtadb_es.qm">languages/qtadb_es.qm</file>
-        <file alias="qtadb_it.qm">languages/qtadb_it.qm</file>
-        <file alias="qtadb_nl.qm">languages/qtadb_nl.qm</file>
-        <file alias="qtadb_cs.qm">languages/qtadb_cs.qm</file>
-        <file alias="qtadb_de.qm">languages/qtadb_de.qm</file>
-        <file alias="qtadb_hu.qm">languages/qtadb_hu.qm</file>
-        <file alias="qtadb_sv.qm">languages/qtadb_sv.qm</file>
-        <file alias="qtadb_ja.qm">languages/qtadb_ja.qm</file>
-        <file alias="qtadb_ar.qm">languages/qtadb_ar.qm</file>
-        <file alias="qtadb_ru.qm">languages/qtadb_ru.qm</file>
-        <file alias="qtadb_pt.qm">languages/qtadb_pt.qm</file>
-        <file alias="qtadb_sr.qm">languages/qtadb_sr.qm</file>
-        <file alias="qtadb_zh_TW.qm">languages/qtadb_zh_TW.qm</file>
-        <file alias="qtadb_zh_CN.qm">languages/qtadb_zh_CN.qm</file>
+        <file>languages/DataBridge_ar.qm</file>
+        <file>languages/DataBridge_cs.qm</file>
+        <file>languages/DataBridge_de.qm</file>
+        <file>languages/DataBridge_el.qm</file>
+        <file>languages/DataBridge_en.qm</file>
+        <file>languages/DataBridge_es.qm</file>
+        <file>languages/DataBridge_hu.qm</file>
+        <file>languages/DataBridge_it.qm</file>
+        <file>languages/DataBridge_ja.qm</file>
+        <file>languages/DataBridge_nl.qm</file>
+        <file>languages/DataBridge_pl.qm</file>
+        <file>languages/DataBridge_pt.qm</file>
+        <file>languages/DataBridge_ru.qm</file>
+        <file>languages/DataBridge_sr.qm</file>
+        <file>languages/DataBridge_sv.qm</file>
+        <file>languages/DataBridge_zh_CN.qm</file>
+        <file>languages/DataBridge_zh_TW.qm</file>
     </qresource>
     <qresource prefix="/qml">
         <file>qml/messageView.qml</file>

@@ -164,7 +164,7 @@
        <bool>true</bool>
       </property>
       <property name="text">
-       <string>Associate apk files with QtADB</string>
+       <string>Associate apk files with DataBridge</string>
       </property>
      </widget>
     </item>
@@ -179,7 +179,7 @@
          <rect>
           <x>40</x>
           <y>30</y>
-          <width>358</width>
+          <width>414</width>
           <height>481</height>
          </rect>
         </property>
@@ -558,8 +558,8 @@
              <rect>
               <x>10</x>
               <y>20</y>
-              <width>351</width>
-              <height>256</height>
+              <width>502</width>
+              <height>282</height>
              </rect>
             </property>
             <layout class="QGridLayout" name="gridComputer">
@@ -780,8 +780,8 @@
              <rect>
               <x>10</x>
               <y>10</y>
-              <width>351</width>
-              <height>187</height>
+              <width>468</width>
+              <height>214</height>
              </rect>
             </property>
             <layout class="QGridLayout" name="gridPhone">
@@ -950,12 +950,12 @@
            <property name="title">
             <string>Both</string>
            </property>
-           <widget class="QWidget" name="">
+           <widget class="QWidget" name="layoutWidget">
             <property name="geometry">
              <rect>
               <x>10</x>
               <y>20</y>
-              <width>211</width>
+              <width>214</width>
               <height>71</height>
              </rect>
             </property>
@@ -1060,8 +1060,8 @@
          <rect>
           <x>20</x>
           <y>60</y>
-          <width>400</width>
-          <height>381</height>
+          <width>401</width>
+          <height>414</height>
          </rect>
         </property>
         <layout class="QGridLayout" name="layoutSettingsApps">
@@ -1358,7 +1358,7 @@
          <rect>
           <x>70</x>
           <y>40</y>
-          <width>321</width>
+          <width>346</width>
           <height>441</height>
          </rect>
         </property>
@@ -1569,7 +1569,7 @@
          </rect>
         </property>
         <layout class="QGridLayout" name="shellGridLayout">
-         <property name="margin">
+         <property name="margin" stdset="0">
           <number>6</number>
          </property>
          <item row="0" column="1">

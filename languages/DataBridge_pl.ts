@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="cs_CZ">
+<TS version="2.1" language="pl_PL">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="23"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>About dialog title</extracomment>
-        <translation>QtADB - Váš androidí správce</translation>
+        <translation>DataBridge - Twój manager androida</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="117"/>
         <source>Created by 7ymekk &amp; mozarcik</source>
-        <translation>Vytvořil 7ymekk &amp; mozarcik</translation>
+        <translation>Autorzy: 7ymekk i mozarcik</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="124"/>
         <source>Version</source>
-        <translation>Verze</translation>
+        <translation>Wersja</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="141"/>
         <source>Questions?? Suggestions??</source>
-        <translation>Otázky? Návrhy?</translation>
+        <translation>Pytania?? Sugestie??</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="148"/>
         <source>Feel free to contact us:</source>
-        <translation>Můžete nás kontaktovat:</translation>
+        <translation>Skontaktuj się z nami:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="172"/>
         <source>Website:</source>
-        <translation>Web:</translation>
+        <translation>Strona www:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="193"/>
         <source>Icons in app are from:</source>
-        <translation>Ikonky v aplikaci jsou z:</translation>
+        <translation>Ikonki w aplikacji pochodzą z:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="214"/>
         <source>and</source>
-        <translation>a</translation>
+        <translation>i</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="280"/>
         <source>Ok</source>
-        <translation>OK</translation>
+        <translation>Ok</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="303"/>
@@ -55,7 +55,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;QtADB was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;DataBridge was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -74,37 +74,37 @@ p, li { white-space: pre-wrap; }
         <location filename="../classes/models/apptablemodel.cpp" line="183"/>
         <source>Name</source>
         <comment>application table name</comment>
-        <translation>Název</translation>
+        <translation>Nazwa</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="185"/>
         <source>Version</source>
         <comment>application table version</comment>
-        <translation>Verze</translation>
+        <translation>Wersja</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="187"/>
         <source>Size</source>
         <comment>applications table size</comment>
-        <translation>Velikost</translation>
+        <translation>Rozmiar</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="189"/>
         <source>Package</source>
         <comment>application table package</comment>
-        <translation>Balíček</translation>
+        <translation>Paczka</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="191"/>
         <source>File</source>
         <comment>application table file</comment>
-        <translation>Soubor</translation>
+        <translation>Plik</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="193"/>
         <source>Location</source>
         <comment>application table location</comment>
-        <translation>Umístění</translation>
+        <translation>Lokalizacja</translation>
     </message>
 </context>
 <context>
@@ -112,17 +112,17 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/appwidget.ui" line="69"/>
         <source>applications</source>
-        <translation>Aplikace</translation>
+        <translation>Aplikacje</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="74"/>
         <source>backups</source>
-        <translation>Zálohy</translation>
+        <translation>Kopie zapasowe</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="79"/>
         <source>system apps</source>
-        <translation>Systémové aplikace</translation>
+        <translation>Aplikacje systemowe</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="89"/>
@@ -133,241 +133,241 @@ p, li { white-space: pre-wrap; }
         <location filename="../widgets/appwidget.ui" line="167"/>
         <source>App name</source>
         <extracomment>app name label</extracomment>
-        <translation>Název aplikace</translation>
+        <translation>Nazwa aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="181"/>
         <source>App version</source>
         <extracomment>version label</extracomment>
-        <translation>Verze aplikace</translation>
+        <translation>Wersja aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="195"/>
         <source>File name</source>
         <extracomment>file name label</extracomment>
-        <translation>Název souboru</translation>
+        <translation>Nazwa pliku</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="209"/>
         <source>File Size</source>
         <extracomment>size label</extracomment>
-        <translation>Velikost souboru</translation>
+        <translation>Rozmiar pliku</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="253"/>
         <source>Package name</source>
         <extracomment>package label</extracomment>
-        <translation>Název balíčku</translation>
+        <translation>Nazwa paczki</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="287"/>
         <source>Location</source>
         <extracomment>location label</extracomment>
-        <translation>Umístění</translation>
+        <translation>Lokalizacja</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="334"/>
         <source>Latest version</source>
         <extracomment>latest version label</extracomment>
-        <translation>Poslední verze</translation>
+        <translation>Najnowsza wersja</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="368"/>
         <location filename="../widgets/appwidget.cpp" line="801"/>
         <source>uninstall</source>
         <extracomment>uninstall apps</extracomment>
-        <translation>Odinstalovat</translation>
+        <translation>Odinstaluj</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="400"/>
         <location filename="../widgets/appwidget.cpp" line="684"/>
         <source>backup</source>
         <extracomment>backup apps</extracomment>
-        <translation>Zálohovat</translation>
+        <translation>Twórz kopie zapasową</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="446"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>restore</source>
         <extracomment>restore backup</extracomment>
-        <translation>Obnovit</translation>
+        <translation>Przywróć kopie zapasową</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="478"/>
         <source>remove</source>
         <extracomment>remove backup</extracomment>
-        <translation>Odstranit</translation>
+        <translation>Usuń</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="509"/>
         <source>Refresh</source>
         <extracomment>refresh apps/backups</extracomment>
-        <translation>Obnovit</translation>
+        <translation>Odśwież</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="535"/>
         <source>Open in Market (Phone)</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz w Markecie (Telefon)</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="561"/>
         <source>Open in Market (PC)</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz w Markecie (PC)</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="174"/>
         <source>Choose where You want to save selected apps</source>
-        <translation>Zvolte si adresář, kam se budou ukládat vybrané aplikace</translation>
+        <translation>Wybierz katalog do którego zapisać aplikacje</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
         <source>Missing aapt</source>
-        <translation>Chybějící aapt</translation>
+        <translation>Brak aapt</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="95"/>
         <source>backup</source>
         <comment>backup menu title</comment>
-        <translation>Zálohovat</translation>
+        <translation>Twórz kopie zapasową</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="97"/>
         <source>app</source>
         <comment>backup menu action</comment>
-        <translation>Aplikace</translation>
+        <translation>Aplikacja</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="98"/>
         <source>data</source>
         <comment>backup menu action</comment>
-        <translation>Data</translation>
+        <translation>Dane</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="99"/>
         <source>app + data</source>
         <comment>backup menu action</comment>
-        <translation>Aplikace a data</translation>
+        <translation>Aplikacja i dane</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="107"/>
         <source>restore</source>
         <comment>restore menu title</comment>
-        <translation>Obnovit</translation>
+        <translation>Przywróć kopie zapasową</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="109"/>
         <source>app</source>
         <comment>restore menu action</comment>
-        <translation>Aplikace</translation>
+        <translation>Aplikacja</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="110"/>
         <source>data</source>
         <comment>restore menu action</comment>
-        <translation>Data</translation>
+        <translation>Dane</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="111"/>
         <source>app + data</source>
         <comment>restore menu action</comment>
-        <translation>Aplikace a data</translation>
+        <translation>Aplikacja i dane</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="195"/>
         <source>uninstall</source>
         <comment>right click apps menu</comment>
-        <translation>Odinstalovat</translation>
+        <translation>Odinstaluj</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="196"/>
         <source>copy to PC</source>
         <comment>right click apps menu</comment>
-        <translation>Zkopírovat do PC</translation>
+        <translation>Kopiuj do PC</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="197"/>
         <source>Get apps info</source>
         <comment>right click apps menu</comment>
-        <translation>Informace o aplikaci</translation>
+        <translation>Pobierz informacje o aplikacjach</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="198"/>
         <source>Get apps version from internet</source>
         <comment>right click apps menu</comment>
-        <translation>Získat verzi aplikace z internetu</translation>
+        <translation>Pobierz wersję aplikacji z internetu</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="214"/>
         <source>remove</source>
         <comment>right click backups menu</comment>
-        <translation>Odstranit</translation>
+        <translation>Usuń</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="239"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>vybráno</translation>
+        <translation>zaznaczone</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="376"/>
         <location filename="../widgets/appwidget.cpp" line="449"/>
         <source>App name</source>
         <comment>combo apps filter</comment>
-        <translation>Název aplikace</translation>
+        <translation>Nazwa aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="377"/>
         <location filename="../widgets/appwidget.cpp" line="450"/>
         <source>Package name</source>
         <comment>combo apps filter</comment>
-        <translation>Název balíčku</translation>
+        <translation>Nazwa paczki</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="378"/>
         <location filename="../widgets/appwidget.cpp" line="451"/>
         <source>File path</source>
         <comment>combo apps filter</comment>
-        <translation>Cesta</translation>
+        <translation>ścieżka pliku</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="379"/>
         <location filename="../widgets/appwidget.cpp" line="452"/>
         <source>Location</source>
         <comment>combo apps filter</comment>
-        <translation>Umístění</translation>
+        <translation>Lokalizacja</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="415"/>
         <source>App name</source>
         <comment>combo backups filter</comment>
-        <translation>Název aplikace</translation>
+        <translation>Nazwa aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="416"/>
         <source>Package name</source>
         <comment>combo backups filter</comment>
-        <translation>Název balíčku</translation>
+        <translation>Nazwa paczki</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
-        <source>QtADB did not found aapt.
+        <source>DataBridge did not found aapt.
 Download it and place in one directory with adb.
 After You place it in correct directory click Refresh button</source>
-        <translation>QtADB nenalezl aapt.
-Stáhněte si jej do stejného adresáře jako adb.
-Poté klikněte na tlačítko obnovit</translation>
+        <translation>DataBridge nie znalazł pliku aapt.
+Ściągnij go i umieść w jednym katalogu z adb.
+Po umieszczeniu w prawidłowym katalogu kliknij przycisk Odśwież</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="619"/>
         <source>Download</source>
         <comment>missing aapt message button</comment>
-        <translation>Stáhnout</translation>
+        <translation>Ściągnij</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="620"/>
         <source>Cancel</source>
         <comment>missing aapt message button</comment>
-        <translation>Storno</translation>
+        <translation>Anuluj</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="685"/>
@@ -375,17 +375,17 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>are you sure???</source>
-        <translation>Opravdu?</translation>
+        <translation>Jesteś pewny???</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="738"/>
         <source>select apps to install</source>
-        <translation>Vyberte aplikace k instalaci</translation>
+        <translation>Zaznacz aplikacje do zainstalowania</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <source>remove backup</source>
-        <translation>Odstranit zálohu</translation>
+        <translation>Usuń kopie</translation>
     </message>
 </context>
 <context>
@@ -394,49 +394,49 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../classes/models/backuptablemodel.cpp" line="147"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="152"/>
         <source>yes</source>
-        <translation>ano</translation>
+        <translation>tak</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="149"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="154"/>
         <source>no</source>
-        <translation>ne</translation>
+        <translation>nie</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="173"/>
         <source>Name</source>
         <comment>backup table header app name</comment>
-        <translation>Název</translation>
+        <translation>Nazwa</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="175"/>
         <source>Version</source>
         <comment>backup table header app version</comment>
-        <translation>Verze</translation>
+        <translation>Wersja</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="177"/>
         <source>Size</source>
         <comment>backup table header app size</comment>
-        <translation>Velikost</translation>
+        <translation>Rozmiar</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="179"/>
         <source>Package</source>
         <comment>backup table header app package</comment>
-        <translation>Balíček</translation>
+        <translation>Paczka</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="181"/>
         <source>App</source>
         <comment>backup table header apk file</comment>
-        <translation>Aplikace</translation>
+        <translation>Apk</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="183"/>
         <source>Data</source>
         <comment>backup table header data</comment>
-        <translation>Data</translation>
+        <translation>Dane</translation>
     </message>
 </context>
 <context>
@@ -446,12 +446,12 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../dialogs/connectWifi.ui" line="116"/>
         <source>Connect</source>
         <extracomment>Connect wifi dialog title</extracomment>
-        <translation>Připojit</translation>
+        <translation>Połącz</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="44"/>
         <source>Address</source>
-        <translation>Adresa</translation>
+        <translation>Adres</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="79"/>
@@ -461,7 +461,7 @@ Poté klikněte na tlačítko obnovit</translation>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="123"/>
         <source>Cancel</source>
-        <translation>Storno</translation>
+        <translation>Anuluj</translation>
     </message>
 </context>
 <context>
@@ -469,27 +469,27 @@ Poté klikněte na tlačítko obnovit</translation>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="32"/>
         <source>Flash SPL</source>
-        <translation>Flashnout SPL</translation>
+        <translation>Flash SPL</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="55"/>
         <source>Flash recovery</source>
-        <translation>Flashnout obnovu (recovery)</translation>
+        <translation>Flash recovery</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="65"/>
         <source>Flash radio</source>
-        <translation>Flashnout radio</translation>
+        <translation>Flash radio</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="75"/>
         <source>Boot IMG</source>
-        <translation>Nabootovat IMG</translation>
+        <translation>Boot IMG</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
         <source>Choose img file...</source>
-        <translation>Vyberte img soubor...</translation>
+        <translation>Wybierz plik img...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
@@ -497,12 +497,12 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>IMG File </source>
-        <translation>IMG Soubor</translation>
+        <translation>plik IMG</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="105"/>
         <source>Choose hboot img file...</source>
-        <translation>Vyberte hboot img soubor...</translation>
+        <translation>Wybierz plik hboot...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="112"/>
@@ -512,31 +512,31 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../widgets/fastbootwidget.cpp" line="182"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Error!</source>
-        <translation>Chyba!</translation>
+        <translation>Błąd!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="114"/>
         <location filename="../widgets/fastbootwidget.cpp" line="149"/>
         <location filename="../widgets/fastbootwidget.cpp" line="184"/>
         <source>Success!</source>
-        <translation>Úspěch!</translation>
+        <translation>Sukces!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="118"/>
         <location filename="../widgets/fastbootwidget.cpp" line="153"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Operation cancelled!</source>
-        <translation>Operace zrušena!</translation>
+        <translation>Operacja anulowana!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <source>Choose radio img file...</source>
-        <translation>Vyberte radio img soubor...</translation>
+        <translation>Wybierz plik img z radiem...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>Choose recovery img file...</source>
-        <translation>Vyberte recovery img soubor...</translation>
+        <translation>Wybierz plik img z recovery...</translation>
     </message>
 </context>
 <context>
@@ -545,19 +545,19 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../classes/models/filetablemodel.cpp" line="207"/>
         <source>Name</source>
         <comment>file table file name</comment>
-        <translation>Název</translation>
+        <translation>Nazwa</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="209"/>
         <source>Size</source>
         <comment>file table file size</comment>
-        <translation>Velikost</translation>
+        <translation>Rozmiar</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="211"/>
         <source>Date</source>
         <comment>file table file date</comment>
-        <translation>Datum</translation>
+        <translation>Data</translation>
     </message>
 </context>
 <context>
@@ -566,7 +566,7 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../widgets/filewidget.ui" line="35"/>
         <source>computer</source>
         <extracomment>table title</extracomment>
-        <translation>počítač</translation>
+        <translation>komputer</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="116"/>
@@ -584,54 +584,54 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../widgets/filewidget.ui" line="270"/>
         <source>F2 rename</source>
         <extracomment>rename button</extracomment>
-        <translation>F2 přejmenovat</translation>
+        <translation>F2 zmień nazwę</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="290"/>
         <source>F3 select all/none</source>
         <extracomment>select button</extracomment>
-        <translation>F3 označit vše/nic</translation>
+        <translation>F3 zaznacz wszystko/nic</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="310"/>
         <source>F4 install</source>
         <extracomment>install button</extracomment>
-        <translation>F4 nainstalovat</translation>
+        <translation>F4 instaluj</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="330"/>
         <source>F5 copy</source>
         <extracomment>copy button</extracomment>
-        <translation>F5 kopírovat</translation>
+        <translation>F5 kopiuj</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="350"/>
         <source>F6 new dir</source>
         <extracomment>new dir button</extracomment>
-        <translation>F6 nový adresář</translation>
+        <translation>F6 nowy katalog</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="370"/>
         <source>F7 refresh</source>
         <extracomment>refresh files button</extracomment>
-        <translation>F7 obnovit</translation>
+        <translation>F7 odśwież</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="390"/>
         <source>F8 delete</source>
         <extracomment>delete button</extracomment>
-        <translation>F8 smazat</translation>
+        <translation>F8 usuń</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="410"/>
         <source>F9 hidden files</source>
         <extracomment>hidden button</extracomment>
-        <translation>F9 skryté soubory</translation>
+        <translation>F9 ukryte pliki</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1942"/>
         <source>install</source>
-        <translation>Nainstalovat</translation>
+        <translation>Instaluj</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="592"/>
@@ -639,7 +639,7 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../widgets/filewidget.cpp" line="1264"/>
         <location filename="../widgets/filewidget.cpp" line="1334"/>
         <source>select some files first</source>
-        <translation>Nejdříve vyberte nějaké soubory</translation>
+        <translation>Musisz zanzaczyć przynajmniej jeden plik</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -648,7 +648,7 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>copying</source>
-        <translation>Kopíruji</translation>
+        <translation>Kopiowanie</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -660,7 +660,7 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>are you sure???</source>
-        <translation>Opravdu?</translation>
+        <translation>Jesteś pewny???</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="614"/>
@@ -669,189 +669,189 @@ Poté klikněte na tlačítko obnovit</translation>
         <location filename="../widgets/filewidget.cpp" line="2155"/>
         <location filename="../widgets/filewidget.cpp" line="2207"/>
         <source>theres nothing to copy. Maybe selected dirs are empty</source>
-        <translation>Není nic ke kopírování
-Možnáí jsou vybrané adresáře prázdné</translation>
+        <translation>Nie ma plików do skopiowania.
+Być może zaznaczone katalogi są puste</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="642"/>
         <location filename="../widgets/filewidget.cpp" line="1338"/>
         <source>deleting</source>
-        <translation>Mazání</translation>
+        <translation>Usuwanie</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="660"/>
         <location filename="../widgets/filewidget.cpp" line="1371"/>
         <location filename="../widgets/filewidget.cpp" line="1380"/>
         <source>getting files...</source>
-        <translation>stahuji soubory...</translation>
+        <translation>pobieranie plików...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="756"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>error</source>
-        <translation>Chyba</translation>
+        <translation>Błąd</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="757"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>dir was not created.
 Make sure that you are allowed to do this</source>
-        <translation>Adresář nebyl vytvořen.
-Zkontrolujte své oprávnění</translation>
+        <translation>Katalog nie został utworzony.
+Upewnij się że masz uprawnienia</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1748"/>
         <source>selected</source>
-        <translation>vybráno</translation>
+        <translation>zaznaczone</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1634"/>
         <source>searching...</source>
-        <translation>vyhledávám...</translation>
+        <translation>szukanie...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="538"/>
         <source>rename</source>
         <comment>computer right click menu</comment>
-        <translation>Přejmenovat</translation>
+        <translation>Zmień nazwę</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="540"/>
         <source>select all</source>
         <comment>computer right click menu</comment>
-        <translation>Označit vše</translation>
+        <translation>Zaznacz wszystkie</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="542"/>
         <source>select none</source>
         <comment>computer right click menu</comment>
-        <translation>Odznačit vše</translation>
+        <translation>Odznacz wszystkie</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="544"/>
         <source>copy</source>
         <comment>computer right click menu</comment>
-        <translation>Zkopírovat</translation>
+        <translation>Kopiuj</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="546"/>
         <source>new dir</source>
         <comment>computer right click menu</comment>
-        <translation>Nový adresář</translation>
+        <translation>Nowy katalog</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="548"/>
         <source>refresh</source>
         <comment>computer right click menu</comment>
-        <translation>Obnovit</translation>
+        <translation>Odśwież</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="550"/>
         <source>delete</source>
         <comment>computer right click menu</comment>
-        <translation>Smazat</translation>
+        <translation>Usuń</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="552"/>
         <source>hidden files</source>
         <comment>computer right click menu</comment>
-        <translation>Skryté soubory</translation>
+        <translation>Ukryte pliki</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="554"/>
         <source>install</source>
         <comment>computer right click menu</comment>
-        <translation>Nainstalovat</translation>
+        <translation>Instaluj</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="556"/>
         <source>Show app info</source>
         <comment>computer right click menu</comment>
-        <translation>Zobrazit informace o aplikaci</translation>
+        <translation>Pokaż info o aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="558"/>
         <source>open in new tab</source>
         <comment>computer right click menu</comment>
-        <translation>Otevřit v nové záložce</translation>
+        <translation>Otwórz w nowej karcie</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="971"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>vybráno</translation>
+        <translation>zaznaczone</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1152"/>
         <location filename="../widgets/filewidget.cpp" line="1184"/>
         <source>rename</source>
         <comment>phone right click menu</comment>
-        <translation>Přejmenovat</translation>
+        <translation>Zmień nazwę</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1154"/>
         <location filename="../widgets/filewidget.cpp" line="1186"/>
         <source>select all</source>
         <comment>phone right click menu</comment>
-        <translation>Označit vše</translation>
+        <translation>Zaznacz wszystkie</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1156"/>
         <location filename="../widgets/filewidget.cpp" line="1188"/>
         <source>select none</source>
         <comment>phone right click menu</comment>
-        <translation>Odznačit vše</translation>
+        <translation>Odznacz wszystkie</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1158"/>
         <location filename="../widgets/filewidget.cpp" line="1190"/>
         <source>copy</source>
         <comment>phone right click menu</comment>
-        <translation>Zkopírovat</translation>
+        <translation>Kopiuj</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1160"/>
         <location filename="../widgets/filewidget.cpp" line="1192"/>
         <source>new dir</source>
         <comment>phone right click menu</comment>
-        <translation>Nový adresář</translation>
+        <translation>Nowy katalog</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1162"/>
         <location filename="../widgets/filewidget.cpp" line="1194"/>
         <source>refresh</source>
         <comment>phone right click menu</comment>
-        <translation>Obnovit</translation>
+        <translation>Odśwież</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1164"/>
         <location filename="../widgets/filewidget.cpp" line="1196"/>
         <source>delete</source>
         <comment>phone right click menu</comment>
-        <translation>Smazat</translation>
+        <translation>Usuń</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1166"/>
         <location filename="../widgets/filewidget.cpp" line="1198"/>
         <source>hidden files</source>
         <comment>phone right click menu</comment>
-        <translation>Skryté soubory</translation>
+        <translation>Ukryte pliki</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1200"/>
         <source>open in new tab</source>
         <comment>phone right click menu</comment>
-        <translation>Otevřít v nové záložce</translation>
+        <translation>Otwórz w nowej karcie</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>information</source>
-        <translation>informace</translation>
+        <translation>Informacja</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>It&apos;s not an application</source>
-        <translation>Toto není aplikace</translation>
+        <translation>To nie jest aplikacja</translation>
     </message>
 </context>
 <context>
@@ -869,17 +869,17 @@ Zkontrolujte své oprávnění</translation>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="39"/>
         <source>Warning</source>
-        <translation>Varování</translation>
+        <translation>Ostrzeżenia</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="49"/>
         <source>Information</source>
-        <translation>Informace</translation>
+        <translation>Informacje</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="59"/>
         <source>Error</source>
-        <translation>Chyba</translation>
+        <translation>Błędy</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="113"/>
@@ -889,57 +889,57 @@ Zkontrolujte své oprávnění</translation>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="123"/>
         <source>filter</source>
-        <translation>filtr</translation>
+        <translation>Filtr</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="131"/>
         <source>Sender</source>
-        <translation>Odesílatel</translation>
+        <translation>Nadawca</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="136"/>
         <source>Message</source>
-        <translation>Zpráva</translation>
+        <translation>Wiadomość</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="235"/>
         <source>autoscroll</source>
-        <translation type="unfinished"></translation>
+        <translation>autoscroll</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="245"/>
         <source>clear</source>
-        <translation type="unfinished"></translation>
+        <translation>wyczyść</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="228"/>
         <source>Buffer limit</source>
-        <translation type="unfinished"></translation>
+        <translation>limit bufora</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="44"/>
         <source>clear logcat</source>
-        <translation type="unfinished"></translation>
+        <translation>wyczyść logcat</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="45"/>
         <source>copy selected to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>kopiuj zaznaczone do schowka</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="46"/>
         <source>export selected to file</source>
-        <translation type="unfinished"></translation>
+        <translation>eksportuj zaznaczone do pliku</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>Save File...</source>
-        <translation type="unfinished">Uložit soubor...</translation>
+        <translation>Zapisz plik...</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>txt file</source>
-        <translation type="unfinished"></translation>
+        <translation>plik txt</translation>
     </message>
 </context>
 <context>
@@ -948,7 +948,7 @@ Zkontrolujte své oprávnění</translation>
         <location filename="../classes/models/logcatmodel.cpp" line="158"/>
         <source>Time</source>
         <comment>logcat header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Godzina</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="160"/>
@@ -960,7 +960,7 @@ Zkontrolujte své oprávnění</translation>
         <location filename="../classes/models/logcatmodel.cpp" line="162"/>
         <source>Sender</source>
         <comment>logcat header</comment>
-        <translation>Odesílatel</translation>
+        <translation>Nadawca</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="164"/>
@@ -972,7 +972,7 @@ Zkontrolujte své oprávnění</translation>
         <location filename="../classes/models/logcatmodel.cpp" line="166"/>
         <source>Message</source>
         <comment>logcat header</comment>
-        <translation>Zpráva</translation>
+        <translation>Wiadomość</translation>
     </message>
 </context>
 <context>
@@ -981,68 +981,68 @@ Zkontrolujte své oprávnění</translation>
         <location filename="../dialogs/mainwindow.ui" line="107"/>
         <source>Refresh</source>
         <extracomment>refresh state when disconnected</extracomment>
-        <translation>Obnovit</translation>
+        <translation>Odśwież</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="287"/>
         <source>check for updates</source>
-        <translation>Zkontrolovat aktualizace</translation>
+        <translation>Sprawdź aktualizacje</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="97"/>
         <source>CONNECT YOUR PHONE</source>
-        <translation>PŘIPOJTE SVŮJ TELEFON</translation>
+        <translation>PODŁĄCZ TELEFON</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="22"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>Main window title</extracomment>
-        <translation>QtADB - Váš androidí správce</translation>
+        <translation>DataBridge - Twój manager androida</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="172"/>
         <source>&amp;Connection</source>
-        <translation>&amp;Připojení</translation>
+        <translation>P&amp;ołączenie</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="179"/>
         <source>&amp;Help</source>
-        <translation>&amp;Nápověda</translation>
+        <translation>Po&amp;moc</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="187"/>
         <source>&amp;Tools</source>
-        <translation>&amp;Nástroje</translation>
+        <translation>Nar&amp;zędzia</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="191"/>
         <source>Adb</source>
-        <translation>Adb</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="200"/>
         <source>Fastboot</source>
-        <translation>Fastboot</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="232"/>
         <source>usb</source>
-        <translation>Usb</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="237"/>
         <source>wifi</source>
-        <translation>Wifi</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="242"/>
         <source>about</source>
-        <translation>O aplikaci</translation>
+        <translation>O programie</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="247"/>
         <source>polski</source>
-        <translation>Polština</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="252"/>
@@ -1054,33 +1054,23 @@ Zkontrolujte své oprávnění</translation>
         <location filename="../dialogs/mainwindow.ui" line="257"/>
         <location filename="../dialogs/mainwindow.ui" line="272"/>
         <source>Reboot bootloader</source>
-        <translation>Restartovat do bootloaderu</translation>
+        <translation>Restart do bootloadera</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="262"/>
         <source>Reboot recovery</source>
-        <translation>Restartovat do obnovy</translation>
+        <translation>Restart do recovery</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="277"/>
         <location filename="../dialogs/mainwindow.ui" line="282"/>
         <source>Power off</source>
-        <translation>Vypnout</translation>
+        <translation>Wyłącz</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="292"/>
         <source>enter register key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../dialogs/mainwindow.cpp" line="911"/>
-        <source>error</source>
-        <translation>Chyba</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/mainwindow.cpp" line="892"/>
-        <source>New updates</source>
-        <translation>Nová aktualizace</translation>
+        <translation>Wprowadź klucz rejestracyjny</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="65"/>
@@ -1092,19 +1082,19 @@ Zkontrolujte své oprávnění</translation>
         <location filename="../dialogs/mainwindow.cpp" line="67"/>
         <source>exit</source>
         <comment>action in system tray menu</comment>
-        <translation>zavřít</translation>
+        <translation>Zamknij</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="94"/>
         <source>Files</source>
         <comment>files button</comment>
-        <translation>Soubory</translation>
+        <translation>Pliki</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="95"/>
         <source>Apps</source>
         <comment>apps button</comment>
-        <translation>Aplikace</translation>
+        <translation>Aplikacje</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="96"/>
@@ -1122,7 +1112,7 @@ Zkontrolujte své oprávnění</translation>
         <location filename="../dialogs/mainwindow.cpp" line="98"/>
         <source>Phone info</source>
         <comment>phone info button</comment>
-        <translation>Telef. info</translation>
+        <translation>Info o telefonie</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="99"/>
@@ -1134,19 +1124,19 @@ Zkontrolujte své oprávnění</translation>
         <location filename="../dialogs/mainwindow.cpp" line="100"/>
         <source>Settings</source>
         <comment>settings button</comment>
-        <translation>Nastavení</translation>
+        <translation>Ustawienia</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="101"/>
         <source>Shell</source>
         <comment>shell button</comment>
-        <translation>Konzole</translation>
+        <translation>Konsola</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="102"/>
         <source>Messages</source>
         <comment>messages button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Wiadomości</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="104"/>
@@ -1157,37 +1147,42 @@ Zkontrolujte své oprávnění</translation>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="702"/>
         <source>Attention!</source>
-        <translation type="unfinished"></translation>
+        <translation>Uwaga!</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="703"/>
         <source>To use message manager You have to turn on WiFi.</source>
-        <translation type="unfinished"></translation>
+        <translation>Musisz włączyć WiFi aby używać menedżera wiadomości.</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="833"/>
         <source>Sms from </source>
         <comment>system tray bubble</comment>
-        <translation>SMS od </translation>
+        <translation>Sms od </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="838"/>
         <source>Sms result</source>
         <comment>system tray bubble</comment>
-        <translation>SMS výsledek</translation>
+        <translation>Sms wynik</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/mainwindow.cpp" line="892"/>
+        <source>New updates</source>
+        <translation>Aktualizacja</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="892"/>
         <source>New update is available
 </source>
-        <translation>Je k dispozici nová aktualizace
+        <translation>Aktualizacja jest dostępna
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
         <location filename="../dialogs/mainwindow.cpp" line="916"/>
         <source>Your version: </source>
-        <translation>Vaše verze: </translation>
+        <translation>Twoja wersja: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
@@ -1195,59 +1190,65 @@ Zkontrolujte své oprávnění</translation>
         <source>
 Latest version: </source>
         <translation>
-Poslední verze: </translation>
+Ostatnia wersja: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="894"/>
         <source>Download</source>
-        <translation>Stáhnout</translation>
+        <translation>Ściągnij</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="895"/>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>Zamknij</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/mainwindow.cpp" line="911"/>
+        <source>error</source>
+        <translation>Błąd</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="911"/>
         <source>There was problem while checking for updates</source>
-        <translation>Nastala chyba při kontrole aktualizací</translation>
+        <translatorcomment>Wystąpił błąd podczas sprawdzania aktualizacji</translatorcomment>
+        <translation></translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>No updates</source>
-        <translation>Žádné aktualizace</translation>
+        <translation>Brak aktualizacji</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>Your version is up to date
 </source>
-        <translation>Vaše verze je aktuální
+        <translation>Masz najnowszą wersję
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1034"/>
         <source>Donate</source>
-        <translation>Darovat</translation>
+        <translation>Dotacja</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1035"/>
-        <source>It seems that you are using QtADB for a while now. Maybe consider a donation to a project...</source>
-        <translation>Zdá se že používáte QtADB již delší dobu. Možná by jste nám mohli nasypat peníze...</translation>
+        <source>It seems that you are using DataBridge for a while now. Maybe consider a donation to a project...</source>
+        <translation>Wygląda na to że już jakiś czas korzystasz z DataBridge. Jeśli uważasz program za wartościowy możesz wesprzeć jego rozwój...</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1036"/>
         <source>Yes, I want to donate</source>
-        <translation>Ano, chci darovat</translation>
+        <translation>Tak, chcę wesprzeć projekt</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1037"/>
         <source>Remaind me later</source>
-        <translation>Ožebračit později</translation>
+        <translation>Przypomnij mi później</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1038"/>
         <source>Do not bother me again</source>
-        <translation>Už mě nikdy neotravuj</translation>
+        <translation>Nie chcę tego więcej widzieć</translation>
     </message>
 </context>
 <context>
@@ -1256,7 +1257,7 @@ Poslední verze: </translation>
         <location filename="../widgets/messagewidget.ui" line="87"/>
         <source>refresh list</source>
         <extracomment>refresh messages button</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Odśwież listę</translation>
     </message>
 </context>
 <context>
@@ -1269,12 +1270,12 @@ Poslední verze: </translation>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="67"/>
         <source>Operator</source>
-        <translation>Operátor</translation>
+        <translation>Operator</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="84"/>
         <source>Serial number</source>
-        <translation>Sériové číslo</translation>
+        <translation>Numer seryjny</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="101"/>
@@ -1294,7 +1295,7 @@ Poslední verze: </translation>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="161"/>
         <source>Battery level</source>
-        <translation>Stav baterky</translation>
+        <translation>Poziom baterii</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="375"/>
@@ -1302,7 +1303,7 @@ Poslední verze: </translation>
         <location filename="../widgets/phoneinfowidget.ui" line="389"/>
         <location filename="../widgets/phoneinfowidget.ui" line="396"/>
         <source>available:</source>
-        <translation>volné:</translation>
+        <translation>dostępne:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="443"/>
@@ -1310,7 +1311,7 @@ Poslední verze: </translation>
         <location filename="../widgets/phoneinfowidget.ui" line="457"/>
         <location filename="../widgets/phoneinfowidget.ui" line="464"/>
         <source>used:</source>
-        <translation>obsazeno:</translation>
+        <translation>użyte:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="511"/>
@@ -1318,12 +1319,12 @@ Poslední verze: </translation>
         <location filename="../widgets/phoneinfowidget.ui" line="525"/>
         <location filename="../widgets/phoneinfowidget.ui" line="532"/>
         <source>size:</source>
-        <translation>velikost:</translation>
+        <translation>rozmiar:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="690"/>
         <source>refresh</source>
-        <translation>Obnovit</translation>
+        <translation>Odśwież</translation>
     </message>
 </context>
 <context>
@@ -1334,40 +1335,41 @@ Poslední verze: </translation>
         <location filename="../main.cpp" line="238"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>error</source>
-        <translation>Chyba</translation>
+        <translation>Błąd</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="171"/>
         <location filename="../widgets/settingswidget.cpp" line="854"/>
         <source>Choose path to dir with adb and aapt binaries</source>
-        <translation>Zvolte si cestu k adb a aapt binárkám</translation>
+        <translation>Wybierz ścieżkę do katalogu z adb i aapt</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="192"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>there is no adb binary in here!</source>
-        <translation>Tady není žádný adb binárka!</translation>
+        <translation>Nie znaleziono pliku adb we wskazanym katalogu!</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="193"/>
         <source>Choose path</source>
-        <translation>Zvolte cestu</translation>
+        <translation>Wybierz ścieżkę</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="194"/>
         <source>Close</source>
-        <translation>Zavřít</translation>
+        <translation>Zamknij</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="224"/>
         <source>It seems that adb is not working properly</source>
-        <translation type="unfinished"></translation>
+        <translation>Wygląda na to, że adb nie działa prawidłowo</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="239"/>
         <source>adbd cannot run as root in production builds so You can&apos;t do anything with /system partition. Run anyway?
-(press save to run QtADB and disable this message)</source>
-        <translation type="unfinished"></translation>
+(press save to run DataBridge and disable this message)</source>
+        <translation>adbd nie może być być uruchomiony na fabrycznych romach więc nie masz dostępu do partycji /system. Uruchomić mimo to?
+ (wciśnij zapisz aby uruchomić DataBridge i wyłączyć tę wiadomość)</translation>
     </message>
 </context>
 <context>
@@ -1375,183 +1377,183 @@ Poslední verze: </translation>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="51"/>
         <source>Nandroid backup</source>
-        <translation>Nandroid záloha</translation>
+        <translation>Nandroid backup</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="64"/>
         <source>Bart backup</source>
-        <translation>Bart záloha</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="77"/>
         <source>Clear battery stats</source>
-        <translation>Smazat statistiky baterie</translation>
+        <translation>Czyść statystyki baterii</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="84"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Wipe data</source>
-        <translation>Smazat data</translation>
+        <translation>Wipe data</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="97"/>
         <source>Mount SDcard to computer</source>
-        <translation>Připojit SD kartu do počítače</translation>
+        <translation>Podłącz kartę SD do komputera</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="107"/>
         <source>Nandroid restore</source>
-        <translation>Nandroid obnova</translation>
+        <translation>Nandroid restore</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="120"/>
         <source>Bart restore</source>
-        <translation>Bart obnova</translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="133"/>
         <source>Fix UID mismatches</source>
-        <translation>Obnova chybných UID</translation>
+        <translation>Napraw błędy UID</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="143"/>
         <source>Flash zip</source>
-        <translation>Flashnout zip</translation>
+        <translation>Flash zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="198"/>
         <source>Substring</source>
-        <translation>Substring</translation>
+        <translation>Nazwa</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="214"/>
         <source>Backup</source>
-        <translation>Záloha</translation>
+        <translation>Twórz kopię</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="234"/>
         <source>Path</source>
-        <translation>Cesta</translation>
+        <translation>Ścieżka</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="416"/>
         <source>Restore</source>
-        <translation>Obnova</translation>
+        <translation>Odtwórz</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="839"/>
         <source>Choose one of options above</source>
-        <translation>Vyberte některou z možností</translation>
+        <translation>Wybierz jedną z opcji</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fix UID finished!</source>
-        <translation>UID opraveny!</translation>
+        <translation>Naprawianie UID zakończone!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fixing UID mismatches is finished.</source>
-        <translation>Oprava UID chyb dokončena.</translation>
+        <translation>Naprawianie błędów UID zostało zakończone.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <source>Flash Zip</source>
-        <translation>Flashnout zip</translation>
+        <translation>Flash Zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Are you sure??</source>
-        <translation>Opravdu?</translation>
+        <translation>Jesteś pewny??</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Open ROM File</source>
-        <translation>Otevřít ROM soubor</translation>
+        <translation>Otwórz plik z ROMem</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Zip files (*.zip)</source>
-        <translation>Zip archivy (*.zip)</translation>
+        <translation>Pliki zip (*.zip)</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="214"/>
         <location filename="../widgets/recoverywidget.cpp" line="544"/>
         <source>Writing commands....</source>
-        <translation>Zapisuji příkazy...</translation>
+        <translation>Zapisywanie komend...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="221"/>
         <location filename="../widgets/recoverywidget.cpp" line="555"/>
         <source>Rebooting....</source>
-        <translation>Restartuji...</translation>
+        <translation>Restartowanie...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>USB mounted</source>
-        <translation>USB připojeno</translation>
+        <translation>USB podłączone</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>SD card is mounted as usb drive</source>
-        <translation>SD karta je připojena jako USB jednotka</translation>
+        <translation>Karta SD została zamontowana w trybie pamięci masowej</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>USB unmounted</source>
-        <translation>USB odpojeno</translation>
+        <translation>USB odłączone</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>SD card is unmounted</source>
-        <translation>SD karta není připojena</translation>
+        <translation>Karta SD została odłączona</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="247"/>
         <source>Error</source>
-        <translation>Chyba</translation>
+        <translation>Błąd</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Backup finished!</source>
-        <translation>Záloha dokončena!</translation>
+        <translation>Tworzenie kopii zakończone!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Nandroid backup is finished.</source>
-        <translation>Nandroid záloha je dokončena.</translation>
+        <translation>Tworzenie kopii zapasowej Nandroid zakończone.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Restore finished!</source>
-        <translation>Obnova dokončena!</translation>
+        <translation>Przywracanie zakończone!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Nandroid restore is finished.</source>
-        <translation>Nandroid obnova je dokončena.</translation>
+        <translation>Przywracanie z kopii zapasowej zakończone.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="491"/>
         <source>Finished</source>
-        <translation>Dokončeno</translation>
+        <translation>Ukończono</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="494"/>
         <source>Finished
 Choose one backup from combo above to restore it</source>
-        <translation>Dokončeno
-Vyberte si, kterou zálohu chcete obnovit</translation>
+        <translation>Zakończono
+Wybierz kopię zapasową z listy powyżej aby przywrócić</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="516"/>
         <source>Looking for backups...</source>
-        <translation>Hledám zálohy...</translation>
+        <translation>Szukanie kopii zapasowych...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="534"/>
         <source>Information</source>
-        <translation>Informace</translation>
+        <translation>Informacja</translation>
     </message>
 </context>
 <context>
@@ -1564,22 +1566,22 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="53"/>
         <source>insert key</source>
-        <translation type="unfinished"></translation>
+        <translation>wprowadź klucz</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="128"/>
         <source>Insert registration key:</source>
-        <translation type="unfinished"></translation>
+        <translation>Wprowadź klucz:</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="137"/>
         <source>don&apos;t have a key? consider donation:  </source>
-        <translation type="unfinished"></translation>
+        <translation>Nie masz klucza? rozważ dotację:</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="187"/>
         <source>cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>anuluj</translation>
     </message>
 </context>
 <context>
@@ -1588,35 +1590,35 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
         <location filename="../widgets/screenshotwidget.ui" line="76"/>
         <source>Refresh</source>
         <extracomment>refresh screenshot button</extracomment>
-        <translation>Obnovit</translation>
+        <translation>Odśwież</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="87"/>
         <source>Save</source>
         <extracomment>save screenshot button</extracomment>
-        <translation>Uložit</translation>
+        <translation>Zapisz</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="98"/>
         <source>Rotate left</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>Otočit doleva</translation>
+        <translation>Obróć w lewo</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="109"/>
         <source>Rotate right</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>Otočit doprava</translation>
+        <translation>Obróć w prawo</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Save File...</source>
-        <translation>Uložit soubor...</translation>
+        <translation>Zapisz plik...</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Png file</source>
-        <translation>PNG soubor</translation>
+        <translation>Plik png</translation>
     </message>
 </context>
 <context>
@@ -1624,183 +1626,183 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
     <message>
         <location filename="../widgets/settingswidget.ui" line="190"/>
         <source>Save position and size of window on exit</source>
-        <translation>Ukládat pozici a velikost okna</translation>
+        <translation>Zapamiętaj pozycję i rozmiar okna przy wyjściu</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="197"/>
         <source>Always close copy window after finished</source>
-        <translation>Vždy zavírat okono kopírování po dokončení</translation>
+        <translation>Zawsze zamknij okno kopiowania po zakończeniu</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="204"/>
         <source>Show modal copy window</source>
-        <translation>Zobrazovat průběh kopírování</translation>
+        <translation>Okno kopiowania jako modalne</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="217"/>
         <source>App font:</source>
-        <translation>Font aplikace:</translation>
+        <translation>Czcionka aplikacji:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="243"/>
         <location filename="../widgets/settingswidget.ui" line="282"/>
         <location filename="../widgets/settingswidget.ui" line="315"/>
         <source>Change font</source>
-        <translation>Změnit font</translation>
+        <translation>Zmień czcionkę</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="256"/>
         <source>Tables font:</source>
-        <translation>Font tabulek:</translation>
+        <translation>Czcionka tabel:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="289"/>
         <source>Shell font:</source>
-        <translation>Font konzole:</translation>
+        <translation>Czcionka konsoli:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="370"/>
         <source>Kill demon on exit</source>
-        <translation>Zabít adb démona po vypnutí</translation>
+        <translation>Zamknij adb przy wyjściu</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="390"/>
         <source>Check for updates on start</source>
-        <translation>Kontrolovat aktualizace po spuštění</translation>
+        <translation>Sprawdź aktualizację przy starcie</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="940"/>
         <source>Coloring files</source>
-        <translation>Obarvit soubory</translation>
+        <translation>Koloruj pliki</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="410"/>
         <source>Set toolBar style:</source>
-        <translation>Styl toolbaru:</translation>
+        <translation>Ustaw styl paska z przyciskami:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="117"/>
         <source>Shell</source>
-        <translation>Konzole</translation>
+        <translation>Konsola</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="417"/>
         <source>Set toolBar icon size:</source>
-        <translation>Velikost ikon toolbaru:</translation>
+        <translation>Ustaw wielkość ikony na pasku przycisków:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="424"/>
         <source>Set hide/disable buttons on toolBar:</source>
-        <translation>Skrývat/vypínat tlačítka na toolbaru:</translation>
+        <translation>Ustaw ukryć/wyłącz przycisk na pasku przycisków:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="432"/>
         <source>Icon only</source>
-        <translation>Pouze ikona</translation>
+        <translation>Tylko ikona</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="437"/>
         <source>Text only</source>
-        <translation>Pouze text</translation>
+        <translation>Tylko tekst</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="442"/>
         <source>Text beside icon</source>
-        <translation>Text vedle ikony</translation>
+        <translation>Tekst obok ikony</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="447"/>
         <source>Text under icon</source>
-        <translation>Text pod ikonou</translation>
+        <translation>Tekst pod ikoną</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="456"/>
         <source>Hide buttons</source>
-        <translation>Skrýt tlačítka</translation>
+        <translation>Ukryj przyciski</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="461"/>
         <source>Disable buttons</source>
-        <translation>Vypnout tlačítka</translation>
+        <translation>Wyłącz przyciski</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="483"/>
         <source>Left</source>
-        <translation>Vlevo</translation>
+        <translation>Lewa</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="488"/>
         <source>Right</source>
-        <translation>Vpravo</translation>
+        <translation>Prawa</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="493"/>
         <source>Top</source>
-        <translation>Nahoře</translation>
+        <translation>Góra</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="498"/>
         <source>Bottom</source>
-        <translation>Dole</translation>
+        <translation>Dół</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="506"/>
         <source>Area of toolBar:</source>
-        <translation>Pozice toolbaru:</translation>
+        <translation>Pozycja paska z przyciskami:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="514"/>
         <source>Left to right</source>
-        <translation>Zleva doprava</translation>
+        <translation>Z lewej do prawej</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="519"/>
         <source>Right to left</source>
-        <translation>Zprava doleva</translation>
+        <translation>Z prawej do lewej</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="527"/>
         <source>App layout:</source>
-        <translation>Layout aplikace:</translation>
+        <translation>Kierunek układu aplikacji:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="554"/>
         <source>Computer</source>
-        <translation>Počítač</translation>
+        <translation>Komputer</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="575"/>
         <location filename="../widgets/settingswidget.ui" line="797"/>
         <source>Set path on start:</source>
-        <translation>Otevírat aplikaci v adresáři:</translation>
+        <translation>Ustaw ścieżkę przy uruchomieniu:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="598"/>
         <location filename="../widgets/settingswidget.ui" line="820"/>
         <source>Remember path on exit</source>
-        <translation>Pamatovat si cestu po vypnutí</translation>
+        <translation>Zapamiętaj ostatnią ścieżkę</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="611"/>
         <location filename="../widgets/settingswidget.ui" line="833"/>
         <source>Show hidden files</source>
-        <translation>Zobrazovat skryté soubory</translation>
+        <translation>Pokaż ukryte pliki</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="627"/>
         <location filename="../widgets/settingswidget.ui" line="849"/>
         <source>Show table columns headers</source>
-        <translation>Zobrazovat hlavičku tabulky</translation>
+        <translation>Pokaż nagłówki kolumn</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="688"/>
         <source>Show app icon instead default</source>
-        <translation>Zobrazovat ikonku aplikace místo výchozí</translation>
+        <translation>Pokaż ikonkę aplikacji zamiast domyślnej</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="701"/>
         <source>Instead of file name show:</source>
-        <translation>Místo názvu souboru zobrazovat:</translation>
+        <translation>Zamiast nazwy pliku aplikacji pokaż:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="714"/>
@@ -1808,7 +1810,7 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</source>
-        <translation>Povolené proměnné:
+        <translation>Dostępne zmienne:
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</translation>
@@ -1816,7 +1818,7 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
     <message>
         <location filename="../widgets/settingswidget.ui" line="743"/>
         <source>Show/hide computer files columns:</source>
-        <translation>U PC souborů zobrazovat:</translation>
+        <translation>Pokaż/ukryj kolumny plików komputera:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="776"/>
@@ -1826,7 +1828,7 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
     <message>
         <location filename="../widgets/settingswidget.ui" line="917"/>
         <source>Show/hide phone files columns:</source>
-        <translation>U telef. souborů zobrazovat:</translation>
+        <translation>Pokaż ukryj kolumny plików telefonu:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="951"/>
@@ -1841,150 +1843,150 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1071"/>
         <source>Default action on backup:</source>
-        <translation>Výchozí akce při záloze:</translation>
+        <translation>Domyślna opcja przy tworzeniu kopii:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1082"/>
         <source>Backup only apk</source>
-        <translation>Zálohovat pouze apk</translation>
+        <translation>Twórz kopię tylko pliku apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1087"/>
         <source>Backup only data</source>
-        <translation>Zálohovat pouze data</translation>
+        <translation>Twórz kopię tylko danych</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1092"/>
         <source>Backup apk + data</source>
-        <translation>Zálohovat apk a data</translation>
+        <translation>Twórz kopię pliku apk i danych</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1100"/>
         <source>Default action on restore:</source>
-        <translation>Výchozí akce při obnově:</translation>
+        <translation>Domyślna opcja przy przywracaniu:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1111"/>
         <source>Restore only apk</source>
-        <translation>Obnovit pouze apk</translation>
+        <translation>Przywracaj tylko plik apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1116"/>
         <source>Restore only data</source>
-        <translation>Obnovit pouze data</translation>
+        <translation>Przywracaj tylko dane</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1121"/>
         <source>Restore apk + data</source>
-        <translation>Obnovit apk a data</translation>
+        <translation>Przywracaj plik apk i dane</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1129"/>
         <source>Sort by column:</source>
-        <translation>Řadit podle:</translation>
+        <translation>Sortuj według:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1137"/>
         <source>App name</source>
-        <translation>Název aplikace</translation>
+        <translation>Nazwa aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1142"/>
         <source>App version</source>
-        <translation>Verze aplikace</translation>
+        <translation>Wersja aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1147"/>
         <source>App size</source>
-        <translation>Velikost aplikace</translation>
+        <translation>Rozmiar aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1152"/>
         <source>App package name</source>
-        <translation>Název balíčku aplikace</translation>
+        <translation>Nazwa paczki aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1160"/>
         <source>Get backups:</source>
-        <translation>Aktualizovat zálohy:</translation>
+        <translation>Pobierz kopie zapasowe:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1168"/>
         <location filename="../widgets/settingswidget.ui" line="1182"/>
         <location filename="../widgets/settingswidget.ui" line="1274"/>
         <source>only on start</source>
-        <translation>Jen po startu</translation>
+        <translation>Tylko przy starcie</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1173"/>
         <source>every time before show</source>
-        <translation>Vždy před zobrazením</translation>
+        <translation>Zawsze przed pokazaniem</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1187"/>
         <location filename="../widgets/settingswidget.ui" line="1279"/>
         <source>every time on show</source>
-        <translation>Vždy při zobrazení</translation>
+        <translation>Zawsze przed pokazaniem</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1259"/>
         <source>Get applications:</source>
-        <translation>Aktualizovat info o aplikacích:</translation>
+        <translation>Pobierz informacje o aplikacjach:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1266"/>
         <source>Get system applications:</source>
-        <translation>Aktualizovat systémové aplikace:</translation>
+        <translation>Pobierz aplikacje systemowe:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1300"/>
         <source>Check app version on internet</source>
-        <translation>Kontrolovat verzi aplikace</translation>
+        <translation>Sprawdzaj wersję aplikacji w internecie</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1320"/>
         <source>Show/hide apps columns:</source>
-        <translation>U aplikací zobrazovat:</translation>
+        <translation>Pokaż/ukryj kolumny aplikacji:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1327"/>
         <source>Show/hide backups columns:</source>
-        <translation>U záloh zobrazovat:</translation>
+        <translation>Pokaż/ukryj kolumny kopii zapasowych:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1336"/>
         <source>sd ext folder</source>
-        <translation type="unfinished"></translation>
+        <translation>sd ext folder</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1346"/>
         <source>Detect</source>
-        <translation type="unfinished"></translation>
+        <translation>Wykryj</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1377"/>
         <source>Enable animations</source>
-        <translation>Povolit animace</translation>
+        <translation>Animacje włączone</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1387"/>
         <source>Duration (in miliseconds)</source>
-        <translation>Délka (v milisekundách)</translation>
+        <translation>Długość (w milisekundach)</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1578"/>
         <source>Change background color</source>
-        <translation>Změnit barvu pozadí</translation>
+        <translation>Zmień kolor tła</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1585"/>
         <source>Change font color</source>
-        <translation>Změnit barvu textu</translation>
+        <translation>Zmień kolor czcionki</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1668"/>
         <source>Color files</source>
-        <translation>Obarvovat soubory</translation>
+        <translation>Kolorowanie plików</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1683"/>
@@ -1994,77 +1996,77 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1408"/>
         <source>UpToDown</source>
-        <translation>Zvrchu dolů</translation>
+        <translation>Z góry na dół</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1413"/>
         <source>DownToUp</source>
-        <translation>Zespodu nahoru</translation>
+        <translation>Z dołu na górę</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1418"/>
         <source>LeftToRight</source>
-        <translation>Zleva doprava</translation>
+        <translation>Z lewej na prawą</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1423"/>
         <source>RightToLeft</source>
-        <translation>Zprava doleva</translation>
+        <translation>Z prawej na lewą</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1526"/>
         <source>Direction</source>
-        <translation>Směr</translation>
+        <translation>Kierunek</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="97"/>
         <source>General</source>
-        <translation>Obecné</translation>
+        <translation>Ogólne</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="102"/>
         <source>File manager</source>
-        <translation>Souborový manažer</translation>
+        <translation>Menedżer plików</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="107"/>
         <source>App manager</source>
-        <translation>Manažer aplikací</translation>
+        <translation>Menedżer aplikacji</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="112"/>
         <source>Animations</source>
-        <translation>Animace</translation>
+        <translation>Animacje</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="125"/>
         <source>Remove settings from system</source>
-        <translation>Odstranit nastavení ze systému</translation>
+        <translation>Usuń ustawienia z systemu</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="138"/>
         <source>Set defaults</source>
-        <translation>Nastavit výchozí hodnoty</translation>
+        <translation>Ustaw domyślne</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="151"/>
         <source>Save Settings</source>
-        <translation>Uložit nastavení</translation>
+        <translation>Zapisz ustawienia</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="167"/>
-        <source>Associate apk files with QtADB</source>
-        <translation>Asociovat apk soubory s QtADB</translation>
+        <source>Associate apk files with DataBridge</source>
+        <translation>Skojarz pliki apk z DataBridge</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Reset settings??</source>
-        <translation type="unfinished"></translation>
+        <translation>Usunąć ustawienia?</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Are you sure you want restore settings to defaults???</source>
-        <translation type="unfinished"></translation>
+        <translation>Jesteś pewien, że chcesz przywrócić ustawienia domyślne?</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="611"/>
@@ -2093,22 +2095,22 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
         <source>Associate??</source>
-        <translation type="unfinished"></translation>
+        <translation>Powiązać?</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
-        <source>Are you sure you want to associate *.apk files with QtADB???</source>
-        <translation type="unfinished"></translation>
+        <source>Are you sure you want to associate *.apk files with DataBridge???</source>
+        <translation>Jesteś pewień, że chcesz powiązać pliki *.apk z DataBridge?</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="772"/>
         <source>Install apk</source>
-        <translation>Nainstalovat apk</translation>
+        <translation>Instaluj apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="843"/>
         <source>&lt;Not Found&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Nie znaleziono&gt;</translation>
     </message>
 </context>
 <context>
@@ -2116,74 +2118,75 @@ Vyberte si, kterou zálohu chcete obnovit</translation>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="241"/>
         <source>
-QtADB shell help
+DataBridge shell help
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+DataBridge shell pomoc</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="242"/>
         <source>CTRL+C                - interrupt executing command</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+C                - przerwij wykonywanie komendy</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="243"/>
         <source>ESC                   - interrupt executing command</source>
-        <translation type="unfinished"></translation>
+        <translation>ESC                   - przerwij wykonywanie komendy</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="244"/>
         <source>Shift+CTRL+C          - copy selected text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+CTRL+C          - kopiuj zaznaczony tekst do schowka</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="245"/>
         <source>Shift+CTRL+V          - paste text from clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+CTRL+V          - wklej tekst ze schowka</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="246"/>
         <source>Enter/Return          - execute command</source>
-        <translation type="unfinished"></translation>
+        <translation>Enter/Return          - uruchom komendę</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="247"/>
         <source>Up (arrow)            - display previous executed command</source>
-        <translation type="unfinished"></translation>
+        <translation>Strzałka w górę       - wyświetl poprzednio wykonaną komendę</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="248"/>
         <source>Down (arrow)          - display next executed command</source>
-        <translation type="unfinished"></translation>
+        <translation>Strzałka w dół        - wyświetl następną wykonaną komendę</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="249"/>
         <source>Left(arrow)           - move cursor to the left</source>
-        <translation type="unfinished"></translation>
+        <translation>Strzałka w lewo       - przesuń kursor w lewo</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="250"/>
         <source>Right(arrow)          - move cursor to the right</source>
-        <translation type="unfinished"></translation>
+        <translation>Strzałka w prawo      - przesuń kursor w prawo</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="251"/>
         <source>CTRL+Left(arrow)      - move cursor to the left skipping over the word</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+Strzałka w lewo  - przesuń kursor o jedno słowo w lewo</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="252"/>
         <source>CTRL+Right(arrow)     - move cursor to the right skipping over the word</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+Strzałka w prawo - przesuń kursor o jedno słowo w prawo</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="253"/>
         <source>Delete                - delete next char</source>
-        <translation type="unfinished"></translation>
+        <translation>Delete                - usuń następną literę</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="254"/>
         <source>Backspace             - delete previous char</source>
-        <translation type="unfinished"></translation>
+        <translation>Backspace             - usuń poprzednią literę</translation>
     </message>
 </context>
 <context>
@@ -2191,7 +2194,7 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="477"/>
         <source>SUCCESS</source>
-        <translation>ÚSPĚCH</translation>
+        <translation>SUKCES</translation>
     </message>
 </context>
 <context>
@@ -2199,12 +2202,12 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="614"/>
         <source>FAILURE</source>
-        <translation>SELHALO</translation>
+        <translation>NIEPOWODZENIE</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="618"/>
         <source>SUCCESS</source>
-        <translation>ÚSPĚCH</translation>
+        <translation>SUKCES</translation>
     </message>
 </context>
 <context>
@@ -2214,14 +2217,14 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="550"/>
         <location filename="../dialogs/appdialog.cpp" line="587"/>
         <source>FAILURE</source>
-        <translation>SELHALO</translation>
+        <translation>NIEPOWODZENIE</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="546"/>
         <location filename="../dialogs/appdialog.cpp" line="554"/>
         <location filename="../dialogs/appdialog.cpp" line="583"/>
         <source>SUCCESS</source>
-        <translation>ÚSPĚCH</translation>
+        <translation>SUKCES</translation>
     </message>
 </context>
 <context>
@@ -2229,13 +2232,13 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="669"/>
         <source>FAILURE</source>
-        <translation>Filename</translation>
+        <translation>NIEPOWODZENIE</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="673"/>
         <location filename="../dialogs/appdialog.cpp" line="677"/>
         <source>SUCCESS</source>
-        <translation>ÚSPĚCH</translation>
+        <translation>SUKCES</translation>
     </message>
 </context>
 <context>
@@ -2243,24 +2246,24 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.ui" line="106"/>
         <source>app</source>
-        <translation>Aplikace</translation>
+        <translation>Aplikacja</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.ui" line="111"/>
         <source>state</source>
-        <translation>Stav</translation>
+        <translation>Stan</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="48"/>
         <location filename="../dialogs/appdialog.cpp" line="49"/>
         <source>Install</source>
-        <translation>Nainstalovat</translation>
+        <translation>Instalacja</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="54"/>
         <location filename="../dialogs/appdialog.cpp" line="55"/>
         <source>Uninstall</source>
-        <translation>Odinstalovat</translation>
+        <translation>Deinstalacja</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="60"/>
@@ -2268,169 +2271,169 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="142"/>
         <location filename="../dialogs/appdialog.cpp" line="143"/>
         <source>Reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>Przeinstaluj</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="68"/>
         <location filename="../dialogs/appdialog.cpp" line="69"/>
         <source>Backup apps</source>
-        <translation>Zálohovat aplikace</translation>
+        <translation>Backup apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="73"/>
         <location filename="../dialogs/appdialog.cpp" line="74"/>
         <source>Backup data</source>
-        <translation>Zálohovat data</translation>
+        <translation>Backup data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="78"/>
         <location filename="../dialogs/appdialog.cpp" line="79"/>
         <source>Backup apps and data</source>
-        <translation>Zálohovat aplikace a data</translation>
+        <translation>Backup apps and data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="87"/>
         <location filename="../dialogs/appdialog.cpp" line="88"/>
         <source>Restore apps</source>
-        <translation>Obnovit aplikace</translation>
+        <translation>Restore apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="92"/>
         <location filename="../dialogs/appdialog.cpp" line="93"/>
         <source>Restore data</source>
-        <translation>Obnovit data</translation>
+        <translation>Restore data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="97"/>
         <location filename="../dialogs/appdialog.cpp" line="98"/>
         <location filename="../dialogs/appdialog.cpp" line="179"/>
         <source>Restore apps and data</source>
-        <translation>Obnovit aplikace a data</translation>
+        <translation>Restore apps and data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="130"/>
         <source>Install</source>
         <comment>apd dialog title</comment>
-        <translation>Nainstalovat</translation>
+        <translation>Instalacja</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="131"/>
         <source>Install</source>
         <comment>label text</comment>
-        <translation>Nainstalovat</translation>
+        <translation>Instalacja</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="136"/>
         <source>Uninstall</source>
         <comment>apd dialog title</comment>
-        <translation>Odinstalovat</translation>
+        <translation>Deinstalacja</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="137"/>
         <source>Uninstall</source>
         <comment>label text</comment>
-        <translation>Odinstalovat</translation>
+        <translation>Deinstalacja</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="150"/>
         <source>Backup apps</source>
         <comment>apd dialog title</comment>
-        <translation>Zálohovat aplikace</translation>
+        <translation>Backup apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="151"/>
         <source>Backup apps</source>
         <comment>label text</comment>
-        <translation>Zálohovat aplikace</translation>
+        <translation>Backup apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="155"/>
         <source>Backup data</source>
         <comment>apd dialog title</comment>
-        <translation>Zálohovat data</translation>
+        <translation>Backup data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="156"/>
         <source>Backup data</source>
         <comment>label text</comment>
-        <translation>Zálohovat data</translation>
+        <translation>Backup data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="160"/>
         <source>Backup apps and data</source>
         <comment>apd dialog title</comment>
-        <translation>Zálohovat aplikace a data</translation>
+        <translation>Backup apps and data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="161"/>
         <source>Backup apps and data</source>
         <comment>label text</comment>
-        <translation>Zálohovat aplikace a data</translation>
+        <translation>Backup apps and data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="169"/>
         <source>Restore apps</source>
         <comment>apd dialog title</comment>
-        <translation>Obnovit aplikace</translation>
+        <translation>Restore apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="170"/>
         <source>Restore apps</source>
         <comment>label text</comment>
-        <translation>Obnovit aplikace</translation>
+        <translation>Restore apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="174"/>
         <source>Restore data</source>
         <comment>apd dialog title</comment>
-        <translation>Obnovit data</translation>
+        <translation>Restore data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="175"/>
         <source>Restore data</source>
         <comment>label text</comment>
-        <translation>Obnovit data</translation>
+        <translation>Restore data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="180"/>
         <source>Restore apps and data</source>
         <comment>label text</comment>
-        <translation>Obnovit aplikace a data</translation>
+        <translation>Restore apps and data</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Cancel operation??</source>
-        <translation>Zrušit operaci?</translation>
+        <translation>Anulować operację??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Are you sure You want to cancel operation??</source>
-        <translation>Opravdu chcete zrušit tuto operaci?</translation>
+        <translation>Jesteś pewny że chcesz anulować bieżącą operację??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="360"/>
         <source>Install finished</source>
-        <translation>Instalace dokončena</translation>
+        <translation>Instalacja zakończona</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="364"/>
         <source>Uninstall finished</source>
-        <translation>Odinstalace dokončena</translation>
+        <translation>Deinstalacja zakończona</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="368"/>
         <source>Reinstall finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Przeinstalowanie zakończone</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="372"/>
         <source>Backup finished</source>
-        <translation>Záloha dokončena</translation>
+        <translation>Tworzenie kopii zapasowej zakończone</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="376"/>
         <source>Restore finished</source>
-        <translation>Obnova dokončena</translation>
+        <translation>Przywracanie zakończone</translation>
     </message>
 </context>
 <context>
@@ -2439,68 +2442,68 @@ QtADB shell help
         <location filename="../dialogs/appinfo.ui" line="14"/>
         <source>App info</source>
         <extracomment>app info dialog title</extracomment>
-        <translation>Info o aplikaci</translation>
+        <translation>Info o aplikacji</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="87"/>
         <source>App name</source>
-        <translation>Název aplikace</translation>
+        <translation>Nazwa aplikacji</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="111"/>
         <source>App version</source>
-        <translation>Verze aplikace</translation>
+        <translation>Wersja aplikacji</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="135"/>
         <source>Package name</source>
-        <translation>Název balíčku</translation>
+        <translation>Nazwa paczki</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="159"/>
         <source>File name</source>
-        <translation>Název souboru</translation>
+        <translation>Nazwa pliku</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="173"/>
         <source>File Size</source>
-        <translation>Velikost souboru</translation>
+        <translation>Rozmiar pliku</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="263"/>
         <source>Open in Market (PC)</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz w Markecie (PC)</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="274"/>
         <source>Open in Market (Phone)</source>
-        <translation type="unfinished"></translation>
+        <translation>Otwórz w Markecie (Telefon)</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="285"/>
         <source>Install</source>
-        <translation>Nainstalovat</translation>
+        <translation>Instaluj</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="58"/>
         <location filename="../dialogs/appinfo.cpp" line="103"/>
         <source>Reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>Przeinstaluj</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>install</source>
-        <translation>Nainstalovat</translation>
+        <translation>Instaluj</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>are you sure???</source>
-        <translation>Opravdu?</translation>
+        <translation>Jesteś pewny???</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>Przeinstaluj</translation>
     </message>
 </context>
 <context>
@@ -2509,57 +2512,57 @@ QtADB shell help
         <location filename="../dialogs/dialogkopiuj.ui" line="14"/>
         <source>Copying</source>
         <extracomment>Copy dialog title</extracomment>
-        <translation>Kopírování</translation>
+        <translation>Kopiowanie</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="29"/>
         <source>file:</source>
-        <translation>soubor:</translation>
+        <translation>Plik:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="43"/>
         <source>from:</source>
-        <translation>z:</translation>
+        <translation>Skąd:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="57"/>
         <source>to:</source>
-        <translation>do:</translation>
+        <translation>Dokąd:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="71"/>
         <source>items remaining:</source>
-        <translation>zbývá položek:</translation>
+        <translation>Pozostało:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="87"/>
         <source>File:</source>
-        <translation>Soubor:</translation>
+        <translation>Plik:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="174"/>
         <source>Total:</source>
-        <translation>Celkem:</translation>
+        <translation>Wszystko:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="198"/>
         <source>close after finished</source>
-        <translation>Zavřít po dokončení</translation>
+        <translation>Zamknij po zakończeniu</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="218"/>
         <source>Cancel</source>
-        <translation>Storno</translation>
+        <translation>Anuluj</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Close??</source>
-        <translation>Zrušit operaci?</translation>
+        <translation>Anulować operację??</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Are you sure??</source>
-        <translation>Opravdu?</translation>
+        <translation>Jesteś pewny??</translation>
     </message>
 </context>
 </TS>

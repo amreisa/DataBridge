@@ -619,7 +619,7 @@ void AppWidget::insertApp(App app)
 
 void AppWidget::missingAapt()
 {
-    QMessageBox *msgBox = new QMessageBox(QMessageBox::Critical, tr("Missing aapt"), tr("QtADB did not found aapt.\nDownload it and place in one directory with adb.\nAfter You place it in correct directory click Refresh button"));
+    QMessageBox *msgBox = new QMessageBox(QMessageBox::Critical, tr("Missing aapt"), tr("DataBridge did not found aapt.\nDownload it and place in one directory with adb.\nAfter You place it in correct directory click Refresh button"));
     QPushButton *download = msgBox->addButton(tr("Download", "missing aapt message button"), QMessageBox::AcceptRole);
     QPushButton *closeMsg = msgBox->addButton(tr("Cancel", "missing aapt message button"), QMessageBox::RejectRole);
 
@@ -627,7 +627,7 @@ void AppWidget::missingAapt()
 
     if (msgBox->clickedButton() == (QAbstractButton*)download)
     {
-        QDesktopServices::openUrl(QUrl("http://qtadb.wordpress.com/download/"));
+        QDesktopServices::openUrl(QUrl("http://DataBridge.wordpress.com/download/"));
         QDesktopServices::openUrl(QUrl("file:///"+this->sdk));
     }
     delete closeMsg;
@@ -663,7 +663,7 @@ void AppWidget::on_toolButtonBackup_pressed()
     }
 //    QString tmp=this->phone->getPath();
 //    this->phone->setPath("/");
-//    this->phone->makeDir("sdcard/QtADB/backup");
+//    this->phone->makeDir("sdcard/DataBridge/backup");
 //    this->phone->setPath(tmp);
 //    AppList selected;
 //    for (int i=0;i<ui->tableWidgetApps->selectedItems().count();i++)
@@ -838,7 +838,7 @@ void AppWidget::on_toolButtonRemoveBackup_pressed()
         return;
 
     QString oldPath=this->phone->getPath();
-    this->phone->setPath("/sdcard/QtADB/backup/");
+    this->phone->setPath("/sdcard/DataBridge/backup/");
     while (backupList.length()>0)
     {
         this->phone->remove(backupList.first().packageName+".png");
@@ -987,7 +987,7 @@ void ThreadBackups::run()
     Backup backupFound;
     int i;
 
-    proces->start("\"" + this->sdk + "\"adb shell busybox ls /sdcard/QtADB/backup/*.txt");
+    proces->start("\"" + this->sdk + "\"adb shell busybox ls /sdcard/DataBridge/backup/*.txt");
 
     proces->waitForFinished(-1);
     output = proces->readAll();
@@ -1006,12 +1006,12 @@ void ThreadBackups::run()
         backupFound.packageName = outputLines.takeFirst();
         backupFound.packageName.remove(QRegExp("^.+/"));
         backupFound.packageName.remove(QRegExp("\\.txt\\s+$"));
-        proces->start("\"" + this->sdk + "\"adb shell cat /sdcard/QtADB/backup/"+backupFound.packageName+".txt");
+        proces->start("\"" + this->sdk + "\"adb shell cat /sdcard/DataBridge/backup/"+backupFound.packageName+".txt");
         proces->waitForFinished(-1);
         output = proces->readAll();
         if (!settings.contains("apps/"+backupFound.packageName+"/icon"))
         {
-            proces->start("\"" + this->sdk + "\"adb pull /sdcard/QtADB/backup/"+backupFound.packageName+".png "+QDir::currentPath()+"/icons/"+backupFound.packageName+".png");
+            proces->start("\"" + this->sdk + "\"adb pull /sdcard/DataBridge/backup/"+backupFound.packageName+".png "+QDir::currentPath()+"/icons/"+backupFound.packageName+".png");
             proces->waitForFinished(-1);
 
             QFile icon(QDir::currentPath()+"/icons/"+backupFound.packageName+".png");
@@ -1052,7 +1052,7 @@ void ThreadBackups::run()
                 backupFound.appVersion = tmp;
             }
         }
-        proces->start("\"" + this->sdk + "\"adb shell ls  /sdcard/QtADB/backup/"+backupFound.packageName+".apk");
+        proces->start("\"" + this->sdk + "\"adb shell ls  /sdcard/DataBridge/backup/"+backupFound.packageName+".apk");
         proces->waitForFinished(-1);
         output = proces->readAll();
         output.remove(QString("%1[0m").arg( QChar( 0x1b )));
@@ -1062,7 +1062,7 @@ void ThreadBackups::run()
             backupFound.withApk = false;
         else
             backupFound.withApk = true;
-        proces->start("\"" + this->sdk + "\"adb shell ls /sdcard/QtADB/backup/"+backupFound.packageName+".DATA.tar.gz");
+        proces->start("\"" + this->sdk + "\"adb shell ls /sdcard/DataBridge/backup/"+backupFound.packageName+".DATA.tar.gz");
         proces->waitForFinished(-1);
         output = proces->readAll();
         output.remove(QString("%1[0m").arg( QChar( 0x1b )));
@@ -1274,9 +1274,9 @@ void ThreadApps::run()
     QProcess zip;
     QString temp;
     zip.setProcessChannelMode(QProcess::MergedChannels);
-    zip.start("\""+sdk+"\""+"adb shell mkdir /sdcard/QtADB");
+    zip.start("\""+sdk+"\""+"adb shell mkdir /sdcard/DataBridge");
     zip.waitForFinished(-1);
-    zip.start("\""+sdk+"\""+"adb shell mkdir /sdcard/QtADB/tmp");
+    zip.start("\""+sdk+"\""+"adb shell mkdir /sdcard/DataBridge/tmp");
     zip.waitForFinished(-1);
     settings.beginGroup("apps");
     QStringList settingsList=settings.childKeys();

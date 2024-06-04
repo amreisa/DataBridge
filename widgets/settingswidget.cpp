@@ -757,20 +757,20 @@ void SettingsWidget::changeFont()
 
 void SettingsWidget::on_buttonAssociate_clicked()
 {
-    if (QMessageBox::question(this,tr("Associate??"),tr("Are you sure you want to associate *.apk files with QtADB???"),QMessageBox::Ok | QMessageBox::No) == QMessageBox::No)
+    if (QMessageBox::question(this,tr("Associate??"),tr("Are you sure you want to associate *.apk files with DataBridge???"),QMessageBox::Ok | QMessageBox::No) == QMessageBox::No)
         return;
 
     QSettings settings("HKEY_LOCAL_MACHINE\\SOFTWARE\\Classes\\", QSettings::NativeFormat);
-    settings.setValue(".apk/Default", "QtADB.File.apk");
+    settings.setValue(".apk/Default", "DataBridge.File.apk");
     QString tmp;
     tmp = qApp->arguments().at(0);
     tmp.replace("/", "\\");
-    settings.setValue("QtADB.File.apk/DefaultIcon/Default", tmp + ",0");
-    settings.setValue("QtADB.File.apk/shell/open/command/Default",
+    settings.setValue("DataBridge.File.apk/DefaultIcon/Default", tmp + ",0");
+    settings.setValue("DataBridge.File.apk/shell/open/command/Default",
                       "\"" + tmp + "\" \"%1\"");
-    settings.setValue("QtADB.File.apk/shell/Install/Default",
+    settings.setValue("DataBridge.File.apk/shell/Install/Default",
                       tr("Install apk"));
-    settings.setValue("QtADB.File.apk/shell/Install/command/Default",
+    settings.setValue("DataBridge.File.apk/shell/Install/command/Default",
                       "\"" + tmp + "\" \"-install\" \"%1\"");
 }
 

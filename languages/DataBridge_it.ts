@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de">
+<TS version="2.1" language="it_IT" sourcelanguage="it">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="23"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>About dialog title</extracomment>
-        <translation>QtADB - Ihr Androidmanager</translation>
+        <translation>DataBridge - Your android manager</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="117"/>
         <source>Created by 7ymekk &amp; mozarcik</source>
-        <translation>Von 7ymekk &amp; mozarcik</translation>
+        <translation>Creato da 7ymekk &amp; mozarcik</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="124"/>
         <source>Version</source>
-        <translation>Version</translation>
+        <translation>Versione</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="141"/>
         <source>Questions?? Suggestions??</source>
-        <translation>Fragen?? Anregungen??</translation>
+        <translation>Domande?? Suggerimenti??</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="148"/>
         <source>Feel free to contact us:</source>
-        <translation>Bitte kontaktieren sie uns:</translation>
+        <translation>Sentitevi liberi di contattarci:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="172"/>
         <source>Website:</source>
-        <translation>Webseite:</translation>
+        <translation>Sito:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="193"/>
         <source>Icons in app are from:</source>
-        <translation>Herkunft der Programmsymbole:</translation>
+        <translation>Le icone delle applicazioni provengono da:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="214"/>
         <source>and</source>
-        <translation>und</translation>
+        <translation>e</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="280"/>
@@ -55,7 +55,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;QtADB was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;DataBridge was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -74,37 +74,37 @@ p, li { white-space: pre-wrap; }
         <location filename="../classes/models/apptablemodel.cpp" line="183"/>
         <source>Name</source>
         <comment>application table name</comment>
-        <translation>Anwendungsname</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="185"/>
         <source>Version</source>
         <comment>application table version</comment>
-        <translation>Version</translation>
+        <translation>Versione</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="187"/>
         <source>Size</source>
         <comment>applications table size</comment>
-        <translation>Größe</translation>
+        <translation>Dimensione</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="189"/>
         <source>Package</source>
         <comment>application table package</comment>
-        <translation>Paket</translation>
+        <translation>Pacchetto</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="191"/>
         <source>File</source>
         <comment>application table file</comment>
-        <translation>Datei</translation>
+        <translation>File</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="193"/>
         <source>Location</source>
         <comment>application table location</comment>
-        <translation>Ort</translation>
+        <translation>Posizione</translation>
     </message>
 </context>
 <context>
@@ -112,123 +112,123 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/appwidget.ui" line="69"/>
         <source>applications</source>
-        <translation>Anwendungen</translation>
+        <translation>Applicazioni</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="74"/>
         <source>backups</source>
-        <translation>Sicherungen</translation>
+        <translation>Backups</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="79"/>
         <source>system apps</source>
-        <translation>Systemanwenungen</translation>
+        <translation>App di sistema</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="89"/>
         <source>filter</source>
-        <translation>Filter</translation>
+        <translation>filtra</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="167"/>
         <source>App name</source>
         <extracomment>app name label</extracomment>
-        <translation>Anwendungsname</translation>
+        <translation>Nome app</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="181"/>
         <source>App version</source>
         <extracomment>version label</extracomment>
-        <translation>Anwendungsversion</translation>
+        <translation>Versione app</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="195"/>
         <source>File name</source>
         <extracomment>file name label</extracomment>
-        <translation>Dateiname</translation>
+        <translation>Nome file</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="209"/>
         <source>File Size</source>
         <extracomment>size label</extracomment>
-        <translation>Dateigröße</translation>
+        <translation>Dimensione file</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="253"/>
         <source>Package name</source>
         <extracomment>package label</extracomment>
-        <translation>Paketname</translation>
+        <translation>Nome pacchetto</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="287"/>
         <source>Location</source>
         <extracomment>location label</extracomment>
-        <translation>Ort</translation>
+        <translation>Posizione</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="334"/>
         <source>Latest version</source>
         <extracomment>latest version label</extracomment>
-        <translation>Letzte Version</translation>
+        <translation>Ultima versione</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="368"/>
         <location filename="../widgets/appwidget.cpp" line="801"/>
         <source>uninstall</source>
         <extracomment>uninstall apps</extracomment>
-        <translation>Deinstallieren</translation>
+        <translation>Disinstalla</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="400"/>
         <location filename="../widgets/appwidget.cpp" line="684"/>
         <source>backup</source>
         <extracomment>backup apps</extracomment>
-        <translation>Sichern</translation>
+        <translation>Backup</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="446"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>restore</source>
         <extracomment>restore backup</extracomment>
-        <translation>Wiederherstellen</translation>
+        <translation>Rispristina</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="478"/>
         <source>remove</source>
         <extracomment>remove backup</extracomment>
-        <translation>Entfernen</translation>
+        <translation>Rimuovi</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="509"/>
         <source>Refresh</source>
         <extracomment>refresh apps/backups</extracomment>
-        <translation>Aktualisieren</translation>
+        <translation>Aggiorna</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="535"/>
         <source>Open in Market (Phone)</source>
-        <translation type="unfinished"></translation>
+        <translation>Apri in Market (Telefono)</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="561"/>
         <source>Open in Market (PC)</source>
-        <translation type="unfinished"></translation>
+        <translation>Apri in Market (PC)</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="174"/>
         <source>Choose where You want to save selected apps</source>
-        <translation>Wählen Sie, wo die gewählten Apps gesichert werden sollen</translation>
+        <translation>Scegli dove salvare le app selezionate</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
         <source>Missing aapt</source>
-        <translation>aapt fehlt</translation>
+        <translation>aapt mancante</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="95"/>
         <source>backup</source>
         <comment>backup menu title</comment>
-        <translation>Sichern</translation>
+        <translation>Backup</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="97"/>
@@ -240,19 +240,19 @@ p, li { white-space: pre-wrap; }
         <location filename="../widgets/appwidget.cpp" line="98"/>
         <source>data</source>
         <comment>backup menu action</comment>
-        <translation>Daten</translation>
+        <translation>Dati</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="99"/>
         <source>app + data</source>
         <comment>backup menu action</comment>
-        <translation>Anwendung+Daten</translation>
+        <translation>App + Dati</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="107"/>
         <source>restore</source>
         <comment>restore menu title</comment>
-        <translation>Wiederherstellen</translation>
+        <translation>Rispristina</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="109"/>
@@ -264,108 +264,110 @@ p, li { white-space: pre-wrap; }
         <location filename="../widgets/appwidget.cpp" line="110"/>
         <source>data</source>
         <comment>restore menu action</comment>
-        <translation>Daten</translation>
+        <translation>Dati</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="111"/>
         <source>app + data</source>
         <comment>restore menu action</comment>
-        <translation>Anwendung+Daten</translation>
+        <translation>App + Dati</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="195"/>
         <source>uninstall</source>
         <comment>right click apps menu</comment>
-        <translation>Deinstallieren</translation>
+        <translation>Disinstalla</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="196"/>
         <source>copy to PC</source>
         <comment>right click apps menu</comment>
-        <translation>Auf den PC kopieren</translation>
+        <translation>Copia su PC</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="197"/>
         <source>Get apps info</source>
         <comment>right click apps menu</comment>
-        <translation>mehr Informationen</translation>
+        <translation>Ricevi informazioni app</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="198"/>
         <source>Get apps version from internet</source>
         <comment>right click apps menu</comment>
-        <translation>Hole App Version aus dem Internet</translation>
+        <translation>Ottieni la versione dell&apos;app da internet</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="214"/>
         <source>remove</source>
         <comment>right click backups menu</comment>
-        <translation>Entfernen</translation>
+        <translation>Rimuovi</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="239"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>ausgewählt</translation>
+        <translation>selezionati</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="376"/>
         <location filename="../widgets/appwidget.cpp" line="449"/>
         <source>App name</source>
         <comment>combo apps filter</comment>
-        <translation>Anwendungsname</translation>
+        <translation>Nome app</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="377"/>
         <location filename="../widgets/appwidget.cpp" line="450"/>
         <source>Package name</source>
         <comment>combo apps filter</comment>
-        <translation>Paketname</translation>
+        <translation>Nome pacchetto</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="378"/>
         <location filename="../widgets/appwidget.cpp" line="451"/>
         <source>File path</source>
         <comment>combo apps filter</comment>
-        <translation>Dateipfad</translation>
+        <translation>Percorso File</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="379"/>
         <location filename="../widgets/appwidget.cpp" line="452"/>
         <source>Location</source>
         <comment>combo apps filter</comment>
-        <translation>Ort</translation>
+        <translation>Posizione</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="415"/>
         <source>App name</source>
         <comment>combo backups filter</comment>
-        <translation>Anwendungsname</translation>
+        <translation>Nome app</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="416"/>
         <source>Package name</source>
         <comment>combo backups filter</comment>
-        <translation>Paketname</translation>
+        <translation>Nome pacchetto</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
-        <source>QtADB did not found aapt.
+        <source>DataBridge did not found aapt.
 Download it and place in one directory with adb.
 After You place it in correct directory click Refresh button</source>
-        <translation type="unfinished"></translation>
+        <translation>DataBridge non ha trovato aapt
+Scaricalo e mettilo nella stessa directory di ADB
+Dopo averlo posizionato correttamente cliccka il bottone Aggiorna</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="619"/>
         <source>Download</source>
         <comment>missing aapt message button</comment>
-        <translation>Herunterladen</translation>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="620"/>
         <source>Cancel</source>
         <comment>missing aapt message button</comment>
-        <translation>Abbrechen</translation>
+        <translation>Elimina</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="685"/>
@@ -373,17 +375,17 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>are you sure???</source>
-        <translation>Sind sie sicher?</translation>
+        <translation>Sicuro???</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="738"/>
         <source>select apps to install</source>
-        <translation>Zu installierende Anwendungen auswählen</translation>
+        <translation>Seleziona app da installare</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <source>remove backup</source>
-        <translation>Sicherung entfernen</translation>
+        <translation>Rimuovi backup</translation>
     </message>
 </context>
 <context>
@@ -392,49 +394,49 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/backuptablemodel.cpp" line="147"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="152"/>
         <source>yes</source>
-        <translation>Ja</translation>
+        <translation>Sì</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="149"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="154"/>
         <source>no</source>
-        <translation>Nein</translation>
+        <translation>No</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="173"/>
         <source>Name</source>
         <comment>backup table header app name</comment>
-        <translation>Anwendungsname</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="175"/>
         <source>Version</source>
         <comment>backup table header app version</comment>
-        <translation>Version</translation>
+        <translation>Versione</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="177"/>
         <source>Size</source>
         <comment>backup table header app size</comment>
-        <translation>Größe</translation>
+        <translation>Dimensione</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="179"/>
         <source>Package</source>
         <comment>backup table header app package</comment>
-        <translation>Paket</translation>
+        <translation>Pacchetto</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="181"/>
         <source>App</source>
         <comment>backup table header apk file</comment>
-        <translation>Apk</translation>
+        <translation>App</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="183"/>
         <source>Data</source>
         <comment>backup table header data</comment>
-        <translation>Daten</translation>
+        <translation>Dati</translation>
     </message>
 </context>
 <context>
@@ -444,22 +446,22 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../dialogs/connectWifi.ui" line="116"/>
         <source>Connect</source>
         <extracomment>Connect wifi dialog title</extracomment>
-        <translation>Verbinden</translation>
+        <translation>Connetti</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="44"/>
         <source>Address</source>
-        <translation>Adresse</translation>
+        <translation>Indirizzo</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="79"/>
         <source>Port</source>
-        <translation>Port</translation>
+        <translation>Porta</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="123"/>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Elimina</translation>
     </message>
 </context>
 <context>
@@ -467,27 +469,27 @@ After You place it in correct directory click Refresh button</source>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="32"/>
         <source>Flash SPL</source>
-        <translation>SPL flashen</translation>
+        <translation>Flash SPL</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="55"/>
         <source>Flash recovery</source>
-        <translation>Recovery flashen</translation>
+        <translation>Flash recovery</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="65"/>
         <source>Flash radio</source>
-        <translation>Radio flashen</translation>
+        <translation>Flash radio</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="75"/>
         <source>Boot IMG</source>
-        <translation>IMG booten</translation>
+        <translation>Boot IMG</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
         <source>Choose img file...</source>
-        <translation>Wähle img Datei</translation>
+        <translation>Selezionando file immagine...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
@@ -495,12 +497,12 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>IMG File </source>
-        <translation>IMG-Datei</translation>
+        <translation>File Immagine</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="105"/>
         <source>Choose hboot img file...</source>
-        <translation>Wähle hboot img Datei...</translation>
+        <translation>Scegli immagine hboot...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="112"/>
@@ -510,31 +512,31 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="182"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Error!</source>
-        <translation>Fehler!</translation>
+        <translation>Errore!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="114"/>
         <location filename="../widgets/fastbootwidget.cpp" line="149"/>
         <location filename="../widgets/fastbootwidget.cpp" line="184"/>
         <source>Success!</source>
-        <translation>Erfolgreich!</translation>
+        <translation>Completato!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="118"/>
         <location filename="../widgets/fastbootwidget.cpp" line="153"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Operation cancelled!</source>
-        <translation>Aufgabe abgebrochen!</translation>
+        <translation>Operazione annullata!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <source>Choose radio img file...</source>
-        <translation>Wähle radio img Datei...</translation>
+        <translation>Scegli immagine radio...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>Choose recovery img file...</source>
-        <translation>Wähle recovery img Datei...</translation>
+        <translation>Scegli immagine recovery...</translation>
     </message>
 </context>
 <context>
@@ -543,19 +545,19 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/filetablemodel.cpp" line="207"/>
         <source>Name</source>
         <comment>file table file name</comment>
-        <translation>Anwendungsname</translation>
+        <translation>Nome</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="209"/>
         <source>Size</source>
         <comment>file table file size</comment>
-        <translation>Größe</translation>
+        <translation>Dimensione</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="211"/>
         <source>Date</source>
         <comment>file table file date</comment>
-        <translation>Datum</translation>
+        <translation>Data</translation>
     </message>
 </context>
 <context>
@@ -564,72 +566,72 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.ui" line="35"/>
         <source>computer</source>
         <extracomment>table title</extracomment>
-        <translation>Computer</translation>
+        <translation>computer</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="116"/>
         <location filename="../widgets/filewidget.ui" line="224"/>
         <source>filter</source>
-        <translation>Filter</translation>
+        <translation>filtra</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="45"/>
         <source>phone</source>
         <extracomment>table title</extracomment>
-        <translation>Telefon</translation>
+        <translation>telefono</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="270"/>
         <source>F2 rename</source>
         <extracomment>rename button</extracomment>
-        <translation>F2 Umbenennen</translation>
+        <translation>F2 rinomina</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="290"/>
         <source>F3 select all/none</source>
         <extracomment>select button</extracomment>
-        <translation>F3 Alle/Nichts auswählen</translation>
+        <translation>F3 selezionatutto/nessuno</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="310"/>
         <source>F4 install</source>
         <extracomment>install button</extracomment>
-        <translation>F4 Installieren</translation>
+        <translation>F4 installa</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="330"/>
         <source>F5 copy</source>
         <extracomment>copy button</extracomment>
-        <translation>F5 Kopieren</translation>
+        <translation>F5 copia</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="350"/>
         <source>F6 new dir</source>
         <extracomment>new dir button</extracomment>
-        <translation>F6 Neuer Ordner</translation>
+        <translation>F6 nuova cartella</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="370"/>
         <source>F7 refresh</source>
         <extracomment>refresh files button</extracomment>
-        <translation>F7 Aktualisieren</translation>
+        <translation>F7 aggiorna</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="390"/>
         <source>F8 delete</source>
         <extracomment>delete button</extracomment>
-        <translation>F8 Löschen</translation>
+        <translation>F8 elimina</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="410"/>
         <source>F9 hidden files</source>
         <extracomment>hidden button</extracomment>
-        <translation>F9 Versteckte Dateien</translation>
+        <translation>F9 file nascosti</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1942"/>
         <source>install</source>
-        <translation>Installieren</translation>
+        <translation>Installa</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="592"/>
@@ -637,7 +639,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="1264"/>
         <location filename="../widgets/filewidget.cpp" line="1334"/>
         <source>select some files first</source>
-        <translation>Zuerst Dateien auswählen</translation>
+        <translation>Seleziona prima alcuni files</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -646,7 +648,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>copying</source>
-        <translation>Kopieren</translation>
+        <translation>Copiando</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -658,7 +660,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>are you sure???</source>
-        <translation>Sind sie sicher?</translation>
+        <translation>Sicuro???</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="614"/>
@@ -667,189 +669,189 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2155"/>
         <location filename="../widgets/filewidget.cpp" line="2207"/>
         <source>theres nothing to copy. Maybe selected dirs are empty</source>
-        <translation>Es ist nichts zu kopieren.
-Vermutlich sind die Ordner leer</translation>
+        <translation>Non c&apos;è nulla da copiare
+Forse le cartelle selezionate sono vuote</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="642"/>
         <location filename="../widgets/filewidget.cpp" line="1338"/>
         <source>deleting</source>
-        <translation>Löschen</translation>
+        <translation>Cancello</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="660"/>
         <location filename="../widgets/filewidget.cpp" line="1371"/>
         <location filename="../widgets/filewidget.cpp" line="1380"/>
         <source>getting files...</source>
-        <translation>Hole Dateien...</translation>
+        <translation>ricevo files...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="756"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>error</source>
-        <translation>Fehler</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="757"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>dir was not created.
 Make sure that you are allowed to do this</source>
-        <translation>Ordner wurde nicht erstellt.
-Sie haben nicht die erforderlichen Rechte</translation>
+        <translation>Cartella non creata
+Assicurati di avere i permessi</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1748"/>
         <source>selected</source>
-        <translation>ausgewählt</translation>
+        <translation>selezionati</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1634"/>
         <source>searching...</source>
-        <translation>suche...</translation>
+        <translation>cercando...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="538"/>
         <source>rename</source>
         <comment>computer right click menu</comment>
-        <translation>Umbenennen</translation>
+        <translation>Rinomina</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="540"/>
         <source>select all</source>
         <comment>computer right click menu</comment>
-        <translation>Alles auswählen</translation>
+        <translation>Seleziona tutto</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="542"/>
         <source>select none</source>
         <comment>computer right click menu</comment>
-        <translation>Nichts auswählen</translation>
+        <translation>Seleziona singolo</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="544"/>
         <source>copy</source>
         <comment>computer right click menu</comment>
-        <translation>Kopieren</translation>
+        <translation>Copia</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="546"/>
         <source>new dir</source>
         <comment>computer right click menu</comment>
-        <translation>Neuer Ordner</translation>
+        <translation>Nuova cartella</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="548"/>
         <source>refresh</source>
         <comment>computer right click menu</comment>
-        <translation>Aktualisieren</translation>
+        <translation>Aggiorna</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="550"/>
         <source>delete</source>
         <comment>computer right click menu</comment>
-        <translation>Löschen</translation>
+        <translation>Elimina</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="552"/>
         <source>hidden files</source>
         <comment>computer right click menu</comment>
-        <translation>Versteckte Dateien</translation>
+        <translation>Files nascosti</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="554"/>
         <source>install</source>
         <comment>computer right click menu</comment>
-        <translation>Installieren</translation>
+        <translation>Installa</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="556"/>
         <source>Show app info</source>
         <comment>computer right click menu</comment>
-        <translation>Zeige App Info</translation>
+        <translation>Mostra info app</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="558"/>
         <source>open in new tab</source>
         <comment>computer right click menu</comment>
-        <translation>Im neuen Tab öffnen</translation>
+        <translation>Apri in nuovo tab</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="971"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>ausgewählt</translation>
+        <translation>selezionati</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1152"/>
         <location filename="../widgets/filewidget.cpp" line="1184"/>
         <source>rename</source>
         <comment>phone right click menu</comment>
-        <translation>Umbenennen</translation>
+        <translation>Rinomina</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1154"/>
         <location filename="../widgets/filewidget.cpp" line="1186"/>
         <source>select all</source>
         <comment>phone right click menu</comment>
-        <translation>Alles auswählen</translation>
+        <translation>Seleziona tutto</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1156"/>
         <location filename="../widgets/filewidget.cpp" line="1188"/>
         <source>select none</source>
         <comment>phone right click menu</comment>
-        <translation>Nichts auswählen</translation>
+        <translation>Seleziona singolo</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1158"/>
         <location filename="../widgets/filewidget.cpp" line="1190"/>
         <source>copy</source>
         <comment>phone right click menu</comment>
-        <translation>Kopieren</translation>
+        <translation>Copia</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1160"/>
         <location filename="../widgets/filewidget.cpp" line="1192"/>
         <source>new dir</source>
         <comment>phone right click menu</comment>
-        <translation>Neuer Ordner</translation>
+        <translation>Nuova cartella</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1162"/>
         <location filename="../widgets/filewidget.cpp" line="1194"/>
         <source>refresh</source>
         <comment>phone right click menu</comment>
-        <translation>Aktualisieren</translation>
+        <translation>Aggiorna</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1164"/>
         <location filename="../widgets/filewidget.cpp" line="1196"/>
         <source>delete</source>
         <comment>phone right click menu</comment>
-        <translation>Löschen</translation>
+        <translation>Elimina</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1166"/>
         <location filename="../widgets/filewidget.cpp" line="1198"/>
         <source>hidden files</source>
         <comment>phone right click menu</comment>
-        <translation>Versteckte Dateien</translation>
+        <translation>Files nascosti</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1200"/>
         <source>open in new tab</source>
         <comment>phone right click menu</comment>
-        <translation>Im neuen Tab öffnen</translation>
+        <translation>Apri in nuovo tab</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>information</source>
-        <translation>Information</translation>
+        <translation>informazione</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>It&apos;s not an application</source>
-        <translation>Das ist keine Anwendung</translation>
+        <translation>Non è un&apos;applicazione</translation>
     </message>
 </context>
 <context>
@@ -857,95 +859,87 @@ Sie haben nicht die erforderlichen Rechte</translation>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="14"/>
         <source>Logcat</source>
-        <translatorcomment>No need for translation</translatorcomment>
         <translation>Logcat</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="29"/>
         <source>Debug</source>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation></translation>
+        <translation>Debug</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="39"/>
         <source>Warning</source>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation></translation>
+        <translation>Avvisi</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="49"/>
         <source>Information</source>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation>Information</translation>
+        <translation>Informazioni</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="59"/>
         <source>Error</source>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation>Fehler</translation>
+        <translation>Errori</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="113"/>
         <source>Verbose</source>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation></translation>
+        <translation>Verbose</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="123"/>
         <source>filter</source>
-        <translation>Filter</translation>
+        <translation>filtra</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="131"/>
         <source>Sender</source>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation></translation>
+        <translation>Mittente</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="136"/>
         <source>Message</source>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation></translation>
+        <translation>Message</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="235"/>
         <source>autoscroll</source>
-        <translation type="unfinished"></translation>
+        <translation>autoscroll</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="245"/>
         <source>clear</source>
-        <translation type="unfinished"></translation>
+        <translation>Pulisci</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="228"/>
         <source>Buffer limit</source>
-        <translation type="unfinished"></translation>
+        <translation>Limite Buffer</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="44"/>
         <source>clear logcat</source>
-        <translation type="unfinished"></translation>
+        <translation>Pulisci logcat</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="45"/>
         <source>copy selected to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copia selezionato negli appunti</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="46"/>
         <source>export selected to file</source>
-        <translation type="unfinished"></translation>
+        <translation>esporta il file selezionato</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>Save File...</source>
-        <translation type="unfinished">Datei speichern...</translation>
+        <translation>Salva file...</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>txt file</source>
-        <translation type="unfinished"></translation>
+        <translation>txt file</translation>
     </message>
 </context>
 <context>
@@ -954,35 +948,31 @@ Sie haben nicht die erforderlichen Rechte</translation>
         <location filename="../classes/models/logcatmodel.cpp" line="158"/>
         <source>Time</source>
         <comment>logcat header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Tempo</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="160"/>
         <source>Type</source>
         <comment>logcat header</comment>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation></translation>
+        <translation>Tipo</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="162"/>
         <source>Sender</source>
         <comment>logcat header</comment>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation></translation>
+        <translation>Mittente</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="164"/>
         <source>Pid</source>
         <comment>logcat header</comment>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation></translation>
+        <translation>Pid</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="166"/>
         <source>Message</source>
         <comment>logcat header</comment>
-        <translatorcomment>No need for translation</translatorcomment>
-        <translation></translation>
+        <translation>Messaggio</translation>
     </message>
 </context>
 <context>
@@ -991,38 +981,38 @@ Sie haben nicht die erforderlichen Rechte</translation>
         <location filename="../dialogs/mainwindow.ui" line="107"/>
         <source>Refresh</source>
         <extracomment>refresh state when disconnected</extracomment>
-        <translation>Aktualisieren</translation>
+        <translation>Aggiorna</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="287"/>
         <source>check for updates</source>
-        <translation>Nach Updates suchen</translation>
+        <translation>Controlla aggiornamenti</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="97"/>
         <source>CONNECT YOUR PHONE</source>
-        <translation>TELEFON VERBINDEN</translation>
+        <translation>CONNETTI IL TELEFONO</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="22"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>Main window title</extracomment>
-        <translation>QtADB - Ihr Androidmanager</translation>
+        <translation>DataBridge - Your android manager</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="172"/>
         <source>&amp;Connection</source>
-        <translation>&amp;Verbindung</translation>
+        <translation>&amp;Connessione</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="179"/>
         <source>&amp;Help</source>
-        <translation>&amp;Hilfe</translation>
+        <translation>&amp;Aiuto</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="187"/>
         <source>&amp;Tools</source>
-        <translation>E&amp;xtras</translation>
+        <translation>&amp;Tools</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="191"/>
@@ -1037,69 +1027,68 @@ Sie haben nicht die erforderlichen Rechte</translation>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="232"/>
         <source>usb</source>
-        <translation>USB</translation>
+        <translation>Usb</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="237"/>
         <source>wifi</source>
-        <translation>W-Lan</translation>
+        <translation>Wifi</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="242"/>
         <source>about</source>
-        <translation>Über</translation>
+        <translation>About</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="247"/>
         <source>polski</source>
-        <translation>polski</translation>
+        <translation>Polacco</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="252"/>
         <location filename="../dialogs/mainwindow.ui" line="267"/>
         <source>Reboot</source>
-        <translation>Neu starten</translation>
+        <translation>Riavvia</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="257"/>
         <location filename="../dialogs/mainwindow.ui" line="272"/>
         <source>Reboot bootloader</source>
-        <translation>In den bootloader booten</translation>
+        <translation>Riavvia in bootloader</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="262"/>
         <source>Reboot recovery</source>
-        <translation>Ins Recoverymenü booten</translation>
+        <translation>Riavvia in recovery</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="277"/>
         <location filename="../dialogs/mainwindow.ui" line="282"/>
         <source>Power off</source>
-        <translation>Ausschalten</translation>
+        <translation>Spegni</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="292"/>
         <source>enter register key</source>
-        <translation type="unfinished"></translation>
+        <translation>Inserire chiave di registro</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="65"/>
         <source>Logcat</source>
         <comment>action in system tray menu</comment>
-        <translatorcomment>No need for translation</translatorcomment>
         <translation>Logcat</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="67"/>
         <source>exit</source>
         <comment>action in system tray menu</comment>
-        <translation>Beenden</translation>
+        <translation>Esci</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="94"/>
         <source>Files</source>
         <comment>files button</comment>
-        <translation>Dateien</translation>
+        <translation>Files</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="95"/>
@@ -1123,79 +1112,77 @@ Sie haben nicht die erforderlichen Rechte</translation>
         <location filename="../dialogs/mainwindow.cpp" line="98"/>
         <source>Phone info</source>
         <comment>phone info button</comment>
-        <translation>Telefoninfo</translation>
+        <translation>Info Telefono</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="99"/>
         <source>Screenshot</source>
         <comment>screenshot button</comment>
-        <translatorcomment>No need for translation</translatorcomment>
         <translation>Screenshot</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="100"/>
         <source>Settings</source>
         <comment>settings button</comment>
-        <translation>Einstellungen</translation>
+        <translation>Settaggi</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="101"/>
         <source>Shell</source>
         <comment>shell button</comment>
-        <translation>Konsole</translation>
+        <translation>Shell</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="102"/>
         <source>Messages</source>
         <comment>messages button</comment>
-        <translation type="unfinished"></translation>
+        <translation>Messaggi</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="104"/>
         <source>Logcat</source>
         <comment>logcat button</comment>
-        <translatorcomment>No need for translation</translatorcomment>
         <translation>Logcat</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="702"/>
         <source>Attention!</source>
-        <translation type="unfinished"></translation>
+        <translation>Attenzione!</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="703"/>
         <source>To use message manager You have to turn on WiFi.</source>
-        <translation type="unfinished"></translation>
+        <translation>Per utilizzare Message Manager devi attivare il WiFi.</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="833"/>
         <source>Sms from </source>
         <comment>system tray bubble</comment>
-        <translation>SMS von</translation>
+        <translation>SMS da</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="838"/>
         <source>Sms result</source>
         <comment>system tray bubble</comment>
-        <translation>SMS Ergebnis</translation>
+        <translation>Risultato SMS</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="892"/>
         <source>New updates</source>
-        <translation>Neue Updates</translation>
+        <translation>Nuovi aggiornamenti</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="892"/>
         <source>New update is available
 </source>
-        <translation>Neue Updates sind verfügbar
+        <translation>Nuovo aggiornamento disponibile
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
         <location filename="../dialogs/mainwindow.cpp" line="916"/>
         <source>Your version: </source>
-        <translation>Ihre Version:</translation>
+        <translation>Tua versione:</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
@@ -1203,64 +1190,64 @@ Sie haben nicht die erforderlichen Rechte</translation>
         <source>
 Latest version: </source>
         <translation>
-Aktuellste Version:</translation>
+Ultima versione:</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="894"/>
         <source>Download</source>
-        <translation>Herunterladen</translation>
+        <translation>Download</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="895"/>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Chiudi</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="911"/>
         <source>error</source>
-        <translation>Fehler</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="911"/>
         <source>There was problem while checking for updates</source>
-        <translation>Es gab ein Problem bei der Suche nach Updates</translation>
+        <translation>Si è riscontrato un problema cercando aggiornamenti</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>No updates</source>
-        <translation>Keine Updates</translation>
+        <translation>Nessun aggiornamento</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>Your version is up to date
 </source>
-        <translation>Ihre Version ist aktuell
+        <translation>La tua versione è aggiornata
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1034"/>
         <source>Donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Dona</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1035"/>
-        <source>It seems that you are using QtADB for a while now. Maybe consider a donation to a project...</source>
-        <translation type="unfinished"></translation>
+        <source>It seems that you are using DataBridge for a while now. Maybe consider a donation to a project...</source>
+        <translation>Sembra che tu stia utilizzando DataBridge da un po. Considera una donazione al progetto...</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1036"/>
         <source>Yes, I want to donate</source>
-        <translation type="unfinished"></translation>
+        <translation>Sì, voglio donare</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1037"/>
         <source>Remaind me later</source>
-        <translation type="unfinished"></translation>
+        <translation>Ricordamelo più tardi</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1038"/>
         <source>Do not bother me again</source>
-        <translation type="unfinished"></translation>
+        <translation>Non chiedermelo più</translation>
     </message>
 </context>
 <context>
@@ -1269,7 +1256,7 @@ Aktuellste Version:</translation>
         <location filename="../widgets/messagewidget.ui" line="87"/>
         <source>refresh list</source>
         <extracomment>refresh messages button</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>Aggiorna lista</translation>
     </message>
 </context>
 <context>
@@ -1277,17 +1264,17 @@ Aktuellste Version:</translation>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="50"/>
         <source>Model</source>
-        <translation>Modell</translation>
+        <translation>Modello</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="67"/>
         <source>Operator</source>
-        <translation>Anbieter</translation>
+        <translation>Operatore</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="84"/>
         <source>Serial number</source>
-        <translation>Seriennummer</translation>
+        <translation>Numero di serie</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="101"/>
@@ -1297,7 +1284,7 @@ Aktuellste Version:</translation>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="118"/>
         <source>Rom</source>
-        <translation>ROM</translation>
+        <translation>Rom</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="144"/>
@@ -1307,7 +1294,7 @@ Aktuellste Version:</translation>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="161"/>
         <source>Battery level</source>
-        <translation>Batterieladung</translation>
+        <translation>Livello batteria</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="375"/>
@@ -1315,7 +1302,7 @@ Aktuellste Version:</translation>
         <location filename="../widgets/phoneinfowidget.ui" line="389"/>
         <location filename="../widgets/phoneinfowidget.ui" line="396"/>
         <source>available:</source>
-        <translation>verfügbar:</translation>
+        <translation>disponibile:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="443"/>
@@ -1323,7 +1310,7 @@ Aktuellste Version:</translation>
         <location filename="../widgets/phoneinfowidget.ui" line="457"/>
         <location filename="../widgets/phoneinfowidget.ui" line="464"/>
         <source>used:</source>
-        <translation>benutzt:</translation>
+        <translation>usato:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="511"/>
@@ -1331,12 +1318,12 @@ Aktuellste Version:</translation>
         <location filename="../widgets/phoneinfowidget.ui" line="525"/>
         <location filename="../widgets/phoneinfowidget.ui" line="532"/>
         <source>size:</source>
-        <translation>Größe:</translation>
+        <translation>dimensione:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="690"/>
         <source>refresh</source>
-        <translation>Aktualisieren</translation>
+        <translation>Aggiorna</translation>
     </message>
 </context>
 <context>
@@ -1347,40 +1334,41 @@ Aktuellste Version:</translation>
         <location filename="../main.cpp" line="238"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>error</source>
-        <translation>Fehler</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="171"/>
         <location filename="../widgets/settingswidget.cpp" line="854"/>
         <source>Choose path to dir with adb and aapt binaries</source>
-        <translation type="unfinished"></translation>
+        <translation>Scegli la destinazione degli eseguibili ADB e AAPT</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="192"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>there is no adb binary in here!</source>
-        <translation type="unfinished"></translation>
+        <translation>Non c&apos;è l&apos;eseguibile di ADB quì!</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="193"/>
         <source>Choose path</source>
-        <translation>Bitte Pfad wählen</translation>
+        <translation>Secgli destinazione</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="194"/>
         <source>Close</source>
-        <translation>Schließen</translation>
+        <translation>Chiudi</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="224"/>
         <source>It seems that adb is not working properly</source>
-        <translation type="unfinished"></translation>
+        <translation>Sembra che adb non stia lavorando correttamente</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="239"/>
         <source>adbd cannot run as root in production builds so You can&apos;t do anything with /system partition. Run anyway?
-(press save to run QtADB and disable this message)</source>
-        <translation type="unfinished"></translation>
+(press save to run DataBridge and disable this message)</source>
+        <translation>adbd cannot run as root in production builds so You can&apos;t do anything with /system partition. Run anyway?
+(press save to run DataBridge and disable this message)</translation>
     </message>
 </context>
 <context>
@@ -1388,48 +1376,48 @@ Aktuellste Version:</translation>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="51"/>
         <source>Nandroid backup</source>
-        <translation>Nandroid Sicherung</translation>
+        <translation>Nandroid backup</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="64"/>
         <source>Bart backup</source>
-        <translation>Bart Sicherung</translation>
+        <translation>Bart backup</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="77"/>
         <source>Clear battery stats</source>
-        <translation>Batterieinfo löschen</translation>
+        <translation>Cancella statistiche batteria</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="84"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Wipe data</source>
-        <translation>Alle Daten löschen</translation>
+        <translation>Cancella dati</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="97"/>
         <source>Mount SDcard to computer</source>
-        <translation>SD Karte für PC freigeben</translation>
+        <translation>Monta SD card sul computer</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="107"/>
         <source>Nandroid restore</source>
-        <translation>Nandroid Wiederherstellung</translation>
+        <translation>Nandroid restore</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="120"/>
         <source>Bart restore</source>
-        <translation>Bart Wiederherstellung</translation>
+        <translation>Bart restore</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="133"/>
         <source>Fix UID mismatches</source>
-        <translation>UID Fehler beheben</translation>
+        <translation>Aggiusta incogruenze UID</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="143"/>
         <source>Flash zip</source>
-        <translation>zip flashen</translation>
+        <translation>Flash zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="198"/>
@@ -1439,135 +1427,140 @@ Aktuellste Version:</translation>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="214"/>
         <source>Backup</source>
-        <translation>Sicherung</translation>
+        <translation>Backup</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="234"/>
         <source>Path</source>
-        <translation>Pfad</translation>
+        <translation>Cartella</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="416"/>
         <source>Restore</source>
-        <translation>Wiederherstellung</translation>
+        <translation>Ripristina</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="839"/>
         <source>Choose one of options above</source>
-        <translation>Wählen sie eine der Optionen aus</translation>
+        <translation>Scegli una delle opzioni sopra</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fix UID finished!</source>
-        <translation>UID Reparatur abgeschlossen!</translation>
+        <translation>UID Fixata!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fixing UID mismatches is finished.</source>
-        <translation>Reparatur der UIDs abgeschlossen</translation>
+        <translation>Riparati errori UID.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <source>Flash Zip</source>
-        <translation>Zip flashen</translation>
+        <translation>Flash Zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Are you sure??</source>
-        <translation>Sind sie sicher?</translation>
+        <translation>Sicuro??</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Open ROM File</source>
-        <translation>Eine ROM Datei öffnen</translation>
+        <translation>Opri ROM file</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Zip files (*.zip)</source>
-        <translation>Zip-Dateien (*.zip)</translation>
+        <translation>Zip files (*.zip)</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="214"/>
         <location filename="../widgets/recoverywidget.cpp" line="544"/>
         <source>Writing commands....</source>
-        <translation>Schreibe Kommandos....</translation>
+        <translation>Scrivo i comandi...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="221"/>
         <location filename="../widgets/recoverywidget.cpp" line="555"/>
         <source>Rebooting....</source>
-        <translation>Starte neu....</translation>
+        <translation>Riavvio...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>USB mounted</source>
-        <translation>USB eingehangen</translation>
+        <translation>USB montata</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>SD card is mounted as usb drive</source>
-        <translation>SD Karte ist als USB-Laufwerk eingehangen</translation>
+        <translation>SDcard montata come USB drive</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>USB unmounted</source>
-        <translation>USB ausgehangen</translation>
+        <translation>USB smontata</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>SD card is unmounted</source>
-        <translation>SD-Karte ist ausgehangen</translation>
+        <translation>La SDcard è smontata</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="247"/>
         <source>Error</source>
-        <translation>Fehler</translation>
+        <translation>Errore</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Backup finished!</source>
-        <translation>Sicherung beendet!</translation>
+        <translation>Backup finito!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Nandroid backup is finished.</source>
-        <translation>Nandroid Sicherung beendet.</translation>
+        <translation>Nandroid backuo finito.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Restore finished!</source>
-        <translation>Wiederherstellung beendet!</translation>
+        <translation>Ripristino finito!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Nandroid restore is finished.</source>
-        <translation>Nandroid Wiederherstellung beendet.</translation>
+        <translation>Ripristino Nandroid finito.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="491"/>
         <source>Finished</source>
-        <translation>beendet</translation>
+        <translation>Finito</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="494"/>
         <source>Finished
 Choose one backup from combo above to restore it</source>
-        <translation>Beendet. Wählen Sie eine Sicherung von oben um sie wiederherzustellen</translation>
+        <translation>Finito
+Scegli un backup da combo sopra per ripristinare</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="516"/>
         <source>Looking for backups...</source>
-        <translation>Suche Sicherungen...</translation>
+        <translation>Cercando backups...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="534"/>
         <source>Information</source>
-        <translation>Information</translation>
+        <translation>Informazioni</translation>
     </message>
 </context>
 <context>
     <name>RegisterDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation type="vanished">Finestra</translation>
+    </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="32"/>
         <source>Register</source>
@@ -1576,22 +1569,22 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="53"/>
         <source>insert key</source>
-        <translation type="unfinished"></translation>
+        <translation>inserisci chiave</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="128"/>
         <source>Insert registration key:</source>
-        <translation type="unfinished"></translation>
+        <translation>inserisci chiave di registrazione:</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="137"/>
         <source>don&apos;t have a key? consider donation:  </source>
-        <translation type="unfinished"></translation>
+        <translation>Non hai una chiave? considera una donazione:</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="187"/>
         <source>cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>cancella</translation>
     </message>
 </context>
 <context>
@@ -1600,35 +1593,35 @@ Choose one backup from combo above to restore it</source>
         <location filename="../widgets/screenshotwidget.ui" line="76"/>
         <source>Refresh</source>
         <extracomment>refresh screenshot button</extracomment>
-        <translation>Aktualisieren</translation>
+        <translation>Aggiorna</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="87"/>
         <source>Save</source>
         <extracomment>save screenshot button</extracomment>
-        <translation>Speichern</translation>
+        <translation>Salva</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="98"/>
         <source>Rotate left</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>Links drehen</translation>
+        <translation>Ruota a sinistra</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="109"/>
         <source>Rotate right</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>Rechts drehen</translation>
+        <translation>Ruota a destra</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Save File...</source>
-        <translation>Datei speichern...</translation>
+        <translation>Salva file...</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Png file</source>
-        <translation>Png Datei</translation>
+        <translation>File PNG</translation>
     </message>
 </context>
 <context>
@@ -1636,144 +1629,144 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="190"/>
         <source>Save position and size of window on exit</source>
-        <translation>Fensterposition und -größe speichern</translation>
+        <translation>Salva posizione e dimensione della finestra all&apos;uscita</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="197"/>
         <source>Always close copy window after finished</source>
-        <translation>Kopierfenster immer automatisch schließen</translation>
+        <translation>Chiudi sempre la finestra di copia in uscita</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="204"/>
         <source>Show modal copy window</source>
-        <translation>Kopierenfenster fängt den Fokus</translation>
+        <translation>Mostra finestra di copia modale</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="217"/>
         <source>App font:</source>
-        <translation>Anwendungsschriftart:</translation>
+        <translation>Font applicazione:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="243"/>
         <location filename="../widgets/settingswidget.ui" line="282"/>
         <location filename="../widgets/settingswidget.ui" line="315"/>
         <source>Change font</source>
-        <translation>Schriftart ändern</translation>
+        <translation>Cambia font</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="256"/>
         <source>Tables font:</source>
-        <translation>Tabellenschriftart:</translation>
+        <translation>Font Tabelle:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="289"/>
         <source>Shell font:</source>
-        <translation>Konsolenschriftart:</translation>
+        <translation>Font della shell:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="370"/>
         <source>Kill demon on exit</source>
-        <translation>Prozess beim Schließen beenden</translation>
+        <translation>Killa demone adb in uscita</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="390"/>
         <source>Check for updates on start</source>
-        <translation>Beim Start nach Updates suchen</translation>
+        <translation>Cerca aggiornameti all&apos;avvio</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="940"/>
         <source>Coloring files</source>
-        <translation>Dateien färben</translation>
+        <translation>Colorazione files</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="410"/>
         <source>Set toolBar style:</source>
-        <translation>Werkzeugleistenstil:</translation>
+        <translation>Imposta stile toolBar:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="117"/>
         <source>Shell</source>
-        <translation>Konsole</translation>
+        <translation>Shell</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="417"/>
         <source>Set toolBar icon size:</source>
-        <translation>Größe der Symbole in der Werkzeugleiste:</translation>
+        <translation>Imposta altezza toolBar:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="424"/>
         <source>Set hide/disable buttons on toolBar:</source>
-        <translation>Schaltflächen der Werkzeugleiste verstecken/deaktivieren:</translation>
+        <translation>Nascondi/disabilita bottoni nella toolBar:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="432"/>
         <source>Icon only</source>
-        <translation>Nur Symbol</translation>
+        <translation>Solo icona</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="437"/>
         <source>Text only</source>
-        <translation>Nur Text</translation>
+        <translation>Solo testo</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="442"/>
         <source>Text beside icon</source>
-        <translation>Text neben Symbol</translation>
+        <translation>Testo accanto all&apos;icona</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="447"/>
         <source>Text under icon</source>
-        <translation>Text unter Symbol</translation>
+        <translation>Testo sotto all&apos;icona</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="456"/>
         <source>Hide buttons</source>
-        <translation>Verberge Schaltflächen</translation>
+        <translation>Nascondi bottoni</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="461"/>
         <source>Disable buttons</source>
-        <translation>Schaltflächen deaktivieren</translation>
+        <translation>Disabilita bottoni</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="483"/>
         <source>Left</source>
-        <translation>Links</translation>
+        <translation>Sinistra</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="488"/>
         <source>Right</source>
-        <translation>Rechts</translation>
+        <translation>Destra</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="493"/>
         <source>Top</source>
-        <translation>Oben</translation>
+        <translation>Sopra</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="498"/>
         <source>Bottom</source>
-        <translation>Unten</translation>
+        <translation>Sotto</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="506"/>
         <source>Area of toolBar:</source>
-        <translation>Bereich der Werkzeugleiste:</translation>
+        <translation>Posizione della toolBar:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="514"/>
         <source>Left to right</source>
-        <translation type="unfinished"></translation>
+        <translation>Da sinistra a destra</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="519"/>
         <source>Right to left</source>
-        <translation type="unfinished"></translation>
+        <translation>Da destra a sinistra</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="527"/>
         <source>App layout:</source>
-        <translation type="unfinished"></translation>
+        <translation>Layout applicazione:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="554"/>
@@ -1784,35 +1777,35 @@ Choose one backup from combo above to restore it</source>
         <location filename="../widgets/settingswidget.ui" line="575"/>
         <location filename="../widgets/settingswidget.ui" line="797"/>
         <source>Set path on start:</source>
-        <translation>Pfad beim Start setzen:</translation>
+        <translation>Scegli destinazione all&apos;avvio:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="598"/>
         <location filename="../widgets/settingswidget.ui" line="820"/>
         <source>Remember path on exit</source>
-        <translation>Pfad beim beenden speichern</translation>
+        <translation>Ricorda destinazione all&apos;uscita</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="611"/>
         <location filename="../widgets/settingswidget.ui" line="833"/>
         <source>Show hidden files</source>
-        <translation>Versteckte Dateien anzeigen</translation>
+        <translation>Mostra files nascosti</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="627"/>
         <location filename="../widgets/settingswidget.ui" line="849"/>
         <source>Show table columns headers</source>
-        <translation>Tabellenüberschriften zeigen</translation>
+        <translation>Mostra intestazioni tabelle</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="688"/>
         <source>Show app icon instead default</source>
-        <translation>Zeige App-Symbol anstelle des Standardsymbols</translation>
+        <translation>Mostra icona app invece di quella di default</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="701"/>
         <source>Instead of file name show:</source>
-        <translation>Anstatt des Dateinamen zeige:</translation>
+        <translation>Invece del nome file mostra:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="714"/>
@@ -1820,7 +1813,7 @@ Choose one backup from combo above to restore it</source>
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</source>
-        <translation>Verfügbare Variablen:
+        <translation>Variabili disponibili:
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</translation>
@@ -1828,17 +1821,17 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="743"/>
         <source>Show/hide computer files columns:</source>
-        <translation>Spalten für PC-Dateien anzeigen/verstecken</translation>
+        <translation>Mostra/nascondi colonne computer:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="776"/>
         <source>Phone</source>
-        <translation>Telefon</translation>
+        <translation>Telefono</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="917"/>
         <source>Show/hide phone files columns:</source>
-        <translation>Spalten für Telefon-Dateien anzeigen/verstecken:</translation>
+        <translation>Mostra/nascondi colonne telefono:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="951"/>
@@ -1853,150 +1846,150 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1071"/>
         <source>Default action on backup:</source>
-        <translation>Standardaktion beim Sichern:</translation>
+        <translation>Azione predefinita di backup:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1082"/>
         <source>Backup only apk</source>
-        <translation>Nur die APK sichern</translation>
+        <translation>Backup solo apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1087"/>
         <source>Backup only data</source>
-        <translation>Nur Daten sichern</translation>
+        <translation>Backup solo dati</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1092"/>
         <source>Backup apk + data</source>
-        <translation>APK und Daten sichern</translation>
+        <translation>Backup apk + dati</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1100"/>
         <source>Default action on restore:</source>
-        <translation>Standardaktion beim Wiederherstellen:</translation>
+        <translation>Azione predefinita al ripristino:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1111"/>
         <source>Restore only apk</source>
-        <translation>Nur APK wieder herstellen</translation>
+        <translation>Ripristina solo apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1116"/>
         <source>Restore only data</source>
-        <translation>Nur Daten wieder herstellen</translation>
+        <translation>Ripristina solo dati</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1121"/>
         <source>Restore apk + data</source>
-        <translation>APK und Daten wieder herstellen</translation>
+        <translation>Ripristina apk + dati</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1129"/>
         <source>Sort by column:</source>
-        <translation>Nach Spalte sortieren:</translation>
+        <translation>Ordina colonna per:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1137"/>
         <source>App name</source>
-        <translation>Anwendungsname</translation>
+        <translation>Nome app</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1142"/>
         <source>App version</source>
-        <translation>Anwendungsversion</translation>
+        <translation>Versione app</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1147"/>
         <source>App size</source>
-        <translation>Anwendungsgröße</translation>
+        <translation>Dimensione app</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1152"/>
         <source>App package name</source>
-        <translation>Anwendungspaketname</translation>
+        <translation>Nome pacchetto app</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1160"/>
         <source>Get backups:</source>
-        <translation>Hole Sicherungen:</translation>
+        <translation>Ottieni backups:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1168"/>
         <location filename="../widgets/settingswidget.ui" line="1182"/>
         <location filename="../widgets/settingswidget.ui" line="1274"/>
         <source>only on start</source>
-        <translation>Nur beim Start</translation>
+        <translation>Solo all&apos;avvio</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1173"/>
         <source>every time before show</source>
-        <translation>Jedes mal vor dem Anzeigen</translation>
+        <translation>Prima della visualizzazione</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1187"/>
         <location filename="../widgets/settingswidget.ui" line="1279"/>
         <source>every time on show</source>
-        <translation>Jedes mal beim Anzeigen</translation>
+        <translation>Appena viene visualizzato</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1259"/>
         <source>Get applications:</source>
-        <translation>Hole Anwendungsinformationen:</translation>
+        <translation>Ottieni info app:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1266"/>
         <source>Get system applications:</source>
-        <translation>Hole Systemanwendungen:</translation>
+        <translation>Ricevi app di sistema:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1300"/>
         <source>Check app version on internet</source>
-        <translation>Überprüfe App Version im Internet</translation>
+        <translation>Controlla versione app su internet</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1320"/>
         <source>Show/hide apps columns:</source>
-        <translation>Spalten für Apps anzeigen/verstecken</translation>
+        <translation>Mostra/nascondi colonne apps:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1327"/>
         <source>Show/hide backups columns:</source>
-        <translation>Spalten für Sicherung anzeigen/verstecken</translation>
+        <translation>Mostra/nascondi colonne backups:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1336"/>
         <source>sd ext folder</source>
-        <translation type="unfinished"></translation>
+        <translation>cartella sd ext</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1346"/>
         <source>Detect</source>
-        <translation type="unfinished"></translation>
+        <translation>Individua</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1377"/>
         <source>Enable animations</source>
-        <translation>Animationen aktivieren</translation>
+        <translation>Attiva animazioni</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1387"/>
         <source>Duration (in miliseconds)</source>
-        <translation>Dauer (in Millisekunden)</translation>
+        <translation>Durata (in millisecondi)</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1578"/>
         <source>Change background color</source>
-        <translation>Hintergrundfarbe ändern</translation>
+        <translation>Cambia colore sfondo</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1585"/>
         <source>Change font color</source>
-        <translation>Schriftfarbe ändern</translation>
+        <translation>Cambia colore font</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1668"/>
         <source>Color files</source>
-        <translation>Farbige Dateien</translation>
+        <translation>Colore files</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1683"/>
@@ -2006,121 +1999,121 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1408"/>
         <source>UpToDown</source>
-        <translation>Von oben nach unten</translation>
+        <translation>Dall&apos;alto al basso</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1413"/>
         <source>DownToUp</source>
-        <translation>Von unten nach oben</translation>
+        <translation>Dal basso all&apos;alto</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1418"/>
         <source>LeftToRight</source>
-        <translation>Von Links nach Rechts</translation>
+        <translation>Da sinistra a destra</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1423"/>
         <source>RightToLeft</source>
-        <translation>Von Rechts nach Links</translation>
+        <translation>Da destra a sinistra</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1526"/>
         <source>Direction</source>
-        <translation>Richtung</translation>
+        <translation>Direzione</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="97"/>
         <source>General</source>
-        <translation>Allgemein</translation>
+        <translation>Generale</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="102"/>
         <source>File manager</source>
-        <translation>Dateimanager</translation>
+        <translation>File manager</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="107"/>
         <source>App manager</source>
-        <translation>Anwendungsmanager</translation>
+        <translation>App manager</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="112"/>
         <source>Animations</source>
-        <translation>Animationen</translation>
+        <translation>Animazioni</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="125"/>
         <source>Remove settings from system</source>
-        <translation>Einstellungen vom System entfernen</translation>
+        <translation>Rimuovi settings dal computer</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="138"/>
         <source>Set defaults</source>
-        <translation>Standard setzen</translation>
+        <translation>Imposta predefinito</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="151"/>
         <source>Save Settings</source>
-        <translation>Einstellungen speichern</translation>
+        <translation>Salva settaggi</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="167"/>
-        <source>Associate apk files with QtADB</source>
-        <translation>apk-Datein mit QtADB verknüpfen</translation>
+        <source>Associate apk files with DataBridge</source>
+        <translation>Associa i file apk a DataBridge</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Reset settings??</source>
-        <translation type="unfinished"></translation>
+        <translation>Azzera settaggi??</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Are you sure you want restore settings to defaults???</source>
-        <translation type="unfinished"></translation>
+        <translation>Sicuro di voler ripristinare i settaggi di default???</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="611"/>
         <source>Icon</source>
         <comment>icon app column</comment>
-        <translation>Symbol</translation>
+        <translation>Icona</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="630"/>
         <source>Icon</source>
         <comment>icon backup column</comment>
-        <translation>Symbol</translation>
+        <translation>Icona</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="648"/>
         <source>Icon</source>
         <comment>icon computer column</comment>
-        <translation>Symbol</translation>
+        <translation>Icona</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="665"/>
         <source>Icon</source>
         <comment>icon phone column</comment>
-        <translation>Symbol</translation>
+        <translation>Icona</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
         <source>Associate??</source>
-        <translation type="unfinished"></translation>
+        <translation>Associare??</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
-        <source>Are you sure you want to associate *.apk files with QtADB???</source>
-        <translation type="unfinished"></translation>
+        <source>Are you sure you want to associate *.apk files with DataBridge???</source>
+        <translation>Sicuro di voler associare i files *.apk con DataBridge???</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="772"/>
         <source>Install apk</source>
-        <translation>apk installieren</translation>
+        <translation>Installa apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="843"/>
         <source>&lt;Not Found&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;Non Trovato&gt;</translation>
     </message>
 </context>
 <context>
@@ -2128,74 +2121,76 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="241"/>
         <source>
-QtADB shell help
+DataBridge shell help
 </source>
-        <translation type="unfinished"></translation>
+        <translation>
+DataBridge shell help
+</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="242"/>
         <source>CTRL+C                - interrupt executing command</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+C                -interrompi esecuzione comando</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="243"/>
         <source>ESC                   - interrupt executing command</source>
-        <translation type="unfinished"></translation>
+        <translation>ESC                -interrompi esecuzione comando</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="244"/>
         <source>Shift+CTRL+C          - copy selected text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+CTRL+C          - copia testo selezionato negli appunti</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="245"/>
         <source>Shift+CTRL+V          - paste text from clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+CTRL+V          - incolla testo dagli appunti</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="246"/>
         <source>Enter/Return          - execute command</source>
-        <translation type="unfinished"></translation>
+        <translation>Enter/Return          - esegui comando</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="247"/>
         <source>Up (arrow)            - display previous executed command</source>
-        <translation type="unfinished"></translation>
+        <translation>Su (freccia))            - visualizza comando eseguito precedentemente</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="248"/>
         <source>Down (arrow)          - display next executed command</source>
-        <translation type="unfinished"></translation>
+        <translation>Giù (freccia)          - visualizza prossimo comando</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="249"/>
         <source>Left(arrow)           - move cursor to the left</source>
-        <translation type="unfinished"></translation>
+        <translation>Sinistra(freccia)           - muovi cursore a sinistra</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="250"/>
         <source>Right(arrow)          - move cursor to the right</source>
-        <translation type="unfinished"></translation>
+        <translation>Destra(freccia)          - muovi cursore a destra</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="251"/>
         <source>CTRL+Left(arrow)      - move cursor to the left skipping over the word</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+Sinistra(freccia)      - muovi cursore a sinistra saltando la parola</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="252"/>
         <source>CTRL+Right(arrow)     - move cursor to the right skipping over the word</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+Destra(freccia)      - muovi cursore a sinistra saltando la parola</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="253"/>
         <source>Delete                - delete next char</source>
-        <translation type="unfinished"></translation>
+        <translation>Delete                - cancella prossimo carattere</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="254"/>
         <source>Backspace             - delete previous char</source>
-        <translation type="unfinished"></translation>
+        <translation>Backspace                - cancella carattere antecedente</translation>
     </message>
 </context>
 <context>
@@ -2203,7 +2198,7 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="477"/>
         <source>SUCCESS</source>
-        <translation>ERFOLG</translation>
+        <translation>SUCCESS</translation>
     </message>
 </context>
 <context>
@@ -2211,12 +2206,12 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="614"/>
         <source>FAILURE</source>
-        <translation>FEHLER</translation>
+        <translation>FAILURE</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="618"/>
         <source>SUCCESS</source>
-        <translation>ERFOLG</translation>
+        <translation>SUCCESS</translation>
     </message>
 </context>
 <context>
@@ -2226,14 +2221,14 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="550"/>
         <location filename="../dialogs/appdialog.cpp" line="587"/>
         <source>FAILURE</source>
-        <translation>FEHLER</translation>
+        <translation>FAILURE</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="546"/>
         <location filename="../dialogs/appdialog.cpp" line="554"/>
         <location filename="../dialogs/appdialog.cpp" line="583"/>
         <source>SUCCESS</source>
-        <translation>ERFOLG</translation>
+        <translation>SUCCESS</translation>
     </message>
 </context>
 <context>
@@ -2241,13 +2236,13 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="669"/>
         <source>FAILURE</source>
-        <translation>FEHLER</translation>
+        <translation>FAILURE</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="673"/>
         <location filename="../dialogs/appdialog.cpp" line="677"/>
         <source>SUCCESS</source>
-        <translation>ERFOLG</translation>
+        <translation>SUCCESS</translation>
     </message>
 </context>
 <context>
@@ -2260,19 +2255,19 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.ui" line="111"/>
         <source>state</source>
-        <translation>Status</translation>
+        <translation>Stato</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="48"/>
         <location filename="../dialogs/appdialog.cpp" line="49"/>
         <source>Install</source>
-        <translation>Installieren</translation>
+        <translation>Installa</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="54"/>
         <location filename="../dialogs/appdialog.cpp" line="55"/>
         <source>Uninstall</source>
-        <translation>Deinstallieren</translation>
+        <translation>Disinstalla</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="60"/>
@@ -2280,239 +2275,239 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="142"/>
         <location filename="../dialogs/appdialog.cpp" line="143"/>
         <source>Reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>Reinstalla</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="68"/>
         <location filename="../dialogs/appdialog.cpp" line="69"/>
         <source>Backup apps</source>
-        <translation>Apps sichern</translation>
+        <translation>Backup apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="73"/>
         <location filename="../dialogs/appdialog.cpp" line="74"/>
         <source>Backup data</source>
-        <translation>Daten sichern</translation>
+        <translation>Backup dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="78"/>
         <location filename="../dialogs/appdialog.cpp" line="79"/>
         <source>Backup apps and data</source>
-        <translation>Sichere Apps und Daten</translation>
+        <translation>Backup apps e dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="87"/>
         <location filename="../dialogs/appdialog.cpp" line="88"/>
         <source>Restore apps</source>
-        <translation>Apps wiederherstellen</translation>
+        <translation>Restore apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="92"/>
         <location filename="../dialogs/appdialog.cpp" line="93"/>
         <source>Restore data</source>
-        <translation>Daten wiederherstellen</translation>
+        <translation>Restore dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="97"/>
         <location filename="../dialogs/appdialog.cpp" line="98"/>
         <location filename="../dialogs/appdialog.cpp" line="179"/>
         <source>Restore apps and data</source>
-        <translation>Stelle Apps und Daten wieder her</translation>
+        <translation>Restore apps e dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="130"/>
         <source>Install</source>
         <comment>apd dialog title</comment>
-        <translation>Installieren</translation>
+        <translation>Installa</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="131"/>
         <source>Install</source>
         <comment>label text</comment>
-        <translation>Installieren</translation>
+        <translation>Installa</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="136"/>
         <source>Uninstall</source>
         <comment>apd dialog title</comment>
-        <translation>Deinstallieren</translation>
+        <translation>Disinstalla</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="137"/>
         <source>Uninstall</source>
         <comment>label text</comment>
-        <translation>Deinstallieren</translation>
+        <translation>Disinstalla</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="150"/>
         <source>Backup apps</source>
         <comment>apd dialog title</comment>
-        <translation>Apps sichern</translation>
+        <translation>Backup apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="151"/>
         <source>Backup apps</source>
         <comment>label text</comment>
-        <translation>Apps sichern</translation>
+        <translation>Backup apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="155"/>
         <source>Backup data</source>
         <comment>apd dialog title</comment>
-        <translation>Daten sichern</translation>
+        <translation>Backup dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="156"/>
         <source>Backup data</source>
         <comment>label text</comment>
-        <translation>Daten sichern</translation>
+        <translation>Backup dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="160"/>
         <source>Backup apps and data</source>
         <comment>apd dialog title</comment>
-        <translation>Sichere Apps und Daten</translation>
+        <translation>Backup apps e dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="161"/>
         <source>Backup apps and data</source>
         <comment>label text</comment>
-        <translation>Sichere Apps und Daten</translation>
+        <translation>Backup apps e dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="169"/>
         <source>Restore apps</source>
         <comment>apd dialog title</comment>
-        <translation>Apps wiederherstellen</translation>
+        <translation>Restore apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="170"/>
         <source>Restore apps</source>
         <comment>label text</comment>
-        <translation>Apps wiederherstellen</translation>
+        <translation>Restore apps</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="174"/>
         <source>Restore data</source>
         <comment>apd dialog title</comment>
-        <translation>Daten wiederherstellen</translation>
+        <translation>Restore dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="175"/>
         <source>Restore data</source>
         <comment>label text</comment>
-        <translation>Daten wiederherstellen</translation>
+        <translation>Restore dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="180"/>
         <source>Restore apps and data</source>
         <comment>label text</comment>
-        <translation>Stelle Apps und Daten wieder her</translation>
+        <translation>Restore apps e dati</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Cancel operation??</source>
-        <translation>Operation Abbrechen?</translation>
+        <translation>Cancella operazione??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Are you sure You want to cancel operation??</source>
-        <translation>Sind sie sicher, dass sie diese Operation Abbrechen wollen?</translation>
+        <translation>Sei proprio sicuro di voler cancellare l&apos;operazione??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="360"/>
         <source>Install finished</source>
-        <translation>Installation beendet</translation>
+        <translation>Installazione completata</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="364"/>
         <source>Uninstall finished</source>
-        <translation>Deinstallation beendet</translation>
+        <translation>Disinstallazione completata</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="368"/>
         <source>Reinstall finished</source>
-        <translation type="unfinished"></translation>
+        <translation>Reinstallazione finita</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="372"/>
         <source>Backup finished</source>
-        <translation>Sicherung beendet</translation>
+        <translation>Backup completato</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="376"/>
         <source>Restore finished</source>
-        <translation>Wiederherstellung beendet</translation>
+        <translation>Ripristino completato</translation>
     </message>
 </context>
 <context>
     <name>appInfo</name>
     <message>
-        <location filename="../dialogs/appinfo.ui" line="14"/>
-        <source>App info</source>
-        <extracomment>app info dialog title</extracomment>
-        <translation>App Info</translation>
+        <location filename="../dialogs/appinfo.ui" line="111"/>
+        <source>App version</source>
+        <translation>Versione app</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="87"/>
         <source>App name</source>
-        <translation>Anwendungsname</translation>
+        <translation>Nome app</translation>
     </message>
     <message>
-        <location filename="../dialogs/appinfo.ui" line="111"/>
-        <source>App version</source>
-        <translation>Anwendungsversion</translation>
+        <location filename="../dialogs/appinfo.ui" line="14"/>
+        <source>App info</source>
+        <extracomment>app info dialog title</extracomment>
+        <translation>Info app</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="135"/>
         <source>Package name</source>
-        <translation>Paketname</translation>
+        <translation>Nome pacchetto</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="159"/>
         <source>File name</source>
-        <translation>Dateiname</translation>
+        <translation>Nome file</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="173"/>
         <source>File Size</source>
-        <translation>Dateigröße</translation>
+        <translation>Dimensione file</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="263"/>
         <source>Open in Market (PC)</source>
-        <translation type="unfinished"></translation>
+        <translation>Apri in Market (PC)</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="274"/>
         <source>Open in Market (Phone)</source>
-        <translation type="unfinished"></translation>
+        <translation>Apri in Market (Telefono)</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="285"/>
         <source>Install</source>
-        <translation>Installieren</translation>
+        <translation>Installa</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="58"/>
         <location filename="../dialogs/appinfo.cpp" line="103"/>
         <source>Reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>Reinstalla</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>install</source>
-        <translation>Installieren</translation>
+        <translation>Installa</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>are you sure???</source>
-        <translation>Sind sie sicher?</translation>
+        <translation>Sicuro???</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>Reinstalla</translation>
     </message>
 </context>
 <context>
@@ -2521,57 +2516,57 @@ QtADB shell help
         <location filename="../dialogs/dialogkopiuj.ui" line="14"/>
         <source>Copying</source>
         <extracomment>Copy dialog title</extracomment>
-        <translation>Kopiere</translation>
+        <translation>Copiando</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="29"/>
         <source>file:</source>
-        <translation>Datei:</translation>
+        <translation>file:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="43"/>
         <source>from:</source>
-        <translation>Von:</translation>
+        <translation>da:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="57"/>
         <source>to:</source>
-        <translation>Nach:</translation>
+        <translation>a:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="71"/>
         <source>items remaining:</source>
-        <translation>restliche Elemente</translation>
+        <translation>oggetti rimasti:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="87"/>
         <source>File:</source>
-        <translation>Datei:</translation>
+        <translation>File:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="174"/>
         <source>Total:</source>
-        <translation>Gesamt</translation>
+        <translation>Totale:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="198"/>
         <source>close after finished</source>
-        <translation>Schließen, wenn fertig</translation>
+        <translation>Chiudi quando finito</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="218"/>
         <source>Cancel</source>
-        <translation>Abbrechen</translation>
+        <translation>Cancel</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Close??</source>
-        <translation>Abbrechen?</translation>
+        <translation>Cancel operation??</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Are you sure??</source>
-        <translation>Sind sie sicher?</translation>
+        <translation>Sicuro??</translation>
     </message>
 </context>
 </TS>

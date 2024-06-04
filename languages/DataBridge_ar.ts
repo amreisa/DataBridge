@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ja">
+<TS version="2.1" language="ar">
 <context>
     <name>AboutDialog</name>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="23"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>About dialog title</extracomment>
-        <translation>QtADB - あんたのアンドロイド・マネジャー</translation>
+        <translation>DataBridge - Your android manager</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="117"/>
         <source>Created by 7ymekk &amp; mozarcik</source>
-        <translation>7ymekk &amp; mozarcikで作りました</translation>
+        <translation>تعريب صهيب المصرى وبرمجة 7ymekk &amp; mozarcik</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="124"/>
         <source>Version</source>
-        <translation>バージョン</translation>
+        <translation>الاصدار</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="141"/>
         <source>Questions?? Suggestions??</source>
-        <translation>質問？　進めあるの？</translation>
+        <translation>اسئلة?? اقتراحات??</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="148"/>
         <source>Feel free to contact us:</source>
-        <translation>Tvek ej att kontakta oss:</translation>
+        <translation>اتصل بنا:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="172"/>
         <source>Website:</source>
-        <translation>ホームページ:</translation>
+        <translation>الموقع:</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="193"/>
         <source>Icons in app are from:</source>
-        <translation>アイコンの源:</translation>
+        <translation>الايقونات فى البرنامج من :</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="214"/>
         <source>and</source>
-        <translation>と</translation>
+        <translation>و</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="280"/>
         <source>Ok</source>
-        <translation>OK</translation>
+        <translation>موافق</translation>
     </message>
     <message>
         <location filename="../dialogs/aboutdialog.ui" line="303"/>
@@ -55,7 +55,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;QtADB was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;DataBridge was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -74,37 +74,37 @@ p, li { white-space: pre-wrap; }
         <location filename="../classes/models/apptablemodel.cpp" line="183"/>
         <source>Name</source>
         <comment>application table name</comment>
-        <translation>名</translation>
+        <translation>اسم</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="185"/>
         <source>Version</source>
         <comment>application table version</comment>
-        <translation>バージョン</translation>
+        <translation>الاصدار</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="187"/>
         <source>Size</source>
         <comment>applications table size</comment>
-        <translation>大きさ</translation>
+        <translation>الحجم</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="189"/>
         <source>Package</source>
         <comment>application table package</comment>
-        <translation>パッケージ</translation>
+        <translation>الحزمة</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="191"/>
         <source>File</source>
         <comment>application table file</comment>
-        <translation>ファイル</translation>
+        <translation>ملف</translation>
     </message>
     <message>
         <location filename="../classes/models/apptablemodel.cpp" line="193"/>
         <source>Location</source>
         <comment>application table location</comment>
-        <translation>場所</translation>
+        <translation>موقع</translation>
     </message>
 </context>
 <context>
@@ -112,262 +112,262 @@ p, li { white-space: pre-wrap; }
     <message>
         <location filename="../widgets/appwidget.ui" line="69"/>
         <source>applications</source>
-        <translation>アップリケシャン</translation>
+        <translation>البرامج</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="74"/>
         <source>backups</source>
-        <translation>バックアップ所</translation>
+        <translation>باك اب</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="79"/>
         <source>system apps</source>
-        <translation>システムアップリ</translation>
+        <translation>ملفات النظام</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="89"/>
         <source>filter</source>
-        <translation>フィルター</translation>
+        <translation>فرز</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="167"/>
         <source>App name</source>
         <extracomment>app name label</extracomment>
-        <translation>アップリ名</translation>
+        <translation>اسم البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="181"/>
         <source>App version</source>
         <extracomment>version label</extracomment>
-        <translation>アップリ・バージョン</translation>
+        <translation>اصدار البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="195"/>
         <source>File name</source>
         <extracomment>file name label</extracomment>
-        <translation>ファイル名</translation>
+        <translation>اسم الملف</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="209"/>
         <source>File Size</source>
         <extracomment>size label</extracomment>
-        <translation>ファイル大きさ</translation>
+        <translation>حجم الملف</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="253"/>
         <source>Package name</source>
         <extracomment>package label</extracomment>
-        <translation>パッケージ名</translation>
+        <translation>اسم الحزمة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="287"/>
         <source>Location</source>
         <extracomment>location label</extracomment>
-        <translation>場所</translation>
+        <translation>الموقع</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="334"/>
         <source>Latest version</source>
         <extracomment>latest version label</extracomment>
-        <translation>最初バージョン</translation>
+        <translation>اخر اصدار</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="368"/>
         <location filename="../widgets/appwidget.cpp" line="801"/>
         <source>uninstall</source>
         <extracomment>uninstall apps</extracomment>
-        <translation>アンインストール</translation>
+        <translation>ازالة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="400"/>
         <location filename="../widgets/appwidget.cpp" line="684"/>
         <source>backup</source>
         <extracomment>backup apps</extracomment>
-        <translation>バックアップ</translation>
+        <translation>باك اب</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="446"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>restore</source>
         <extracomment>restore backup</extracomment>
-        <translation>復元</translation>
+        <translation>استعادة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="478"/>
         <source>remove</source>
         <extracomment>remove backup</extracomment>
-        <translation>削除</translation>
+        <translation>نقل</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="509"/>
         <source>Refresh</source>
         <extracomment>refresh apps/backups</extracomment>
-        <translation>リフレッシュ</translation>
+        <translation>تحديث</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="535"/>
         <source>Open in Market (Phone)</source>
-        <translation type="unfinished"></translation>
+        <translation>فتح فى الماركت بالجوال</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.ui" line="561"/>
         <source>Open in Market (PC)</source>
-        <translation type="unfinished"></translation>
+        <translation>فت بالماركت بالكومبيوتر</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="174"/>
         <source>Choose where You want to save selected apps</source>
-        <translation>どこに保存するのを選んで</translation>
+        <translation>اختر اين تريد تخزين البرامج المحددة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
         <source>Missing aapt</source>
-        <translation>aaptはない</translation>
+        <translation>aapt مفقودة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="95"/>
         <source>backup</source>
         <comment>backup menu title</comment>
-        <translation>バックアップ</translation>
+        <translation>باك اب</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="97"/>
         <source>app</source>
         <comment>backup menu action</comment>
-        <translation>アップリ</translation>
+        <translation>تطبيق</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="98"/>
         <source>data</source>
         <comment>backup menu action</comment>
-        <translation>データー</translation>
+        <translation>بيانات</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="99"/>
         <source>app + data</source>
         <comment>backup menu action</comment>
-        <translation>アップリとデーター</translation>
+        <translation>البرامج والبيانات</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="107"/>
         <source>restore</source>
         <comment>restore menu title</comment>
-        <translation>復元</translation>
+        <translation>استعادة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="109"/>
         <source>app</source>
         <comment>restore menu action</comment>
-        <translation>アップリ</translation>
+        <translation>برنامج</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="110"/>
         <source>data</source>
         <comment>restore menu action</comment>
-        <translation>データー</translation>
+        <translation>بيانات</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="111"/>
         <source>app + data</source>
         <comment>restore menu action</comment>
-        <translation>アップリとデーター</translation>
+        <translation>البيانات والبرامج</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="195"/>
         <source>uninstall</source>
         <comment>right click apps menu</comment>
-        <translation>アンインストール</translation>
+        <translation>ازلة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="196"/>
         <source>copy to PC</source>
         <comment>right click apps menu</comment>
-        <translation>パソコンへこーピイして</translation>
+        <translation>نسخ الى الحاسوب</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="197"/>
         <source>Get apps info</source>
         <comment>right click apps menu</comment>
-        <translation>アップリ情報収集</translation>
+        <translation>الحصول على بينات البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="198"/>
         <source>Get apps version from internet</source>
         <comment>right click apps menu</comment>
-        <translation>アップリのバージョン収集</translation>
+        <translation>الحصول على اصدار البرنامج من الانترنت</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="214"/>
         <source>remove</source>
         <comment>right click backups menu</comment>
-        <translation>削除</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="239"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>選択されてる</translation>
+        <translation>مختارة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="376"/>
         <location filename="../widgets/appwidget.cpp" line="449"/>
         <source>App name</source>
         <comment>combo apps filter</comment>
-        <translation>アップリ名</translation>
+        <translation>اسم البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="377"/>
         <location filename="../widgets/appwidget.cpp" line="450"/>
         <source>Package name</source>
         <comment>combo apps filter</comment>
-        <translation>パッケージ名</translation>
+        <translation>اسم الحزمة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="378"/>
         <location filename="../widgets/appwidget.cpp" line="451"/>
         <source>File path</source>
         <comment>combo apps filter</comment>
-        <translation>ファイルのパス</translation>
+        <translation>مسار الملف</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="379"/>
         <location filename="../widgets/appwidget.cpp" line="452"/>
         <source>Location</source>
         <comment>combo apps filter</comment>
-        <translation>場所</translation>
+        <translation>الموقع</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="415"/>
         <source>App name</source>
         <comment>combo backups filter</comment>
-        <translation>アップリ名</translation>
+        <translation>اسم البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="416"/>
         <source>Package name</source>
         <comment>combo backups filter</comment>
-        <translation>パッケージ名</translation>
+        <translation>اسم الحزمة</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="618"/>
-        <source>QtADB did not found aapt.
+        <source>DataBridge did not found aapt.
 Download it and place in one directory with adb.
 After You place it in correct directory click Refresh button</source>
-        <translation>appt見つけられなかった.
-ダウンロードして同じフォールだーに保存してで
-リフレッシュにクリックして</translation>
+        <translation>تعثر الحصول على ملفات aapt
+الرجاء قم بتحميلها وضعها فى المجلد مع  adp
+بعد الانتهاء من ذللك اعمل تحديث</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="619"/>
         <source>Download</source>
         <comment>missing aapt message button</comment>
-        <translation>ダウンロード</translation>
+        <translation>تحميل</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="620"/>
         <source>Cancel</source>
         <comment>missing aapt message button</comment>
-        <translation>キャンセル</translation>
+        <translation>الغاء</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="685"/>
@@ -375,17 +375,17 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <location filename="../widgets/appwidget.cpp" line="883"/>
         <source>are you sure???</source>
-        <translation>確信してる???</translation>
+        <translation>هل انت متاكد???</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="738"/>
         <source>select apps to install</source>
-        <translation>インストール欲しいアップリを選択して</translation>
+        <translation>اختار تطبيق لتنصيبه</translation>
     </message>
     <message>
         <location filename="../widgets/appwidget.cpp" line="833"/>
         <source>remove backup</source>
-        <translation>バックアップ削除</translation>
+        <translation>حذف الباك اب</translation>
     </message>
 </context>
 <context>
@@ -394,49 +394,49 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/backuptablemodel.cpp" line="147"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="152"/>
         <source>yes</source>
-        <translation>はい</translation>
+        <translation>نعم</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="149"/>
         <location filename="../classes/models/backuptablemodel.cpp" line="154"/>
         <source>no</source>
-        <translation>いいえ</translation>
+        <translation>لا</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="173"/>
         <source>Name</source>
         <comment>backup table header app name</comment>
-        <translation>名</translation>
+        <translation>اسم</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="175"/>
         <source>Version</source>
         <comment>backup table header app version</comment>
-        <translation>バージョン</translation>
+        <translation>اصدار</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="177"/>
         <source>Size</source>
         <comment>backup table header app size</comment>
-        <translation>大きさ</translation>
+        <translation>حجم</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="179"/>
         <source>Package</source>
         <comment>backup table header app package</comment>
-        <translation>パッケージ</translation>
+        <translation>حزمة</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="181"/>
         <source>App</source>
         <comment>backup table header apk file</comment>
-        <translation>アップリ</translation>
+        <translation>برنامج</translation>
     </message>
     <message>
         <location filename="../classes/models/backuptablemodel.cpp" line="183"/>
         <source>Data</source>
         <comment>backup table header data</comment>
-        <translation>データー</translation>
+        <translation>بيانات</translation>
     </message>
 </context>
 <context>
@@ -446,22 +446,22 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../dialogs/connectWifi.ui" line="116"/>
         <source>Connect</source>
         <extracomment>Connect wifi dialog title</extracomment>
-        <translation>繋がって</translation>
+        <translation>اتصال</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="44"/>
         <source>Address</source>
-        <translation>アドレス</translation>
+        <translation>عنوان الاى بى</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="79"/>
         <source>Port</source>
-        <translation>ポート</translation>
+        <translation>منفذ</translation>
     </message>
     <message>
         <location filename="../dialogs/connectWifi.ui" line="123"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation>الغاء</translation>
     </message>
 </context>
 <context>
@@ -469,17 +469,17 @@ After You place it in correct directory click Refresh button</source>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="32"/>
         <source>Flash SPL</source>
-        <translation>Flash SPL</translation>
+        <translation>فلاش SPL</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="55"/>
         <source>Flash recovery</source>
-        <translation>Flash recovery</translation>
+        <translation>فلاش ريكفرى</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="65"/>
         <source>Flash radio</source>
-        <translation>Flash radio</translation>
+        <translation>فلاش radio</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.ui" line="75"/>
@@ -489,7 +489,7 @@ After You place it in correct directory click Refresh button</source>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
         <source>Choose img file...</source>
-        <translation>IMGファイル選んで…</translation>
+        <translation>اختر ملف .img ...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="75"/>
@@ -497,12 +497,12 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>IMG File </source>
-        <translation>IMGファイル　</translation>
+        <translation>IMG file</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="105"/>
         <source>Choose hboot img file...</source>
-        <translation>hbootのIMGファイル選んで…</translation>
+        <translation>اختر  hboot img file...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="112"/>
@@ -512,31 +512,31 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/fastbootwidget.cpp" line="182"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Error!</source>
-        <translation>エラー！</translation>
+        <translation>خطا!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="114"/>
         <location filename="../widgets/fastbootwidget.cpp" line="149"/>
         <location filename="../widgets/fastbootwidget.cpp" line="184"/>
         <source>Success!</source>
-        <translation>成功！</translation>
+        <translation>نجاح!</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="118"/>
         <location filename="../widgets/fastbootwidget.cpp" line="153"/>
         <location filename="../widgets/fastbootwidget.cpp" line="188"/>
         <source>Operation cancelled!</source>
-        <translation>操作キャンセルされた！</translation>
+        <translation>تم الغاء العملية !</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="140"/>
         <source>Choose radio img file...</source>
-        <translation>radioのIMGファイルをえらんで…</translation>
+        <translation>اختر  radio img file...</translation>
     </message>
     <message>
         <location filename="../widgets/fastbootwidget.cpp" line="175"/>
         <source>Choose recovery img file...</source>
-        <translation>回復IMGファイルを選んで…</translation>
+        <translation> اختر  recovery img file...</translation>
     </message>
 </context>
 <context>
@@ -545,19 +545,19 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../classes/models/filetablemodel.cpp" line="207"/>
         <source>Name</source>
         <comment>file table file name</comment>
-        <translation>名</translation>
+        <translation>الاسم</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="209"/>
         <source>Size</source>
         <comment>file table file size</comment>
-        <translation>大きさ</translation>
+        <translation>الحجم</translation>
     </message>
     <message>
         <location filename="../classes/models/filetablemodel.cpp" line="211"/>
         <source>Date</source>
         <comment>file table file date</comment>
-        <translation>日付</translation>
+        <translation>التاريخ</translation>
     </message>
 </context>
 <context>
@@ -566,72 +566,72 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.ui" line="35"/>
         <source>computer</source>
         <extracomment>table title</extracomment>
-        <translation>パソコン</translation>
+        <translation>الكومبيوتر</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="116"/>
         <location filename="../widgets/filewidget.ui" line="224"/>
         <source>filter</source>
-        <translation>フィルター</translation>
+        <translation>فرز</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="45"/>
         <source>phone</source>
         <extracomment>table title</extracomment>
-        <translation>携帯</translation>
+        <translation>الهاتف</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="270"/>
         <source>F2 rename</source>
         <extracomment>rename button</extracomment>
-        <translation>F2 リネーム・改称する</translation>
+        <translation>F2 اعادة تسمية</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="290"/>
         <source>F3 select all/none</source>
         <extracomment>select button</extracomment>
-        <translation>F3 全部・なし</translation>
+        <translation>F3 اختار الجميع/ لا شى</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="310"/>
         <source>F4 install</source>
         <extracomment>install button</extracomment>
-        <translation>F4 インストール</translation>
+        <translation>F4 تنصيب</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="330"/>
         <source>F5 copy</source>
         <extracomment>copy button</extracomment>
-        <translation>F5 コピー</translation>
+        <translation>F5 نسخ</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="350"/>
         <source>F6 new dir</source>
         <extracomment>new dir button</extracomment>
-        <translation>F6 新ディレクトリ</translation>
+        <translation>F6مسار جديد</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="370"/>
         <source>F7 refresh</source>
         <extracomment>refresh files button</extracomment>
-        <translation>F7 リフレッシュ</translation>
+        <translation>F7 تحديث</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="390"/>
         <source>F8 delete</source>
         <extracomment>delete button</extracomment>
-        <translation>F8 削除</translation>
+        <translation>F8 حذف</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.ui" line="410"/>
         <source>F9 hidden files</source>
         <extracomment>hidden button</extracomment>
-        <translation>F9 隠しファイル</translation>
+        <translation>F9الملفات المخفية</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1942"/>
         <source>install</source>
-        <translation>インストール</translation>
+        <translation>تنصيب</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="592"/>
@@ -639,7 +639,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="1264"/>
         <location filename="../widgets/filewidget.cpp" line="1334"/>
         <source>select some files first</source>
-        <translation>ファイルを選択してから…</translation>
+        <translation>اختر بعض الملفات اولا </translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -648,7 +648,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>copying</source>
-        <translation>コピー中</translation>
+        <translation>جارى النسخ</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="599"/>
@@ -660,7 +660,7 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2136"/>
         <location filename="../widgets/filewidget.cpp" line="2190"/>
         <source>are you sure???</source>
-        <translation>確信してる???</translation>
+        <translation>هل انت متاكد ؟؟</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="614"/>
@@ -669,188 +669,189 @@ After You place it in correct directory click Refresh button</source>
         <location filename="../widgets/filewidget.cpp" line="2155"/>
         <location filename="../widgets/filewidget.cpp" line="2207"/>
         <source>theres nothing to copy. Maybe selected dirs are empty</source>
-        <translation>ファイルなし. \n空のディレクトリかもしれない</translation>
+        <translation>ليس هناك شى لنسخه.
+ربما المسار الذى اخترته فارغا</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="642"/>
         <location filename="../widgets/filewidget.cpp" line="1338"/>
         <source>deleting</source>
-        <translation>削除中</translation>
+        <translation>جارى الحذف</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="660"/>
         <location filename="../widgets/filewidget.cpp" line="1371"/>
         <location filename="../widgets/filewidget.cpp" line="1380"/>
         <source>getting files...</source>
-        <translation>ファイル取り中</translation>
+        <translation>جارى الحصول على الملف ...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="756"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>error</source>
-        <translation>エラー</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="757"/>
         <location filename="../widgets/filewidget.cpp" line="1504"/>
         <source>dir was not created.
 Make sure that you are allowed to do this</source>
-        <translation>ディレクトリ作ってない.
-許可ない？</translation>
+        <translation>لم يتم انشاء مسار.
+تاكد من الحصول على صلاحيات المستخدم</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1748"/>
         <source>selected</source>
-        <translation>選択されてる</translation>
+        <translation>مختارة</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1634"/>
         <source>searching...</source>
-        <translation>検索中...</translation>
+        <translation>جارى البحث ...</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="538"/>
         <source>rename</source>
         <comment>computer right click menu</comment>
-        <translation>改称する</translation>
+        <translation>اعادة تسمية</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="540"/>
         <source>select all</source>
         <comment>computer right click menu</comment>
-        <translation>全部</translation>
+        <translation>اختر الجميع</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="542"/>
         <source>select none</source>
         <comment>computer right click menu</comment>
-        <translation>なし</translation>
+        <translation>عدم الاختيار</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="544"/>
         <source>copy</source>
         <comment>computer right click menu</comment>
-        <translation>コピー</translation>
+        <translation>نسخ</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="546"/>
         <source>new dir</source>
         <comment>computer right click menu</comment>
-        <translation>新ディレクトリ</translation>
+        <translation>انشاء مسار جديد</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="548"/>
         <source>refresh</source>
         <comment>computer right click menu</comment>
-        <translation>リフレッシュ</translation>
+        <translation>تحديث</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="550"/>
         <source>delete</source>
         <comment>computer right click menu</comment>
-        <translation>削除</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="552"/>
         <source>hidden files</source>
         <comment>computer right click menu</comment>
-        <translation>隠しファイル</translation>
+        <translation>الملفات المخفية</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="554"/>
         <source>install</source>
         <comment>computer right click menu</comment>
-        <translation>インストール</translation>
+        <translation>تنصيب</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="556"/>
         <source>Show app info</source>
         <comment>computer right click menu</comment>
-        <translation>アップリについて</translation>
+        <translation>الحصول على بينات البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="558"/>
         <source>open in new tab</source>
         <comment>computer right click menu</comment>
-        <translation>新タッブで開いて</translation>
+        <translation>فتح فى اطار جديد</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="971"/>
         <source>selected</source>
         <comment>selected label below table</comment>
-        <translation>選択されてる</translation>
+        <translation>مختارة</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1152"/>
         <location filename="../widgets/filewidget.cpp" line="1184"/>
         <source>rename</source>
         <comment>phone right click menu</comment>
-        <translation>改称する</translation>
+        <translation>اعادة تسمية</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1154"/>
         <location filename="../widgets/filewidget.cpp" line="1186"/>
         <source>select all</source>
         <comment>phone right click menu</comment>
-        <translation>全部</translation>
+        <translation>اختر الجيمع</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1156"/>
         <location filename="../widgets/filewidget.cpp" line="1188"/>
         <source>select none</source>
         <comment>phone right click menu</comment>
-        <translation>なし</translation>
+        <translation>عدم الاختيار</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1158"/>
         <location filename="../widgets/filewidget.cpp" line="1190"/>
         <source>copy</source>
         <comment>phone right click menu</comment>
-        <translation>コピー</translation>
+        <translation>نسخ</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1160"/>
         <location filename="../widgets/filewidget.cpp" line="1192"/>
         <source>new dir</source>
         <comment>phone right click menu</comment>
-        <translation>新ディレクトリ</translation>
+        <translation>انشاء مسار جديد</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1162"/>
         <location filename="../widgets/filewidget.cpp" line="1194"/>
         <source>refresh</source>
         <comment>phone right click menu</comment>
-        <translation>リフレッシュ</translation>
+        <translation>تحديث</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1164"/>
         <location filename="../widgets/filewidget.cpp" line="1196"/>
         <source>delete</source>
         <comment>phone right click menu</comment>
-        <translation>削除</translation>
+        <translation>حذف</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1166"/>
         <location filename="../widgets/filewidget.cpp" line="1198"/>
         <source>hidden files</source>
         <comment>phone right click menu</comment>
-        <translation>隠しファイル</translation>
+        <translation>الملفات المخفية</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1200"/>
         <source>open in new tab</source>
         <comment>phone right click menu</comment>
-        <translation>新タッブで開いて</translation>
+        <translation>فتح فى اطار جديد</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>information</source>
-        <translation>情報</translation>
+        <translation>معلومات</translation>
     </message>
     <message>
         <location filename="../widgets/filewidget.cpp" line="1805"/>
         <source>It&apos;s not an application</source>
-        <translation>アップリじゃない</translation>
+        <translation>انه ليس ببرنامج</translation>
     </message>
 </context>
 <context>
@@ -863,82 +864,82 @@ Make sure that you are allowed to do this</source>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="29"/>
         <source>Debug</source>
-        <translation>デバッグ</translation>
+        <translation>Debug</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="39"/>
         <source>Warning</source>
-        <translation>注意</translation>
+        <translation>تنبيه</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="49"/>
         <source>Information</source>
-        <translation>情報</translation>
+        <translation>معلومات</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="59"/>
         <source>Error</source>
-        <translation>エラー</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="113"/>
         <source>Verbose</source>
-        <translation>冗長</translation>
+        <translation>Verbose</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="123"/>
         <source>filter</source>
-        <translation>フィルター</translation>
+        <translation>فرز</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="131"/>
         <source>Sender</source>
-        <translation>送信もの</translation>
+        <translation>المرسل</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="136"/>
         <source>Message</source>
-        <translation>メッセージ</translation>
+        <translation>الرسالة</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="235"/>
         <source>autoscroll</source>
-        <translation type="unfinished"></translation>
+        <translation>نقل تلقائى</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="245"/>
         <source>clear</source>
-        <translation type="unfinished"></translation>
+        <translation>مسح</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.ui" line="228"/>
         <source>Buffer limit</source>
-        <translation type="unfinished"></translation>
+        <translation>عزل الحدود</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="44"/>
         <source>clear logcat</source>
-        <translation type="unfinished"></translation>
+        <translation>مسج اللوج</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="45"/>
         <source>copy selected to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>نسخ المحدد الى الحافظة</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="46"/>
         <source>export selected to file</source>
-        <translation type="unfinished"></translation>
+        <translation>تصدير المحدد الى ملف</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>Save File...</source>
-        <translation type="unfinished">ファイル保存して…</translation>
+        <translation>حفظ الملف ....</translation>
     </message>
     <message>
         <location filename="../dialogs/logcatdialog.cpp" line="283"/>
         <source>txt file</source>
-        <translation type="unfinished"></translation>
+        <translation>ملف نصى</translation>
     </message>
 </context>
 <context>
@@ -947,31 +948,31 @@ Make sure that you are allowed to do this</source>
         <location filename="../classes/models/logcatmodel.cpp" line="158"/>
         <source>Time</source>
         <comment>logcat header</comment>
-        <translation type="unfinished"></translation>
+        <translation>وقت</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="160"/>
         <source>Type</source>
         <comment>logcat header</comment>
-        <translation>タイプ</translation>
+        <translation>النوع</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="162"/>
         <source>Sender</source>
         <comment>logcat header</comment>
-        <translation>送信もの</translation>
+        <translation>المرسل</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="164"/>
         <source>Pid</source>
         <comment>logcat header</comment>
-        <translation>PID</translation>
+        <translation>Pid</translation>
     </message>
     <message>
         <location filename="../classes/models/logcatmodel.cpp" line="166"/>
         <source>Message</source>
         <comment>logcat header</comment>
-        <translation>メッセージ</translation>
+        <translation>الرسالة</translation>
     </message>
 </context>
 <context>
@@ -980,63 +981,64 @@ Make sure that you are allowed to do this</source>
         <location filename="../dialogs/mainwindow.ui" line="107"/>
         <source>Refresh</source>
         <extracomment>refresh state when disconnected</extracomment>
-        <translation>リフレッシュ</translation>
+        <translatorcomment>تحديث الحالة عند الفصل</translatorcomment>
+        <translation>تحديث</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="287"/>
         <source>check for updates</source>
-        <translation>更新を確認</translation>
+        <translation>فحص التحديثات</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="97"/>
         <source>CONNECT YOUR PHONE</source>
-        <translation>携帯繋がってください</translation>
+        <translation>قم بوصل جهازك</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="22"/>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>Main window title</extracomment>
-        <translation>QtADB - あんたのアンドロイド・マネジャー</translation>
+        <translation>DataBridge - Your android manager</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="172"/>
         <source>&amp;Connection</source>
-        <translation>&amp;接続</translation>
+        <translation>&amp;الاتصال</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="179"/>
         <source>&amp;Help</source>
-        <translation>&amp;ヘルプ</translation>
+        <translation>&amp;مساعدة</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="187"/>
         <source>&amp;Tools</source>
-        <translation>&amp;ツール</translation>
+        <translation>&amp;الادوات</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="191"/>
         <source>Adb</source>
-        <translation>adb</translation>
+        <translation>Adb</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="200"/>
         <source>Fastboot</source>
-        <translation>Fastboot</translation>
+        <translation>Fastboot فاست بوت</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="232"/>
         <source>usb</source>
-        <translation>USB</translation>
+        <translation>usb</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="237"/>
         <source>wifi</source>
-        <translation>無線LAN</translation>
+        <translation>واى فاى</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="242"/>
         <source>about</source>
-        <translation>について</translation>
+        <translation>عن</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="247"/>
@@ -1047,39 +1049,29 @@ Make sure that you are allowed to do this</source>
         <location filename="../dialogs/mainwindow.ui" line="252"/>
         <location filename="../dialogs/mainwindow.ui" line="267"/>
         <source>Reboot</source>
-        <translation>再起動</translation>
+        <translation>اعادة التشغيل </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="257"/>
         <location filename="../dialogs/mainwindow.ui" line="272"/>
         <source>Reboot bootloader</source>
-        <translation>ブートローダーへ再起動</translation>
+        <translation>اعادة تشغيل فى  bootloader</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="262"/>
         <source>Reboot recovery</source>
-        <translation>回復へ再起動</translation>
+        <translation>دخول وضعية الريكفرى مود</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="277"/>
         <location filename="../dialogs/mainwindow.ui" line="282"/>
         <source>Power off</source>
-        <translation>電源切り</translation>
+        <translation>اطفاء الجهاز</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.ui" line="292"/>
         <source>enter register key</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <location filename="../dialogs/mainwindow.cpp" line="911"/>
-        <source>error</source>
-        <translation>エラー</translation>
-    </message>
-    <message>
-        <location filename="../dialogs/mainwindow.cpp" line="892"/>
-        <source>New updates</source>
-        <translation>新しい更新</translation>
+        <translation>ادخل كود التفعيل </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="65"/>
@@ -1091,61 +1083,61 @@ Make sure that you are allowed to do this</source>
         <location filename="../dialogs/mainwindow.cpp" line="67"/>
         <source>exit</source>
         <comment>action in system tray menu</comment>
-        <translation>終了</translation>
+        <translation>خروج</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="94"/>
         <source>Files</source>
         <comment>files button</comment>
-        <translation>ファイル</translation>
+        <translation>الملفات</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="95"/>
         <source>Apps</source>
         <comment>apps button</comment>
-        <translation>アップ</translation>
+        <translation>البرامج</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="96"/>
         <source>Recovery</source>
         <comment>recovery button</comment>
-        <translation>回復</translation>
+        <translation>ريكفرى </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="97"/>
         <source>Fastboot</source>
         <comment>fastbot button</comment>
-        <translation>Fastboot</translation>
+        <translation>Fastboot فاست بوت</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="98"/>
         <source>Phone info</source>
         <comment>phone info button</comment>
-        <translation>携帯電話の情報</translation>
+        <translation>بيانات الهاتف</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="99"/>
         <source>Screenshot</source>
         <comment>screenshot button</comment>
-        <translation>スクリーンショット</translation>
+        <translation>صورة شاشة</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="100"/>
         <source>Settings</source>
         <comment>settings button</comment>
-        <translation>設定</translation>
+        <translation>الاعدادات</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="101"/>
         <source>Shell</source>
         <comment>shell button</comment>
-        <translation>シェル</translation>
+        <translation>Shell</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="102"/>
         <source>Messages</source>
         <comment>messages button</comment>
-        <translation type="unfinished"></translation>
+        <translation>الرسائل</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="104"/>
@@ -1156,37 +1148,42 @@ Make sure that you are allowed to do this</source>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="702"/>
         <source>Attention!</source>
-        <translation type="unfinished"></translation>
+        <translation>تنبيه!</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="703"/>
         <source>To use message manager You have to turn on WiFi.</source>
-        <translation type="unfinished"></translation>
+        <translation>لاستخدام مدير الراسئل يجب عليك تفعيل الواى فاى. </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="833"/>
         <source>Sms from </source>
         <comment>system tray bubble</comment>
-        <translation>新SMS送信もの</translation>
+        <translation>SMS من </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="838"/>
         <source>Sms result</source>
         <comment>system tray bubble</comment>
-        <translation>SMS結果</translation>
+        <translation>Sms نتيجة</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/mainwindow.cpp" line="892"/>
+        <source>New updates</source>
+        <translation>تحديث جديد</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="892"/>
         <source>New update is available
 </source>
-        <translation>新しい更新あり
+        <translation>هناك تحديث جديد متاح
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
         <location filename="../dialogs/mainwindow.cpp" line="916"/>
         <source>Your version: </source>
-        <translation>お使いのバージョン: </translation>
+        <translation>اصدارك الحالى: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="893"/>
@@ -1194,59 +1191,64 @@ Make sure that you are allowed to do this</source>
         <source>
 Latest version: </source>
         <translation>
-最バージョン: </translation>
+اخر اصدار: </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="894"/>
         <source>Download</source>
-        <translation>ダウンロード</translation>
+        <translation>تحميل</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="895"/>
         <source>Close</source>
-        <translation>閉じる</translation>
+        <translation>اغلاق</translation>
+    </message>
+    <message>
+        <location filename="../dialogs/mainwindow.cpp" line="911"/>
+        <source>error</source>
+        <translation>خطا</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="911"/>
         <source>There was problem while checking for updates</source>
-        <translation>更新プログラムのチェック中に問題があった。</translation>
+        <translation>حدث خطا اثناء الفحص للتحديثات</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>No updates</source>
-        <translation>更新なし</translation>
+        <translation>لا يوجد تحديث</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="915"/>
         <source>Your version is up to date
 </source>
-        <translation>お使いのバージョンが最新のものである。
+        <translation>انت تستخدم الاصدار الاخير 
 </translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1034"/>
         <source>Donate</source>
-        <translation>寄付する</translation>
+        <translation>تبرع</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1035"/>
-        <source>It seems that you are using QtADB for a while now. Maybe consider a donation to a project...</source>
-        <translation>QtADBを暫く使ってるそうだ。プロジェクトのために寄付しったらどう？</translation>
+        <source>It seems that you are using DataBridge for a while now. Maybe consider a donation to a project...</source>
+        <translation>من الواضح انك تستخدم البرنامج منذ فترة هل تحب التبرع لدعم المشروع...</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1036"/>
         <source>Yes, I want to donate</source>
-        <translation>はい、寄付したい</translation>
+        <translation>بالطبع اريد التبرع</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1037"/>
         <source>Remaind me later</source>
-        <translation>後でね</translation>
+        <translation>التذكير لاحقا</translation>
     </message>
     <message>
         <location filename="../dialogs/mainwindow.cpp" line="1038"/>
         <source>Do not bother me again</source>
-        <translation>この後で迷惑を勝てないで下さい。</translation>
+        <translation>لا تقم بابلاغى مرة اخرى</translation>
     </message>
 </context>
 <context>
@@ -1255,7 +1257,7 @@ Latest version: </source>
         <location filename="../widgets/messagewidget.ui" line="87"/>
         <source>refresh list</source>
         <extracomment>refresh messages button</extracomment>
-        <translation type="unfinished"></translation>
+        <translation>تحديث القائمة</translation>
     </message>
 </context>
 <context>
@@ -1263,27 +1265,27 @@ Latest version: </source>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="50"/>
         <source>Model</source>
-        <translation>方</translation>
+        <translation>موديل</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="67"/>
         <source>Operator</source>
-        <translation>オペレーター</translation>
+        <translation>مشغل الخدمة</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="84"/>
         <source>Serial number</source>
-        <translation>シリアル番号</translation>
+        <translation>سيريال نمبر</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="101"/>
         <source>Bootloader</source>
-        <translation>ブートローダー</translation>
+        <translation>Bootloader</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="118"/>
         <source>Rom</source>
-        <translation>ROM</translation>
+        <translation>Rom</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="144"/>
@@ -1293,7 +1295,7 @@ Latest version: </source>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="161"/>
         <source>Battery level</source>
-        <translation>電池量</translation>
+        <translation>مستوى البطارية</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="375"/>
@@ -1301,7 +1303,7 @@ Latest version: </source>
         <location filename="../widgets/phoneinfowidget.ui" line="389"/>
         <location filename="../widgets/phoneinfowidget.ui" line="396"/>
         <source>available:</source>
-        <translation>容量:</translation>
+        <translation>متاح:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="443"/>
@@ -1309,7 +1311,7 @@ Latest version: </source>
         <location filename="../widgets/phoneinfowidget.ui" line="457"/>
         <location filename="../widgets/phoneinfowidget.ui" line="464"/>
         <source>used:</source>
-        <translation>使用:</translation>
+        <translation>مستخدم:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="511"/>
@@ -1317,12 +1319,12 @@ Latest version: </source>
         <location filename="../widgets/phoneinfowidget.ui" line="525"/>
         <location filename="../widgets/phoneinfowidget.ui" line="532"/>
         <source>size:</source>
-        <translation>大きさ:</translation>
+        <translation>حجم:</translation>
     </message>
     <message>
         <location filename="../widgets/phoneinfowidget.ui" line="690"/>
         <source>refresh</source>
-        <translation>リフレッシュ</translation>
+        <translation>تحديث</translation>
     </message>
 </context>
 <context>
@@ -1333,40 +1335,41 @@ Latest version: </source>
         <location filename="../main.cpp" line="238"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>error</source>
-        <translation>エラー</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="171"/>
         <location filename="../widgets/settingswidget.cpp" line="854"/>
         <source>Choose path to dir with adb and aapt binaries</source>
-        <translation>ADBとAAPTバイナリへディレクトリへのパスを選択してください</translation>
+        <translation>اختر مسار حيث يوجد ملفات adb و aapt</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="192"/>
         <location filename="../widgets/settingswidget.cpp" line="876"/>
         <source>there is no adb binary in here!</source>
-        <translation>ADBバイナリがないです。</translation>
+        <translation>لا يوجد ملفات adb هنا !</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="193"/>
         <source>Choose path</source>
-        <translation>ファイルへのパスを選択して</translation>
+        <translation>اختر مسار</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="194"/>
         <source>Close</source>
-        <translation>閉めて</translation>
+        <translation>اغلاق</translation>
     </message>
     <message>
         <location filename="../main.cpp" line="224"/>
         <source>It seems that adb is not working properly</source>
-        <translation type="unfinished"></translation>
+        <translation>على ما يبدو ان ADB لا يعمل </translation>
     </message>
     <message>
         <location filename="../main.cpp" line="239"/>
         <source>adbd cannot run as root in production builds so You can&apos;t do anything with /system partition. Run anyway?
-(press save to run QtADB and disable this message)</source>
-        <translation type="unfinished"></translation>
+(press save to run DataBridge and disable this message)</source>
+        <translation>ADb لا يستطيع العمل فى بيئة صلاحيات المستخد اى انك لن تدخل ملفات النظام هل تريد الاستمرار ؟
+اضغط حفظ لتشغيل QRADB وايقاف الرسالة </translation>
     </message>
 </context>
 <context>
@@ -1374,48 +1377,48 @@ Latest version: </source>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="51"/>
         <source>Nandroid backup</source>
-        <translation>Nandroidバックアップ</translation>
+        <translation>Nandroid باك اب</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="64"/>
         <source>Bart backup</source>
-        <translation>Bartバックアップ</translation>
+        <translation>bart باك اب</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="77"/>
         <source>Clear battery stats</source>
-        <translation>現地情報を削除して</translation>
+        <translation>امسح حالة البطارية</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="84"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Wipe data</source>
-        <translation>データー削除</translation>
+        <translation>حذف البيانات</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="97"/>
         <source>Mount SDcard to computer</source>
-        <translation>SDカードをマウントして</translation>
+        <translation>مزامنة الميمورى كارد بالحاسوب </translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="107"/>
         <source>Nandroid restore</source>
-        <translation>Nandroid復元</translation>
+        <translation>Nandroid استعاة</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="120"/>
         <source>Bart restore</source>
-        <translation>Bart復元</translation>
+        <translation>Bart استعادة</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="133"/>
         <source>Fix UID mismatches</source>
-        <translation>ファイルUIDの違いを直して</translation>
+        <translation>اصلاح  UID لم يتطابق</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="143"/>
         <source>Flash zip</source>
-        <translation>zipをフラッシュして</translation>
+        <translation>فلاش zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="198"/>
@@ -1425,136 +1428,140 @@ Latest version: </source>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="214"/>
         <source>Backup</source>
-        <translation>バックアップ</translation>
+        <translation>باك اب</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="234"/>
         <source>Path</source>
-        <translation>パス</translation>
+        <translation>المسار</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="416"/>
         <source>Restore</source>
-        <translation>復元</translation>
+        <translation>استعادة</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.ui" line="839"/>
         <source>Choose one of options above</source>
-        <translation>上の選択を選んで</translation>
+        <translation>اختر احد الخيارات من الاعلى</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fix UID finished!</source>
-        <translation>UID直した！</translation>
+        <translation>اصلاح  UID انتهى!</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="157"/>
         <source>Fixing UID mismatches is finished.</source>
-        <translation>ファイルのUID直した！</translation>
+        <translation>اصلاح UID الغير متطابق انتهى.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <source>Flash Zip</source>
-        <translation>ZIPフラッシュ</translation>
+        <translation>فلاش Zip</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="177"/>
         <location filename="../widgets/recoverywidget.cpp" line="539"/>
         <source>Are you sure??</source>
-        <translation>よろしいか？</translation>
+        <translation>هل انت متاكد ؟؟</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Open ROM File</source>
-        <translation>ROMファイルを開いて</translation>
+        <translation>فتح ملف ROM</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="179"/>
         <source>Zip files (*.zip)</source>
-        <translation>Zipファイル(*.zip)</translation>
+        <translation>Zip ملفات (*.zip)</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="214"/>
         <location filename="../widgets/recoverywidget.cpp" line="544"/>
         <source>Writing commands....</source>
-        <translation>コマンドは記述中…</translation>
+        <translation>جارى كتابة الاوامر ...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="221"/>
         <location filename="../widgets/recoverywidget.cpp" line="555"/>
         <source>Rebooting....</source>
-        <translation>再起動中…</translation>
+        <translation>جارى اعادة التشغيل ...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>USB mounted</source>
-        <translation>USBマウントされた</translation>
+        <translation>مزامنة USB</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="239"/>
         <source>SD card is mounted as usb drive</source>
-        <translation>SDカードはUSBドライブとしてマウントされた</translation>
+        <translation>الميمورى كارد متزامنة بالحاسوب ك usb </translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>USB unmounted</source>
-        <translation>USBアンマウントされた</translation>
+        <translation>اخراج USB</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="243"/>
         <source>SD card is unmounted</source>
-        <translation>SDカードはアンマウントされた</translation>
+        <translation>انتهاء المزامنة الميمورى كارد بالحاسوب </translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="247"/>
         <source>Error</source>
-        <translation>エラー</translation>
+        <translation>خطا</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Backup finished!</source>
-        <translation>バックアップ完了！</translation>
+        <translation>تم انتهاء الباك اب !</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="303"/>
         <source>Nandroid backup is finished.</source>
-        <translation>Nandroidバックアップが完了。</translation>
+        <translation>Nandroidباك اب انتهى .</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Restore finished!</source>
-        <translation>復元を完了した！</translation>
+        <translation>تم الانتهاء من الاستعادة !</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="459"/>
         <source>Nandroid restore is finished.</source>
-        <translation>Nandroid復元が完了。</translation>
+        <translation>استعادة Nandroid قد انتهت.</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="491"/>
         <source>Finished</source>
-        <translation>完了</translation>
+        <translation>انتهى</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="494"/>
         <source>Finished
 Choose one backup from combo above to restore it</source>
-        <translation>完了
-上からのバックアップを一つ選んでから完了できる</translation>
+        <translation>انتهى
+اختر احد نسخ الباك اب من الاعلى لاستعادتها </translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="516"/>
         <source>Looking for backups...</source>
-        <translation>バックアップは検索中…</translation>
+        <translation>البحث عن باك اب...</translation>
     </message>
     <message>
         <location filename="../widgets/recoverywidget.cpp" line="534"/>
         <source>Information</source>
-        <translation>情報</translation>
+        <translation>معلومات</translation>
     </message>
 </context>
 <context>
     <name>RegisterDialog</name>
+    <message>
+        <source>Dialog</source>
+        <translation type="vanished">حوار</translation>
+    </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="32"/>
         <source>Register</source>
@@ -1563,22 +1570,22 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="53"/>
         <source>insert key</source>
-        <translation type="unfinished"></translation>
+        <translation>ادخل الكود</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="128"/>
         <source>Insert registration key:</source>
-        <translation type="unfinished"></translation>
+        <translation>ادخل كود التسجيل :</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="137"/>
         <source>don&apos;t have a key? consider donation:  </source>
-        <translation type="unfinished"></translation>
+        <translation>لا تمتلك كود ؟ هل تريد التبرع :</translation>
     </message>
     <message>
         <location filename="../dialogs/registerdialog.ui" line="187"/>
         <source>cancel</source>
-        <translation type="unfinished"></translation>
+        <translation>الغاء</translation>
     </message>
 </context>
 <context>
@@ -1587,35 +1594,35 @@ Choose one backup from combo above to restore it</source>
         <location filename="../widgets/screenshotwidget.ui" line="76"/>
         <source>Refresh</source>
         <extracomment>refresh screenshot button</extracomment>
-        <translation>リフレッシュ</translation>
+        <translation>تحديث</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="87"/>
         <source>Save</source>
         <extracomment>save screenshot button</extracomment>
-        <translation>保存して</translation>
+        <translation>حفظ</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="98"/>
         <source>Rotate left</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>左回して</translation>
+        <translation>دوران لليسار</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.ui" line="109"/>
         <source>Rotate right</source>
         <extracomment>rotate screenshot</extracomment>
-        <translation>右回して</translation>
+        <translation>دوران لليمين</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Save File...</source>
-        <translation>ファイル保存して…</translation>
+        <translation>حفظ الملف ....</translation>
     </message>
     <message>
         <location filename="../widgets/screenshotwidget.cpp" line="131"/>
         <source>Png file</source>
-        <translation>PNGファイル</translation>
+        <translation>Png file</translation>
     </message>
 </context>
 <context>
@@ -1623,183 +1630,183 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="190"/>
         <source>Save position and size of window on exit</source>
-        <translation>終了時ウィンドウのサイズを保存する</translation>
+        <translation>حفظ حجم وموضع الشاشة عند الاغلاق</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="197"/>
         <source>Always close copy window after finished</source>
-        <translation>いつもコピーウインドウを終了後閉めて</translation>
+        <translation>الاغلاق بعد الانتهاء من النسخ </translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="204"/>
         <source>Show modal copy window</source>
-        <translation>モーダルコピーウィンドウを表示</translation>
+        <translation>عرض  نافذة النسخ</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="217"/>
         <source>App font:</source>
-        <translation>アップのフォント:</translation>
+        <translation>خط البرناج :</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="243"/>
         <location filename="../widgets/settingswidget.ui" line="282"/>
         <location filename="../widgets/settingswidget.ui" line="315"/>
         <source>Change font</source>
-        <translation>フォント変更</translation>
+        <translation>تغيير الخط</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="256"/>
         <source>Tables font:</source>
-        <translation>テーブルのフォント:</translation>
+        <translation>خط الجداول:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="289"/>
         <source>Shell font:</source>
-        <translation>コマンドウィンドウのフォント:</translation>
+        <translation>Shell خط:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="370"/>
         <source>Kill demon on exit</source>
-        <translation>終了時にデーモンを終了</translation>
+        <translation>قتل  daemon على الخروج</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="390"/>
         <source>Check for updates on start</source>
-        <translation>起動時に更新プログラムの確認</translation>
+        <translation>فحص التحديثات عند تشغيل البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="940"/>
         <source>Coloring files</source>
-        <translation>ファイルを色</translation>
+        <translation>تلوين الملفات</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="410"/>
         <source>Set toolBar style:</source>
-        <translation>ツールバーのスタイルを設定する:</translation>
+        <translation>اختر button bar شكل:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="117"/>
         <source>Shell</source>
-        <translation>シェル</translation>
+        <translation>Shell</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="417"/>
         <source>Set toolBar icon size:</source>
-        <translation>ツールバーのアイコンのサイズを設定する</translation>
+        <translation>Set button bar icon size:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="424"/>
         <source>Set hide/disable buttons on toolBar:</source>
-        <translation>ボタンを非表示するか無効ボタンをツールバーに設定する</translation>
+        <translation>خيار اخفاء/تعطيل الازرار on button bar:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="432"/>
         <source>Icon only</source>
-        <translation>アイコンのみ</translation>
+        <translation>ايقونة فقط</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="437"/>
         <source>Text only</source>
-        <translation>テキストのみ</translation>
+        <translation>كتابة فقط</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="442"/>
         <source>Text beside icon</source>
-        <translation>アイコンの側にテキスト</translation>
+        <translation>الكتابة بجانب الايقونة</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="447"/>
         <source>Text under icon</source>
-        <translation>アイコンの下にテキスト</translation>
+        <translation>الكتابة اسفل الايقونة</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="456"/>
         <source>Hide buttons</source>
-        <translation>ボタンを非表示にする</translation>
+        <translation>اخفاء الازرار</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="461"/>
         <source>Disable buttons</source>
-        <translation>バトンを無効にする</translation>
+        <translation>تعطيل الازرار</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="483"/>
         <source>Left</source>
-        <translation>左</translation>
+        <translation>يسار</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="488"/>
         <source>Right</source>
-        <translation>右</translation>
+        <translation>يمين</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="493"/>
         <source>Top</source>
-        <translation>上</translation>
+        <translation>اعلى</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="498"/>
         <source>Bottom</source>
-        <translation>下</translation>
+        <translation>اسفل</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="506"/>
         <source>Area of toolBar:</source>
-        <translation>ツールバーの場所:</translation>
+        <translation>Area of button bar:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="514"/>
         <source>Left to right</source>
-        <translation>左から右へ</translation>
+        <translation>من اليسار لليمين</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="519"/>
         <source>Right to left</source>
-        <translation>右から左へ</translation>
+        <translation>من اليمين لليسار</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="527"/>
         <source>App layout:</source>
-        <translation>アップのレイアウト：</translation>
+        <translation>اتجاه البرنامج:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="554"/>
         <source>Computer</source>
-        <translation>パソコン</translation>
+        <translation>الكومبيوتر</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="575"/>
         <location filename="../widgets/settingswidget.ui" line="797"/>
         <source>Set path on start:</source>
-        <translation>起動時にパスを設定します:</translation>
+        <translation>اختر مسار عند التشغيل:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="598"/>
         <location filename="../widgets/settingswidget.ui" line="820"/>
         <source>Remember path on exit</source>
-        <translation>終了時にパスを覚えておいて</translation>
+        <translation>حذف المسار عند الاغلاق</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="611"/>
         <location filename="../widgets/settingswidget.ui" line="833"/>
         <source>Show hidden files</source>
-        <translation>隠しファイルを表示</translation>
+        <translation>اظهار الملفات المخفية</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="627"/>
         <location filename="../widgets/settingswidget.ui" line="849"/>
         <source>Show table columns headers</source>
-        <translation>表示テーブルの列ヘッダー</translation>
+        <translation>اظهار  table columns headers</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="688"/>
         <source>Show app icon instead default</source>
-        <translation>デフォルトのアイコンの代わりにアップリ値を表示する</translation>
+        <translation>عرض ايقونة البرامج بلا من الرئيسية</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="701"/>
         <source>Instead of file name show:</source>
-        <translation>ファイル名の表示の代わりに：</translation>
+        <translation>بدل اسم الملف اعرض:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="714"/>
@@ -1807,7 +1814,7 @@ Choose one backup from combo above to restore it</source>
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</source>
-        <translation>利用可能な変数
+        <translation>Available variables:
 &lt;appName&gt;
 &lt;appVersion&gt;
 &lt;packageName&gt;</translation>
@@ -1815,17 +1822,17 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="743"/>
         <source>Show/hide computer files columns:</source>
-        <translation>コンピュータのファイルの列を非表示か表示にする：</translation>
+        <translation>عرض /اخفاء خانة ملفات الكومبيوتر :</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="776"/>
         <source>Phone</source>
-        <translation>携帯</translation>
+        <translation>الهاتف</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="917"/>
         <source>Show/hide phone files columns:</source>
-        <translation>携帯電話のファイルの列を非表示か表示にする：</translation>
+        <translation>عرض /اخفاء خانة ملفات الهاتف :</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="951"/>
@@ -1840,150 +1847,150 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1071"/>
         <source>Default action on backup:</source>
-        <translation>バックアップのデフォルトのアクション：</translation>
+        <translation>اعدادت افتراضية عند الباك اب:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1082"/>
         <source>Backup only apk</source>
-        <translation>apkだけバックアップ</translation>
+        <translation>باك اب ملفات apk فقط</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1087"/>
         <source>Backup only data</source>
-        <translation>データーだけバックアップ</translation>
+        <translation>باك اب البيانات فقط</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1092"/>
         <source>Backup apk + data</source>
-        <translation>apkとデーターバックアップ</translation>
+        <translation>باك اب apk ملفات و بيانات</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1100"/>
         <source>Default action on restore:</source>
-        <translation>復元のデフォルトのアクション：</translation>
+        <translation>اعداداتافتراضية عند الاستعادة:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1111"/>
         <source>Restore only apk</source>
-        <translation>apkだけ復元</translation>
+        <translation>استعادة ملفات apk فقط</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1116"/>
         <source>Restore only data</source>
-        <translation>データーだけ復元</translation>
+        <translation>استعادة البيانات فقط</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1121"/>
         <source>Restore apk + data</source>
-        <translation>apkとデーター復元</translation>
+        <translation>استعادة apk file و البيانات</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1129"/>
         <source>Sort by column:</source>
-        <translation>列で並べ替え：</translation>
+        <translation>فرز حسب الخانة :</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1137"/>
         <source>App name</source>
-        <translation>アップリ名</translation>
+        <translation>اسم البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1142"/>
         <source>App version</source>
-        <translation>アップリ・バージョン</translation>
+        <translation>اصدار البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1147"/>
         <source>App size</source>
-        <translation>アップリ大きさ</translation>
+        <translation>حجم البرنامج</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1152"/>
         <source>App package name</source>
-        <translation>パケット名</translation>
+        <translation>اسم &quot;الحزمة&quot;البرنامج </translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1160"/>
         <source>Get backups:</source>
-        <translation>バックアップを集まって:</translation>
+        <translation>الحصول على باك اب :</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1168"/>
         <location filename="../widgets/settingswidget.ui" line="1182"/>
         <location filename="../widgets/settingswidget.ui" line="1274"/>
         <source>only on start</source>
-        <translation>起動時にのみ</translation>
+        <translation>فقط عند االتشغيل</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1173"/>
         <source>every time before show</source>
-        <translation>起動時前に毎度</translation>
+        <translation>دائما قبل العرض</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1187"/>
         <location filename="../widgets/settingswidget.ui" line="1279"/>
         <source>every time on show</source>
-        <translation>起動時に毎度</translation>
+        <translation>دائما مع العرض</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1259"/>
         <source>Get applications:</source>
-        <translation>アップリを集まって:</translation>
+        <translation>بيانات البرامج :</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1266"/>
         <source>Get system applications:</source>
-        <translation>システムアップリを集まって:</translation>
+        <translation>الحصول علىبرامج النظام:</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1300"/>
         <source>Check app version on internet</source>
-        <translation>更新プログラムを確認</translation>
+        <translation>فحص اصدار البرنامج على الانترنت</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1320"/>
         <source>Show/hide apps columns:</source>
-        <translation>アップの列を非表示か表示にする：</translation>
+        <translation>عرض /اخفاء خانة البرامج :</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1327"/>
         <source>Show/hide backups columns:</source>
-        <translation>バックアップの列を非表示か表示にする：</translation>
+        <translation>عرض /اخفاء خانة  الباك اب :</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1336"/>
         <source>sd ext folder</source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1346"/>
         <source>Detect</source>
-        <translation type="unfinished"></translation>
+        <translation>الكشف</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1377"/>
         <source>Enable animations</source>
-        <translation>アニメを有効</translation>
+        <translation>تفعيل animations</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1387"/>
         <source>Duration (in miliseconds)</source>
-        <translation>期間（ミリ秒）</translation>
+        <translation>المدة (in miliseconds)</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1578"/>
         <source>Change background color</source>
-        <translation>背景色を変更する</translation>
+        <translation>تغير لون الخلفية</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1585"/>
         <source>Change font color</source>
-        <translation>フォント色を変更する</translation>
+        <translation>تغير لون الخط</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1668"/>
         <source>Color files</source>
-        <translation>ファイルを色する</translation>
+        <translation>الملفات الملونة</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1683"/>
@@ -1993,121 +2000,121 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1408"/>
         <source>UpToDown</source>
-        <translation>上から下</translation>
+        <translation>من اعلى لاسفل</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1413"/>
         <source>DownToUp</source>
-        <translation>下から上</translation>
+        <translation>من اسفل لاعلى</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1418"/>
         <source>LeftToRight</source>
-        <translation>左から右</translation>
+        <translation>من اليسار لليمين</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1423"/>
         <source>RightToLeft</source>
-        <translation>右から左</translation>
+        <translation>من اليمين لليسار</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="1526"/>
         <source>Direction</source>
-        <translation>方向</translation>
+        <translation>الاتجاه</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="97"/>
         <source>General</source>
-        <translation>一般的</translation>
+        <translation>عام</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="102"/>
         <source>File manager</source>
-        <translation>ファイルマネージャ</translation>
+        <translation>مدير الملفات</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="107"/>
         <source>App manager</source>
-        <translation>アップリマネージャ</translation>
+        <translation>مدير التطبيقات</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="112"/>
         <source>Animations</source>
-        <translation>アニメ</translation>
+        <translation>Animations</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="125"/>
         <source>Remove settings from system</source>
-        <translation>設定を削除</translation>
+        <translation>حذف الاعدادات من الجهاز</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="138"/>
         <source>Set defaults</source>
-        <translation>デフォルトに設定</translation>
+        <translation>تخزين كافتراضى</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="151"/>
         <source>Save Settings</source>
-        <translation>設定を保存</translation>
+        <translation>حفظ الاعدادات</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.ui" line="167"/>
-        <source>Associate apk files with QtADB</source>
-        <translation>apkファイルをQtADBに関連付け</translation>
+        <source>Associate apk files with DataBridge</source>
+        <translation>دمج  apk files with DataBridge</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Reset settings??</source>
-        <translation type="unfinished"></translation>
+        <translation>استعادة الاعدادات الافتراضية ؟؟</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="177"/>
         <source>Are you sure you want restore settings to defaults???</source>
-        <translation type="unfinished"></translation>
+        <translation>هل تريد القيام باستاعدة الاعدادات الافتراضية ؟؟</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="611"/>
         <source>Icon</source>
         <comment>icon app column</comment>
-        <translation>アイコン</translation>
+        <translation>ايقونة</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="630"/>
         <source>Icon</source>
         <comment>icon backup column</comment>
-        <translation>アイコン</translation>
+        <translation>ايقونة</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="648"/>
         <source>Icon</source>
         <comment>icon computer column</comment>
-        <translation>アイコン</translation>
+        <translation>ايقونة</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="665"/>
         <source>Icon</source>
         <comment>icon phone column</comment>
-        <translation>アイコン</translation>
+        <translation>ايقونة</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
         <source>Associate??</source>
-        <translation type="unfinished"></translation>
+        <translation>مزامنة؟؟</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="760"/>
-        <source>Are you sure you want to associate *.apk files with QtADB???</source>
-        <translation type="unfinished"></translation>
+        <source>Are you sure you want to associate *.apk files with DataBridge???</source>
+        <translation>هل توافق على مزامنة ملفات *.apk مع DataBridge???</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="772"/>
         <source>Install apk</source>
-        <translation>apkインストールして</translation>
+        <translation>تنصيب apk</translation>
     </message>
     <message>
         <location filename="../widgets/settingswidget.cpp" line="843"/>
         <source>&lt;Not Found&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>&lt;غير موجود&gt;</translation>
     </message>
 </context>
 <context>
@@ -2115,74 +2122,74 @@ Choose one backup from combo above to restore it</source>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="241"/>
         <source>
-QtADB shell help
+DataBridge shell help
 </source>
-        <translation type="unfinished"></translation>
+        <translation>مساعدة فى DataBridge shell</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="242"/>
         <source>CTRL+C                - interrupt executing command</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+C                -مقاطعة او الاغاء الامر </translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="243"/>
         <source>ESC                   - interrupt executing command</source>
-        <translation type="unfinished"></translation>
+        <translation>ESC                -مقاطعة او الاغاء الامر </translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="244"/>
         <source>Shift+CTRL+C          - copy selected text to clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+CTRL+C          - نسخ االنص المحدد الى الحافظة</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="245"/>
         <source>Shift+CTRL+V          - paste text from clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Shift+CTRL+          - لصق االنص المحدد الى الحافظة</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="246"/>
         <source>Enter/Return          - execute command</source>
-        <translation type="unfinished"></translation>
+        <translation>Enter/Return          -انهاء الامر</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="247"/>
         <source>Up (arrow)            - display previous executed command</source>
-        <translation type="unfinished"></translation>
+        <translation>السهم للاعلى            - عرض الاوامر السابقة</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="248"/>
         <source>Down (arrow)          - display next executed command</source>
-        <translation type="unfinished"></translation>
+        <translation>السهم للاسفل          -عرض الاوامر اللاحقة </translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="249"/>
         <source>Left(arrow)           - move cursor to the left</source>
-        <translation type="unfinished"></translation>
+        <translation>السهم اليسار           - تحريك مؤشر الفارة الى اليسار </translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="250"/>
         <source>Right(arrow)          - move cursor to the right</source>
-        <translation type="unfinished"></translation>
+        <translation>السهم اليمين            - تحريك مؤشر الفارة الى اليمين </translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="251"/>
         <source>CTRL+Left(arrow)      - move cursor to the left skipping over the word</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+السهم اليسار      - move cursor to the left skipping over the word</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="252"/>
         <source>CTRL+Right(arrow)     - move cursor to the right skipping over the word</source>
-        <translation type="unfinished"></translation>
+        <translation>CTRL+Right(arrow)     - تحريك مؤشر الماوس الى اليمين متجاهلا  الجملة </translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="253"/>
         <source>Delete                - delete next char</source>
-        <translation type="unfinished"></translation>
+        <translation>Delete                -  حذف الحرف السابق</translation>
     </message>
     <message>
         <location filename="../widgets/shellwidget.cpp" line="254"/>
         <source>Backspace             - delete previous char</source>
-        <translation type="unfinished"></translation>
+        <translation>Backspace             - حذف الحرف السابق</translation>
     </message>
 </context>
 <context>
@@ -2190,7 +2197,7 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="477"/>
         <source>SUCCESS</source>
-        <translation>成功</translation>
+        <translation>نجاح</translation>
     </message>
 </context>
 <context>
@@ -2198,12 +2205,12 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="614"/>
         <source>FAILURE</source>
-        <translation>エラー</translation>
+        <translation>فشل</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="618"/>
         <source>SUCCESS</source>
-        <translation>成功</translation>
+        <translation>نجاح</translation>
     </message>
 </context>
 <context>
@@ -2213,14 +2220,14 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="550"/>
         <location filename="../dialogs/appdialog.cpp" line="587"/>
         <source>FAILURE</source>
-        <translation>エラー</translation>
+        <translation>فشل</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="546"/>
         <location filename="../dialogs/appdialog.cpp" line="554"/>
         <location filename="../dialogs/appdialog.cpp" line="583"/>
         <source>SUCCESS</source>
-        <translation>成功</translation>
+        <translation>نجاح</translation>
     </message>
 </context>
 <context>
@@ -2228,13 +2235,13 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.cpp" line="669"/>
         <source>FAILURE</source>
-        <translation>エラー</translation>
+        <translation>فشل</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="673"/>
         <location filename="../dialogs/appdialog.cpp" line="677"/>
         <source>SUCCESS</source>
-        <translation>成功</translation>
+        <translation>نجاح</translation>
     </message>
 </context>
 <context>
@@ -2242,24 +2249,24 @@ QtADB shell help
     <message>
         <location filename="../dialogs/appdialog.ui" line="106"/>
         <source>app</source>
-        <translation>アップリ</translation>
+        <translation>برنامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.ui" line="111"/>
         <source>state</source>
-        <translation>状況</translation>
+        <translation>الحالة</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="48"/>
         <location filename="../dialogs/appdialog.cpp" line="49"/>
         <source>Install</source>
-        <translation>インストール</translation>
+        <translation>تنصيب</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="54"/>
         <location filename="../dialogs/appdialog.cpp" line="55"/>
         <source>Uninstall</source>
-        <translation>アンインストール</translation>
+        <translation>ازالة</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="60"/>
@@ -2267,169 +2274,169 @@ QtADB shell help
         <location filename="../dialogs/appdialog.cpp" line="142"/>
         <location filename="../dialogs/appdialog.cpp" line="143"/>
         <source>Reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>اعادة تنصيب</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="68"/>
         <location filename="../dialogs/appdialog.cpp" line="69"/>
         <source>Backup apps</source>
-        <translation>アップリをバックアップ</translation>
+        <translation>باك اب البرامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="73"/>
         <location filename="../dialogs/appdialog.cpp" line="74"/>
         <source>Backup data</source>
-        <translation>データーをバックアップ</translation>
+        <translation>باك اب البيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="78"/>
         <location filename="../dialogs/appdialog.cpp" line="79"/>
         <source>Backup apps and data</source>
-        <translation>アップリとデーターをバックアップ</translation>
+        <translation>باك اب البرامج والبيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="87"/>
         <location filename="../dialogs/appdialog.cpp" line="88"/>
         <source>Restore apps</source>
-        <translation>アップリを復元</translation>
+        <translation>استعادة البيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="92"/>
         <location filename="../dialogs/appdialog.cpp" line="93"/>
         <source>Restore data</source>
-        <translation>データーを復元</translation>
+        <translation>استعادة البيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="97"/>
         <location filename="../dialogs/appdialog.cpp" line="98"/>
         <location filename="../dialogs/appdialog.cpp" line="179"/>
         <source>Restore apps and data</source>
-        <translation>アップリとデーターを復元</translation>
+        <translation>استعادة البرامج والبيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="130"/>
         <source>Install</source>
         <comment>apd dialog title</comment>
-        <translation>インストール</translation>
+        <translation>تنصيب</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="131"/>
         <source>Install</source>
         <comment>label text</comment>
-        <translation>インストール</translation>
+        <translation>تنصيب</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="136"/>
         <source>Uninstall</source>
         <comment>apd dialog title</comment>
-        <translation>アンインストール</translation>
+        <translation>ازالة</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="137"/>
         <source>Uninstall</source>
         <comment>label text</comment>
-        <translation>アンインストール</translation>
+        <translation>ازالة</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="150"/>
         <source>Backup apps</source>
         <comment>apd dialog title</comment>
-        <translation>アップリをバックアップ</translation>
+        <translation>باك اب البرامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="151"/>
         <source>Backup apps</source>
         <comment>label text</comment>
-        <translation>アップリをバックアップ</translation>
+        <translation>باك اب البرامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="155"/>
         <source>Backup data</source>
         <comment>apd dialog title</comment>
-        <translation>データーをバックアップ</translation>
+        <translation>باك اب البيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="156"/>
         <source>Backup data</source>
         <comment>label text</comment>
-        <translation>データーをバックアップ</translation>
+        <translation>باك اب البيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="160"/>
         <source>Backup apps and data</source>
         <comment>apd dialog title</comment>
-        <translation>アップリとデーターをバックアップ</translation>
+        <translation>باك اب البرامج والبيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="161"/>
         <source>Backup apps and data</source>
         <comment>label text</comment>
-        <translation>アップリとデーターをバックアップ</translation>
+        <translation>باك اب البرامج والبيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="169"/>
         <source>Restore apps</source>
         <comment>apd dialog title</comment>
-        <translation>アップリを復元</translation>
+        <translation>استعادة البرامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="170"/>
         <source>Restore apps</source>
         <comment>label text</comment>
-        <translation>アップリを復元</translation>
+        <translation>استعادة البرامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="174"/>
         <source>Restore data</source>
         <comment>apd dialog title</comment>
-        <translation>データーを復元</translation>
+        <translation>استعادة البيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="175"/>
         <source>Restore data</source>
         <comment>label text</comment>
-        <translation>データーを復元</translation>
+        <translation>استعادة البيانات</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="180"/>
         <source>Restore apps and data</source>
         <comment>label text</comment>
-        <translation>アップリとデーターを復元</translation>
+        <translation>استعادة البيانات والبرامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Cancel operation??</source>
-        <translation>キャンセル??</translation>
+        <translation>انهاء العملية ؟؟</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="244"/>
         <source>Are you sure You want to cancel operation??</source>
-        <translation>操作をキャンセルしてもよろしい??</translation>
+        <translation>هل فعلا تريد الغاء هذه العملية??</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="360"/>
         <source>Install finished</source>
-        <translation>インストールが完了した</translation>
+        <translation>اكتمل التنصيب</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="364"/>
         <source>Uninstall finished</source>
-        <translation>アンインストールが完了した</translation>
+        <translation>تم الغاء التنصيب</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="368"/>
         <source>Reinstall finished</source>
-        <translation type="unfinished"></translation>
+        <translation>اعادة التنصيب انتهت</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="372"/>
         <source>Backup finished</source>
-        <translation>バックアップが完了した</translation>
+        <translation>تم النتهاء من الباك اب</translation>
     </message>
     <message>
         <location filename="../dialogs/appdialog.cpp" line="376"/>
         <source>Restore finished</source>
-        <translation>復元終了</translation>
+        <translation>تم الانتهاء من الاستعادة</translation>
     </message>
 </context>
 <context>
@@ -2438,68 +2445,68 @@ QtADB shell help
         <location filename="../dialogs/appinfo.ui" line="14"/>
         <source>App info</source>
         <extracomment>app info dialog title</extracomment>
-        <translation>アップの情報</translation>
+        <translation>عن البرنامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="87"/>
         <source>App name</source>
-        <translation>アップリ名</translation>
+        <translation>اسم البرنامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="111"/>
         <source>App version</source>
-        <translation>アップリ・バージョン</translation>
+        <translation>اصدار البرنامج</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="135"/>
         <source>Package name</source>
-        <translation>パッケージ名</translation>
+        <translation>اسم الحزمة</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="159"/>
         <source>File name</source>
-        <translation>ファイル名</translation>
+        <translation>اسم الملف</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="173"/>
         <source>File Size</source>
-        <translation>ファイル大きさ</translation>
+        <translation>حجم الملف</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="263"/>
         <source>Open in Market (PC)</source>
-        <translation type="unfinished"></translation>
+        <translation>فت بالماركت بالكومبيوتر</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="274"/>
         <source>Open in Market (Phone)</source>
-        <translation type="unfinished"></translation>
+        <translation>فتح فى الماركت بالجوال</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.ui" line="285"/>
         <source>Install</source>
-        <translation>インストール</translation>
+        <translation>تنصيب</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="58"/>
         <location filename="../dialogs/appinfo.cpp" line="103"/>
         <source>Reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>اعادة تنصيب</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>install</source>
-        <translation>インストール</translation>
+        <translation>تنصيب</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>are you sure???</source>
-        <translation>確信してる???</translation>
+        <translation>هل انت متاكد???</translation>
     </message>
     <message>
         <location filename="../dialogs/appinfo.cpp" line="131"/>
         <source>reinstall</source>
-        <translation type="unfinished"></translation>
+        <translation>اعادة تنصيب</translation>
     </message>
 </context>
 <context>
@@ -2508,57 +2515,57 @@ QtADB shell help
         <location filename="../dialogs/dialogkopiuj.ui" line="14"/>
         <source>Copying</source>
         <extracomment>Copy dialog title</extracomment>
-        <translation>コピー中</translation>
+        <translation>جارى النسخ</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="29"/>
         <source>file:</source>
-        <translation>ファイル：</translation>
+        <translation>ملف:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="43"/>
         <source>from:</source>
-        <translation>から：</translation>
+        <translation>من:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="57"/>
         <source>to:</source>
-        <translation>まで：</translation>
+        <translation>الى:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="71"/>
         <source>items remaining:</source>
-        <translation>残ってるもの</translation>
+        <translation>Items remaining:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="87"/>
         <source>File:</source>
-        <translation>ファイル：</translation>
+        <translation>ملف:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="174"/>
         <source>Total:</source>
-        <translation>総計：</translation>
+        <translation>المجموع:</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="198"/>
         <source>close after finished</source>
-        <translation>終えてから閉まる</translation>
+        <translation>اغلاق بعد الانتهاء</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.ui" line="218"/>
         <source>Cancel</source>
-        <translation>キャンセル</translation>
+        <translation>الغاء</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Close??</source>
-        <translation>閉めて</translation>
+        <translation>الغاء العملية??</translation>
     </message>
     <message>
         <location filename="../dialogs/dialogkopiuj.cpp" line="129"/>
         <source>Are you sure??</source>
-        <translation>よろしいか？</translation>
+        <translation>هل انت متاكد??</translation>
     </message>
 </context>
 </TS>

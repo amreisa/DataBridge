@@ -96,10 +96,10 @@ void customMessageHandler(QtMsgType type, const QMessageLogContext &context, con
 
 int main(int argc, char *argv[])
 {
-    QCoreApplication::setOrganizationName("coolshou.idv");
-    QCoreApplication::setApplicationName("QtADB");
+    QCoreApplication::setOrganizationName("");
+    QCoreApplication::setApplicationName("DataBridge");
     QCoreApplication::setApplicationVersion("1.0.0");
-    QCoreApplication::setOrganizationDomain("https://github.com/coolshou/qtadb");
+    QCoreApplication::setOrganizationDomain("https://github.com/amreisa/DataBridge");
     Application a(argc, argv);
     qInstallMessageHandler(customMessageHandler);
     a.loadTranslations(":/lang");
@@ -239,7 +239,7 @@ int main(int argc, char *argv[])
         if (tmp.contains("adbd cannot run as root in production builds") && !settings.value("disableProductionBuildsMessage",false).toBool())
         {
             QMessageBox *msgBox2 = new QMessageBox(QMessageBox::Critical, QObject::tr("error"),
-                                                   QObject::tr("adbd cannot run as root in production builds so You can't do anything with /system partition. Run anyway?\n(press save to run QtADB and disable this message)"),
+                                                   QObject::tr("adbd cannot run as root in production builds so You can't do anything with /system partition. Run anyway?\n(press save to run DataBridge and disable this message)"),
                                                    QMessageBox::Yes | QMessageBox::No | QMessageBox::Save);
             int button = msgBox2->exec();
             if ( button == QMessageBox::No)

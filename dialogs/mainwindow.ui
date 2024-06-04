@@ -19,7 +19,7 @@
    <cursorShape>ArrowCursor</cursorShape>
   </property>
   <property name="windowTitle">
-   <string extracomment="Main window title">QtADB - Your android manager</string>
+   <string extracomment="Main window title">DataBridge - Your android manager</string>
   </property>
   <property name="windowOpacity">
    <double>1.000000000000000</double>

@@ -4,9 +4,9 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>About dialog title</extracomment>
-        <translation>QtADB - Ваш Андроид Управљач</translation>
+        <translation>DataBridge - Ваш Андроид Управљач</translation>
     </message>
     <message>
         <source>Created by 7ymekk &amp; mozarcik</source>
@@ -45,7 +45,7 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:&apos;MS Shell Dlg 2&apos;; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;QtADB was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;DataBridge was created with&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -285,10 +285,10 @@ p, li { white-space: pre-wrap; }
         <translation>Име пакета</translation>
     </message>
     <message>
-        <source>QtADB did not found aapt.
+        <source>DataBridge did not found aapt.
 Download it and place in one directory with adb.
 After You place it in correct directory click Refresh button</source>
-        <translation>QtADB није нашао аапт.
+        <translation>DataBridge није нашао аапт.
 Преузми и убаци у исти директоријум са адб.
 НАкон убацивања у исти директоријум притисни Освежи дугме</translation>
     </message>
@@ -777,9 +777,9 @@ Make sure that you are allowed to do this</source>
         <translation>ПОВЕЖИТЕ ВАШ ТЕЛЕФОН</translation>
     </message>
     <message>
-        <source>QtADB - Your android manager</source>
+        <source>DataBridge - Your android manager</source>
         <extracomment>Main window title</extracomment>
-        <translation>QtADB - Ваш Андроид Управљач</translation>
+        <translation>DataBridge - Ваш Андроид Управљач</translation>
     </message>
     <message>
         <source>&amp;Connection</source>
@@ -811,7 +811,7 @@ Make sure that you are allowed to do this</source>
     </message>
     <message>
         <source>about</source>
-        <translation>О QtADB</translation>
+        <translation>О DataBridge</translation>
     </message>
     <message>
         <source>polski</source>
@@ -966,8 +966,8 @@ Latest version: </source>
         <translation>Донирајте</translation>
     </message>
     <message>
-        <source>It seems that you are using QtADB for a while now. Maybe consider a donation to a project...</source>
-        <translation>Изгледа да користите QtADB већ неко време. Можда размислите о донацији пројекту...</translation>
+        <source>It seems that you are using DataBridge for a while now. Maybe consider a donation to a project...</source>
+        <translation>Изгледа да користите DataBridge већ неко време. Можда размислите о донацији пројекту...</translation>
     </message>
     <message>
         <source>Yes, I want to donate</source>
@@ -1065,7 +1065,7 @@ Latest version: </source>
     </message>
     <message>
         <source>adbd cannot run as root in production builds so You can&apos;t do anything with /system partition. Run anyway?
-(press save to run QtADB and disable this message)</source>
+(press save to run DataBridge and disable this message)</source>
         <translation>адбд не може бити покренута као рут у продукцији тако да не можете учинити ништа са /system партицијом. Свеједно покренути?
 (притисните Сачувај да покренете QyADB и искључите ову поруку)</translation>
     </message>
@@ -1598,8 +1598,8 @@ Choose one backup from combo above to restore it</source>
         <translation>Сачувај Подешавања</translation>
     </message>
     <message>
-        <source>Associate apk files with QtADB</source>
-        <translation>Асоцирај апк документа са QtADB</translation>
+        <source>Associate apk files with DataBridge</source>
+        <translation>Асоцирај апк документа са DataBridge</translation>
     </message>
     <message>
         <source>Reset settings??</source>
@@ -1634,8 +1634,8 @@ Choose one backup from combo above to restore it</source>
         <translation>Асоцирај?</translation>
     </message>
     <message>
-        <source>Are you sure you want to associate *.apk files with QtADB???</source>
-        <translation>Да ли сте сигурни да желите да асоцирате *.apk документа са QtADB???</translation>
+        <source>Are you sure you want to associate *.apk files with DataBridge???</source>
+        <translation>Да ли сте сигурни да желите да асоцирате *.apk документа са DataBridge???</translation>
     </message>
     <message>
         <source>Install apk</source>
@@ -1662,10 +1662,10 @@ Choose one backup from combo above to restore it</source>
     <name>ShellWidget</name>
     <message>
         <source>
-QtADB shell help
+DataBridge shell help
 </source>
         <translation>
-Помоћ QtADB шкољке</translation>
+Помоћ DataBridge шкољке</translation>
     </message>
     <message>
         <source>CTRL+C                - interrupt executing command</source>
