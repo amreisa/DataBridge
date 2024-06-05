@@ -24,16 +24,18 @@
 #ifndef APPDIALOG_H
 #define APPDIALOG_H
 
-#include <QDialog>
-#include <QStringList>
-#include <QTimer>
-#include <QMessageBox>
-#include <QProcess>
 #include <QDir>
-#include <QThread>
+#include <QTimer>
+#ifdef QT_DEBUG
 #include <QDebug>
-#include <QCloseEvent>
+#endif // QT_DEBUG
+#include <QDialog>
+#include <QProcess>
+#include <QThread>
 #include <QSettings>
+#include <QMessageBox>
+#include <QCloseEvent>
+#include <QStringList>
 
 #include "../classes/phone.h"
 #include "../classes/models/apptablemodel.h"

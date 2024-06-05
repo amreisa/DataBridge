@@ -305,7 +305,9 @@ void MessageWidget::filterMessages ( QString filter )
     //pattern = /*".*"+*/filter/*+".*"*/;
     //QRegExp regExp(pattern, Qt::CaseInsensitive, QRegExp::FixedString);
     //this->sortModel.setFilterRegExp(regExp);
+#ifdef QT_DEBUG
     //qDebug()<<"filterMessages: "+filter.toUtf8();
+#endif // QT_DEBUG
     //this->sortModel.setFilterFixedString(filter);
     this->sortModel.setFilterRegExp ( QRegExp ( "^" + filter + "$" ) );
 }
@@ -318,9 +320,10 @@ void MessageWidget::filterContacts ( QString filter )
     this->sortContactModel.setFilterRegExp ( regExp );
 }
 
-void MessageWidget::smsReceivedSlot ( QString number, QString body )
-{
+void MessageWidget::smsReceivedSlot( QString number, QString body ) {
+#ifdef QT_DEBUG
     qDebug() << "smsReceivedSlot:" << number << ":" << body;
+#endif // QT_DEBUG
 }
 
 void MessageWidget::smsResult ( QString result )

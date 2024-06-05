@@ -24,10 +24,12 @@
 #ifndef ABOUTDIALOG_H
 #define ABOUTDIALOG_H
 
-#include <QDialog>
 #include <QDate>
-#include <QSettings>
+#ifdef QT_DEBUG
 #include <QDebug>
+#endif // QT_DEBUG
+#include <QDialog>
+#include <QSettings>
 #include "ui_aboutdialog.h"
 
 //https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5P6GM8DLCVMM6

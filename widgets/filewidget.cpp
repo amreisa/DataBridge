@@ -1846,7 +1846,9 @@ App * FileWidget::getAppInfo ( QString filePath )
     app->appFileName.replace ( "//", ";" );
     app->appSize = QString::number ( plik->size() );
     delete plik;
+#ifdef QT_DEBUG
     qDebug() << "Apps aapt - " << temp;
+#endif // QT_DEBUG
     proces->close();
     proces->terminate();
     delete proces;
@@ -1905,9 +1907,11 @@ App * FileWidget::getAppInfo ( QString filePath )
     pix.loadFromData ( ba );
     QIcon icon ( pix );
     app->appIcon = icon;
+#ifdef QT_DEBUG
     qDebug() << "Apps got app name - " << settings.value ( app->packageName + "/appName" ).toString();
     qDebug() << "Apps got app icon - " << settings.value ( app->packageName + "/icoName" ).toString();
     qDebug() << "Apps got app version - " << settings.value ( app->packageName + "/version" ).toString();
+#endif // QT_DEBUG
     settings.endGroup();
     return app;
 }

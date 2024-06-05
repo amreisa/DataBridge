@@ -24,17 +24,19 @@
 #ifndef PHONE_H
 #define PHONE_H
 
-#include <QProcess>
+#include <QIcon>
+#include <QImage>
+#ifdef QT_DEBUG
+#include <QDebug>
+#endif // QT_DEBUG
 #include <QObject>
 #include <QString>
-#include <QStringList>
-#include <QImage>
-#include <QTcpSocket>
 #include <QThread>
-#include <QIcon>
-#include <QDebug>
+#include <QProcess>
 #include <QDateTime>
+#include <QTcpSocket>
 #include <QTextCodec>
+#include <QStringList>
 #include "./models/filetablemodel.h"
 
 #define DISCONNECTED 0

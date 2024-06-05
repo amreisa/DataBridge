@@ -51,7 +51,9 @@ ShellWidget::ShellWidget ( QWidget *parent ) :
     palette.setColor ( QPalette::Base, settings.value ( "shellBackgroundColor", "#ffffff" ).value<QColor>() );
     this->setPalette ( palette );
     this->setTextColor ( this->fontColor );
+#ifdef QT_DEBUG
     //qDebug()<<"MainWindow::showPageShell() - process shell is not running, starting...";
+#endif // QT_DEBUG
     this->process.setProcessChannelMode ( QProcess::MergedChannels );
     this->process.start ( "\"" + sdk + "\"" + "adb shell" );
     connect ( &this->process, SIGNAL ( readyRead() ), this, SLOT ( readFromProcess() ) );
@@ -355,7 +357,9 @@ void ShellWidget::readFromProcess()
         this->append ( tmp );
     }
     this->ensureCursorVisible();
+#ifdef QT_DEBUG
     //qDebug()<<"readShell() - "<<tmp;
+#endif // QT_DEBUG
 }
 
 /*
@@ -509,13 +513,16 @@ void ShellWidget::readShell()
     {
         this->ui->textShell->append(tmp);
     }
-
+#ifdef QT_DEBUG
     qDebug()<<"readShell() - "<<tmp;
+#endif // QT_DEBUG
 }
 
 void ShellWidget::shellFinished()
 {
+#ifdef QT_DEBUG
     qDebug()<<"ShellWidget::shellFinished()";
+#endif // QT_DEBUG
     disconnect(this->procesShell,SIGNAL(readyRead()),this,SLOT(readShell()));
     disconnect(this->procesShell, SIGNAL(finished(int)), this, SLOT(shellFinished()));
 }

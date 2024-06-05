@@ -483,9 +483,10 @@ void AppWidget::getAppInfo()
     this->refreshApps();
 }
 
-void AppWidget::gotAllApps ( QThread * thread )
-{
+void AppWidget::gotAllApps( QThread * thread ) {
+#ifdef QT_DEBUG
     qDebug() << "Apps::gotAllApps START";
+#endif // QT_DEBUG
     this->ui->progressApps->hide();
     emit this->progressFinished();
     QSettings settings;
@@ -528,7 +529,9 @@ void AppWidget::gotAllApps ( QThread * thread )
 //        }
 //    }
     appsSelectedCount();
+#ifdef QT_DEBUG
     qDebug() << "Apps::gotAllApps END";
+#endif // QT_DEBUG
 }
 
 void AppWidget::insertApp ( App app )
@@ -550,7 +553,9 @@ void AppWidget::insertApp ( App app )
 //    {
 //        app.qrCode = appInfo::getQR(app.packageName);
 //    }
+#ifdef QT_DEBUG
     qDebug() << "Apps insertApp - START";
+#endif // QT_DEBUG
     QByteArray ba;
     ba = settings.value ( "apps/" + app.packageName + "/icon" ).toByteArray();
     QPixmap pix;
@@ -568,7 +573,9 @@ void AppWidget::insertApp ( App app )
     }
     this->ui->tableView->resizeColumnsToContents();
     this->ui->tableView->resizeRowsToContents();
+#ifdef QT_DEBUG
     qDebug() << "Apps insertApp - END";
+#endif // QT_DEBUG
 }
 
 void AppWidget::missingAapt()
@@ -1035,7 +1042,9 @@ void ThreadApps::run()
         proces.start ( "\"" + this->sdk + "\"adb shell busybox ls -l /system/app/*.apk" );
         proces.waitForFinished ( -1 );
         output = proces.readAll();
+#ifdef QT_DEBUG
         qDebug() << "Get apps system - " << output;
+#endif // QT_DEBUG
         lines = output.split ( "\n", QString::SkipEmptyParts );
         while ( lines.size() > 0 )
         {
@@ -1064,7 +1073,9 @@ void ThreadApps::run()
         proces.start ( "\"" + this->sdk + "\"adb shell busybox ls -l /data/app/*.apk" );
         proces.waitForFinished ( -1 );
         output = proces.readAll();
+#ifdef QT_DEBUG
         qDebug() << "Get apps data - " << output;
+#endif // QT_DEBUG
         lines = output.split ( "\n", QString::SkipEmptyParts );
         while ( lines.size() > 0 )
         {
@@ -1090,7 +1101,9 @@ void ThreadApps::run()
         proces.start ( "\"" + this->sdk + "\"adb shell busybox ls -l /data/app-private/*.apk" );
         proces.waitForFinished ( -1 );
         output = proces.readAll();
+#ifdef QT_DEBUG
         qDebug() << "Get apps data - " << output;
+#endif // QT_DEBUG
         lines = output.split ( "\n", QString::SkipEmptyParts );
         while ( lines.size() > 0 )
         {
@@ -1116,7 +1129,9 @@ void ThreadApps::run()
         proces.start ( "\"" + this->sdk + "\"adb shell busybox ls -l /mnt/asec/*/*.apk" );
         proces.waitForFinished ( -1 );
         output = proces.readAll();
+#ifdef QT_DEBUG
         qDebug() << "Get apps sd - " << output;
+#endif // QT_DEBUG
         lines = output.split ( "\n", QString::SkipEmptyParts );
         while ( lines.size() > 0 )
         {
@@ -1143,7 +1158,9 @@ void ThreadApps::run()
 //        proces.start("\"" + this->sdk + "\"adb shell busybox mount");
 //        proces.waitForFinished(-1);
 //        tmp = proces.readAll();
+// #ifdef QT_DEBUG
 //        qDebug()<<"Get apps mount - "<<tmp;
+// #endif // QT_DEBUG
 //        if (tmp.contains("ext"))
 //        {
 //            lines = tmp.split("\n", QString::SkipEmptyParts);
@@ -1164,7 +1181,9 @@ void ThreadApps::run()
             proces.start ( "\"" + this->sdk + "\"adb shell busybox ls -l " + sdFolder + "/*/*.apk" );
             proces.waitForFinished ( -1 );
             output.append ( proces.readAll() );
+#ifdef QT_DEBUG
             qDebug() << "Get apps sd - " << output;
+#endif // QT_DEBUG
             lines = output.split ( "\n", QString::SkipEmptyParts );
             while ( lines.size() > 0 )
             {
@@ -1210,32 +1229,40 @@ void ThreadApps::run()
     while ( fileInfoList.length() > 0 )
         fileNameList.append ( fileInfoList.takeFirst().fileName() );
     dir.setPath ( QDir::currentPath() + "/tmp/" );
+#ifdef QT_DEBUG
     qDebug() << "Apps START 'for'";
-    for ( int i = 0; i < appList.size(); i++ )
-    {
+#endif // QT_DEBUG
+    for ( int i = 0; i < appList.size(); i++ ) {
         emit this->value ( i + 1 );
         emit this->progressValue ( i + 1, appList.size() );
         app = appList.at ( i );
         if ( ( !settingsList.contains ( app.appFileName ) ) ||
                 ( settings.value ( "apps/" + app.packageName + "/date", "" ).toString() != app.date ) )
         {
+#ifdef QT_DEBUG
             qDebug() << "Apps needs to pull apk";
+#endif // QT_DEBUG
             zip.start ( "\"" + sdk + "\"" + "adb pull " + app.appFile.toUtf8() + " \"" + QDir::currentPath() + "/tmp/\"" + app.appFileName );
             zip.waitForFinished ( -1 );
             temp = zip.readAll();
+#ifdef QT_DEBUG
             qDebug() << "Apps copy - " << temp;
+#endif // QT_DEBUG
             if ( temp.contains ( "does not exist" ) || temp.contains ( "Android Debug Bridge" ) )
                 continue;
             zip.start ( "\"" + sdk + "\"aapt d badging \"" + QDir::currentPath() + "/tmp/\"" + app.appFileName );
             zip.waitForReadyRead ( -1 );
             temp = zip.readAll();
+#ifdef QT_DEBUG
             qDebug() << "Apps aapt - " << temp;
+#endif // QT_DEBUG
             zip.close();
             zip.terminate();
             aaptLines = temp.split ( "\n" );
+#ifdef QT_DEBUG
             qDebug() << "Apps aapt decoding";
-            while ( aaptLines.length() > 0 )
-            {
+#endif // QT_DEBUG
+            while ( aaptLines.length() > 0 ) {
                 aaptLineParts = aaptLines.first().split ( QRegExp ( "\'\\s" ) );
                 while ( aaptLineParts.length() > 0 )
                 {
@@ -1267,25 +1294,30 @@ void ThreadApps::run()
                 }
                 aaptLines.removeFirst();
             }
+
+#ifdef QT_DEBUG
             qDebug() << "Apps aapt decoded";
+#endif // QT_DEBUG
             settings.setValue ( "apps/" + app.packageName + "/icoName", app.icoName );
             settings.setValue ( "apps/" + app.packageName + "/appName", QString::fromUtf8 ( app.appName.toUtf8() ) );
             settings.setValue ( "apps/" + app.packageName + "/version", app.appVersion );
             settings.setValue ( "apps/" + app.packageName + "/size", app.appSize );
             settings.setValue ( "apps/" + app.packageName + "/date", app.date );
-        }
-        else
-        {
+        } else {
             app.appName = settings.value ( "apps/" + app.packageName + "/appName" ).toString();
             app.appVersion = settings.value ( "apps/" + app.packageName + "/version" ).toString();
             app.appSize = settings.value ( "apps/" + app.packageName + "/size" ).toString();
             app.icoName = settings.value ( "apps/" + app.packageName + "/icoName" ).toString();
         }
-        if ( settings.value ( "getCyrketVer", false ).toBool() && app.location != "system" )
-        {
+
+        if ( settings.value ( "getCyrketVer", false ).toBool() && app.location != "system" ) {
+#ifdef QT_DEBUG
             qDebug() << "Apps getting info from Cyrket";
+#endif // QT_DEBUG
             app.cyrketVer = appInfo::getCyrketVer ( app.packageName );
+#ifdef QT_DEBUG
             qDebug() << "Apps got info from cyrket";
+#endif // QT_DEBUG
         }
         settings.setValue ( "apps/" + app.appFileName, app.packageName );
         settings.setValue ( "apps/" + app.packageName + "/filePath", app.appFile );
@@ -1296,9 +1328,10 @@ void ThreadApps::run()
         fileInfoList = dir.entryInfoList();
         while ( fileInfoList.length() > 0 )
             fileTmpList.append ( fileInfoList.takeFirst().fileName() );
-        if ( !settings.contains ( "apps/" + app.packageName + "/icon" ) )
-        {
+        if ( !settings.contains ( "apps/" + app.packageName + "/icon" ) ) {
+#ifdef QT_DEBUG
             qDebug() << "Apps there is missing icon i settings";
+#endif // QT_DEBUG
             if ( !fileTmpList.contains ( app.appFileName ) )
             {
                 zip.start ( "\"" + sdk + "\"" + "adb pull " + app.appFile.toUtf8() + " \"" + QDir::currentPath() + "/tmp/\"" + app.appFileName );
@@ -1313,7 +1346,9 @@ void ThreadApps::run()
             ba = icon.readAll();
             settings.setValue ( "apps/" + app.packageName + "/icon", ba ); //- zapisanie pixmap w QSettings
             icon.remove();
+#ifdef QT_DEBUG
             qDebug() << "Apps got icon now";
+#endif // QT_DEBUG
         }
 //        QByteArray ba;
 //        ba = settings.value("apps/"+app.packageName+"/icon").toByteArray();
@@ -1322,12 +1357,14 @@ void ThreadApps::run()
 //        QIcon icon(pix);
 //        app.appIcon = icon;
         QFile::remove ( QDir::currentPath() + "/tmp/" + app.appFileName );
+#ifdef QT_DEBUG
         qDebug() << "Apps got app name - " << settings.value ( "apps/" + app.packageName + "/appName" ).toString();
         qDebug() << "Apps got app file - " << settings.value ( "apps/" + app.packageName + "/filePath" ).toString();
         qDebug() << "Apps got app icon - " << settings.value ( "apps/" + app.packageName + "/icoName" ).toString();
         qDebug() << "Apps got app location - " << settings.value ( "apps/" + app.packageName + "/location" ).toString();
         qDebug() << "Apps got app size - " << settings.value ( "apps/" + app.packageName + "/size" ).toString();
         qDebug() << "Apps got app version - " << settings.value ( "apps/" + app.packageName + "/version" ).toString();
+#endif // QT_DEBUG
         emit gotApp ( app );
         if ( i == ( appList.length() - 1 ) )
             emit gotAllApps ( this );
@@ -1402,7 +1439,9 @@ App * AppWidget::getAppInfo ( QString filePath )
     app->appFileName.replace ( "//", ";" );
     app->appSize = QString::number ( plik->size() );
     delete plik;
+#ifdef QT_DEBUG
     qDebug() << "Apps aapt - " << temp;
+#endif // QT_DEBUG
     proces->close();
     proces->terminate();
     delete proces;
@@ -1461,9 +1500,11 @@ App * AppWidget::getAppInfo ( QString filePath )
     pix.loadFromData ( ba );
     QIcon icon ( pix );
     app->appIcon = icon;
+#ifdef QT_DEBUG
     qDebug() << "Apps got app name - " << settings.value ( app->packageName + "/appName" ).toString();
     qDebug() << "Apps got app icon - " << settings.value ( app->packageName + "/icoName" ).toString();
     qDebug() << "Apps got app version - " << settings.value ( app->packageName + "/version" ).toString();
+#endif // QT_DEBUG
     return app;
 }
 

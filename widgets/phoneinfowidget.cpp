@@ -95,7 +95,9 @@ void PhoneInfoWidget::showPhoneInfo()
     }
     for ( int i = 0; i < list.length(); i++ )
     {
+#ifdef QT_DEBUG
         qDebug() << "Getprop - " << list.at ( i );
+#endif // QT_DEBUG
         if ( list.at ( i ).contains ( "[ro.product.model]" ) )
         {
             tmp = list.at ( i );
@@ -150,7 +152,9 @@ void PhoneInfoWidget::showPhoneInfo()
 //        proces->start("\"" + this->sdk + "\"adb shell busybox mount");
 //        proces->waitForFinished(-1);
 //        tmp = proces->readAll();
+// #ifdef QT_DEBUG
 //        qDebug()<<"Get phone info mount - "<<tmp;
+// #endif // QT_DEBUG
 //        if (tmp.contains("ext"))
 //        {
 //            lines = tmp.split("\n", QString::SkipEmptyParts);
@@ -203,7 +207,9 @@ void PhoneInfoWidget::showPhoneInfo()
     while ( list.count() > 0 )
     {
         tmp = list.takeFirst();
+#ifdef QT_DEBUG
         qDebug() << "df - " << tmp;
+#endif // QT_DEBUG
         parts = tmp.split ( QRegExp ( "\\s+" ) );
         if ( parts.size() > 2 )
         {

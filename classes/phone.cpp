@@ -90,7 +90,9 @@ Phone::Phone ( QString sdk, bool isThreadNecessary )
     QProcess fastboot;
     this->sdk = sdk;
     this->codec = QTextCodec::codecForLocale();
+#ifdef QT_DEBUG
     qDebug() << "Phone::Phone - sdk=" << this->sdk;
+#endif // QT_DEBUG
     fastboot.setProcessChannelMode ( QProcess::MergedChannels );
     fastboot.start ( "\"" + this->sdk + "\"adb remount" );
     fastboot.waitForFinished();
