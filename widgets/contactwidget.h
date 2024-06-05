@@ -17,69 +17,63 @@
 *
 ************************************************************************/
 
+// #ifndef CONTACTWIDGET_H
+// #define CONTACTWIDGET_H
 
-#ifndef CONTACTWIDGET_H
-#define CONTACTWIDGET_H
+// #include <QtGui>
+// #include <QWidget>
 
-#include <QtGui>
+// typedef struct contactList {
+//     QStringList _id;
+//     QStringList name;
+//     QStringList display_name;
+//     QStringList phonetic_name;
+//     QStringList notes;
+//     QStringList account_name;
+//     QStringList account_type;
+//     QStringList times_contacted;
+//     QStringList last_time_contacted;
+//     QStringList custom_ringtone;
+//     QStringList send_to_voicemail;
+//     QStringList starred;
+//     QStringList primary_organization;
+//     QStringList primary_email;
+//     QStringList primary_phone;
+//     QStringList number;
+//     QStringList type;
+//     QStringList label;
+//     QStringList number_key;
+// } ContactList;
 
+// class ThreadContacts : public QThread {
+//     Q_OBJECT
+// public:
+//     void run();
+//     QString sdk;
 
-typedef struct contactList
-{
-    QStringList _id;
-    QStringList name;
-    QStringList display_name;
-    QStringList phonetic_name;
-    QStringList notes;
-    QStringList account_name;
-    QStringList account_type;
-    QStringList times_contacted;
-    QStringList last_time_contacted;
-    QStringList custom_ringtone;
-    QStringList send_to_voicemail;
-    QStringList starred;
-    QStringList primary_organization;
-    QStringList primary_email;
-    QStringList primary_phone;
-    QStringList number;
-    QStringList type;
-    QStringList label;
-    QStringList number_key;
-} ContactList;
+// signals:
+//     void finished( ContactList contactList );
+// };
 
-class ThreadContacts : public QThread
-{
-    Q_OBJECT
-public:
-    void run();
-    QString sdk;
+// namespace Ui { class ContactWidget; }
 
-signals:
-    void finished(ContactList contactList);
-};
+// class ContactWidget : public QWidget {
+//     Q_OBJECT
 
-namespace Ui {
-class ContactWidget;
-}
+// public:
+//     explicit ContactWidget( QWidget *parent = 0 );
+//     ~ContactWidget();
 
-class ContactWidget : public QWidget
-{
-    Q_OBJECT
+// protected:
+//     void changeEvent( QEvent *e );
 
-public:
-    explicit ContactWidget(QWidget *parent = 0);
-    ~ContactWidget();
+// private:
+//     Ui::ContactWidget *ui;
+//     ThreadContacts threadContacts;
 
-protected:
-    void changeEvent(QEvent *e);
+// private slots:
+//     void contactSelected( int );
+//     void insertContacts( ContactList contactList );
+// };
 
-private:
-    Ui::ContactWidget *ui;
-    ThreadContacts threadContacts;
-
-private slots:
-    void contactSelected(int);
-    void insertContacts(ContactList contactList);
-};
-
-#endif // CONTACTWIDGET_H
+// #endif // CONTACTWIDGET_H

@@ -21,9 +21,10 @@
 #include "filewidget.h"
 #include "ui_filewidget.h"
 
-#include <QStandardPaths>
 #include <QMenu>
 #include <QScrollBar>
+#include <QHeaderView>
+#include <QStandardPaths>
 
 quint32 qbytearrayToInt32 ( QByteArray array )
 {

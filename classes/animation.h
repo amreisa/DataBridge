@@ -32,17 +32,16 @@
 #define LEFT_TO_RIGHT 2
 #define RIGHT_TO_LEFT 3
 
-class Animation
-{
+class Animation {
 public:
     Animation();
-    void setDuration ( int duration );
-    void setDirection ( int direction );
-    void setAnimationCurve ( int animationCurve );
+    void setDuration( int value );
+    void setDirection( int value );
+    void setAnimationCurve( int value );
     bool isRunning();
     void End();
-    void setPrameters ( int duration, int direction, int animationCurve );
-    void start ( QWidget *target, QWidget *current );
+    void setPrameters( int durationValue, int directionValue, int animationCurveValue );
+    void start( QWidget *target, QWidget *current );
     QPropertyAnimation animation;
     QPropertyAnimation animation2;
 
@@ -53,5 +52,4 @@ private:
 };
 
 #endif // ANIMATION_H
-#endif // header guard 
-
+#endif // header guard
